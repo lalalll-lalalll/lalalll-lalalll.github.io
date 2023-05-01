@@ -127,13 +127,14 @@
   --background-color: #fff;
   --background-color-transparent: rgba(255,255,255,0.6);
   --second-background-color: #fafafa;
-  --third-background-color: #f4f4f4;
+  --third-background-color: #f7f7f7;
   --primary-color: #005080;
   --first-text-color: #323739;
   --second-text-color: #343a3c;
   --third-text-color: #5c6669;
   --fourth-text-color: #eaeced;
   --default-text-color: #373d3f;
+  --invert-text-color: #bebec6;
   --border-color: #b3b3b3;
   --selection-color: #0068a6;
   --shadow-color-1: rgba(0,0,0,0.08);
@@ -146,6 +147,7 @@
   --copyright-info-color: #c03;
   --avatar-background-color: #06c;
   --pjax-progress-bar-color: linear-gradient(45deg, #f10006, #ef5b00, #e59c01, #19ca05, #00cab5, #0264c8, #c303c3);
+  --archive-timeline-last-child-color: linear-gradient(to bottom, rgba(0,0,0,0.3) 60%, rgba(0,0,0,0) 100%) 1 100%;
   --note-blue-title-bg: #d6f7fb;
   --note-red-title-bg: #fde9e9;
   --note-cyan-title-bg: #e9fdf9;
@@ -155,6 +157,7 @@
   --note-type-title-bg: #fdf3e9;
   --note-black-title-bg: #e9e9e9;
   --note-purple-title-bg: #f9e9fd;
+  --first-screen-img: url("/images/first_screen_light.jpg");
   --first-screen-text-color: #fff;
   --first-screen-icons-container-border-color: rgba(255,255,255,0.35);
   --first-screen-icons-container-background-color: rgba(255,255,255,0.3);
@@ -169,13 +172,14 @@
     --background-color: #fff;
     --background-color-transparent: rgba(255,255,255,0.6);
     --second-background-color: #fafafa;
-    --third-background-color: #f4f4f4;
+    --third-background-color: #f7f7f7;
     --primary-color: #005080;
     --first-text-color: #323739;
     --second-text-color: #343a3c;
     --third-text-color: #5c6669;
     --fourth-text-color: #eaeced;
     --default-text-color: #373d3f;
+    --invert-text-color: #bebec6;
     --border-color: #b3b3b3;
     --selection-color: #0068a6;
     --shadow-color-1: rgba(0,0,0,0.08);
@@ -188,6 +192,7 @@
     --copyright-info-color: #c03;
     --avatar-background-color: #06c;
     --pjax-progress-bar-color: linear-gradient(45deg, #f10006, #ef5b00, #e59c01, #19ca05, #00cab5, #0264c8, #c303c3);
+    --archive-timeline-last-child-color: linear-gradient(to bottom, rgba(0,0,0,0.3) 60%, rgba(0,0,0,0) 100%) 1 100%;
     --note-blue-title-bg: #d6f7fb;
     --note-red-title-bg: #fde9e9;
     --note-cyan-title-bg: #e9fdf9;
@@ -197,6 +202,7 @@
     --note-type-title-bg: #fdf3e9;
     --note-black-title-bg: #e9e9e9;
     --note-purple-title-bg: #f9e9fd;
+    --first-screen-img: url("/images/first_screen_light.jpg");
     --first-screen-text-color: #fff;
     --first-screen-icons-container-border-color: rgba(255,255,255,0.35);
     --first-screen-icons-container-background-color: rgba(255,255,255,0.3);
@@ -219,6 +225,7 @@
     --third-text-color: #9595a2;
     --fourth-text-color: #242429;
     --default-text-color: #bebec6;
+    --invert-text-color: #373d3f;
     --border-color: #4a4c53;
     --selection-color: #0068a6;
     --shadow-color-1: rgba(255,255,255,0.08);
@@ -231,6 +238,7 @@
     --copyright-info-color: #a30029;
     --avatar-background-color: #005cb8;
     --pjax-progress-bar-color: linear-gradient(45deg, #ea404a, #ea722f, #e9a71f, #67e559, #18ecec, #1b85f1, #ee1dee);
+    --archive-timeline-last-child-color: linear-gradient(to bottom, rgba(180,180,180,0.3) 60%, rgba(255,255,255,0) 100%) 1 100%;
     --note-blue-title-bg: #1e3e46;
     --note-red-title-bg: #4e1e1e;
     --note-cyan-title-bg: #1e4e4e;
@@ -240,6 +248,7 @@
     --note-type-title-bg: #4e3a1e;
     --note-black-title-bg: #1e1e1e;
     --note-purple-title-bg: #4e1e4e;
+    --first-screen-img: url("/images/first_screen_dark.jpg");
     --first-screen-text-color: #000;
     --first-screen-icons-container-border-color: rgba(197,197,197,0.35);
     --first-screen-icons-container-background-color: rgba(197,197,197,0.3);
@@ -254,13 +263,14 @@
   --background-color: #fff;
   --background-color-transparent: rgba(255,255,255,0.6);
   --second-background-color: #fafafa;
-  --third-background-color: #f4f4f4;
+  --third-background-color: #f7f7f7;
   --primary-color: #005080;
   --first-text-color: #323739;
   --second-text-color: #343a3c;
   --third-text-color: #5c6669;
   --fourth-text-color: #eaeced;
   --default-text-color: #373d3f;
+  --invert-text-color: #bebec6;
   --border-color: #b3b3b3;
   --selection-color: #0068a6;
   --shadow-color-1: rgba(0,0,0,0.08);
@@ -273,6 +283,7 @@
   --copyright-info-color: #c03;
   --avatar-background-color: #06c;
   --pjax-progress-bar-color: linear-gradient(45deg, #f10006, #ef5b00, #e59c01, #19ca05, #00cab5, #0264c8, #c303c3);
+  --archive-timeline-last-child-color: linear-gradient(to bottom, rgba(0,0,0,0.3) 60%, rgba(0,0,0,0) 100%) 1 100%;
   --note-blue-title-bg: #d6f7fb;
   --note-red-title-bg: #fde9e9;
   --note-cyan-title-bg: #e9fdf9;
@@ -282,6 +293,7 @@
   --note-type-title-bg: #fdf3e9;
   --note-black-title-bg: #e9e9e9;
   --note-purple-title-bg: #f9e9fd;
+  --first-screen-img: url("/images/first_screen_light.jpg");
   --first-screen-text-color: #fff;
   --first-screen-icons-container-border-color: rgba(255,255,255,0.35);
   --first-screen-icons-container-background-color: rgba(255,255,255,0.3);
@@ -302,6 +314,7 @@
   --third-text-color: #9595a2;
   --fourth-text-color: #242429;
   --default-text-color: #bebec6;
+  --invert-text-color: #373d3f;
   --border-color: #4a4c53;
   --selection-color: #0068a6;
   --shadow-color-1: rgba(255,255,255,0.08);
@@ -314,6 +327,7 @@
   --copyright-info-color: #a30029;
   --avatar-background-color: #005cb8;
   --pjax-progress-bar-color: linear-gradient(45deg, #ea404a, #ea722f, #e9a71f, #67e559, #18ecec, #1b85f1, #ee1dee);
+  --archive-timeline-last-child-color: linear-gradient(to bottom, rgba(180,180,180,0.3) 60%, rgba(255,255,255,0) 100%) 1 100%;
   --note-blue-title-bg: #1e3e46;
   --note-red-title-bg: #4e1e1e;
   --note-cyan-title-bg: #1e4e4e;
@@ -323,6 +337,7 @@
   --note-type-title-bg: #4e3a1e;
   --note-black-title-bg: #1e1e1e;
   --note-purple-title-bg: #4e1e4e;
+  --first-screen-img: url("/images/first_screen_dark.jpg");
   --first-screen-text-color: #000;
   --first-screen-icons-container-border-color: rgba(197,197,197,0.35);
   --first-screen-icons-container-background-color: rgba(197,197,197,0.3);
@@ -336,13 +351,14 @@
   --background-color: #fff;
   --background-color-transparent: rgba(255,255,255,0.6);
   --second-background-color: #fafafa;
-  --third-background-color: #f4f4f4;
+  --third-background-color: #f7f7f7;
   --primary-color: #005080;
   --first-text-color: #323739;
   --second-text-color: #343a3c;
   --third-text-color: #5c6669;
   --fourth-text-color: #eaeced;
   --default-text-color: #373d3f;
+  --invert-text-color: #bebec6;
   --border-color: #b3b3b3;
   --selection-color: #0068a6;
   --shadow-color-1: rgba(0,0,0,0.08);
@@ -355,6 +371,7 @@
   --copyright-info-color: #c03;
   --avatar-background-color: #06c;
   --pjax-progress-bar-color: linear-gradient(45deg, #f10006, #ef5b00, #e59c01, #19ca05, #00cab5, #0264c8, #c303c3);
+  --archive-timeline-last-child-color: linear-gradient(to bottom, rgba(0,0,0,0.3) 60%, rgba(0,0,0,0) 100%) 1 100%;
   --note-blue-title-bg: #d6f7fb;
   --note-red-title-bg: #fde9e9;
   --note-cyan-title-bg: #e9fdf9;
@@ -364,6 +381,7 @@
   --note-type-title-bg: #fdf3e9;
   --note-black-title-bg: #e9e9e9;
   --note-purple-title-bg: #f9e9fd;
+  --first-screen-img: url("/images/first_screen_light.jpg");
   --first-screen-text-color: #fff;
   --first-screen-icons-container-border-color: rgba(255,255,255,0.35);
   --first-screen-icons-container-background-color: rgba(255,255,255,0.3);
@@ -378,13 +396,14 @@
     --background-color: #fff;
     --background-color-transparent: rgba(255,255,255,0.6);
     --second-background-color: #fafafa;
-    --third-background-color: #f4f4f4;
+    --third-background-color: #f7f7f7;
     --primary-color: #005080;
     --first-text-color: #323739;
     --second-text-color: #343a3c;
     --third-text-color: #5c6669;
     --fourth-text-color: #eaeced;
     --default-text-color: #373d3f;
+    --invert-text-color: #bebec6;
     --border-color: #b3b3b3;
     --selection-color: #0068a6;
     --shadow-color-1: rgba(0,0,0,0.08);
@@ -397,6 +416,7 @@
     --copyright-info-color: #c03;
     --avatar-background-color: #06c;
     --pjax-progress-bar-color: linear-gradient(45deg, #f10006, #ef5b00, #e59c01, #19ca05, #00cab5, #0264c8, #c303c3);
+    --archive-timeline-last-child-color: linear-gradient(to bottom, rgba(0,0,0,0.3) 60%, rgba(0,0,0,0) 100%) 1 100%;
     --note-blue-title-bg: #d6f7fb;
     --note-red-title-bg: #fde9e9;
     --note-cyan-title-bg: #e9fdf9;
@@ -406,6 +426,7 @@
     --note-type-title-bg: #fdf3e9;
     --note-black-title-bg: #e9e9e9;
     --note-purple-title-bg: #f9e9fd;
+    --first-screen-img: url("/images/first_screen_light.jpg");
     --first-screen-text-color: #fff;
     --first-screen-icons-container-border-color: rgba(255,255,255,0.35);
     --first-screen-icons-container-background-color: rgba(255,255,255,0.3);
@@ -428,6 +449,7 @@
     --third-text-color: #9595a2;
     --fourth-text-color: #242429;
     --default-text-color: #bebec6;
+    --invert-text-color: #373d3f;
     --border-color: #4a4c53;
     --selection-color: #0068a6;
     --shadow-color-1: rgba(255,255,255,0.08);
@@ -440,6 +462,7 @@
     --copyright-info-color: #a30029;
     --avatar-background-color: #005cb8;
     --pjax-progress-bar-color: linear-gradient(45deg, #ea404a, #ea722f, #e9a71f, #67e559, #18ecec, #1b85f1, #ee1dee);
+    --archive-timeline-last-child-color: linear-gradient(to bottom, rgba(180,180,180,0.3) 60%, rgba(255,255,255,0) 100%) 1 100%;
     --note-blue-title-bg: #1e3e46;
     --note-red-title-bg: #4e1e1e;
     --note-cyan-title-bg: #1e4e4e;
@@ -449,6 +472,7 @@
     --note-type-title-bg: #4e3a1e;
     --note-black-title-bg: #1e1e1e;
     --note-purple-title-bg: #4e1e4e;
+    --first-screen-img: url("/images/first_screen_dark.jpg");
     --first-screen-text-color: #000;
     --first-screen-icons-container-border-color: rgba(197,197,197,0.35);
     --first-screen-icons-container-background-color: rgba(197,197,197,0.3);
@@ -463,13 +487,14 @@
   --background-color: #fff;
   --background-color-transparent: rgba(255,255,255,0.6);
   --second-background-color: #fafafa;
-  --third-background-color: #f4f4f4;
+  --third-background-color: #f7f7f7;
   --primary-color: #005080;
   --first-text-color: #323739;
   --second-text-color: #343a3c;
   --third-text-color: #5c6669;
   --fourth-text-color: #eaeced;
   --default-text-color: #373d3f;
+  --invert-text-color: #bebec6;
   --border-color: #b3b3b3;
   --selection-color: #0068a6;
   --shadow-color-1: rgba(0,0,0,0.08);
@@ -482,6 +507,7 @@
   --copyright-info-color: #c03;
   --avatar-background-color: #06c;
   --pjax-progress-bar-color: linear-gradient(45deg, #f10006, #ef5b00, #e59c01, #19ca05, #00cab5, #0264c8, #c303c3);
+  --archive-timeline-last-child-color: linear-gradient(to bottom, rgba(0,0,0,0.3) 60%, rgba(0,0,0,0) 100%) 1 100%;
   --note-blue-title-bg: #d6f7fb;
   --note-red-title-bg: #fde9e9;
   --note-cyan-title-bg: #e9fdf9;
@@ -491,6 +517,7 @@
   --note-type-title-bg: #fdf3e9;
   --note-black-title-bg: #e9e9e9;
   --note-purple-title-bg: #f9e9fd;
+  --first-screen-img: url("/images/first_screen_light.jpg");
   --first-screen-text-color: #fff;
   --first-screen-icons-container-border-color: rgba(255,255,255,0.35);
   --first-screen-icons-container-background-color: rgba(255,255,255,0.3);
@@ -511,6 +538,7 @@
   --third-text-color: #9595a2;
   --fourth-text-color: #242429;
   --default-text-color: #bebec6;
+  --invert-text-color: #373d3f;
   --border-color: #4a4c53;
   --selection-color: #0068a6;
   --shadow-color-1: rgba(255,255,255,0.08);
@@ -523,6 +551,7 @@
   --copyright-info-color: #a30029;
   --avatar-background-color: #005cb8;
   --pjax-progress-bar-color: linear-gradient(45deg, #ea404a, #ea722f, #e9a71f, #67e559, #18ecec, #1b85f1, #ee1dee);
+  --archive-timeline-last-child-color: linear-gradient(to bottom, rgba(180,180,180,0.3) 60%, rgba(255,255,255,0) 100%) 1 100%;
   --note-blue-title-bg: #1e3e46;
   --note-red-title-bg: #4e1e1e;
   --note-cyan-title-bg: #1e4e4e;
@@ -532,6 +561,7 @@
   --note-type-title-bg: #4e3a1e;
   --note-black-title-bg: #1e1e1e;
   --note-purple-title-bg: #4e1e4e;
+  --first-screen-img: url("/images/first_screen_dark.jpg");
   --first-screen-text-color: #000;
   --first-screen-icons-container-border-color: rgba(197,197,197,0.35);
   --first-screen-icons-container-background-color: rgba(197,197,197,0.3);
@@ -703,7 +733,7 @@ body {
   padding: 0;
   color: var(--default-text-color);
   background: var(--background-color);
-  font-family: Noto Sans, Noto Sans SC, Open Sans, -apple-system, system-ui, Segoe UI, Roboto, Ubuntu, Cantarell, Noto Sans, sans-serif, BlinkMacSystemFont, Helvetica Neue, PingFang SC, Hiragino Sans GB, Microsoft YaHei, Arial;
+  font-family: Open Sans, Noto Sans, Noto Sans SC, -apple-system, system-ui, Segoe UI, Roboto, Ubuntu, Cantarell, Noto Sans, sans-serif, BlinkMacSystemFont, Helvetica Neue, PingFang SC, Hiragino Sans GB, Microsoft YaHei, Arial;
   font-weight: 400;
   font-size: 15.2px;
   line-height: 22px;
@@ -853,6 +883,11 @@ button {
 .markdown-body strong {
   color: var(--default-text-color);
 }
+.markdown-body hr {
+  margin: 2rem 0;
+  border: 0;
+  border-top: 2px solid var(--shadow-color-1);
+}
 .markdown-body em {
   color: var(--default-text-color);
 }
@@ -860,6 +895,9 @@ button {
 .markdown-body ol > li {
   margin-left: 16px;
   line-height: 2rem;
+}
+.markdown-body ul {
+  margin-bottom: 1.2rem;
 }
 .markdown-body ul li {
   list-style: disc;
@@ -869,6 +907,9 @@ button {
 }
 .markdown-body ul li ul li ul li {
   list-style: square;
+}
+.markdown-body ol {
+  margin-bottom: 1.2rem;
 }
 .markdown-body ol li {
   list-style: decimal;
@@ -888,7 +929,7 @@ button {
 .markdown-body h4,
 .markdown-body h5,
 .markdown-body h6 {
-  font-family: "Noto Sans", "Noto Sans SC", sans-serif;
+  font-family: "Open Sans", "Noto Sans SC", sans-serif;
   color: var(--second-text-color);
   line-height: 1.5;
   margin-bottom: 1rem !important;
@@ -974,7 +1015,6 @@ button {
   max-width: 100%;
   cursor: zoom-in;
   display: block;
-  box-shadow: 0 0 2px var(--shadow-color);
   transition-property: color, background, box-shadow, border-color, padding, margin;
   transition-delay: 0s, 0s, 0s, 0s, 0s, 0s;
   transition-duration: 0.2s, 0.2s, 0.2s, 0.2s, 0.2s, 0.2s;
@@ -986,37 +1026,53 @@ button {
   border-collapse: collapse;
   width: 100%;
   overflow: auto;
+  margin-bottom: 1.2rem;
+  box-shadow: var(--redefine-box-shadow-flat);
+  border-radius: 14px;
+}
+.markdown-body > table thead th {
+  border-bottom: 1px solid var(--shadow-color-1);
+  background-color: var(--third-background-color) !important;
+}
+.markdown-body > table thead th:first-child {
+  border-top-left-radius: 14px;
+}
+.markdown-body > table thead th:last-child {
+  border-top-right-radius: 14px;
+}
+.markdown-body > table tbody tr:last-child td:first-child {
+  border-bottom-left-radius: 14px;
+}
+.markdown-body > table tbody tr:last-child td:last-child {
+  border-bottom-right-radius: 14px;
 }
 .markdown-body > table td,
 .markdown-body > table th {
-  padding: 0;
+  padding: 8px 16px;
+  border-left: 1px solid var(--shadow-color-1);
 }
-.markdown-body > table th {
-  font-weight: 600;
-}
-.markdown-body > table td,
-.markdown-body > table th {
-  padding: 6px 13px;
-  border: 1px solid var(--border-color);
+.markdown-body > table td:first-child,
+.markdown-body > table th:first-child {
+  border-left: none;
 }
 .markdown-body > table tr {
   background-color: var(--background-color);
-  border: 1px solid var(--fourth-text-color);
 }
 .markdown-body > table tr:nth-child(2n) {
-  background-color: var(--third-background-color);
+  background-color: var(--second-background-color);
 }
 :root {
   --background-color: #fff;
   --background-color-transparent: rgba(255,255,255,0.6);
   --second-background-color: #fafafa;
-  --third-background-color: #f4f4f4;
+  --third-background-color: #f7f7f7;
   --primary-color: #005080;
   --first-text-color: #323739;
   --second-text-color: #343a3c;
   --third-text-color: #5c6669;
   --fourth-text-color: #eaeced;
   --default-text-color: #373d3f;
+  --invert-text-color: #bebec6;
   --border-color: #b3b3b3;
   --selection-color: #0068a6;
   --shadow-color-1: rgba(0,0,0,0.08);
@@ -1029,6 +1085,7 @@ button {
   --copyright-info-color: #c03;
   --avatar-background-color: #06c;
   --pjax-progress-bar-color: linear-gradient(45deg, #f10006, #ef5b00, #e59c01, #19ca05, #00cab5, #0264c8, #c303c3);
+  --archive-timeline-last-child-color: linear-gradient(to bottom, rgba(0,0,0,0.3) 60%, rgba(0,0,0,0) 100%) 1 100%;
   --note-blue-title-bg: #d6f7fb;
   --note-red-title-bg: #fde9e9;
   --note-cyan-title-bg: #e9fdf9;
@@ -1038,6 +1095,7 @@ button {
   --note-type-title-bg: #fdf3e9;
   --note-black-title-bg: #e9e9e9;
   --note-purple-title-bg: #f9e9fd;
+  --first-screen-img: url("/images/first_screen_light.jpg");
   --first-screen-text-color: #fff;
   --first-screen-icons-container-border-color: rgba(255,255,255,0.35);
   --first-screen-icons-container-background-color: rgba(255,255,255,0.3);
@@ -1052,13 +1110,14 @@ button {
     --background-color: #fff;
     --background-color-transparent: rgba(255,255,255,0.6);
     --second-background-color: #fafafa;
-    --third-background-color: #f4f4f4;
+    --third-background-color: #f7f7f7;
     --primary-color: #005080;
     --first-text-color: #323739;
     --second-text-color: #343a3c;
     --third-text-color: #5c6669;
     --fourth-text-color: #eaeced;
     --default-text-color: #373d3f;
+    --invert-text-color: #bebec6;
     --border-color: #b3b3b3;
     --selection-color: #0068a6;
     --shadow-color-1: rgba(0,0,0,0.08);
@@ -1071,6 +1130,7 @@ button {
     --copyright-info-color: #c03;
     --avatar-background-color: #06c;
     --pjax-progress-bar-color: linear-gradient(45deg, #f10006, #ef5b00, #e59c01, #19ca05, #00cab5, #0264c8, #c303c3);
+    --archive-timeline-last-child-color: linear-gradient(to bottom, rgba(0,0,0,0.3) 60%, rgba(0,0,0,0) 100%) 1 100%;
     --note-blue-title-bg: #d6f7fb;
     --note-red-title-bg: #fde9e9;
     --note-cyan-title-bg: #e9fdf9;
@@ -1080,6 +1140,7 @@ button {
     --note-type-title-bg: #fdf3e9;
     --note-black-title-bg: #e9e9e9;
     --note-purple-title-bg: #f9e9fd;
+    --first-screen-img: url("/images/first_screen_light.jpg");
     --first-screen-text-color: #fff;
     --first-screen-icons-container-border-color: rgba(255,255,255,0.35);
     --first-screen-icons-container-background-color: rgba(255,255,255,0.3);
@@ -1102,6 +1163,7 @@ button {
     --third-text-color: #9595a2;
     --fourth-text-color: #242429;
     --default-text-color: #bebec6;
+    --invert-text-color: #373d3f;
     --border-color: #4a4c53;
     --selection-color: #0068a6;
     --shadow-color-1: rgba(255,255,255,0.08);
@@ -1114,6 +1176,7 @@ button {
     --copyright-info-color: #a30029;
     --avatar-background-color: #005cb8;
     --pjax-progress-bar-color: linear-gradient(45deg, #ea404a, #ea722f, #e9a71f, #67e559, #18ecec, #1b85f1, #ee1dee);
+    --archive-timeline-last-child-color: linear-gradient(to bottom, rgba(180,180,180,0.3) 60%, rgba(255,255,255,0) 100%) 1 100%;
     --note-blue-title-bg: #1e3e46;
     --note-red-title-bg: #4e1e1e;
     --note-cyan-title-bg: #1e4e4e;
@@ -1123,6 +1186,7 @@ button {
     --note-type-title-bg: #4e3a1e;
     --note-black-title-bg: #1e1e1e;
     --note-purple-title-bg: #4e1e4e;
+    --first-screen-img: url("/images/first_screen_dark.jpg");
     --first-screen-text-color: #000;
     --first-screen-icons-container-border-color: rgba(197,197,197,0.35);
     --first-screen-icons-container-background-color: rgba(197,197,197,0.3);
@@ -1137,13 +1201,14 @@ button {
   --background-color: #fff;
   --background-color-transparent: rgba(255,255,255,0.6);
   --second-background-color: #fafafa;
-  --third-background-color: #f4f4f4;
+  --third-background-color: #f7f7f7;
   --primary-color: #005080;
   --first-text-color: #323739;
   --second-text-color: #343a3c;
   --third-text-color: #5c6669;
   --fourth-text-color: #eaeced;
   --default-text-color: #373d3f;
+  --invert-text-color: #bebec6;
   --border-color: #b3b3b3;
   --selection-color: #0068a6;
   --shadow-color-1: rgba(0,0,0,0.08);
@@ -1156,6 +1221,7 @@ button {
   --copyright-info-color: #c03;
   --avatar-background-color: #06c;
   --pjax-progress-bar-color: linear-gradient(45deg, #f10006, #ef5b00, #e59c01, #19ca05, #00cab5, #0264c8, #c303c3);
+  --archive-timeline-last-child-color: linear-gradient(to bottom, rgba(0,0,0,0.3) 60%, rgba(0,0,0,0) 100%) 1 100%;
   --note-blue-title-bg: #d6f7fb;
   --note-red-title-bg: #fde9e9;
   --note-cyan-title-bg: #e9fdf9;
@@ -1165,6 +1231,7 @@ button {
   --note-type-title-bg: #fdf3e9;
   --note-black-title-bg: #e9e9e9;
   --note-purple-title-bg: #f9e9fd;
+  --first-screen-img: url("/images/first_screen_light.jpg");
   --first-screen-text-color: #fff;
   --first-screen-icons-container-border-color: rgba(255,255,255,0.35);
   --first-screen-icons-container-background-color: rgba(255,255,255,0.3);
@@ -1185,6 +1252,7 @@ button {
   --third-text-color: #9595a2;
   --fourth-text-color: #242429;
   --default-text-color: #bebec6;
+  --invert-text-color: #373d3f;
   --border-color: #4a4c53;
   --selection-color: #0068a6;
   --shadow-color-1: rgba(255,255,255,0.08);
@@ -1197,6 +1265,7 @@ button {
   --copyright-info-color: #a30029;
   --avatar-background-color: #005cb8;
   --pjax-progress-bar-color: linear-gradient(45deg, #ea404a, #ea722f, #e9a71f, #67e559, #18ecec, #1b85f1, #ee1dee);
+  --archive-timeline-last-child-color: linear-gradient(to bottom, rgba(180,180,180,0.3) 60%, rgba(255,255,255,0) 100%) 1 100%;
   --note-blue-title-bg: #1e3e46;
   --note-red-title-bg: #4e1e1e;
   --note-cyan-title-bg: #1e4e4e;
@@ -1206,6 +1275,7 @@ button {
   --note-type-title-bg: #4e3a1e;
   --note-black-title-bg: #1e1e1e;
   --note-purple-title-bg: #4e1e4e;
+  --first-screen-img: url("/images/first_screen_dark.jpg");
   --first-screen-text-color: #000;
   --first-screen-icons-container-border-color: rgba(197,197,197,0.35);
   --first-screen-icons-container-background-color: rgba(197,197,197,0.3);
@@ -1218,7 +1288,7 @@ button {
 :root {
   --code-foreground: #3b4143;
   --code-background: #f2f2f2;
-  --highlight-background: #f8f8f8;
+  --highlight-background: #fafafa;
   --highlight-foreground: #3b4143;
   --highlight-keyword: #d73a49;
   --highlight-link: #d73a49;
@@ -1241,7 +1311,7 @@ button {
   :root {
     --code-foreground: #3b4143;
     --code-background: #f2f2f2;
-    --highlight-background: #f8f8f8;
+    --highlight-background: #fafafa;
     --highlight-foreground: #3b4143;
     --highlight-keyword: #d73a49;
     --highlight-link: #d73a49;
@@ -1288,7 +1358,7 @@ button {
 .light-mode {
   --code-foreground: #3b4143;
   --code-background: #f2f2f2;
-  --highlight-background: #f8f8f8;
+  --highlight-background: #fafafa;
   --highlight-foreground: #3b4143;
   --highlight-keyword: #d73a49;
   --highlight-link: #d73a49;
@@ -1353,7 +1423,7 @@ code {
   background: var(--code-background);
 }
 pre {
-  padding: 10px;
+  padding-top: 14px !important;
   tab-size: 4;
 }
 pre code {
@@ -1589,7 +1659,8 @@ pre .deletion {
   border-radius: 18px;
   box-shadow: var(--redefine-box-shadow-flat);
   padding-top: 40px;
-  margin: 10px 0;
+  margin-top: 10px;
+  margin-bottom: 1.2rem;
   position: relative;
 }
 .highlight-container[data-rel] figcaption {
@@ -1643,13 +1714,14 @@ pre .deletion {
   --background-color: #fff;
   --background-color-transparent: rgba(255,255,255,0.6);
   --second-background-color: #fafafa;
-  --third-background-color: #f4f4f4;
+  --third-background-color: #f7f7f7;
   --primary-color: #005080;
   --first-text-color: #323739;
   --second-text-color: #343a3c;
   --third-text-color: #5c6669;
   --fourth-text-color: #eaeced;
   --default-text-color: #373d3f;
+  --invert-text-color: #bebec6;
   --border-color: #b3b3b3;
   --selection-color: #0068a6;
   --shadow-color-1: rgba(0,0,0,0.08);
@@ -1662,6 +1734,7 @@ pre .deletion {
   --copyright-info-color: #c03;
   --avatar-background-color: #06c;
   --pjax-progress-bar-color: linear-gradient(45deg, #f10006, #ef5b00, #e59c01, #19ca05, #00cab5, #0264c8, #c303c3);
+  --archive-timeline-last-child-color: linear-gradient(to bottom, rgba(0,0,0,0.3) 60%, rgba(0,0,0,0) 100%) 1 100%;
   --note-blue-title-bg: #d6f7fb;
   --note-red-title-bg: #fde9e9;
   --note-cyan-title-bg: #e9fdf9;
@@ -1671,6 +1744,7 @@ pre .deletion {
   --note-type-title-bg: #fdf3e9;
   --note-black-title-bg: #e9e9e9;
   --note-purple-title-bg: #f9e9fd;
+  --first-screen-img: url("/images/first_screen_light.jpg");
   --first-screen-text-color: #fff;
   --first-screen-icons-container-border-color: rgba(255,255,255,0.35);
   --first-screen-icons-container-background-color: rgba(255,255,255,0.3);
@@ -1685,13 +1759,14 @@ pre .deletion {
     --background-color: #fff;
     --background-color-transparent: rgba(255,255,255,0.6);
     --second-background-color: #fafafa;
-    --third-background-color: #f4f4f4;
+    --third-background-color: #f7f7f7;
     --primary-color: #005080;
     --first-text-color: #323739;
     --second-text-color: #343a3c;
     --third-text-color: #5c6669;
     --fourth-text-color: #eaeced;
     --default-text-color: #373d3f;
+    --invert-text-color: #bebec6;
     --border-color: #b3b3b3;
     --selection-color: #0068a6;
     --shadow-color-1: rgba(0,0,0,0.08);
@@ -1704,6 +1779,7 @@ pre .deletion {
     --copyright-info-color: #c03;
     --avatar-background-color: #06c;
     --pjax-progress-bar-color: linear-gradient(45deg, #f10006, #ef5b00, #e59c01, #19ca05, #00cab5, #0264c8, #c303c3);
+    --archive-timeline-last-child-color: linear-gradient(to bottom, rgba(0,0,0,0.3) 60%, rgba(0,0,0,0) 100%) 1 100%;
     --note-blue-title-bg: #d6f7fb;
     --note-red-title-bg: #fde9e9;
     --note-cyan-title-bg: #e9fdf9;
@@ -1713,6 +1789,7 @@ pre .deletion {
     --note-type-title-bg: #fdf3e9;
     --note-black-title-bg: #e9e9e9;
     --note-purple-title-bg: #f9e9fd;
+    --first-screen-img: url("/images/first_screen_light.jpg");
     --first-screen-text-color: #fff;
     --first-screen-icons-container-border-color: rgba(255,255,255,0.35);
     --first-screen-icons-container-background-color: rgba(255,255,255,0.3);
@@ -1735,6 +1812,7 @@ pre .deletion {
     --third-text-color: #9595a2;
     --fourth-text-color: #242429;
     --default-text-color: #bebec6;
+    --invert-text-color: #373d3f;
     --border-color: #4a4c53;
     --selection-color: #0068a6;
     --shadow-color-1: rgba(255,255,255,0.08);
@@ -1747,6 +1825,7 @@ pre .deletion {
     --copyright-info-color: #a30029;
     --avatar-background-color: #005cb8;
     --pjax-progress-bar-color: linear-gradient(45deg, #ea404a, #ea722f, #e9a71f, #67e559, #18ecec, #1b85f1, #ee1dee);
+    --archive-timeline-last-child-color: linear-gradient(to bottom, rgba(180,180,180,0.3) 60%, rgba(255,255,255,0) 100%) 1 100%;
     --note-blue-title-bg: #1e3e46;
     --note-red-title-bg: #4e1e1e;
     --note-cyan-title-bg: #1e4e4e;
@@ -1756,6 +1835,7 @@ pre .deletion {
     --note-type-title-bg: #4e3a1e;
     --note-black-title-bg: #1e1e1e;
     --note-purple-title-bg: #4e1e4e;
+    --first-screen-img: url("/images/first_screen_dark.jpg");
     --first-screen-text-color: #000;
     --first-screen-icons-container-border-color: rgba(197,197,197,0.35);
     --first-screen-icons-container-background-color: rgba(197,197,197,0.3);
@@ -1770,13 +1850,14 @@ pre .deletion {
   --background-color: #fff;
   --background-color-transparent: rgba(255,255,255,0.6);
   --second-background-color: #fafafa;
-  --third-background-color: #f4f4f4;
+  --third-background-color: #f7f7f7;
   --primary-color: #005080;
   --first-text-color: #323739;
   --second-text-color: #343a3c;
   --third-text-color: #5c6669;
   --fourth-text-color: #eaeced;
   --default-text-color: #373d3f;
+  --invert-text-color: #bebec6;
   --border-color: #b3b3b3;
   --selection-color: #0068a6;
   --shadow-color-1: rgba(0,0,0,0.08);
@@ -1789,6 +1870,7 @@ pre .deletion {
   --copyright-info-color: #c03;
   --avatar-background-color: #06c;
   --pjax-progress-bar-color: linear-gradient(45deg, #f10006, #ef5b00, #e59c01, #19ca05, #00cab5, #0264c8, #c303c3);
+  --archive-timeline-last-child-color: linear-gradient(to bottom, rgba(0,0,0,0.3) 60%, rgba(0,0,0,0) 100%) 1 100%;
   --note-blue-title-bg: #d6f7fb;
   --note-red-title-bg: #fde9e9;
   --note-cyan-title-bg: #e9fdf9;
@@ -1798,6 +1880,7 @@ pre .deletion {
   --note-type-title-bg: #fdf3e9;
   --note-black-title-bg: #e9e9e9;
   --note-purple-title-bg: #f9e9fd;
+  --first-screen-img: url("/images/first_screen_light.jpg");
   --first-screen-text-color: #fff;
   --first-screen-icons-container-border-color: rgba(255,255,255,0.35);
   --first-screen-icons-container-background-color: rgba(255,255,255,0.3);
@@ -1818,6 +1901,7 @@ pre .deletion {
   --third-text-color: #9595a2;
   --fourth-text-color: #242429;
   --default-text-color: #bebec6;
+  --invert-text-color: #373d3f;
   --border-color: #4a4c53;
   --selection-color: #0068a6;
   --shadow-color-1: rgba(255,255,255,0.08);
@@ -1830,6 +1914,7 @@ pre .deletion {
   --copyright-info-color: #a30029;
   --avatar-background-color: #005cb8;
   --pjax-progress-bar-color: linear-gradient(45deg, #ea404a, #ea722f, #e9a71f, #67e559, #18ecec, #1b85f1, #ee1dee);
+  --archive-timeline-last-child-color: linear-gradient(to bottom, rgba(180,180,180,0.3) 60%, rgba(255,255,255,0) 100%) 1 100%;
   --note-blue-title-bg: #1e3e46;
   --note-red-title-bg: #4e1e1e;
   --note-cyan-title-bg: #1e4e4e;
@@ -1839,6 +1924,7 @@ pre .deletion {
   --note-type-title-bg: #4e3a1e;
   --note-black-title-bg: #1e1e1e;
   --note-purple-title-bg: #4e1e4e;
+  --first-screen-img: url("/images/first_screen_dark.jpg");
   --first-screen-text-color: #000;
   --first-screen-icons-container-border-color: rgba(197,197,197,0.35);
   --first-screen-icons-container-background-color: rgba(197,197,197,0.3);
@@ -1851,7 +1937,7 @@ pre .deletion {
 :root {
   --code-foreground: #3b4143;
   --code-background: #f2f2f2;
-  --highlight-background: #f8f8f8;
+  --highlight-background: #fafafa;
   --highlight-foreground: #3b4143;
   --highlight-keyword: #d73a49;
   --highlight-link: #d73a49;
@@ -1874,7 +1960,7 @@ pre .deletion {
   :root {
     --code-foreground: #3b4143;
     --code-background: #f2f2f2;
-    --highlight-background: #f8f8f8;
+    --highlight-background: #fafafa;
     --highlight-foreground: #3b4143;
     --highlight-keyword: #d73a49;
     --highlight-link: #d73a49;
@@ -1921,7 +2007,7 @@ pre .deletion {
 .light-mode {
   --code-foreground: #3b4143;
   --code-background: #f2f2f2;
-  --highlight-background: #f8f8f8;
+  --highlight-background: #fafafa;
   --highlight-foreground: #3b4143;
   --highlight-keyword: #d73a49;
   --highlight-link: #d73a49;
@@ -1966,13 +2052,14 @@ pre .deletion {
   --background-color: #fff;
   --background-color-transparent: rgba(255,255,255,0.6);
   --second-background-color: #fafafa;
-  --third-background-color: #f4f4f4;
+  --third-background-color: #f7f7f7;
   --primary-color: #005080;
   --first-text-color: #323739;
   --second-text-color: #343a3c;
   --third-text-color: #5c6669;
   --fourth-text-color: #eaeced;
   --default-text-color: #373d3f;
+  --invert-text-color: #bebec6;
   --border-color: #b3b3b3;
   --selection-color: #0068a6;
   --shadow-color-1: rgba(0,0,0,0.08);
@@ -1985,6 +2072,7 @@ pre .deletion {
   --copyright-info-color: #c03;
   --avatar-background-color: #06c;
   --pjax-progress-bar-color: linear-gradient(45deg, #f10006, #ef5b00, #e59c01, #19ca05, #00cab5, #0264c8, #c303c3);
+  --archive-timeline-last-child-color: linear-gradient(to bottom, rgba(0,0,0,0.3) 60%, rgba(0,0,0,0) 100%) 1 100%;
   --note-blue-title-bg: #d6f7fb;
   --note-red-title-bg: #fde9e9;
   --note-cyan-title-bg: #e9fdf9;
@@ -1994,6 +2082,7 @@ pre .deletion {
   --note-type-title-bg: #fdf3e9;
   --note-black-title-bg: #e9e9e9;
   --note-purple-title-bg: #f9e9fd;
+  --first-screen-img: url("/images/first_screen_light.jpg");
   --first-screen-text-color: #fff;
   --first-screen-icons-container-border-color: rgba(255,255,255,0.35);
   --first-screen-icons-container-background-color: rgba(255,255,255,0.3);
@@ -2008,13 +2097,14 @@ pre .deletion {
     --background-color: #fff;
     --background-color-transparent: rgba(255,255,255,0.6);
     --second-background-color: #fafafa;
-    --third-background-color: #f4f4f4;
+    --third-background-color: #f7f7f7;
     --primary-color: #005080;
     --first-text-color: #323739;
     --second-text-color: #343a3c;
     --third-text-color: #5c6669;
     --fourth-text-color: #eaeced;
     --default-text-color: #373d3f;
+    --invert-text-color: #bebec6;
     --border-color: #b3b3b3;
     --selection-color: #0068a6;
     --shadow-color-1: rgba(0,0,0,0.08);
@@ -2027,6 +2117,7 @@ pre .deletion {
     --copyright-info-color: #c03;
     --avatar-background-color: #06c;
     --pjax-progress-bar-color: linear-gradient(45deg, #f10006, #ef5b00, #e59c01, #19ca05, #00cab5, #0264c8, #c303c3);
+    --archive-timeline-last-child-color: linear-gradient(to bottom, rgba(0,0,0,0.3) 60%, rgba(0,0,0,0) 100%) 1 100%;
     --note-blue-title-bg: #d6f7fb;
     --note-red-title-bg: #fde9e9;
     --note-cyan-title-bg: #e9fdf9;
@@ -2036,6 +2127,7 @@ pre .deletion {
     --note-type-title-bg: #fdf3e9;
     --note-black-title-bg: #e9e9e9;
     --note-purple-title-bg: #f9e9fd;
+    --first-screen-img: url("/images/first_screen_light.jpg");
     --first-screen-text-color: #fff;
     --first-screen-icons-container-border-color: rgba(255,255,255,0.35);
     --first-screen-icons-container-background-color: rgba(255,255,255,0.3);
@@ -2058,6 +2150,7 @@ pre .deletion {
     --third-text-color: #9595a2;
     --fourth-text-color: #242429;
     --default-text-color: #bebec6;
+    --invert-text-color: #373d3f;
     --border-color: #4a4c53;
     --selection-color: #0068a6;
     --shadow-color-1: rgba(255,255,255,0.08);
@@ -2070,6 +2163,7 @@ pre .deletion {
     --copyright-info-color: #a30029;
     --avatar-background-color: #005cb8;
     --pjax-progress-bar-color: linear-gradient(45deg, #ea404a, #ea722f, #e9a71f, #67e559, #18ecec, #1b85f1, #ee1dee);
+    --archive-timeline-last-child-color: linear-gradient(to bottom, rgba(180,180,180,0.3) 60%, rgba(255,255,255,0) 100%) 1 100%;
     --note-blue-title-bg: #1e3e46;
     --note-red-title-bg: #4e1e1e;
     --note-cyan-title-bg: #1e4e4e;
@@ -2079,6 +2173,7 @@ pre .deletion {
     --note-type-title-bg: #4e3a1e;
     --note-black-title-bg: #1e1e1e;
     --note-purple-title-bg: #4e1e4e;
+    --first-screen-img: url("/images/first_screen_dark.jpg");
     --first-screen-text-color: #000;
     --first-screen-icons-container-border-color: rgba(197,197,197,0.35);
     --first-screen-icons-container-background-color: rgba(197,197,197,0.3);
@@ -2093,13 +2188,14 @@ pre .deletion {
   --background-color: #fff;
   --background-color-transparent: rgba(255,255,255,0.6);
   --second-background-color: #fafafa;
-  --third-background-color: #f4f4f4;
+  --third-background-color: #f7f7f7;
   --primary-color: #005080;
   --first-text-color: #323739;
   --second-text-color: #343a3c;
   --third-text-color: #5c6669;
   --fourth-text-color: #eaeced;
   --default-text-color: #373d3f;
+  --invert-text-color: #bebec6;
   --border-color: #b3b3b3;
   --selection-color: #0068a6;
   --shadow-color-1: rgba(0,0,0,0.08);
@@ -2112,6 +2208,7 @@ pre .deletion {
   --copyright-info-color: #c03;
   --avatar-background-color: #06c;
   --pjax-progress-bar-color: linear-gradient(45deg, #f10006, #ef5b00, #e59c01, #19ca05, #00cab5, #0264c8, #c303c3);
+  --archive-timeline-last-child-color: linear-gradient(to bottom, rgba(0,0,0,0.3) 60%, rgba(0,0,0,0) 100%) 1 100%;
   --note-blue-title-bg: #d6f7fb;
   --note-red-title-bg: #fde9e9;
   --note-cyan-title-bg: #e9fdf9;
@@ -2121,6 +2218,7 @@ pre .deletion {
   --note-type-title-bg: #fdf3e9;
   --note-black-title-bg: #e9e9e9;
   --note-purple-title-bg: #f9e9fd;
+  --first-screen-img: url("/images/first_screen_light.jpg");
   --first-screen-text-color: #fff;
   --first-screen-icons-container-border-color: rgba(255,255,255,0.35);
   --first-screen-icons-container-background-color: rgba(255,255,255,0.3);
@@ -2141,6 +2239,7 @@ pre .deletion {
   --third-text-color: #9595a2;
   --fourth-text-color: #242429;
   --default-text-color: #bebec6;
+  --invert-text-color: #373d3f;
   --border-color: #4a4c53;
   --selection-color: #0068a6;
   --shadow-color-1: rgba(255,255,255,0.08);
@@ -2153,6 +2252,7 @@ pre .deletion {
   --copyright-info-color: #a30029;
   --avatar-background-color: #005cb8;
   --pjax-progress-bar-color: linear-gradient(45deg, #ea404a, #ea722f, #e9a71f, #67e559, #18ecec, #1b85f1, #ee1dee);
+  --archive-timeline-last-child-color: linear-gradient(to bottom, rgba(180,180,180,0.3) 60%, rgba(255,255,255,0) 100%) 1 100%;
   --note-blue-title-bg: #1e3e46;
   --note-red-title-bg: #4e1e1e;
   --note-cyan-title-bg: #1e4e4e;
@@ -2162,6 +2262,7 @@ pre .deletion {
   --note-type-title-bg: #4e3a1e;
   --note-black-title-bg: #1e1e1e;
   --note-purple-title-bg: #4e1e4e;
+  --first-screen-img: url("/images/first_screen_dark.jpg");
   --first-screen-text-color: #000;
   --first-screen-icons-container-border-color: rgba(197,197,197,0.35);
   --first-screen-icons-container-background-color: rgba(197,197,197,0.3);
@@ -2260,19 +2361,11 @@ pre .deletion {
 @media (max-width: 780px) {
   .page-container .page-main-content .page-main-content-middle {
     padding: 30.400000000000002px 0;
-    box-shadow: none !important;
-  }
-  .page-container .page-main-content .page-main-content-middle :hover {
-    box-shadow: none !important;
   }
 }
 @media (max-width: 500px) {
   .page-container .page-main-content .page-main-content-middle {
-    box-shadow: none !important;
     border: none !important;
-  }
-  .page-container .page-main-content .page-main-content-middle :hover {
-    box-shadow: none !important;
   }
 }
 .page-container .page-main-content .page-main-content-middle .main-content {
@@ -2355,13 +2448,14 @@ pre .deletion {
   --background-color: #fff;
   --background-color-transparent: rgba(255,255,255,0.6);
   --second-background-color: #fafafa;
-  --third-background-color: #f4f4f4;
+  --third-background-color: #f7f7f7;
   --primary-color: #005080;
   --first-text-color: #323739;
   --second-text-color: #343a3c;
   --third-text-color: #5c6669;
   --fourth-text-color: #eaeced;
   --default-text-color: #373d3f;
+  --invert-text-color: #bebec6;
   --border-color: #b3b3b3;
   --selection-color: #0068a6;
   --shadow-color-1: rgba(0,0,0,0.08);
@@ -2374,6 +2468,7 @@ pre .deletion {
   --copyright-info-color: #c03;
   --avatar-background-color: #06c;
   --pjax-progress-bar-color: linear-gradient(45deg, #f10006, #ef5b00, #e59c01, #19ca05, #00cab5, #0264c8, #c303c3);
+  --archive-timeline-last-child-color: linear-gradient(to bottom, rgba(0,0,0,0.3) 60%, rgba(0,0,0,0) 100%) 1 100%;
   --note-blue-title-bg: #d6f7fb;
   --note-red-title-bg: #fde9e9;
   --note-cyan-title-bg: #e9fdf9;
@@ -2383,6 +2478,7 @@ pre .deletion {
   --note-type-title-bg: #fdf3e9;
   --note-black-title-bg: #e9e9e9;
   --note-purple-title-bg: #f9e9fd;
+  --first-screen-img: url("/images/first_screen_light.jpg");
   --first-screen-text-color: #fff;
   --first-screen-icons-container-border-color: rgba(255,255,255,0.35);
   --first-screen-icons-container-background-color: rgba(255,255,255,0.3);
@@ -2397,13 +2493,14 @@ pre .deletion {
     --background-color: #fff;
     --background-color-transparent: rgba(255,255,255,0.6);
     --second-background-color: #fafafa;
-    --third-background-color: #f4f4f4;
+    --third-background-color: #f7f7f7;
     --primary-color: #005080;
     --first-text-color: #323739;
     --second-text-color: #343a3c;
     --third-text-color: #5c6669;
     --fourth-text-color: #eaeced;
     --default-text-color: #373d3f;
+    --invert-text-color: #bebec6;
     --border-color: #b3b3b3;
     --selection-color: #0068a6;
     --shadow-color-1: rgba(0,0,0,0.08);
@@ -2416,6 +2513,7 @@ pre .deletion {
     --copyright-info-color: #c03;
     --avatar-background-color: #06c;
     --pjax-progress-bar-color: linear-gradient(45deg, #f10006, #ef5b00, #e59c01, #19ca05, #00cab5, #0264c8, #c303c3);
+    --archive-timeline-last-child-color: linear-gradient(to bottom, rgba(0,0,0,0.3) 60%, rgba(0,0,0,0) 100%) 1 100%;
     --note-blue-title-bg: #d6f7fb;
     --note-red-title-bg: #fde9e9;
     --note-cyan-title-bg: #e9fdf9;
@@ -2425,6 +2523,7 @@ pre .deletion {
     --note-type-title-bg: #fdf3e9;
     --note-black-title-bg: #e9e9e9;
     --note-purple-title-bg: #f9e9fd;
+    --first-screen-img: url("/images/first_screen_light.jpg");
     --first-screen-text-color: #fff;
     --first-screen-icons-container-border-color: rgba(255,255,255,0.35);
     --first-screen-icons-container-background-color: rgba(255,255,255,0.3);
@@ -2447,6 +2546,7 @@ pre .deletion {
     --third-text-color: #9595a2;
     --fourth-text-color: #242429;
     --default-text-color: #bebec6;
+    --invert-text-color: #373d3f;
     --border-color: #4a4c53;
     --selection-color: #0068a6;
     --shadow-color-1: rgba(255,255,255,0.08);
@@ -2459,6 +2559,7 @@ pre .deletion {
     --copyright-info-color: #a30029;
     --avatar-background-color: #005cb8;
     --pjax-progress-bar-color: linear-gradient(45deg, #ea404a, #ea722f, #e9a71f, #67e559, #18ecec, #1b85f1, #ee1dee);
+    --archive-timeline-last-child-color: linear-gradient(to bottom, rgba(180,180,180,0.3) 60%, rgba(255,255,255,0) 100%) 1 100%;
     --note-blue-title-bg: #1e3e46;
     --note-red-title-bg: #4e1e1e;
     --note-cyan-title-bg: #1e4e4e;
@@ -2468,6 +2569,7 @@ pre .deletion {
     --note-type-title-bg: #4e3a1e;
     --note-black-title-bg: #1e1e1e;
     --note-purple-title-bg: #4e1e4e;
+    --first-screen-img: url("/images/first_screen_dark.jpg");
     --first-screen-text-color: #000;
     --first-screen-icons-container-border-color: rgba(197,197,197,0.35);
     --first-screen-icons-container-background-color: rgba(197,197,197,0.3);
@@ -2482,13 +2584,14 @@ pre .deletion {
   --background-color: #fff;
   --background-color-transparent: rgba(255,255,255,0.6);
   --second-background-color: #fafafa;
-  --third-background-color: #f4f4f4;
+  --third-background-color: #f7f7f7;
   --primary-color: #005080;
   --first-text-color: #323739;
   --second-text-color: #343a3c;
   --third-text-color: #5c6669;
   --fourth-text-color: #eaeced;
   --default-text-color: #373d3f;
+  --invert-text-color: #bebec6;
   --border-color: #b3b3b3;
   --selection-color: #0068a6;
   --shadow-color-1: rgba(0,0,0,0.08);
@@ -2501,6 +2604,7 @@ pre .deletion {
   --copyright-info-color: #c03;
   --avatar-background-color: #06c;
   --pjax-progress-bar-color: linear-gradient(45deg, #f10006, #ef5b00, #e59c01, #19ca05, #00cab5, #0264c8, #c303c3);
+  --archive-timeline-last-child-color: linear-gradient(to bottom, rgba(0,0,0,0.3) 60%, rgba(0,0,0,0) 100%) 1 100%;
   --note-blue-title-bg: #d6f7fb;
   --note-red-title-bg: #fde9e9;
   --note-cyan-title-bg: #e9fdf9;
@@ -2510,6 +2614,7 @@ pre .deletion {
   --note-type-title-bg: #fdf3e9;
   --note-black-title-bg: #e9e9e9;
   --note-purple-title-bg: #f9e9fd;
+  --first-screen-img: url("/images/first_screen_light.jpg");
   --first-screen-text-color: #fff;
   --first-screen-icons-container-border-color: rgba(255,255,255,0.35);
   --first-screen-icons-container-background-color: rgba(255,255,255,0.3);
@@ -2530,6 +2635,7 @@ pre .deletion {
   --third-text-color: #9595a2;
   --fourth-text-color: #242429;
   --default-text-color: #bebec6;
+  --invert-text-color: #373d3f;
   --border-color: #4a4c53;
   --selection-color: #0068a6;
   --shadow-color-1: rgba(255,255,255,0.08);
@@ -2542,6 +2648,7 @@ pre .deletion {
   --copyright-info-color: #a30029;
   --avatar-background-color: #005cb8;
   --pjax-progress-bar-color: linear-gradient(45deg, #ea404a, #ea722f, #e9a71f, #67e559, #18ecec, #1b85f1, #ee1dee);
+  --archive-timeline-last-child-color: linear-gradient(to bottom, rgba(180,180,180,0.3) 60%, rgba(255,255,255,0) 100%) 1 100%;
   --note-blue-title-bg: #1e3e46;
   --note-red-title-bg: #4e1e1e;
   --note-cyan-title-bg: #1e4e4e;
@@ -2551,6 +2658,7 @@ pre .deletion {
   --note-type-title-bg: #4e3a1e;
   --note-black-title-bg: #1e1e1e;
   --note-purple-title-bg: #4e1e4e;
+  --first-screen-img: url("/images/first_screen_dark.jpg");
   --first-screen-text-color: #000;
   --first-screen-icons-container-border-color: rgba(197,197,197,0.35);
   --first-screen-icons-container-background-color: rgba(197,197,197,0.3);
@@ -2710,7 +2818,7 @@ pre .deletion {
   width: 100%;
   font-size: 0.92rem;
   box-sizing: border-box;
-  font-family: "Noto Sans", sans-serif;
+  font-family: "Noto Sans", "Noto Sans SC", sans-serif;
 }
 .post-toc-wrap .post-toc .toc-title {
   font-size: 0.8rem;
@@ -2900,13 +3008,14 @@ pre .deletion {
   --background-color: #fff;
   --background-color-transparent: rgba(255,255,255,0.6);
   --second-background-color: #fafafa;
-  --third-background-color: #f4f4f4;
+  --third-background-color: #f7f7f7;
   --primary-color: #005080;
   --first-text-color: #323739;
   --second-text-color: #343a3c;
   --third-text-color: #5c6669;
   --fourth-text-color: #eaeced;
   --default-text-color: #373d3f;
+  --invert-text-color: #bebec6;
   --border-color: #b3b3b3;
   --selection-color: #0068a6;
   --shadow-color-1: rgba(0,0,0,0.08);
@@ -2919,6 +3028,7 @@ pre .deletion {
   --copyright-info-color: #c03;
   --avatar-background-color: #06c;
   --pjax-progress-bar-color: linear-gradient(45deg, #f10006, #ef5b00, #e59c01, #19ca05, #00cab5, #0264c8, #c303c3);
+  --archive-timeline-last-child-color: linear-gradient(to bottom, rgba(0,0,0,0.3) 60%, rgba(0,0,0,0) 100%) 1 100%;
   --note-blue-title-bg: #d6f7fb;
   --note-red-title-bg: #fde9e9;
   --note-cyan-title-bg: #e9fdf9;
@@ -2928,6 +3038,7 @@ pre .deletion {
   --note-type-title-bg: #fdf3e9;
   --note-black-title-bg: #e9e9e9;
   --note-purple-title-bg: #f9e9fd;
+  --first-screen-img: url("/images/first_screen_light.jpg");
   --first-screen-text-color: #fff;
   --first-screen-icons-container-border-color: rgba(255,255,255,0.35);
   --first-screen-icons-container-background-color: rgba(255,255,255,0.3);
@@ -2942,13 +3053,14 @@ pre .deletion {
     --background-color: #fff;
     --background-color-transparent: rgba(255,255,255,0.6);
     --second-background-color: #fafafa;
-    --third-background-color: #f4f4f4;
+    --third-background-color: #f7f7f7;
     --primary-color: #005080;
     --first-text-color: #323739;
     --second-text-color: #343a3c;
     --third-text-color: #5c6669;
     --fourth-text-color: #eaeced;
     --default-text-color: #373d3f;
+    --invert-text-color: #bebec6;
     --border-color: #b3b3b3;
     --selection-color: #0068a6;
     --shadow-color-1: rgba(0,0,0,0.08);
@@ -2961,6 +3073,7 @@ pre .deletion {
     --copyright-info-color: #c03;
     --avatar-background-color: #06c;
     --pjax-progress-bar-color: linear-gradient(45deg, #f10006, #ef5b00, #e59c01, #19ca05, #00cab5, #0264c8, #c303c3);
+    --archive-timeline-last-child-color: linear-gradient(to bottom, rgba(0,0,0,0.3) 60%, rgba(0,0,0,0) 100%) 1 100%;
     --note-blue-title-bg: #d6f7fb;
     --note-red-title-bg: #fde9e9;
     --note-cyan-title-bg: #e9fdf9;
@@ -2970,6 +3083,7 @@ pre .deletion {
     --note-type-title-bg: #fdf3e9;
     --note-black-title-bg: #e9e9e9;
     --note-purple-title-bg: #f9e9fd;
+    --first-screen-img: url("/images/first_screen_light.jpg");
     --first-screen-text-color: #fff;
     --first-screen-icons-container-border-color: rgba(255,255,255,0.35);
     --first-screen-icons-container-background-color: rgba(255,255,255,0.3);
@@ -2992,6 +3106,7 @@ pre .deletion {
     --third-text-color: #9595a2;
     --fourth-text-color: #242429;
     --default-text-color: #bebec6;
+    --invert-text-color: #373d3f;
     --border-color: #4a4c53;
     --selection-color: #0068a6;
     --shadow-color-1: rgba(255,255,255,0.08);
@@ -3004,6 +3119,7 @@ pre .deletion {
     --copyright-info-color: #a30029;
     --avatar-background-color: #005cb8;
     --pjax-progress-bar-color: linear-gradient(45deg, #ea404a, #ea722f, #e9a71f, #67e559, #18ecec, #1b85f1, #ee1dee);
+    --archive-timeline-last-child-color: linear-gradient(to bottom, rgba(180,180,180,0.3) 60%, rgba(255,255,255,0) 100%) 1 100%;
     --note-blue-title-bg: #1e3e46;
     --note-red-title-bg: #4e1e1e;
     --note-cyan-title-bg: #1e4e4e;
@@ -3013,6 +3129,7 @@ pre .deletion {
     --note-type-title-bg: #4e3a1e;
     --note-black-title-bg: #1e1e1e;
     --note-purple-title-bg: #4e1e4e;
+    --first-screen-img: url("/images/first_screen_dark.jpg");
     --first-screen-text-color: #000;
     --first-screen-icons-container-border-color: rgba(197,197,197,0.35);
     --first-screen-icons-container-background-color: rgba(197,197,197,0.3);
@@ -3027,13 +3144,14 @@ pre .deletion {
   --background-color: #fff;
   --background-color-transparent: rgba(255,255,255,0.6);
   --second-background-color: #fafafa;
-  --third-background-color: #f4f4f4;
+  --third-background-color: #f7f7f7;
   --primary-color: #005080;
   --first-text-color: #323739;
   --second-text-color: #343a3c;
   --third-text-color: #5c6669;
   --fourth-text-color: #eaeced;
   --default-text-color: #373d3f;
+  --invert-text-color: #bebec6;
   --border-color: #b3b3b3;
   --selection-color: #0068a6;
   --shadow-color-1: rgba(0,0,0,0.08);
@@ -3046,6 +3164,7 @@ pre .deletion {
   --copyright-info-color: #c03;
   --avatar-background-color: #06c;
   --pjax-progress-bar-color: linear-gradient(45deg, #f10006, #ef5b00, #e59c01, #19ca05, #00cab5, #0264c8, #c303c3);
+  --archive-timeline-last-child-color: linear-gradient(to bottom, rgba(0,0,0,0.3) 60%, rgba(0,0,0,0) 100%) 1 100%;
   --note-blue-title-bg: #d6f7fb;
   --note-red-title-bg: #fde9e9;
   --note-cyan-title-bg: #e9fdf9;
@@ -3055,6 +3174,7 @@ pre .deletion {
   --note-type-title-bg: #fdf3e9;
   --note-black-title-bg: #e9e9e9;
   --note-purple-title-bg: #f9e9fd;
+  --first-screen-img: url("/images/first_screen_light.jpg");
   --first-screen-text-color: #fff;
   --first-screen-icons-container-border-color: rgba(255,255,255,0.35);
   --first-screen-icons-container-background-color: rgba(255,255,255,0.3);
@@ -3075,6 +3195,7 @@ pre .deletion {
   --third-text-color: #9595a2;
   --fourth-text-color: #242429;
   --default-text-color: #bebec6;
+  --invert-text-color: #373d3f;
   --border-color: #4a4c53;
   --selection-color: #0068a6;
   --shadow-color-1: rgba(255,255,255,0.08);
@@ -3087,6 +3208,7 @@ pre .deletion {
   --copyright-info-color: #a30029;
   --avatar-background-color: #005cb8;
   --pjax-progress-bar-color: linear-gradient(45deg, #ea404a, #ea722f, #e9a71f, #67e559, #18ecec, #1b85f1, #ee1dee);
+  --archive-timeline-last-child-color: linear-gradient(to bottom, rgba(180,180,180,0.3) 60%, rgba(255,255,255,0) 100%) 1 100%;
   --note-blue-title-bg: #1e3e46;
   --note-red-title-bg: #4e1e1e;
   --note-cyan-title-bg: #1e4e4e;
@@ -3096,6 +3218,7 @@ pre .deletion {
   --note-type-title-bg: #4e3a1e;
   --note-black-title-bg: #1e1e1e;
   --note-purple-title-bg: #4e1e4e;
+  --first-screen-img: url("/images/first_screen_dark.jpg");
   --first-screen-text-color: #000;
   --first-screen-icons-container-border-color: rgba(197,197,197,0.35);
   --first-screen-icons-container-background-color: rgba(197,197,197,0.3);
@@ -3615,13 +3738,14 @@ pre .deletion {
   --background-color: #fff;
   --background-color-transparent: rgba(255,255,255,0.6);
   --second-background-color: #fafafa;
-  --third-background-color: #f4f4f4;
+  --third-background-color: #f7f7f7;
   --primary-color: #005080;
   --first-text-color: #323739;
   --second-text-color: #343a3c;
   --third-text-color: #5c6669;
   --fourth-text-color: #eaeced;
   --default-text-color: #373d3f;
+  --invert-text-color: #bebec6;
   --border-color: #b3b3b3;
   --selection-color: #0068a6;
   --shadow-color-1: rgba(0,0,0,0.08);
@@ -3634,6 +3758,7 @@ pre .deletion {
   --copyright-info-color: #c03;
   --avatar-background-color: #06c;
   --pjax-progress-bar-color: linear-gradient(45deg, #f10006, #ef5b00, #e59c01, #19ca05, #00cab5, #0264c8, #c303c3);
+  --archive-timeline-last-child-color: linear-gradient(to bottom, rgba(0,0,0,0.3) 60%, rgba(0,0,0,0) 100%) 1 100%;
   --note-blue-title-bg: #d6f7fb;
   --note-red-title-bg: #fde9e9;
   --note-cyan-title-bg: #e9fdf9;
@@ -3643,6 +3768,7 @@ pre .deletion {
   --note-type-title-bg: #fdf3e9;
   --note-black-title-bg: #e9e9e9;
   --note-purple-title-bg: #f9e9fd;
+  --first-screen-img: url("/images/first_screen_light.jpg");
   --first-screen-text-color: #fff;
   --first-screen-icons-container-border-color: rgba(255,255,255,0.35);
   --first-screen-icons-container-background-color: rgba(255,255,255,0.3);
@@ -3657,13 +3783,14 @@ pre .deletion {
     --background-color: #fff;
     --background-color-transparent: rgba(255,255,255,0.6);
     --second-background-color: #fafafa;
-    --third-background-color: #f4f4f4;
+    --third-background-color: #f7f7f7;
     --primary-color: #005080;
     --first-text-color: #323739;
     --second-text-color: #343a3c;
     --third-text-color: #5c6669;
     --fourth-text-color: #eaeced;
     --default-text-color: #373d3f;
+    --invert-text-color: #bebec6;
     --border-color: #b3b3b3;
     --selection-color: #0068a6;
     --shadow-color-1: rgba(0,0,0,0.08);
@@ -3676,6 +3803,7 @@ pre .deletion {
     --copyright-info-color: #c03;
     --avatar-background-color: #06c;
     --pjax-progress-bar-color: linear-gradient(45deg, #f10006, #ef5b00, #e59c01, #19ca05, #00cab5, #0264c8, #c303c3);
+    --archive-timeline-last-child-color: linear-gradient(to bottom, rgba(0,0,0,0.3) 60%, rgba(0,0,0,0) 100%) 1 100%;
     --note-blue-title-bg: #d6f7fb;
     --note-red-title-bg: #fde9e9;
     --note-cyan-title-bg: #e9fdf9;
@@ -3685,6 +3813,7 @@ pre .deletion {
     --note-type-title-bg: #fdf3e9;
     --note-black-title-bg: #e9e9e9;
     --note-purple-title-bg: #f9e9fd;
+    --first-screen-img: url("/images/first_screen_light.jpg");
     --first-screen-text-color: #fff;
     --first-screen-icons-container-border-color: rgba(255,255,255,0.35);
     --first-screen-icons-container-background-color: rgba(255,255,255,0.3);
@@ -3707,6 +3836,7 @@ pre .deletion {
     --third-text-color: #9595a2;
     --fourth-text-color: #242429;
     --default-text-color: #bebec6;
+    --invert-text-color: #373d3f;
     --border-color: #4a4c53;
     --selection-color: #0068a6;
     --shadow-color-1: rgba(255,255,255,0.08);
@@ -3719,6 +3849,7 @@ pre .deletion {
     --copyright-info-color: #a30029;
     --avatar-background-color: #005cb8;
     --pjax-progress-bar-color: linear-gradient(45deg, #ea404a, #ea722f, #e9a71f, #67e559, #18ecec, #1b85f1, #ee1dee);
+    --archive-timeline-last-child-color: linear-gradient(to bottom, rgba(180,180,180,0.3) 60%, rgba(255,255,255,0) 100%) 1 100%;
     --note-blue-title-bg: #1e3e46;
     --note-red-title-bg: #4e1e1e;
     --note-cyan-title-bg: #1e4e4e;
@@ -3728,6 +3859,7 @@ pre .deletion {
     --note-type-title-bg: #4e3a1e;
     --note-black-title-bg: #1e1e1e;
     --note-purple-title-bg: #4e1e4e;
+    --first-screen-img: url("/images/first_screen_dark.jpg");
     --first-screen-text-color: #000;
     --first-screen-icons-container-border-color: rgba(197,197,197,0.35);
     --first-screen-icons-container-background-color: rgba(197,197,197,0.3);
@@ -3742,13 +3874,14 @@ pre .deletion {
   --background-color: #fff;
   --background-color-transparent: rgba(255,255,255,0.6);
   --second-background-color: #fafafa;
-  --third-background-color: #f4f4f4;
+  --third-background-color: #f7f7f7;
   --primary-color: #005080;
   --first-text-color: #323739;
   --second-text-color: #343a3c;
   --third-text-color: #5c6669;
   --fourth-text-color: #eaeced;
   --default-text-color: #373d3f;
+  --invert-text-color: #bebec6;
   --border-color: #b3b3b3;
   --selection-color: #0068a6;
   --shadow-color-1: rgba(0,0,0,0.08);
@@ -3761,6 +3894,7 @@ pre .deletion {
   --copyright-info-color: #c03;
   --avatar-background-color: #06c;
   --pjax-progress-bar-color: linear-gradient(45deg, #f10006, #ef5b00, #e59c01, #19ca05, #00cab5, #0264c8, #c303c3);
+  --archive-timeline-last-child-color: linear-gradient(to bottom, rgba(0,0,0,0.3) 60%, rgba(0,0,0,0) 100%) 1 100%;
   --note-blue-title-bg: #d6f7fb;
   --note-red-title-bg: #fde9e9;
   --note-cyan-title-bg: #e9fdf9;
@@ -3770,6 +3904,7 @@ pre .deletion {
   --note-type-title-bg: #fdf3e9;
   --note-black-title-bg: #e9e9e9;
   --note-purple-title-bg: #f9e9fd;
+  --first-screen-img: url("/images/first_screen_light.jpg");
   --first-screen-text-color: #fff;
   --first-screen-icons-container-border-color: rgba(255,255,255,0.35);
   --first-screen-icons-container-background-color: rgba(255,255,255,0.3);
@@ -3790,6 +3925,7 @@ pre .deletion {
   --third-text-color: #9595a2;
   --fourth-text-color: #242429;
   --default-text-color: #bebec6;
+  --invert-text-color: #373d3f;
   --border-color: #4a4c53;
   --selection-color: #0068a6;
   --shadow-color-1: rgba(255,255,255,0.08);
@@ -3802,6 +3938,7 @@ pre .deletion {
   --copyright-info-color: #a30029;
   --avatar-background-color: #005cb8;
   --pjax-progress-bar-color: linear-gradient(45deg, #ea404a, #ea722f, #e9a71f, #67e559, #18ecec, #1b85f1, #ee1dee);
+  --archive-timeline-last-child-color: linear-gradient(to bottom, rgba(180,180,180,0.3) 60%, rgba(255,255,255,0) 100%) 1 100%;
   --note-blue-title-bg: #1e3e46;
   --note-red-title-bg: #4e1e1e;
   --note-cyan-title-bg: #1e4e4e;
@@ -3811,6 +3948,7 @@ pre .deletion {
   --note-type-title-bg: #4e3a1e;
   --note-black-title-bg: #1e1e1e;
   --note-purple-title-bg: #4e1e4e;
+  --first-screen-img: url("/images/first_screen_dark.jpg");
   --first-screen-text-color: #000;
   --first-screen-icons-container-border-color: rgba(197,197,197,0.35);
   --first-screen-icons-container-background-color: rgba(197,197,197,0.3);
@@ -3851,7 +3989,9 @@ pre .deletion {
   }
 }
 .archive-list-container .archive-item .article-list {
-  padding-left: 10px;
+  padding-left: 30px;
+  font-size: 14px;
+  line-height: 1.5;
 }
 @media (max-width: 780px) {
   .archive-list-container .archive-item .article-list {
@@ -3860,40 +4000,63 @@ pre .deletion {
 }
 .archive-list-container .archive-item .article-list .article-item {
   font-size: 1rem;
-  margin-top: 18px;
+  padding: 3em 2em 1em;
+  position: relative;
+  color: rgba(0,0,0,0.7);
+  border-left: 2px solid var(--border-color);
 }
-@media (max-width: 780px) {
-  .archive-list-container .archive-item .article-list .article-item {
-    margin-top: 16px;
-  }
+.archive-list-container .archive-item .article-list .article-item a {
+  overflow: hidden;
+  display: block;
 }
-@media (max-width: 500px) {
-  .archive-list-container .archive-item .article-list .article-item {
-    margin-top: 14px;
-  }
-}
-.archive-list-container .archive-item .article-list .article-item:hover a.article-title,
-.archive-list-container .archive-item .article-list .article-item:hover .article-date {
-  color: var(--primary-color);
-}
-.archive-list-container .archive-item .article-list .article-item a.article-title {
+.archive-list-container .archive-item .article-list .article-item a .article-title {
+  font-size: 1.6rem;
+  margin-bottom: 0.5em;
   color: var(--default-text-color);
 }
-.archive-list-container .archive-item .article-list .article-item .article-date {
-  font-size: 1rem;
-  float: right;
+.archive-list-container .archive-item .article-list .article-item a:hover .article-title,
+.archive-list-container .archive-item .article-list .article-item a:hover .article-date {
+  color: var(--primary-color);
+}
+.archive-list-container .archive-item .article-list .article-item::before {
+  content: attr(date-is);
+  position: absolute;
+  left: 2em;
+  font-weight: bold;
+  top: 1em;
+  display: block;
+  font-weight: 700;
+  font-size: 0.785rem;
+  color: var(--third-text-color);
+}
+.archive-list-container .archive-item .article-list .article-item::after {
+  width: 10px;
+  height: 10px;
+  display: block;
+  top: 1em;
+  position: absolute;
+  left: -8px;
+  border-radius: 10px;
+  content: '';
+  border: 2px solid var(--third-text-color);
+  background: var(--background-color);
+  transition: background 0.2s ease-in-out;
+}
+.archive-list-container .archive-item .article-list .article-item:last-child {
+  border-image: var(--archive-timeline-last-child-color);
 }
 :root {
   --background-color: #fff;
   --background-color-transparent: rgba(255,255,255,0.6);
   --second-background-color: #fafafa;
-  --third-background-color: #f4f4f4;
+  --third-background-color: #f7f7f7;
   --primary-color: #005080;
   --first-text-color: #323739;
   --second-text-color: #343a3c;
   --third-text-color: #5c6669;
   --fourth-text-color: #eaeced;
   --default-text-color: #373d3f;
+  --invert-text-color: #bebec6;
   --border-color: #b3b3b3;
   --selection-color: #0068a6;
   --shadow-color-1: rgba(0,0,0,0.08);
@@ -3906,6 +4069,7 @@ pre .deletion {
   --copyright-info-color: #c03;
   --avatar-background-color: #06c;
   --pjax-progress-bar-color: linear-gradient(45deg, #f10006, #ef5b00, #e59c01, #19ca05, #00cab5, #0264c8, #c303c3);
+  --archive-timeline-last-child-color: linear-gradient(to bottom, rgba(0,0,0,0.3) 60%, rgba(0,0,0,0) 100%) 1 100%;
   --note-blue-title-bg: #d6f7fb;
   --note-red-title-bg: #fde9e9;
   --note-cyan-title-bg: #e9fdf9;
@@ -3915,6 +4079,7 @@ pre .deletion {
   --note-type-title-bg: #fdf3e9;
   --note-black-title-bg: #e9e9e9;
   --note-purple-title-bg: #f9e9fd;
+  --first-screen-img: url("/images/first_screen_light.jpg");
   --first-screen-text-color: #fff;
   --first-screen-icons-container-border-color: rgba(255,255,255,0.35);
   --first-screen-icons-container-background-color: rgba(255,255,255,0.3);
@@ -3929,13 +4094,14 @@ pre .deletion {
     --background-color: #fff;
     --background-color-transparent: rgba(255,255,255,0.6);
     --second-background-color: #fafafa;
-    --third-background-color: #f4f4f4;
+    --third-background-color: #f7f7f7;
     --primary-color: #005080;
     --first-text-color: #323739;
     --second-text-color: #343a3c;
     --third-text-color: #5c6669;
     --fourth-text-color: #eaeced;
     --default-text-color: #373d3f;
+    --invert-text-color: #bebec6;
     --border-color: #b3b3b3;
     --selection-color: #0068a6;
     --shadow-color-1: rgba(0,0,0,0.08);
@@ -3948,6 +4114,7 @@ pre .deletion {
     --copyright-info-color: #c03;
     --avatar-background-color: #06c;
     --pjax-progress-bar-color: linear-gradient(45deg, #f10006, #ef5b00, #e59c01, #19ca05, #00cab5, #0264c8, #c303c3);
+    --archive-timeline-last-child-color: linear-gradient(to bottom, rgba(0,0,0,0.3) 60%, rgba(0,0,0,0) 100%) 1 100%;
     --note-blue-title-bg: #d6f7fb;
     --note-red-title-bg: #fde9e9;
     --note-cyan-title-bg: #e9fdf9;
@@ -3957,6 +4124,7 @@ pre .deletion {
     --note-type-title-bg: #fdf3e9;
     --note-black-title-bg: #e9e9e9;
     --note-purple-title-bg: #f9e9fd;
+    --first-screen-img: url("/images/first_screen_light.jpg");
     --first-screen-text-color: #fff;
     --first-screen-icons-container-border-color: rgba(255,255,255,0.35);
     --first-screen-icons-container-background-color: rgba(255,255,255,0.3);
@@ -3979,6 +4147,7 @@ pre .deletion {
     --third-text-color: #9595a2;
     --fourth-text-color: #242429;
     --default-text-color: #bebec6;
+    --invert-text-color: #373d3f;
     --border-color: #4a4c53;
     --selection-color: #0068a6;
     --shadow-color-1: rgba(255,255,255,0.08);
@@ -3991,6 +4160,7 @@ pre .deletion {
     --copyright-info-color: #a30029;
     --avatar-background-color: #005cb8;
     --pjax-progress-bar-color: linear-gradient(45deg, #ea404a, #ea722f, #e9a71f, #67e559, #18ecec, #1b85f1, #ee1dee);
+    --archive-timeline-last-child-color: linear-gradient(to bottom, rgba(180,180,180,0.3) 60%, rgba(255,255,255,0) 100%) 1 100%;
     --note-blue-title-bg: #1e3e46;
     --note-red-title-bg: #4e1e1e;
     --note-cyan-title-bg: #1e4e4e;
@@ -4000,6 +4170,7 @@ pre .deletion {
     --note-type-title-bg: #4e3a1e;
     --note-black-title-bg: #1e1e1e;
     --note-purple-title-bg: #4e1e4e;
+    --first-screen-img: url("/images/first_screen_dark.jpg");
     --first-screen-text-color: #000;
     --first-screen-icons-container-border-color: rgba(197,197,197,0.35);
     --first-screen-icons-container-background-color: rgba(197,197,197,0.3);
@@ -4014,13 +4185,14 @@ pre .deletion {
   --background-color: #fff;
   --background-color-transparent: rgba(255,255,255,0.6);
   --second-background-color: #fafafa;
-  --third-background-color: #f4f4f4;
+  --third-background-color: #f7f7f7;
   --primary-color: #005080;
   --first-text-color: #323739;
   --second-text-color: #343a3c;
   --third-text-color: #5c6669;
   --fourth-text-color: #eaeced;
   --default-text-color: #373d3f;
+  --invert-text-color: #bebec6;
   --border-color: #b3b3b3;
   --selection-color: #0068a6;
   --shadow-color-1: rgba(0,0,0,0.08);
@@ -4033,6 +4205,7 @@ pre .deletion {
   --copyright-info-color: #c03;
   --avatar-background-color: #06c;
   --pjax-progress-bar-color: linear-gradient(45deg, #f10006, #ef5b00, #e59c01, #19ca05, #00cab5, #0264c8, #c303c3);
+  --archive-timeline-last-child-color: linear-gradient(to bottom, rgba(0,0,0,0.3) 60%, rgba(0,0,0,0) 100%) 1 100%;
   --note-blue-title-bg: #d6f7fb;
   --note-red-title-bg: #fde9e9;
   --note-cyan-title-bg: #e9fdf9;
@@ -4042,6 +4215,7 @@ pre .deletion {
   --note-type-title-bg: #fdf3e9;
   --note-black-title-bg: #e9e9e9;
   --note-purple-title-bg: #f9e9fd;
+  --first-screen-img: url("/images/first_screen_light.jpg");
   --first-screen-text-color: #fff;
   --first-screen-icons-container-border-color: rgba(255,255,255,0.35);
   --first-screen-icons-container-background-color: rgba(255,255,255,0.3);
@@ -4062,6 +4236,7 @@ pre .deletion {
   --third-text-color: #9595a2;
   --fourth-text-color: #242429;
   --default-text-color: #bebec6;
+  --invert-text-color: #373d3f;
   --border-color: #4a4c53;
   --selection-color: #0068a6;
   --shadow-color-1: rgba(255,255,255,0.08);
@@ -4074,6 +4249,7 @@ pre .deletion {
   --copyright-info-color: #a30029;
   --avatar-background-color: #005cb8;
   --pjax-progress-bar-color: linear-gradient(45deg, #ea404a, #ea722f, #e9a71f, #67e559, #18ecec, #1b85f1, #ee1dee);
+  --archive-timeline-last-child-color: linear-gradient(to bottom, rgba(180,180,180,0.3) 60%, rgba(255,255,255,0) 100%) 1 100%;
   --note-blue-title-bg: #1e3e46;
   --note-red-title-bg: #4e1e1e;
   --note-cyan-title-bg: #1e4e4e;
@@ -4083,6 +4259,7 @@ pre .deletion {
   --note-type-title-bg: #4e3a1e;
   --note-black-title-bg: #1e1e1e;
   --note-purple-title-bg: #4e1e4e;
+  --first-screen-img: url("/images/first_screen_dark.jpg");
   --first-screen-text-color: #000;
   --first-screen-icons-container-border-color: rgba(197,197,197,0.35);
   --first-screen-icons-container-background-color: rgba(197,197,197,0.3);
@@ -4359,13 +4536,14 @@ pre .deletion {
   --background-color: #fff;
   --background-color-transparent: rgba(255,255,255,0.6);
   --second-background-color: #fafafa;
-  --third-background-color: #f4f4f4;
+  --third-background-color: #f7f7f7;
   --primary-color: #005080;
   --first-text-color: #323739;
   --second-text-color: #343a3c;
   --third-text-color: #5c6669;
   --fourth-text-color: #eaeced;
   --default-text-color: #373d3f;
+  --invert-text-color: #bebec6;
   --border-color: #b3b3b3;
   --selection-color: #0068a6;
   --shadow-color-1: rgba(0,0,0,0.08);
@@ -4378,6 +4556,7 @@ pre .deletion {
   --copyright-info-color: #c03;
   --avatar-background-color: #06c;
   --pjax-progress-bar-color: linear-gradient(45deg, #f10006, #ef5b00, #e59c01, #19ca05, #00cab5, #0264c8, #c303c3);
+  --archive-timeline-last-child-color: linear-gradient(to bottom, rgba(0,0,0,0.3) 60%, rgba(0,0,0,0) 100%) 1 100%;
   --note-blue-title-bg: #d6f7fb;
   --note-red-title-bg: #fde9e9;
   --note-cyan-title-bg: #e9fdf9;
@@ -4387,6 +4566,7 @@ pre .deletion {
   --note-type-title-bg: #fdf3e9;
   --note-black-title-bg: #e9e9e9;
   --note-purple-title-bg: #f9e9fd;
+  --first-screen-img: url("/images/first_screen_light.jpg");
   --first-screen-text-color: #fff;
   --first-screen-icons-container-border-color: rgba(255,255,255,0.35);
   --first-screen-icons-container-background-color: rgba(255,255,255,0.3);
@@ -4401,13 +4581,14 @@ pre .deletion {
     --background-color: #fff;
     --background-color-transparent: rgba(255,255,255,0.6);
     --second-background-color: #fafafa;
-    --third-background-color: #f4f4f4;
+    --third-background-color: #f7f7f7;
     --primary-color: #005080;
     --first-text-color: #323739;
     --second-text-color: #343a3c;
     --third-text-color: #5c6669;
     --fourth-text-color: #eaeced;
     --default-text-color: #373d3f;
+    --invert-text-color: #bebec6;
     --border-color: #b3b3b3;
     --selection-color: #0068a6;
     --shadow-color-1: rgba(0,0,0,0.08);
@@ -4420,6 +4601,7 @@ pre .deletion {
     --copyright-info-color: #c03;
     --avatar-background-color: #06c;
     --pjax-progress-bar-color: linear-gradient(45deg, #f10006, #ef5b00, #e59c01, #19ca05, #00cab5, #0264c8, #c303c3);
+    --archive-timeline-last-child-color: linear-gradient(to bottom, rgba(0,0,0,0.3) 60%, rgba(0,0,0,0) 100%) 1 100%;
     --note-blue-title-bg: #d6f7fb;
     --note-red-title-bg: #fde9e9;
     --note-cyan-title-bg: #e9fdf9;
@@ -4429,6 +4611,7 @@ pre .deletion {
     --note-type-title-bg: #fdf3e9;
     --note-black-title-bg: #e9e9e9;
     --note-purple-title-bg: #f9e9fd;
+    --first-screen-img: url("/images/first_screen_light.jpg");
     --first-screen-text-color: #fff;
     --first-screen-icons-container-border-color: rgba(255,255,255,0.35);
     --first-screen-icons-container-background-color: rgba(255,255,255,0.3);
@@ -4451,6 +4634,7 @@ pre .deletion {
     --third-text-color: #9595a2;
     --fourth-text-color: #242429;
     --default-text-color: #bebec6;
+    --invert-text-color: #373d3f;
     --border-color: #4a4c53;
     --selection-color: #0068a6;
     --shadow-color-1: rgba(255,255,255,0.08);
@@ -4463,6 +4647,7 @@ pre .deletion {
     --copyright-info-color: #a30029;
     --avatar-background-color: #005cb8;
     --pjax-progress-bar-color: linear-gradient(45deg, #ea404a, #ea722f, #e9a71f, #67e559, #18ecec, #1b85f1, #ee1dee);
+    --archive-timeline-last-child-color: linear-gradient(to bottom, rgba(180,180,180,0.3) 60%, rgba(255,255,255,0) 100%) 1 100%;
     --note-blue-title-bg: #1e3e46;
     --note-red-title-bg: #4e1e1e;
     --note-cyan-title-bg: #1e4e4e;
@@ -4472,6 +4657,7 @@ pre .deletion {
     --note-type-title-bg: #4e3a1e;
     --note-black-title-bg: #1e1e1e;
     --note-purple-title-bg: #4e1e4e;
+    --first-screen-img: url("/images/first_screen_dark.jpg");
     --first-screen-text-color: #000;
     --first-screen-icons-container-border-color: rgba(197,197,197,0.35);
     --first-screen-icons-container-background-color: rgba(197,197,197,0.3);
@@ -4486,13 +4672,14 @@ pre .deletion {
   --background-color: #fff;
   --background-color-transparent: rgba(255,255,255,0.6);
   --second-background-color: #fafafa;
-  --third-background-color: #f4f4f4;
+  --third-background-color: #f7f7f7;
   --primary-color: #005080;
   --first-text-color: #323739;
   --second-text-color: #343a3c;
   --third-text-color: #5c6669;
   --fourth-text-color: #eaeced;
   --default-text-color: #373d3f;
+  --invert-text-color: #bebec6;
   --border-color: #b3b3b3;
   --selection-color: #0068a6;
   --shadow-color-1: rgba(0,0,0,0.08);
@@ -4505,6 +4692,7 @@ pre .deletion {
   --copyright-info-color: #c03;
   --avatar-background-color: #06c;
   --pjax-progress-bar-color: linear-gradient(45deg, #f10006, #ef5b00, #e59c01, #19ca05, #00cab5, #0264c8, #c303c3);
+  --archive-timeline-last-child-color: linear-gradient(to bottom, rgba(0,0,0,0.3) 60%, rgba(0,0,0,0) 100%) 1 100%;
   --note-blue-title-bg: #d6f7fb;
   --note-red-title-bg: #fde9e9;
   --note-cyan-title-bg: #e9fdf9;
@@ -4514,6 +4702,7 @@ pre .deletion {
   --note-type-title-bg: #fdf3e9;
   --note-black-title-bg: #e9e9e9;
   --note-purple-title-bg: #f9e9fd;
+  --first-screen-img: url("/images/first_screen_light.jpg");
   --first-screen-text-color: #fff;
   --first-screen-icons-container-border-color: rgba(255,255,255,0.35);
   --first-screen-icons-container-background-color: rgba(255,255,255,0.3);
@@ -4534,6 +4723,7 @@ pre .deletion {
   --third-text-color: #9595a2;
   --fourth-text-color: #242429;
   --default-text-color: #bebec6;
+  --invert-text-color: #373d3f;
   --border-color: #4a4c53;
   --selection-color: #0068a6;
   --shadow-color-1: rgba(255,255,255,0.08);
@@ -4546,6 +4736,7 @@ pre .deletion {
   --copyright-info-color: #a30029;
   --avatar-background-color: #005cb8;
   --pjax-progress-bar-color: linear-gradient(45deg, #ea404a, #ea722f, #e9a71f, #67e559, #18ecec, #1b85f1, #ee1dee);
+  --archive-timeline-last-child-color: linear-gradient(to bottom, rgba(180,180,180,0.3) 60%, rgba(255,255,255,0) 100%) 1 100%;
   --note-blue-title-bg: #1e3e46;
   --note-red-title-bg: #4e1e1e;
   --note-cyan-title-bg: #1e4e4e;
@@ -4555,6 +4746,7 @@ pre .deletion {
   --note-type-title-bg: #4e3a1e;
   --note-black-title-bg: #1e1e1e;
   --note-purple-title-bg: #4e1e4e;
+  --first-screen-img: url("/images/first_screen_dark.jpg");
   --first-screen-text-color: #000;
   --first-screen-icons-container-border-color: rgba(197,197,197,0.35);
   --first-screen-icons-container-background-color: rgba(197,197,197,0.3);
@@ -4600,6 +4792,9 @@ pre .deletion {
 @media (max-width: 500px) {
   .page-template-container {
     padding: 1.2rem 0.2rem;
+    box-shadow: none;
+  }
+  .page-template-container:hover {
     box-shadow: none;
   }
 }
@@ -4741,17 +4936,74 @@ pre .deletion {
   text-overflow: ellipsis;
   white-space: nowrap;
 }
+.page-template-container .essays-container {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+.page-template-container .essays-container .essays-title {
+  color: var(--second-text-color);
+  margin-top: -10px;
+}
+.page-template-container .essays-container .essays-title .article-title-regular {
+  font-size: 3rem;
+  line-height: 1;
+  font-weight: bold;
+  color: var(--second-text-color);
+  margin-top: 15px;
+}
+.page-template-container .essays-container .essays-list {
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 1rem;
+}
+.page-template-container .essays-container .essays-list .essay-item {
+  box-sizing: border-box;
+  position: relative;
+  width: 100%;
+  margin-bottom: 1rem;
+  display: flex;
+}
+.page-template-container .essays-container .essays-list .essay-item p {
+  margin: 0;
+}
+.page-template-container .essays-container .essays-list .essay-item .essay-avatar {
+  width: 40px;
+  height: 40px;
+  margin-right: 1rem;
+}
+.page-template-container .essays-container .essays-list .essay-item .essay-avatar img {
+  width: 40px;
+  height: 40px;
+  border-radius: 9px;
+}
+.page-template-container .essays-container .essays-list .essay-item .essay-content {
+  color: var(--second-text-color);
+  margin-bottom: 0.5rem;
+  box-shadow: var(--redefine-box-shadow-flat);
+  padding: 0.8rem 1rem 0.5rem 1rem;
+  border-radius: 14px;
+}
+.page-template-container .essays-container .essays-list .essay-item .essay-content .content {
+  margin-bottom: 0.5rem;
+}
+.page-template-container .essays-container .essays-list .essay-item .essay-content .date {
+  border-top: 1px solid var(--third-background-color);
+  color: var(--third-text-color);
+  font-size: 0.8rem;
+}
 :root {
   --background-color: #fff;
   --background-color-transparent: rgba(255,255,255,0.6);
   --second-background-color: #fafafa;
-  --third-background-color: #f4f4f4;
+  --third-background-color: #f7f7f7;
   --primary-color: #005080;
   --first-text-color: #323739;
   --second-text-color: #343a3c;
   --third-text-color: #5c6669;
   --fourth-text-color: #eaeced;
   --default-text-color: #373d3f;
+  --invert-text-color: #bebec6;
   --border-color: #b3b3b3;
   --selection-color: #0068a6;
   --shadow-color-1: rgba(0,0,0,0.08);
@@ -4764,6 +5016,7 @@ pre .deletion {
   --copyright-info-color: #c03;
   --avatar-background-color: #06c;
   --pjax-progress-bar-color: linear-gradient(45deg, #f10006, #ef5b00, #e59c01, #19ca05, #00cab5, #0264c8, #c303c3);
+  --archive-timeline-last-child-color: linear-gradient(to bottom, rgba(0,0,0,0.3) 60%, rgba(0,0,0,0) 100%) 1 100%;
   --note-blue-title-bg: #d6f7fb;
   --note-red-title-bg: #fde9e9;
   --note-cyan-title-bg: #e9fdf9;
@@ -4773,6 +5026,7 @@ pre .deletion {
   --note-type-title-bg: #fdf3e9;
   --note-black-title-bg: #e9e9e9;
   --note-purple-title-bg: #f9e9fd;
+  --first-screen-img: url("/images/first_screen_light.jpg");
   --first-screen-text-color: #fff;
   --first-screen-icons-container-border-color: rgba(255,255,255,0.35);
   --first-screen-icons-container-background-color: rgba(255,255,255,0.3);
@@ -4787,13 +5041,14 @@ pre .deletion {
     --background-color: #fff;
     --background-color-transparent: rgba(255,255,255,0.6);
     --second-background-color: #fafafa;
-    --third-background-color: #f4f4f4;
+    --third-background-color: #f7f7f7;
     --primary-color: #005080;
     --first-text-color: #323739;
     --second-text-color: #343a3c;
     --third-text-color: #5c6669;
     --fourth-text-color: #eaeced;
     --default-text-color: #373d3f;
+    --invert-text-color: #bebec6;
     --border-color: #b3b3b3;
     --selection-color: #0068a6;
     --shadow-color-1: rgba(0,0,0,0.08);
@@ -4806,6 +5061,7 @@ pre .deletion {
     --copyright-info-color: #c03;
     --avatar-background-color: #06c;
     --pjax-progress-bar-color: linear-gradient(45deg, #f10006, #ef5b00, #e59c01, #19ca05, #00cab5, #0264c8, #c303c3);
+    --archive-timeline-last-child-color: linear-gradient(to bottom, rgba(0,0,0,0.3) 60%, rgba(0,0,0,0) 100%) 1 100%;
     --note-blue-title-bg: #d6f7fb;
     --note-red-title-bg: #fde9e9;
     --note-cyan-title-bg: #e9fdf9;
@@ -4815,6 +5071,7 @@ pre .deletion {
     --note-type-title-bg: #fdf3e9;
     --note-black-title-bg: #e9e9e9;
     --note-purple-title-bg: #f9e9fd;
+    --first-screen-img: url("/images/first_screen_light.jpg");
     --first-screen-text-color: #fff;
     --first-screen-icons-container-border-color: rgba(255,255,255,0.35);
     --first-screen-icons-container-background-color: rgba(255,255,255,0.3);
@@ -4837,6 +5094,7 @@ pre .deletion {
     --third-text-color: #9595a2;
     --fourth-text-color: #242429;
     --default-text-color: #bebec6;
+    --invert-text-color: #373d3f;
     --border-color: #4a4c53;
     --selection-color: #0068a6;
     --shadow-color-1: rgba(255,255,255,0.08);
@@ -4849,6 +5107,7 @@ pre .deletion {
     --copyright-info-color: #a30029;
     --avatar-background-color: #005cb8;
     --pjax-progress-bar-color: linear-gradient(45deg, #ea404a, #ea722f, #e9a71f, #67e559, #18ecec, #1b85f1, #ee1dee);
+    --archive-timeline-last-child-color: linear-gradient(to bottom, rgba(180,180,180,0.3) 60%, rgba(255,255,255,0) 100%) 1 100%;
     --note-blue-title-bg: #1e3e46;
     --note-red-title-bg: #4e1e1e;
     --note-cyan-title-bg: #1e4e4e;
@@ -4858,6 +5117,7 @@ pre .deletion {
     --note-type-title-bg: #4e3a1e;
     --note-black-title-bg: #1e1e1e;
     --note-purple-title-bg: #4e1e4e;
+    --first-screen-img: url("/images/first_screen_dark.jpg");
     --first-screen-text-color: #000;
     --first-screen-icons-container-border-color: rgba(197,197,197,0.35);
     --first-screen-icons-container-background-color: rgba(197,197,197,0.3);
@@ -4872,13 +5132,14 @@ pre .deletion {
   --background-color: #fff;
   --background-color-transparent: rgba(255,255,255,0.6);
   --second-background-color: #fafafa;
-  --third-background-color: #f4f4f4;
+  --third-background-color: #f7f7f7;
   --primary-color: #005080;
   --first-text-color: #323739;
   --second-text-color: #343a3c;
   --third-text-color: #5c6669;
   --fourth-text-color: #eaeced;
   --default-text-color: #373d3f;
+  --invert-text-color: #bebec6;
   --border-color: #b3b3b3;
   --selection-color: #0068a6;
   --shadow-color-1: rgba(0,0,0,0.08);
@@ -4891,6 +5152,7 @@ pre .deletion {
   --copyright-info-color: #c03;
   --avatar-background-color: #06c;
   --pjax-progress-bar-color: linear-gradient(45deg, #f10006, #ef5b00, #e59c01, #19ca05, #00cab5, #0264c8, #c303c3);
+  --archive-timeline-last-child-color: linear-gradient(to bottom, rgba(0,0,0,0.3) 60%, rgba(0,0,0,0) 100%) 1 100%;
   --note-blue-title-bg: #d6f7fb;
   --note-red-title-bg: #fde9e9;
   --note-cyan-title-bg: #e9fdf9;
@@ -4900,6 +5162,7 @@ pre .deletion {
   --note-type-title-bg: #fdf3e9;
   --note-black-title-bg: #e9e9e9;
   --note-purple-title-bg: #f9e9fd;
+  --first-screen-img: url("/images/first_screen_light.jpg");
   --first-screen-text-color: #fff;
   --first-screen-icons-container-border-color: rgba(255,255,255,0.35);
   --first-screen-icons-container-background-color: rgba(255,255,255,0.3);
@@ -4920,6 +5183,7 @@ pre .deletion {
   --third-text-color: #9595a2;
   --fourth-text-color: #242429;
   --default-text-color: #bebec6;
+  --invert-text-color: #373d3f;
   --border-color: #4a4c53;
   --selection-color: #0068a6;
   --shadow-color-1: rgba(255,255,255,0.08);
@@ -4932,6 +5196,7 @@ pre .deletion {
   --copyright-info-color: #a30029;
   --avatar-background-color: #005cb8;
   --pjax-progress-bar-color: linear-gradient(45deg, #ea404a, #ea722f, #e9a71f, #67e559, #18ecec, #1b85f1, #ee1dee);
+  --archive-timeline-last-child-color: linear-gradient(to bottom, rgba(180,180,180,0.3) 60%, rgba(255,255,255,0) 100%) 1 100%;
   --note-blue-title-bg: #1e3e46;
   --note-red-title-bg: #4e1e1e;
   --note-cyan-title-bg: #1e4e4e;
@@ -4941,6 +5206,7 @@ pre .deletion {
   --note-type-title-bg: #4e3a1e;
   --note-black-title-bg: #1e1e1e;
   --note-purple-title-bg: #4e1e4e;
+  --first-screen-img: url("/images/first_screen_dark.jpg");
   --first-screen-text-color: #000;
   --first-screen-icons-container-border-color: rgba(197,197,197,0.35);
   --first-screen-icons-container-background-color: rgba(197,197,197,0.3);
@@ -4957,19 +5223,9 @@ pre .deletion {
   width: 100%;
   min-height: 100vh;
   overflow: hidden;
-  background: url("$first-screen-img") center center/cover no-repeat;
+  background: var(--first-screen-img) center center/cover no-repeat;
   background-size: cover;
   will-change: transform;
-}
-@media (max-width: 780px) {
-  .first-screen-container {
-    background-position-y: 63px;
-  }
-}
-@media (max-width: 500px) {
-  .first-screen-container {
-    background-position-y: 56px;
-  }
 }
 .first-screen-container .content {
   position: relative;
@@ -4977,15 +5233,28 @@ pre .deletion {
   min-height: 90vh;
 }
 .first-screen-container .content .description {
+  width: 100vw;
   font-weight: bold;
-  font-size: 2rem;
-  line-height: 1.8;
+  font-size: 2.8rem;
+  line-height: 1.2;
   text-align: center;
   color: var(--first-screen-text-color);
 }
+.first-screen-container .content .description p {
+  margin: 0;
+  opacity: 0.9;
+  font-family: "Optima", sans-serif;
+}
+.first-screen-container .content .description p i {
+  font-size: 1.5rem;
+  font-style: normal;
+}
+.first-screen-container .content .description p span {
+  font-size: 1.575rem;
+}
 @media (max-width: 780px) {
   .first-screen-container .content .description {
-    font-size: 1.8rem;
+    font-size: 2.52rem;
   }
 }
 .first-screen-container .content .social-contacts {
@@ -5014,22 +5283,6 @@ pre .deletion {
 }
 .first-screen-container .content .social-contacts .social-contact-item:last-child {
   margin-right: 0;
-}
-@media (prefers-color-scheme: light) {
-  .first-screen-container {
-    background: url("/images/first_screen_light.jpg") center center/cover no-repeat !important;
-  }
-}
-@media (prefers-color-scheme: dark) {
-  .first-screen-container {
-    background: url("/images/first_screen_dark.jpg") center center/cover no-repeat !important;
-  }
-}
-.light-mode .first-screen-container {
-  background: url("/images/first_screen_light.jpg") center center/cover no-repeat !important;
-}
-.dark-mode .first-screen-container {
-  background: url("/images/first_screen_dark.jpg") center center/cover no-repeat !important;
 }
 .image-viewer-container {
   position: fixed;
@@ -5125,13 +5378,14 @@ pre .deletion {
   --background-color: #fff;
   --background-color-transparent: rgba(255,255,255,0.6);
   --second-background-color: #fafafa;
-  --third-background-color: #f4f4f4;
+  --third-background-color: #f7f7f7;
   --primary-color: #005080;
   --first-text-color: #323739;
   --second-text-color: #343a3c;
   --third-text-color: #5c6669;
   --fourth-text-color: #eaeced;
   --default-text-color: #373d3f;
+  --invert-text-color: #bebec6;
   --border-color: #b3b3b3;
   --selection-color: #0068a6;
   --shadow-color-1: rgba(0,0,0,0.08);
@@ -5144,6 +5398,7 @@ pre .deletion {
   --copyright-info-color: #c03;
   --avatar-background-color: #06c;
   --pjax-progress-bar-color: linear-gradient(45deg, #f10006, #ef5b00, #e59c01, #19ca05, #00cab5, #0264c8, #c303c3);
+  --archive-timeline-last-child-color: linear-gradient(to bottom, rgba(0,0,0,0.3) 60%, rgba(0,0,0,0) 100%) 1 100%;
   --note-blue-title-bg: #d6f7fb;
   --note-red-title-bg: #fde9e9;
   --note-cyan-title-bg: #e9fdf9;
@@ -5153,6 +5408,7 @@ pre .deletion {
   --note-type-title-bg: #fdf3e9;
   --note-black-title-bg: #e9e9e9;
   --note-purple-title-bg: #f9e9fd;
+  --first-screen-img: url("/images/first_screen_light.jpg");
   --first-screen-text-color: #fff;
   --first-screen-icons-container-border-color: rgba(255,255,255,0.35);
   --first-screen-icons-container-background-color: rgba(255,255,255,0.3);
@@ -5167,13 +5423,14 @@ pre .deletion {
     --background-color: #fff;
     --background-color-transparent: rgba(255,255,255,0.6);
     --second-background-color: #fafafa;
-    --third-background-color: #f4f4f4;
+    --third-background-color: #f7f7f7;
     --primary-color: #005080;
     --first-text-color: #323739;
     --second-text-color: #343a3c;
     --third-text-color: #5c6669;
     --fourth-text-color: #eaeced;
     --default-text-color: #373d3f;
+    --invert-text-color: #bebec6;
     --border-color: #b3b3b3;
     --selection-color: #0068a6;
     --shadow-color-1: rgba(0,0,0,0.08);
@@ -5186,6 +5443,7 @@ pre .deletion {
     --copyright-info-color: #c03;
     --avatar-background-color: #06c;
     --pjax-progress-bar-color: linear-gradient(45deg, #f10006, #ef5b00, #e59c01, #19ca05, #00cab5, #0264c8, #c303c3);
+    --archive-timeline-last-child-color: linear-gradient(to bottom, rgba(0,0,0,0.3) 60%, rgba(0,0,0,0) 100%) 1 100%;
     --note-blue-title-bg: #d6f7fb;
     --note-red-title-bg: #fde9e9;
     --note-cyan-title-bg: #e9fdf9;
@@ -5195,6 +5453,7 @@ pre .deletion {
     --note-type-title-bg: #fdf3e9;
     --note-black-title-bg: #e9e9e9;
     --note-purple-title-bg: #f9e9fd;
+    --first-screen-img: url("/images/first_screen_light.jpg");
     --first-screen-text-color: #fff;
     --first-screen-icons-container-border-color: rgba(255,255,255,0.35);
     --first-screen-icons-container-background-color: rgba(255,255,255,0.3);
@@ -5217,6 +5476,7 @@ pre .deletion {
     --third-text-color: #9595a2;
     --fourth-text-color: #242429;
     --default-text-color: #bebec6;
+    --invert-text-color: #373d3f;
     --border-color: #4a4c53;
     --selection-color: #0068a6;
     --shadow-color-1: rgba(255,255,255,0.08);
@@ -5229,6 +5489,7 @@ pre .deletion {
     --copyright-info-color: #a30029;
     --avatar-background-color: #005cb8;
     --pjax-progress-bar-color: linear-gradient(45deg, #ea404a, #ea722f, #e9a71f, #67e559, #18ecec, #1b85f1, #ee1dee);
+    --archive-timeline-last-child-color: linear-gradient(to bottom, rgba(180,180,180,0.3) 60%, rgba(255,255,255,0) 100%) 1 100%;
     --note-blue-title-bg: #1e3e46;
     --note-red-title-bg: #4e1e1e;
     --note-cyan-title-bg: #1e4e4e;
@@ -5238,6 +5499,7 @@ pre .deletion {
     --note-type-title-bg: #4e3a1e;
     --note-black-title-bg: #1e1e1e;
     --note-purple-title-bg: #4e1e4e;
+    --first-screen-img: url("/images/first_screen_dark.jpg");
     --first-screen-text-color: #000;
     --first-screen-icons-container-border-color: rgba(197,197,197,0.35);
     --first-screen-icons-container-background-color: rgba(197,197,197,0.3);
@@ -5252,13 +5514,14 @@ pre .deletion {
   --background-color: #fff;
   --background-color-transparent: rgba(255,255,255,0.6);
   --second-background-color: #fafafa;
-  --third-background-color: #f4f4f4;
+  --third-background-color: #f7f7f7;
   --primary-color: #005080;
   --first-text-color: #323739;
   --second-text-color: #343a3c;
   --third-text-color: #5c6669;
   --fourth-text-color: #eaeced;
   --default-text-color: #373d3f;
+  --invert-text-color: #bebec6;
   --border-color: #b3b3b3;
   --selection-color: #0068a6;
   --shadow-color-1: rgba(0,0,0,0.08);
@@ -5271,6 +5534,7 @@ pre .deletion {
   --copyright-info-color: #c03;
   --avatar-background-color: #06c;
   --pjax-progress-bar-color: linear-gradient(45deg, #f10006, #ef5b00, #e59c01, #19ca05, #00cab5, #0264c8, #c303c3);
+  --archive-timeline-last-child-color: linear-gradient(to bottom, rgba(0,0,0,0.3) 60%, rgba(0,0,0,0) 100%) 1 100%;
   --note-blue-title-bg: #d6f7fb;
   --note-red-title-bg: #fde9e9;
   --note-cyan-title-bg: #e9fdf9;
@@ -5280,6 +5544,7 @@ pre .deletion {
   --note-type-title-bg: #fdf3e9;
   --note-black-title-bg: #e9e9e9;
   --note-purple-title-bg: #f9e9fd;
+  --first-screen-img: url("/images/first_screen_light.jpg");
   --first-screen-text-color: #fff;
   --first-screen-icons-container-border-color: rgba(255,255,255,0.35);
   --first-screen-icons-container-background-color: rgba(255,255,255,0.3);
@@ -5300,6 +5565,7 @@ pre .deletion {
   --third-text-color: #9595a2;
   --fourth-text-color: #242429;
   --default-text-color: #bebec6;
+  --invert-text-color: #373d3f;
   --border-color: #4a4c53;
   --selection-color: #0068a6;
   --shadow-color-1: rgba(255,255,255,0.08);
@@ -5312,6 +5578,7 @@ pre .deletion {
   --copyright-info-color: #a30029;
   --avatar-background-color: #005cb8;
   --pjax-progress-bar-color: linear-gradient(45deg, #ea404a, #ea722f, #e9a71f, #67e559, #18ecec, #1b85f1, #ee1dee);
+  --archive-timeline-last-child-color: linear-gradient(to bottom, rgba(180,180,180,0.3) 60%, rgba(255,255,255,0) 100%) 1 100%;
   --note-blue-title-bg: #1e3e46;
   --note-red-title-bg: #4e1e1e;
   --note-cyan-title-bg: #1e4e4e;
@@ -5321,6 +5588,7 @@ pre .deletion {
   --note-type-title-bg: #4e3a1e;
   --note-black-title-bg: #1e1e1e;
   --note-purple-title-bg: #4e1e4e;
+  --first-screen-img: url("/images/first_screen_dark.jpg");
   --first-screen-text-color: #000;
   --first-screen-icons-container-border-color: rgba(197,197,197,0.35);
   --first-screen-icons-container-background-color: rgba(197,197,197,0.3);
@@ -5440,13 +5708,14 @@ pre .deletion {
   --background-color: #fff;
   --background-color-transparent: rgba(255,255,255,0.6);
   --second-background-color: #fafafa;
-  --third-background-color: #f4f4f4;
+  --third-background-color: #f7f7f7;
   --primary-color: #005080;
   --first-text-color: #323739;
   --second-text-color: #343a3c;
   --third-text-color: #5c6669;
   --fourth-text-color: #eaeced;
   --default-text-color: #373d3f;
+  --invert-text-color: #bebec6;
   --border-color: #b3b3b3;
   --selection-color: #0068a6;
   --shadow-color-1: rgba(0,0,0,0.08);
@@ -5459,6 +5728,7 @@ pre .deletion {
   --copyright-info-color: #c03;
   --avatar-background-color: #06c;
   --pjax-progress-bar-color: linear-gradient(45deg, #f10006, #ef5b00, #e59c01, #19ca05, #00cab5, #0264c8, #c303c3);
+  --archive-timeline-last-child-color: linear-gradient(to bottom, rgba(0,0,0,0.3) 60%, rgba(0,0,0,0) 100%) 1 100%;
   --note-blue-title-bg: #d6f7fb;
   --note-red-title-bg: #fde9e9;
   --note-cyan-title-bg: #e9fdf9;
@@ -5468,6 +5738,7 @@ pre .deletion {
   --note-type-title-bg: #fdf3e9;
   --note-black-title-bg: #e9e9e9;
   --note-purple-title-bg: #f9e9fd;
+  --first-screen-img: url("/images/first_screen_light.jpg");
   --first-screen-text-color: #fff;
   --first-screen-icons-container-border-color: rgba(255,255,255,0.35);
   --first-screen-icons-container-background-color: rgba(255,255,255,0.3);
@@ -5482,13 +5753,14 @@ pre .deletion {
     --background-color: #fff;
     --background-color-transparent: rgba(255,255,255,0.6);
     --second-background-color: #fafafa;
-    --third-background-color: #f4f4f4;
+    --third-background-color: #f7f7f7;
     --primary-color: #005080;
     --first-text-color: #323739;
     --second-text-color: #343a3c;
     --third-text-color: #5c6669;
     --fourth-text-color: #eaeced;
     --default-text-color: #373d3f;
+    --invert-text-color: #bebec6;
     --border-color: #b3b3b3;
     --selection-color: #0068a6;
     --shadow-color-1: rgba(0,0,0,0.08);
@@ -5501,6 +5773,7 @@ pre .deletion {
     --copyright-info-color: #c03;
     --avatar-background-color: #06c;
     --pjax-progress-bar-color: linear-gradient(45deg, #f10006, #ef5b00, #e59c01, #19ca05, #00cab5, #0264c8, #c303c3);
+    --archive-timeline-last-child-color: linear-gradient(to bottom, rgba(0,0,0,0.3) 60%, rgba(0,0,0,0) 100%) 1 100%;
     --note-blue-title-bg: #d6f7fb;
     --note-red-title-bg: #fde9e9;
     --note-cyan-title-bg: #e9fdf9;
@@ -5510,6 +5783,7 @@ pre .deletion {
     --note-type-title-bg: #fdf3e9;
     --note-black-title-bg: #e9e9e9;
     --note-purple-title-bg: #f9e9fd;
+    --first-screen-img: url("/images/first_screen_light.jpg");
     --first-screen-text-color: #fff;
     --first-screen-icons-container-border-color: rgba(255,255,255,0.35);
     --first-screen-icons-container-background-color: rgba(255,255,255,0.3);
@@ -5532,6 +5806,7 @@ pre .deletion {
     --third-text-color: #9595a2;
     --fourth-text-color: #242429;
     --default-text-color: #bebec6;
+    --invert-text-color: #373d3f;
     --border-color: #4a4c53;
     --selection-color: #0068a6;
     --shadow-color-1: rgba(255,255,255,0.08);
@@ -5544,6 +5819,7 @@ pre .deletion {
     --copyright-info-color: #a30029;
     --avatar-background-color: #005cb8;
     --pjax-progress-bar-color: linear-gradient(45deg, #ea404a, #ea722f, #e9a71f, #67e559, #18ecec, #1b85f1, #ee1dee);
+    --archive-timeline-last-child-color: linear-gradient(to bottom, rgba(180,180,180,0.3) 60%, rgba(255,255,255,0) 100%) 1 100%;
     --note-blue-title-bg: #1e3e46;
     --note-red-title-bg: #4e1e1e;
     --note-cyan-title-bg: #1e4e4e;
@@ -5553,6 +5829,7 @@ pre .deletion {
     --note-type-title-bg: #4e3a1e;
     --note-black-title-bg: #1e1e1e;
     --note-purple-title-bg: #4e1e4e;
+    --first-screen-img: url("/images/first_screen_dark.jpg");
     --first-screen-text-color: #000;
     --first-screen-icons-container-border-color: rgba(197,197,197,0.35);
     --first-screen-icons-container-background-color: rgba(197,197,197,0.3);
@@ -5567,13 +5844,14 @@ pre .deletion {
   --background-color: #fff;
   --background-color-transparent: rgba(255,255,255,0.6);
   --second-background-color: #fafafa;
-  --third-background-color: #f4f4f4;
+  --third-background-color: #f7f7f7;
   --primary-color: #005080;
   --first-text-color: #323739;
   --second-text-color: #343a3c;
   --third-text-color: #5c6669;
   --fourth-text-color: #eaeced;
   --default-text-color: #373d3f;
+  --invert-text-color: #bebec6;
   --border-color: #b3b3b3;
   --selection-color: #0068a6;
   --shadow-color-1: rgba(0,0,0,0.08);
@@ -5586,6 +5864,7 @@ pre .deletion {
   --copyright-info-color: #c03;
   --avatar-background-color: #06c;
   --pjax-progress-bar-color: linear-gradient(45deg, #f10006, #ef5b00, #e59c01, #19ca05, #00cab5, #0264c8, #c303c3);
+  --archive-timeline-last-child-color: linear-gradient(to bottom, rgba(0,0,0,0.3) 60%, rgba(0,0,0,0) 100%) 1 100%;
   --note-blue-title-bg: #d6f7fb;
   --note-red-title-bg: #fde9e9;
   --note-cyan-title-bg: #e9fdf9;
@@ -5595,6 +5874,7 @@ pre .deletion {
   --note-type-title-bg: #fdf3e9;
   --note-black-title-bg: #e9e9e9;
   --note-purple-title-bg: #f9e9fd;
+  --first-screen-img: url("/images/first_screen_light.jpg");
   --first-screen-text-color: #fff;
   --first-screen-icons-container-border-color: rgba(255,255,255,0.35);
   --first-screen-icons-container-background-color: rgba(255,255,255,0.3);
@@ -5615,6 +5895,7 @@ pre .deletion {
   --third-text-color: #9595a2;
   --fourth-text-color: #242429;
   --default-text-color: #bebec6;
+  --invert-text-color: #373d3f;
   --border-color: #4a4c53;
   --selection-color: #0068a6;
   --shadow-color-1: rgba(255,255,255,0.08);
@@ -5627,6 +5908,7 @@ pre .deletion {
   --copyright-info-color: #a30029;
   --avatar-background-color: #005cb8;
   --pjax-progress-bar-color: linear-gradient(45deg, #ea404a, #ea722f, #e9a71f, #67e559, #18ecec, #1b85f1, #ee1dee);
+  --archive-timeline-last-child-color: linear-gradient(to bottom, rgba(180,180,180,0.3) 60%, rgba(255,255,255,0) 100%) 1 100%;
   --note-blue-title-bg: #1e3e46;
   --note-red-title-bg: #4e1e1e;
   --note-cyan-title-bg: #1e4e4e;
@@ -5636,6 +5918,7 @@ pre .deletion {
   --note-type-title-bg: #4e3a1e;
   --note-black-title-bg: #1e1e1e;
   --note-purple-title-bg: #4e1e4e;
+  --first-screen-img: url("/images/first_screen_dark.jpg");
   --first-screen-text-color: #000;
   --first-screen-icons-container-border-color: rgba(197,197,197,0.35);
   --first-screen-icons-container-background-color: rgba(197,197,197,0.3);
@@ -5845,13 +6128,14 @@ pre .deletion {
   --background-color: #fff;
   --background-color-transparent: rgba(255,255,255,0.6);
   --second-background-color: #fafafa;
-  --third-background-color: #f4f4f4;
+  --third-background-color: #f7f7f7;
   --primary-color: #005080;
   --first-text-color: #323739;
   --second-text-color: #343a3c;
   --third-text-color: #5c6669;
   --fourth-text-color: #eaeced;
   --default-text-color: #373d3f;
+  --invert-text-color: #bebec6;
   --border-color: #b3b3b3;
   --selection-color: #0068a6;
   --shadow-color-1: rgba(0,0,0,0.08);
@@ -5864,6 +6148,7 @@ pre .deletion {
   --copyright-info-color: #c03;
   --avatar-background-color: #06c;
   --pjax-progress-bar-color: linear-gradient(45deg, #f10006, #ef5b00, #e59c01, #19ca05, #00cab5, #0264c8, #c303c3);
+  --archive-timeline-last-child-color: linear-gradient(to bottom, rgba(0,0,0,0.3) 60%, rgba(0,0,0,0) 100%) 1 100%;
   --note-blue-title-bg: #d6f7fb;
   --note-red-title-bg: #fde9e9;
   --note-cyan-title-bg: #e9fdf9;
@@ -5873,6 +6158,7 @@ pre .deletion {
   --note-type-title-bg: #fdf3e9;
   --note-black-title-bg: #e9e9e9;
   --note-purple-title-bg: #f9e9fd;
+  --first-screen-img: url("/images/first_screen_light.jpg");
   --first-screen-text-color: #fff;
   --first-screen-icons-container-border-color: rgba(255,255,255,0.35);
   --first-screen-icons-container-background-color: rgba(255,255,255,0.3);
@@ -5887,13 +6173,14 @@ pre .deletion {
     --background-color: #fff;
     --background-color-transparent: rgba(255,255,255,0.6);
     --second-background-color: #fafafa;
-    --third-background-color: #f4f4f4;
+    --third-background-color: #f7f7f7;
     --primary-color: #005080;
     --first-text-color: #323739;
     --second-text-color: #343a3c;
     --third-text-color: #5c6669;
     --fourth-text-color: #eaeced;
     --default-text-color: #373d3f;
+    --invert-text-color: #bebec6;
     --border-color: #b3b3b3;
     --selection-color: #0068a6;
     --shadow-color-1: rgba(0,0,0,0.08);
@@ -5906,6 +6193,7 @@ pre .deletion {
     --copyright-info-color: #c03;
     --avatar-background-color: #06c;
     --pjax-progress-bar-color: linear-gradient(45deg, #f10006, #ef5b00, #e59c01, #19ca05, #00cab5, #0264c8, #c303c3);
+    --archive-timeline-last-child-color: linear-gradient(to bottom, rgba(0,0,0,0.3) 60%, rgba(0,0,0,0) 100%) 1 100%;
     --note-blue-title-bg: #d6f7fb;
     --note-red-title-bg: #fde9e9;
     --note-cyan-title-bg: #e9fdf9;
@@ -5915,6 +6203,7 @@ pre .deletion {
     --note-type-title-bg: #fdf3e9;
     --note-black-title-bg: #e9e9e9;
     --note-purple-title-bg: #f9e9fd;
+    --first-screen-img: url("/images/first_screen_light.jpg");
     --first-screen-text-color: #fff;
     --first-screen-icons-container-border-color: rgba(255,255,255,0.35);
     --first-screen-icons-container-background-color: rgba(255,255,255,0.3);
@@ -5937,6 +6226,7 @@ pre .deletion {
     --third-text-color: #9595a2;
     --fourth-text-color: #242429;
     --default-text-color: #bebec6;
+    --invert-text-color: #373d3f;
     --border-color: #4a4c53;
     --selection-color: #0068a6;
     --shadow-color-1: rgba(255,255,255,0.08);
@@ -5949,6 +6239,7 @@ pre .deletion {
     --copyright-info-color: #a30029;
     --avatar-background-color: #005cb8;
     --pjax-progress-bar-color: linear-gradient(45deg, #ea404a, #ea722f, #e9a71f, #67e559, #18ecec, #1b85f1, #ee1dee);
+    --archive-timeline-last-child-color: linear-gradient(to bottom, rgba(180,180,180,0.3) 60%, rgba(255,255,255,0) 100%) 1 100%;
     --note-blue-title-bg: #1e3e46;
     --note-red-title-bg: #4e1e1e;
     --note-cyan-title-bg: #1e4e4e;
@@ -5958,6 +6249,7 @@ pre .deletion {
     --note-type-title-bg: #4e3a1e;
     --note-black-title-bg: #1e1e1e;
     --note-purple-title-bg: #4e1e4e;
+    --first-screen-img: url("/images/first_screen_dark.jpg");
     --first-screen-text-color: #000;
     --first-screen-icons-container-border-color: rgba(197,197,197,0.35);
     --first-screen-icons-container-background-color: rgba(197,197,197,0.3);
@@ -5972,13 +6264,14 @@ pre .deletion {
   --background-color: #fff;
   --background-color-transparent: rgba(255,255,255,0.6);
   --second-background-color: #fafafa;
-  --third-background-color: #f4f4f4;
+  --third-background-color: #f7f7f7;
   --primary-color: #005080;
   --first-text-color: #323739;
   --second-text-color: #343a3c;
   --third-text-color: #5c6669;
   --fourth-text-color: #eaeced;
   --default-text-color: #373d3f;
+  --invert-text-color: #bebec6;
   --border-color: #b3b3b3;
   --selection-color: #0068a6;
   --shadow-color-1: rgba(0,0,0,0.08);
@@ -5991,6 +6284,7 @@ pre .deletion {
   --copyright-info-color: #c03;
   --avatar-background-color: #06c;
   --pjax-progress-bar-color: linear-gradient(45deg, #f10006, #ef5b00, #e59c01, #19ca05, #00cab5, #0264c8, #c303c3);
+  --archive-timeline-last-child-color: linear-gradient(to bottom, rgba(0,0,0,0.3) 60%, rgba(0,0,0,0) 100%) 1 100%;
   --note-blue-title-bg: #d6f7fb;
   --note-red-title-bg: #fde9e9;
   --note-cyan-title-bg: #e9fdf9;
@@ -6000,6 +6294,7 @@ pre .deletion {
   --note-type-title-bg: #fdf3e9;
   --note-black-title-bg: #e9e9e9;
   --note-purple-title-bg: #f9e9fd;
+  --first-screen-img: url("/images/first_screen_light.jpg");
   --first-screen-text-color: #fff;
   --first-screen-icons-container-border-color: rgba(255,255,255,0.35);
   --first-screen-icons-container-background-color: rgba(255,255,255,0.3);
@@ -6020,6 +6315,7 @@ pre .deletion {
   --third-text-color: #9595a2;
   --fourth-text-color: #242429;
   --default-text-color: #bebec6;
+  --invert-text-color: #373d3f;
   --border-color: #4a4c53;
   --selection-color: #0068a6;
   --shadow-color-1: rgba(255,255,255,0.08);
@@ -6032,6 +6328,7 @@ pre .deletion {
   --copyright-info-color: #a30029;
   --avatar-background-color: #005cb8;
   --pjax-progress-bar-color: linear-gradient(45deg, #ea404a, #ea722f, #e9a71f, #67e559, #18ecec, #1b85f1, #ee1dee);
+  --archive-timeline-last-child-color: linear-gradient(to bottom, rgba(180,180,180,0.3) 60%, rgba(255,255,255,0) 100%) 1 100%;
   --note-blue-title-bg: #1e3e46;
   --note-red-title-bg: #4e1e1e;
   --note-cyan-title-bg: #1e4e4e;
@@ -6041,6 +6338,7 @@ pre .deletion {
   --note-type-title-bg: #4e3a1e;
   --note-black-title-bg: #1e1e1e;
   --note-purple-title-bg: #4e1e4e;
+  --first-screen-img: url("/images/first_screen_dark.jpg");
   --first-screen-text-color: #000;
   --first-screen-icons-container-border-color: rgba(197,197,197,0.35);
   --first-screen-icons-container-background-color: rgba(197,197,197,0.3);
@@ -6137,7 +6435,7 @@ pre .deletion {
 @media (max-width: 500px) {
   .post-page-container .article-content-container {
     padding: 1.2rem 0.2rem;
-    box-shadow: none;
+    box-shadow: none !important;
   }
 }
 .post-page-container .article-content-container .article-title {
@@ -6530,13 +6828,14 @@ pre .deletion {
   --background-color: #fff;
   --background-color-transparent: rgba(255,255,255,0.6);
   --second-background-color: #fafafa;
-  --third-background-color: #f4f4f4;
+  --third-background-color: #f7f7f7;
   --primary-color: #005080;
   --first-text-color: #323739;
   --second-text-color: #343a3c;
   --third-text-color: #5c6669;
   --fourth-text-color: #eaeced;
   --default-text-color: #373d3f;
+  --invert-text-color: #bebec6;
   --border-color: #b3b3b3;
   --selection-color: #0068a6;
   --shadow-color-1: rgba(0,0,0,0.08);
@@ -6549,6 +6848,7 @@ pre .deletion {
   --copyright-info-color: #c03;
   --avatar-background-color: #06c;
   --pjax-progress-bar-color: linear-gradient(45deg, #f10006, #ef5b00, #e59c01, #19ca05, #00cab5, #0264c8, #c303c3);
+  --archive-timeline-last-child-color: linear-gradient(to bottom, rgba(0,0,0,0.3) 60%, rgba(0,0,0,0) 100%) 1 100%;
   --note-blue-title-bg: #d6f7fb;
   --note-red-title-bg: #fde9e9;
   --note-cyan-title-bg: #e9fdf9;
@@ -6558,6 +6858,7 @@ pre .deletion {
   --note-type-title-bg: #fdf3e9;
   --note-black-title-bg: #e9e9e9;
   --note-purple-title-bg: #f9e9fd;
+  --first-screen-img: url("/images/first_screen_light.jpg");
   --first-screen-text-color: #fff;
   --first-screen-icons-container-border-color: rgba(255,255,255,0.35);
   --first-screen-icons-container-background-color: rgba(255,255,255,0.3);
@@ -6572,13 +6873,14 @@ pre .deletion {
     --background-color: #fff;
     --background-color-transparent: rgba(255,255,255,0.6);
     --second-background-color: #fafafa;
-    --third-background-color: #f4f4f4;
+    --third-background-color: #f7f7f7;
     --primary-color: #005080;
     --first-text-color: #323739;
     --second-text-color: #343a3c;
     --third-text-color: #5c6669;
     --fourth-text-color: #eaeced;
     --default-text-color: #373d3f;
+    --invert-text-color: #bebec6;
     --border-color: #b3b3b3;
     --selection-color: #0068a6;
     --shadow-color-1: rgba(0,0,0,0.08);
@@ -6591,6 +6893,7 @@ pre .deletion {
     --copyright-info-color: #c03;
     --avatar-background-color: #06c;
     --pjax-progress-bar-color: linear-gradient(45deg, #f10006, #ef5b00, #e59c01, #19ca05, #00cab5, #0264c8, #c303c3);
+    --archive-timeline-last-child-color: linear-gradient(to bottom, rgba(0,0,0,0.3) 60%, rgba(0,0,0,0) 100%) 1 100%;
     --note-blue-title-bg: #d6f7fb;
     --note-red-title-bg: #fde9e9;
     --note-cyan-title-bg: #e9fdf9;
@@ -6600,6 +6903,7 @@ pre .deletion {
     --note-type-title-bg: #fdf3e9;
     --note-black-title-bg: #e9e9e9;
     --note-purple-title-bg: #f9e9fd;
+    --first-screen-img: url("/images/first_screen_light.jpg");
     --first-screen-text-color: #fff;
     --first-screen-icons-container-border-color: rgba(255,255,255,0.35);
     --first-screen-icons-container-background-color: rgba(255,255,255,0.3);
@@ -6622,6 +6926,7 @@ pre .deletion {
     --third-text-color: #9595a2;
     --fourth-text-color: #242429;
     --default-text-color: #bebec6;
+    --invert-text-color: #373d3f;
     --border-color: #4a4c53;
     --selection-color: #0068a6;
     --shadow-color-1: rgba(255,255,255,0.08);
@@ -6634,6 +6939,7 @@ pre .deletion {
     --copyright-info-color: #a30029;
     --avatar-background-color: #005cb8;
     --pjax-progress-bar-color: linear-gradient(45deg, #ea404a, #ea722f, #e9a71f, #67e559, #18ecec, #1b85f1, #ee1dee);
+    --archive-timeline-last-child-color: linear-gradient(to bottom, rgba(180,180,180,0.3) 60%, rgba(255,255,255,0) 100%) 1 100%;
     --note-blue-title-bg: #1e3e46;
     --note-red-title-bg: #4e1e1e;
     --note-cyan-title-bg: #1e4e4e;
@@ -6643,6 +6949,7 @@ pre .deletion {
     --note-type-title-bg: #4e3a1e;
     --note-black-title-bg: #1e1e1e;
     --note-purple-title-bg: #4e1e4e;
+    --first-screen-img: url("/images/first_screen_dark.jpg");
     --first-screen-text-color: #000;
     --first-screen-icons-container-border-color: rgba(197,197,197,0.35);
     --first-screen-icons-container-background-color: rgba(197,197,197,0.3);
@@ -6657,13 +6964,14 @@ pre .deletion {
   --background-color: #fff;
   --background-color-transparent: rgba(255,255,255,0.6);
   --second-background-color: #fafafa;
-  --third-background-color: #f4f4f4;
+  --third-background-color: #f7f7f7;
   --primary-color: #005080;
   --first-text-color: #323739;
   --second-text-color: #343a3c;
   --third-text-color: #5c6669;
   --fourth-text-color: #eaeced;
   --default-text-color: #373d3f;
+  --invert-text-color: #bebec6;
   --border-color: #b3b3b3;
   --selection-color: #0068a6;
   --shadow-color-1: rgba(0,0,0,0.08);
@@ -6676,6 +6984,7 @@ pre .deletion {
   --copyright-info-color: #c03;
   --avatar-background-color: #06c;
   --pjax-progress-bar-color: linear-gradient(45deg, #f10006, #ef5b00, #e59c01, #19ca05, #00cab5, #0264c8, #c303c3);
+  --archive-timeline-last-child-color: linear-gradient(to bottom, rgba(0,0,0,0.3) 60%, rgba(0,0,0,0) 100%) 1 100%;
   --note-blue-title-bg: #d6f7fb;
   --note-red-title-bg: #fde9e9;
   --note-cyan-title-bg: #e9fdf9;
@@ -6685,6 +6994,7 @@ pre .deletion {
   --note-type-title-bg: #fdf3e9;
   --note-black-title-bg: #e9e9e9;
   --note-purple-title-bg: #f9e9fd;
+  --first-screen-img: url("/images/first_screen_light.jpg");
   --first-screen-text-color: #fff;
   --first-screen-icons-container-border-color: rgba(255,255,255,0.35);
   --first-screen-icons-container-background-color: rgba(255,255,255,0.3);
@@ -6705,6 +7015,7 @@ pre .deletion {
   --third-text-color: #9595a2;
   --fourth-text-color: #242429;
   --default-text-color: #bebec6;
+  --invert-text-color: #373d3f;
   --border-color: #4a4c53;
   --selection-color: #0068a6;
   --shadow-color-1: rgba(255,255,255,0.08);
@@ -6717,6 +7028,7 @@ pre .deletion {
   --copyright-info-color: #a30029;
   --avatar-background-color: #005cb8;
   --pjax-progress-bar-color: linear-gradient(45deg, #ea404a, #ea722f, #e9a71f, #67e559, #18ecec, #1b85f1, #ee1dee);
+  --archive-timeline-last-child-color: linear-gradient(to bottom, rgba(180,180,180,0.3) 60%, rgba(255,255,255,0) 100%) 1 100%;
   --note-blue-title-bg: #1e3e46;
   --note-red-title-bg: #4e1e1e;
   --note-cyan-title-bg: #1e4e4e;
@@ -6726,6 +7038,7 @@ pre .deletion {
   --note-type-title-bg: #4e3a1e;
   --note-black-title-bg: #1e1e1e;
   --note-purple-title-bg: #4e1e4e;
+  --first-screen-img: url("/images/first_screen_dark.jpg");
   --first-screen-text-color: #000;
   --first-screen-icons-container-border-color: rgba(197,197,197,0.35);
   --first-screen-icons-container-background-color: rgba(197,197,197,0.3);
@@ -6793,13 +7106,14 @@ pre .deletion {
   --background-color: #fff;
   --background-color-transparent: rgba(255,255,255,0.6);
   --second-background-color: #fafafa;
-  --third-background-color: #f4f4f4;
+  --third-background-color: #f7f7f7;
   --primary-color: #005080;
   --first-text-color: #323739;
   --second-text-color: #343a3c;
   --third-text-color: #5c6669;
   --fourth-text-color: #eaeced;
   --default-text-color: #373d3f;
+  --invert-text-color: #bebec6;
   --border-color: #b3b3b3;
   --selection-color: #0068a6;
   --shadow-color-1: rgba(0,0,0,0.08);
@@ -6812,6 +7126,7 @@ pre .deletion {
   --copyright-info-color: #c03;
   --avatar-background-color: #06c;
   --pjax-progress-bar-color: linear-gradient(45deg, #f10006, #ef5b00, #e59c01, #19ca05, #00cab5, #0264c8, #c303c3);
+  --archive-timeline-last-child-color: linear-gradient(to bottom, rgba(0,0,0,0.3) 60%, rgba(0,0,0,0) 100%) 1 100%;
   --note-blue-title-bg: #d6f7fb;
   --note-red-title-bg: #fde9e9;
   --note-cyan-title-bg: #e9fdf9;
@@ -6821,6 +7136,7 @@ pre .deletion {
   --note-type-title-bg: #fdf3e9;
   --note-black-title-bg: #e9e9e9;
   --note-purple-title-bg: #f9e9fd;
+  --first-screen-img: url("/images/first_screen_light.jpg");
   --first-screen-text-color: #fff;
   --first-screen-icons-container-border-color: rgba(255,255,255,0.35);
   --first-screen-icons-container-background-color: rgba(255,255,255,0.3);
@@ -6835,13 +7151,14 @@ pre .deletion {
     --background-color: #fff;
     --background-color-transparent: rgba(255,255,255,0.6);
     --second-background-color: #fafafa;
-    --third-background-color: #f4f4f4;
+    --third-background-color: #f7f7f7;
     --primary-color: #005080;
     --first-text-color: #323739;
     --second-text-color: #343a3c;
     --third-text-color: #5c6669;
     --fourth-text-color: #eaeced;
     --default-text-color: #373d3f;
+    --invert-text-color: #bebec6;
     --border-color: #b3b3b3;
     --selection-color: #0068a6;
     --shadow-color-1: rgba(0,0,0,0.08);
@@ -6854,6 +7171,7 @@ pre .deletion {
     --copyright-info-color: #c03;
     --avatar-background-color: #06c;
     --pjax-progress-bar-color: linear-gradient(45deg, #f10006, #ef5b00, #e59c01, #19ca05, #00cab5, #0264c8, #c303c3);
+    --archive-timeline-last-child-color: linear-gradient(to bottom, rgba(0,0,0,0.3) 60%, rgba(0,0,0,0) 100%) 1 100%;
     --note-blue-title-bg: #d6f7fb;
     --note-red-title-bg: #fde9e9;
     --note-cyan-title-bg: #e9fdf9;
@@ -6863,6 +7181,7 @@ pre .deletion {
     --note-type-title-bg: #fdf3e9;
     --note-black-title-bg: #e9e9e9;
     --note-purple-title-bg: #f9e9fd;
+    --first-screen-img: url("/images/first_screen_light.jpg");
     --first-screen-text-color: #fff;
     --first-screen-icons-container-border-color: rgba(255,255,255,0.35);
     --first-screen-icons-container-background-color: rgba(255,255,255,0.3);
@@ -6885,6 +7204,7 @@ pre .deletion {
     --third-text-color: #9595a2;
     --fourth-text-color: #242429;
     --default-text-color: #bebec6;
+    --invert-text-color: #373d3f;
     --border-color: #4a4c53;
     --selection-color: #0068a6;
     --shadow-color-1: rgba(255,255,255,0.08);
@@ -6897,6 +7217,7 @@ pre .deletion {
     --copyright-info-color: #a30029;
     --avatar-background-color: #005cb8;
     --pjax-progress-bar-color: linear-gradient(45deg, #ea404a, #ea722f, #e9a71f, #67e559, #18ecec, #1b85f1, #ee1dee);
+    --archive-timeline-last-child-color: linear-gradient(to bottom, rgba(180,180,180,0.3) 60%, rgba(255,255,255,0) 100%) 1 100%;
     --note-blue-title-bg: #1e3e46;
     --note-red-title-bg: #4e1e1e;
     --note-cyan-title-bg: #1e4e4e;
@@ -6906,6 +7227,7 @@ pre .deletion {
     --note-type-title-bg: #4e3a1e;
     --note-black-title-bg: #1e1e1e;
     --note-purple-title-bg: #4e1e4e;
+    --first-screen-img: url("/images/first_screen_dark.jpg");
     --first-screen-text-color: #000;
     --first-screen-icons-container-border-color: rgba(197,197,197,0.35);
     --first-screen-icons-container-background-color: rgba(197,197,197,0.3);
@@ -6920,13 +7242,14 @@ pre .deletion {
   --background-color: #fff;
   --background-color-transparent: rgba(255,255,255,0.6);
   --second-background-color: #fafafa;
-  --third-background-color: #f4f4f4;
+  --third-background-color: #f7f7f7;
   --primary-color: #005080;
   --first-text-color: #323739;
   --second-text-color: #343a3c;
   --third-text-color: #5c6669;
   --fourth-text-color: #eaeced;
   --default-text-color: #373d3f;
+  --invert-text-color: #bebec6;
   --border-color: #b3b3b3;
   --selection-color: #0068a6;
   --shadow-color-1: rgba(0,0,0,0.08);
@@ -6939,6 +7262,7 @@ pre .deletion {
   --copyright-info-color: #c03;
   --avatar-background-color: #06c;
   --pjax-progress-bar-color: linear-gradient(45deg, #f10006, #ef5b00, #e59c01, #19ca05, #00cab5, #0264c8, #c303c3);
+  --archive-timeline-last-child-color: linear-gradient(to bottom, rgba(0,0,0,0.3) 60%, rgba(0,0,0,0) 100%) 1 100%;
   --note-blue-title-bg: #d6f7fb;
   --note-red-title-bg: #fde9e9;
   --note-cyan-title-bg: #e9fdf9;
@@ -6948,6 +7272,7 @@ pre .deletion {
   --note-type-title-bg: #fdf3e9;
   --note-black-title-bg: #e9e9e9;
   --note-purple-title-bg: #f9e9fd;
+  --first-screen-img: url("/images/first_screen_light.jpg");
   --first-screen-text-color: #fff;
   --first-screen-icons-container-border-color: rgba(255,255,255,0.35);
   --first-screen-icons-container-background-color: rgba(255,255,255,0.3);
@@ -6968,6 +7293,7 @@ pre .deletion {
   --third-text-color: #9595a2;
   --fourth-text-color: #242429;
   --default-text-color: #bebec6;
+  --invert-text-color: #373d3f;
   --border-color: #4a4c53;
   --selection-color: #0068a6;
   --shadow-color-1: rgba(255,255,255,0.08);
@@ -6980,6 +7306,7 @@ pre .deletion {
   --copyright-info-color: #a30029;
   --avatar-background-color: #005cb8;
   --pjax-progress-bar-color: linear-gradient(45deg, #ea404a, #ea722f, #e9a71f, #67e559, #18ecec, #1b85f1, #ee1dee);
+  --archive-timeline-last-child-color: linear-gradient(to bottom, rgba(180,180,180,0.3) 60%, rgba(255,255,255,0) 100%) 1 100%;
   --note-blue-title-bg: #1e3e46;
   --note-red-title-bg: #4e1e1e;
   --note-cyan-title-bg: #1e4e4e;
@@ -6989,6 +7316,7 @@ pre .deletion {
   --note-type-title-bg: #4e3a1e;
   --note-black-title-bg: #1e1e1e;
   --note-purple-title-bg: #4e1e4e;
+  --first-screen-img: url("/images/first_screen_dark.jpg");
   --first-screen-text-color: #000;
   --first-screen-icons-container-border-color: rgba(197,197,197,0.35);
   --first-screen-icons-container-background-color: rgba(197,197,197,0.3);
@@ -7033,23 +7361,23 @@ pre .deletion {
 }
 .tag-container .tag-name {
   color: var(--second-text-color);
-  font-size: 1.6rem;
+  font-size: 3rem;
   font-weight: 600;
   padding-bottom: 20px;
   margin-bottom: 38px;
-  border-bottom: 1px solid var(--border-color);
+  border-bottom: 1px solid var(--shadow-color-1);
 }
 .tag-container .tag-name i {
   color: var(--second-text-color);
 }
 @media (max-width: 780px) {
   .tag-container .tag-name {
-    font-size: 1.44rem;
+    font-size: 2.7rem;
   }
 }
 @media (max-width: 500px) {
   .tag-container .tag-name {
-    font-size: 1.28rem;
+    font-size: 2.4rem;
   }
 }
 .tagcloud-container {
@@ -7074,13 +7402,97 @@ pre .deletion {
     border-radius: 10.799999999999999px;
   }
 }
+.tagcloud-container .tagcloud-header {
+  font-size: 1.2rem;
+  line-height: 1;
+  font-weight: bold;
+  color: var(--second-text-color);
+}
 .tagcloud-container .tagcloud-content {
   text-align: justify;
 }
-.tagcloud-container .tagcloud-content a {
-  padding: 10px 8px;
-  display: inline-block;
-  box-sizing: border-box;
+.tagcloud-container .tagcloud-content:hover .tag-list a {
+  filter: blur(0px) !important;
+  transition: filter 0.3s ease;
+}
+.tagcloud-container .tagcloud-content .tag-list[data-show-value] a::after {
+  content: attr(data-weight);
+  font-size: 1.5rem;
+  background-color: var(--third-background-color);
+  padding: 4px 8px;
+  min-width: 35px;
+  margin-left: 10px;
+  border-radius: 9px;
+  color: var(--third-text-color);
+  transition: background-color 0.2s ease;
+}
+.tagcloud-container .tagcloud-content .tag-list {
+  list-style: none;
+  padding-left: 0;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  line-height: 2.5rem;
+}
+.tagcloud-container .tagcloud-content .tag-list li a {
+  font-size: 1.4rem;
+  opacity: var(--opacity);
+  padding: 0.9rem 1.4rem;
+  display: block;
+  position: relative;
+  flex: 1;
+  border-radius: 18px;
+  box-shadow: var(--redefine-box-shadow);
+  margin: 10px;
+  color: var(--default-text-color);
+  filter: blur(var(--blur));
+  transform: scaleX(1) scaleY(1);
+  background-color: var(--default-background-color);
+  transition: transform 0.2s ease, filter 0.3s ease, color 0.2s ease, background-color 0.2s ease;
+}
+.tagcloud-container .tagcloud-content .tag-list li a[data-weight] {
+  --blur: 0;
+}
+.tagcloud-container .tagcloud-content .tag-list li a[data-weight="1"] {
+  --blur: 3px;
+}
+.tagcloud-container .tagcloud-content .tag-list li a[data-weight="2"] {
+  --blur: 1.8px;
+}
+.tagcloud-container .tagcloud-content .tag-list li a[data-weight="3"] {
+  --blur: 0.8px;
+}
+.tagcloud-container .tagcloud-content .tag-list li a[data-weight="4"] {
+  --blur: 0.4px;
+}
+.tagcloud-container .tagcloud-content .tag-list li a[data-weight="5"] {
+  --blur: 0;
+}
+.tagcloud-container .tagcloud-content .tag-list li a .fa-hashtag {
+  margin-right: 5px;
+  opacity: 0.3;
+}
+.tagcloud-container .tagcloud-content .tag-list li a:hover {
+  transform: scaleX(1.05) scaleY(1.05);
+  box-shadow: var(--redefine-box-shadow-hover);
+  background-color: var(--primary-color);
+  color: var(--invert-text-color);
+  transition: transform 0.3s ease, background-color 0.3s ease, color 0.3s ease;
+}
+.tagcloud-container .tagcloud-content .tag-list li a:hover .fa-hashtag {
+  margin-right: 5px;
+  color: var(--invert-text-color);
+  opacity: 0.4;
+}
+.tagcloud-container .tagcloud-content .tag-list li a:active {
+  transform: translateY(2px);
+  transition: transform 0.1s;
+}
+@media (prefers-reduced-motion) {
+  .tagcloud-container .tagcloud-content .tag-list * {
+    transition: none !important;
+  }
 }
 .nf-container {
   width: 100%;
@@ -7101,13 +7513,14 @@ pre .deletion {
   --background-color: #fff;
   --background-color-transparent: rgba(255,255,255,0.6);
   --second-background-color: #fafafa;
-  --third-background-color: #f4f4f4;
+  --third-background-color: #f7f7f7;
   --primary-color: #005080;
   --first-text-color: #323739;
   --second-text-color: #343a3c;
   --third-text-color: #5c6669;
   --fourth-text-color: #eaeced;
   --default-text-color: #373d3f;
+  --invert-text-color: #bebec6;
   --border-color: #b3b3b3;
   --selection-color: #0068a6;
   --shadow-color-1: rgba(0,0,0,0.08);
@@ -7120,6 +7533,7 @@ pre .deletion {
   --copyright-info-color: #c03;
   --avatar-background-color: #06c;
   --pjax-progress-bar-color: linear-gradient(45deg, #f10006, #ef5b00, #e59c01, #19ca05, #00cab5, #0264c8, #c303c3);
+  --archive-timeline-last-child-color: linear-gradient(to bottom, rgba(0,0,0,0.3) 60%, rgba(0,0,0,0) 100%) 1 100%;
   --note-blue-title-bg: #d6f7fb;
   --note-red-title-bg: #fde9e9;
   --note-cyan-title-bg: #e9fdf9;
@@ -7129,6 +7543,7 @@ pre .deletion {
   --note-type-title-bg: #fdf3e9;
   --note-black-title-bg: #e9e9e9;
   --note-purple-title-bg: #f9e9fd;
+  --first-screen-img: url("/images/first_screen_light.jpg");
   --first-screen-text-color: #fff;
   --first-screen-icons-container-border-color: rgba(255,255,255,0.35);
   --first-screen-icons-container-background-color: rgba(255,255,255,0.3);
@@ -7143,13 +7558,14 @@ pre .deletion {
     --background-color: #fff;
     --background-color-transparent: rgba(255,255,255,0.6);
     --second-background-color: #fafafa;
-    --third-background-color: #f4f4f4;
+    --third-background-color: #f7f7f7;
     --primary-color: #005080;
     --first-text-color: #323739;
     --second-text-color: #343a3c;
     --third-text-color: #5c6669;
     --fourth-text-color: #eaeced;
     --default-text-color: #373d3f;
+    --invert-text-color: #bebec6;
     --border-color: #b3b3b3;
     --selection-color: #0068a6;
     --shadow-color-1: rgba(0,0,0,0.08);
@@ -7162,6 +7578,7 @@ pre .deletion {
     --copyright-info-color: #c03;
     --avatar-background-color: #06c;
     --pjax-progress-bar-color: linear-gradient(45deg, #f10006, #ef5b00, #e59c01, #19ca05, #00cab5, #0264c8, #c303c3);
+    --archive-timeline-last-child-color: linear-gradient(to bottom, rgba(0,0,0,0.3) 60%, rgba(0,0,0,0) 100%) 1 100%;
     --note-blue-title-bg: #d6f7fb;
     --note-red-title-bg: #fde9e9;
     --note-cyan-title-bg: #e9fdf9;
@@ -7171,6 +7588,7 @@ pre .deletion {
     --note-type-title-bg: #fdf3e9;
     --note-black-title-bg: #e9e9e9;
     --note-purple-title-bg: #f9e9fd;
+    --first-screen-img: url("/images/first_screen_light.jpg");
     --first-screen-text-color: #fff;
     --first-screen-icons-container-border-color: rgba(255,255,255,0.35);
     --first-screen-icons-container-background-color: rgba(255,255,255,0.3);
@@ -7193,6 +7611,7 @@ pre .deletion {
     --third-text-color: #9595a2;
     --fourth-text-color: #242429;
     --default-text-color: #bebec6;
+    --invert-text-color: #373d3f;
     --border-color: #4a4c53;
     --selection-color: #0068a6;
     --shadow-color-1: rgba(255,255,255,0.08);
@@ -7205,6 +7624,7 @@ pre .deletion {
     --copyright-info-color: #a30029;
     --avatar-background-color: #005cb8;
     --pjax-progress-bar-color: linear-gradient(45deg, #ea404a, #ea722f, #e9a71f, #67e559, #18ecec, #1b85f1, #ee1dee);
+    --archive-timeline-last-child-color: linear-gradient(to bottom, rgba(180,180,180,0.3) 60%, rgba(255,255,255,0) 100%) 1 100%;
     --note-blue-title-bg: #1e3e46;
     --note-red-title-bg: #4e1e1e;
     --note-cyan-title-bg: #1e4e4e;
@@ -7214,6 +7634,7 @@ pre .deletion {
     --note-type-title-bg: #4e3a1e;
     --note-black-title-bg: #1e1e1e;
     --note-purple-title-bg: #4e1e4e;
+    --first-screen-img: url("/images/first_screen_dark.jpg");
     --first-screen-text-color: #000;
     --first-screen-icons-container-border-color: rgba(197,197,197,0.35);
     --first-screen-icons-container-background-color: rgba(197,197,197,0.3);
@@ -7228,13 +7649,14 @@ pre .deletion {
   --background-color: #fff;
   --background-color-transparent: rgba(255,255,255,0.6);
   --second-background-color: #fafafa;
-  --third-background-color: #f4f4f4;
+  --third-background-color: #f7f7f7;
   --primary-color: #005080;
   --first-text-color: #323739;
   --second-text-color: #343a3c;
   --third-text-color: #5c6669;
   --fourth-text-color: #eaeced;
   --default-text-color: #373d3f;
+  --invert-text-color: #bebec6;
   --border-color: #b3b3b3;
   --selection-color: #0068a6;
   --shadow-color-1: rgba(0,0,0,0.08);
@@ -7247,6 +7669,7 @@ pre .deletion {
   --copyright-info-color: #c03;
   --avatar-background-color: #06c;
   --pjax-progress-bar-color: linear-gradient(45deg, #f10006, #ef5b00, #e59c01, #19ca05, #00cab5, #0264c8, #c303c3);
+  --archive-timeline-last-child-color: linear-gradient(to bottom, rgba(0,0,0,0.3) 60%, rgba(0,0,0,0) 100%) 1 100%;
   --note-blue-title-bg: #d6f7fb;
   --note-red-title-bg: #fde9e9;
   --note-cyan-title-bg: #e9fdf9;
@@ -7256,6 +7679,7 @@ pre .deletion {
   --note-type-title-bg: #fdf3e9;
   --note-black-title-bg: #e9e9e9;
   --note-purple-title-bg: #f9e9fd;
+  --first-screen-img: url("/images/first_screen_light.jpg");
   --first-screen-text-color: #fff;
   --first-screen-icons-container-border-color: rgba(255,255,255,0.35);
   --first-screen-icons-container-background-color: rgba(255,255,255,0.3);
@@ -7276,6 +7700,7 @@ pre .deletion {
   --third-text-color: #9595a2;
   --fourth-text-color: #242429;
   --default-text-color: #bebec6;
+  --invert-text-color: #373d3f;
   --border-color: #4a4c53;
   --selection-color: #0068a6;
   --shadow-color-1: rgba(255,255,255,0.08);
@@ -7288,6 +7713,7 @@ pre .deletion {
   --copyright-info-color: #a30029;
   --avatar-background-color: #005cb8;
   --pjax-progress-bar-color: linear-gradient(45deg, #ea404a, #ea722f, #e9a71f, #67e559, #18ecec, #1b85f1, #ee1dee);
+  --archive-timeline-last-child-color: linear-gradient(to bottom, rgba(180,180,180,0.3) 60%, rgba(255,255,255,0) 100%) 1 100%;
   --note-blue-title-bg: #1e3e46;
   --note-red-title-bg: #4e1e1e;
   --note-cyan-title-bg: #1e4e4e;
@@ -7297,6 +7723,7 @@ pre .deletion {
   --note-type-title-bg: #4e3a1e;
   --note-black-title-bg: #1e1e1e;
   --note-purple-title-bg: #4e1e4e;
+  --first-screen-img: url("/images/first_screen_dark.jpg");
   --first-screen-text-color: #000;
   --first-screen-icons-container-border-color: rgba(197,197,197,0.35);
   --first-screen-icons-container-background-color: rgba(197,197,197,0.3);
@@ -7316,6 +7743,11 @@ pre .deletion {
   line-height: initial;
   position: relative;
   transition: opacity 0.3s ease;
+}
+@media (max-width: 500px) {
+  .aplayer {
+    display: none;
+  }
 }
 .aplayer.hide {
   opacity: 0;
@@ -7499,6 +7931,12 @@ pre .deletion {
 .aplayer .aplayer-icon-forward,
 .aplayer .aplayer-icon-lrc {
   display: none;
+}
+.aplayer .aplayer-icon-lrc {
+  pointer-events: none;
+}
+.aplayer .aplayer-icon-lrc svg {
+  opacity: 0.4;
 }
 .aplayer .aplayer-icon-lrc-inactivity svg {
   opacity: 0.4;
@@ -8530,7 +8968,6 @@ a.button:hover {
   background-color: var(--third-background-color) !important;
 }
 a.button:active {
-  box-shadow: none;
   transform: translateY(3px);
   transition: transform 0.1s ease;
 }
@@ -8547,9 +8984,7 @@ div.tabs {
   position: relative;
   margin-top: 16px;
   margin-bottom: 16px;
-  border-radius: 14px;
   background: var(--color-card);
-  box-shadow: var(--redefine-box-shadow-flat);
 }
 div.tabs .highlight,
 div.tabs p,
@@ -8561,32 +8996,37 @@ div.tabs details {
   margin-bottom: 16px;
 }
 div.tabs ul.nav-tabs {
-  display: flex;
+  display: table;
+  position: relative;
   overflow-x: auto;
-  white-space: nowrap;
-  justify-content: flex-start;
   margin: 0 !important;
-  padding: 8px;
+  padding: 4px;
   background: var(--third-background-color);
-  border-radius: 14px 14px 0 0;
+  border-radius: 14px;
   line-height: 1.5;
+  text-align: center;
+  left: 50%;
+  transform: translateX(-50%);
 }
 div.tabs ul.nav-tabs li.tab {
   list-style-type: none;
+  display: inline-block;
+  float: none;
   margin-top: 0;
   margin-bottom: 0;
+  margin-left: 10px;
 }
 div.tabs ul.nav-tabs li.tab:first-child {
   margin-left: 0px;
 }
 div.tabs ul.nav-tabs li.tab:last-child {
-  padding-right: 12px;
+  padding-right: 0px;
 }
 div.tabs ul.nav-tabs li.tab a {
   display: block;
   cursor: pointer;
   border-radius: 9px;
-  padding: 8px;
+  padding: 4px 8px;
   text-align: center;
   font-size: $fontsize-meta;
   line-height: inherit;
@@ -8606,14 +9046,13 @@ div.tabs ul.nav-tabs li.tab.active a {
   color: var(--primary-color);
   background-color: var(--second-background-color);
   box-shadow: var(--redefine-box-shadow-flat);
-  transform: translateY(-1px);
   transition: transform 0.1s ease;
 }
 div.tabs .tab-content {
-  border-top: 1px solid var(--shadow-color-1);
   background-color: var(--second-background-color);
-  border-radius: 0 0 14px 14px;
-  margin-top: -1px;
+  border-radius: 14px;
+  box-shadow: var(--redefine-box-shadow-flat);
+  margin-top: 1rem;
 }
 div.tabs .tab-content .highlight-container[data-rel] {
   border-radius: 9px;

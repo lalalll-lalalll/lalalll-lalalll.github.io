@@ -6,7 +6,7 @@
   <link href="https://lalalll-lalalll.github.io/atom.xml" rel="self"/>
   
   <link href="https://lalalll-lalalll.github.io/"/>
-  <updated>2023-03-06T15:28:34.106Z</updated>
+  <updated>2023-05-01T15:59:21.891Z</updated>
   <id>https://lalalll-lalalll.github.io/</id>
   
   <author>
@@ -15,6 +15,25 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>BitTorrent / Magnet URI scheme 入门</title>
+    <link href="https://lalalll-lalalll.github.io/theme/bt/"/>
+    <id>https://lalalll-lalalll.github.io/theme/bt/</id>
+    <published>2023-05-01T15:52:31.000Z</published>
+    <updated>2023-05-01T15:59:21.891Z</updated>
+    
+    <content type="html"><![CDATA[<link rel="stylesheet" type="text&#x2F;css" href="https://cdn.jsdelivr.net/npm/hexo-tag-hint@0.3.1/dist/hexo-tag-hint.min.css"><p>阅读本文章前,请确保您具备:<br>1.基本的阅读及理解能力<br>2.基本的搜索引擎使用意识<br>3.基本的有关互联网连接原理的知识<br>4.基本的计算机相关的知识<br>5.一套完备的联网PC设备</p><h2 id="基本原理">基本原理</h2><h3 id="直链">直链</h3><p>所谓<strong>直链</strong>,就是我们可以通过链接直接从<strong>服务器</strong>拿到文件,是用户最基本最常见的下载方式之一<br><code>https://releases.ubuntu.com/22.04/ubuntu-22.04.2-desktop-amd64.iso</code><br>这就是一串常见的下载直链,访问后可以直接得到一个 <em>ubuntu映像</em> 文件<br>通过观察,我们可以看到这串链接的开头为<code>https</code>,它使用<strong>HTTPS协议</strong>传输文件数据,<strong>HTTPS协议</strong>是一种<strong>point-to-point协议</strong><br>此时,我们获取数据的来源是<strong>中心服务器</strong>,我们通过链接向服务器发送请求,服务器收到请求后向我们发送数据<br>但是,这种下载方式存在一定风险,一旦服务器被查封,文件就会消失<br>关于这种下载方式有很多知识点,但本文中心不在此,故略过</p><h3 id="BitTorrent">BitTorrent</h3><p><strong>BitTorrent协议</strong>(简称<strong>BT</strong>,<strong>比特协议</strong>),是<strong>peer-to-peer协议</strong>(即<strong>P2P协议</strong>)中的一种<br>这时,文件不再存放在单一的服务器,而是&quot;活&quot;在每一位<strong>用户</strong>的硬盘中<br>在<strong>HTTPS协议</strong>中,当我们下载完文件后就可以拍屁股走人了,身后的人需要这份文件只需要再次向<strong>中心服务器</strong>发送请求…但在<strong>BitTorrent协议</strong>中,每位<strong>用户</strong>(曾经下载过这份文件的人)都可以成为<strong>中心服务器</strong>(这真的还是&quot;中心&quot;服务器么=-=),并向以后需要资源的人发送文件<br>所以,我们不需要担心<strong>中心服务器</strong>是否会和我们说拜拜,只要还有人的电脑中有这份文件并处于上传状态,我们就可以通过种子文件来得到它</p><p>到这里,我们已经知道,只要得到文件的<strong>直链</strong>,并且我们能平安访问到<strong>中心服务器</strong>,就可以从<strong>中心服务器</strong>那里要到文件,但在<strong>BT</strong>中…<br><strong>我们怎么知道谁的电脑中有我们想要的文件呢?</strong><br>这时,你的手边出现了一个神奇的文件,它的后缀名是<code>.torrent</code>,啊!这就是我们需要的东西<br>这个神奇的文件有个学名,叫<strong>种子文件</strong>,当你在网上冲浪时看到有人求种子,那么指的就是这个<code>.torrent</code>结尾的文件<br>这个文件本质是一个文本文件,它包含<strong>Tracker信息</strong>以及<strong>文件信息</strong>两部分<br><strong>Tracker信息</strong>为你指明了你应该连接到哪个<strong>Tracker服务器</strong>,而<strong>Tracker服务器</strong>则为你指明了应该找谁获得这个文件<strong>文件块</strong><br>欸,你可能会问&quot;什么是<strong>文件块</strong>呢?&quot;<br>哈哈,在<strong>BitTorrent协议</strong>中我们可以连接多个<strong>用户</strong>(即<strong>中心服务器</strong>)来获取文件,例如此时我需要下载一个数据大小&quot;10&quot;的文件,如果我们用<strong>直链</strong>直接从<strong>中心服务器</strong>获取,可能会受限于<strong>中心服务器</strong>的数据上传速度,假设<strong>中心服务器</strong>每秒可以传输1大小的数据(即1大小/s),我们需要10s才能完整的得到这份文件(前提是我们的数据下载速度大一点,你1s只能下载0.0001大小的数据那你操心个屁人家上传多块),但用<strong>BitTorrent协议</strong>的话,我们可以把文件分成好多份,连接多位用户(即<strong>中心服务器</strong>),把每份文件分散到每个人身上,此时,就算就算一名<strong>用户</strong>1s只能上传0.1大小的数据,你连接100位<strong>用户</strong>,同时下载就可以拥有10大小/s的数据下载速度,1s就可以下载完毕,每份文件则称为<strong>文件块</strong><br>但是!出现了一个问题,我把文件分成好多份分散下去下载,万一同时下载到两份<strong>重复</strong>的<strong>文件块</strong>怎么办?<br>这时<strong>Tracker服务器</strong>与<strong>文件信息</strong>就起到作用了<br>在下载/上传过程中,你需要时刻连接这个<strong>Tracker服务器</strong>,来明白自己需要<ins>从谁/给谁</ins>那里<ins>下载/上传</ins>什么<strong>文件块</strong>,你也需要读取<strong>种子文件</strong>中的<strong>文件信息</strong>来知道一共有多少<strong>文件块</strong>,每个文件的<strong>哈希值</strong>是多少,由此确认我到底下载到了<strong>正确</strong>的<strong>文件块</strong>没有<br>停停停停,你说的我都明白,但是<strong>哈希值</strong>是什么啊?<br>此处的<strong>哈希值</strong>通过一系列神奇的算法计算<strong>文件块</strong>得来,可以看作是这个<strong>文件块</strong>的<strong>身份证/指纹信息</strong>(关于说法你开心就好啦=-=),一般情况下,每个<strong>文件块</strong>都有它唯一的<strong>哈希值</strong>,注意,是&quot;<strong>一般情况下</strong>&quot;…此处知识点非常非常多且晦涩,因为与中心无关,所以我们略过</p><p>到这里为止,我们就基本上明白了<strong>BitTorrent协议</strong>是什么以及它的工作原理,<strong>但是</strong>,<strong>你发现什么问题了么</strong>…<br>我们进行<strong>BT下载</strong>时,首先需要得到<code>.torrent</code>后缀的<strong>种子文件</strong>,但这个文件我们应该怎么获取呢…再用一个<strong>种子文件</strong>来下载?这个解决方法可不太好…<br>我们需要使用<strong>直链</strong>来下载<strong>种子文件</strong>,另外,我们与<strong>Tracker服务器</strong>的连接也是通过<strong>point-to-point协议</strong>(例如<strong>HTTPS协议</strong>)来传递的,所以,我们的文件依旧存在风险,只要<strong>Tracker服务器</strong>或提供<strong>种子文件</strong>下载的<strong>中心服务器</strong>没了,我们也就找不到谁有这个文件了,就算它还在其他用户的硬盘里躺着,我们也没办法碰到他们<br>因此, <strong>Magnet URI scheme</strong> <strong>横空出世</strong>!</p><h3 id="Magnet-URI-scheme">Magnet URI scheme</h3><p><strong>Magnet URI scheme</strong>(即<strong>磁力链接</strong>),名字很形象,它是&quot;有磁力的&quot;<br>我们已经意识到,<strong>BitTorrent协议</strong>尽管比<strong>直链</strong>安全太多了,但它还有一定风险<br>风险主要集中在<strong>种子文件</strong>的获取以及与<strong>Tracker服务器</strong>的连接上<br><strong>磁力链接</strong>改进了<strong>BitTorrent协议</strong><br><code>magnet:?xt=urn:btih:oiwxm5uql3kyidxd5oljtkbrgcbmbefd&amp;dn=tixati_%E4%B8%AD%E6%96%87_%E6%B1%89%E5%8C%96_language_chinese.txt&amp;xl=156055&amp;fc=1</code><br>这是一串完整的<strong>磁力链接</strong>,不要好奇它是什么,后文我们会再见到它…<br>观察这串链接,它可以被拆分为<code>magnet:?</code> <code>xt=</code> <code>dn=</code> <code>xl=</code> <code>fc=</code><br>其中,<code>magnet:?</code>表明了这是个<strong>磁力链接</strong>而不是个<strong>直链</strong>.<code>xt=</code>这部分则是最重要的,仔细观察,你会发现它后面还跟着两个部分,<code>urn:</code>学名:<strong>统一资源名称</strong>,咳…这里不需要刨根问底,它类似于一个资源的身份证,欸,是不是想到了<strong>哈希值</strong>,哈哈,我们接着来看,<code>btih:</code>它是<strong>BitTorrent</strong>使用的<strong>散列函数算法</strong>,它是干什么的?咳咳,它是计算<strong>哈希值</strong>的一种算法.终于,我们见到了我们的老朋友:<strong>哈希值</strong>!它是你要下载的文件的<strong>哈希值</strong>,没错…又是它,正是靠它,我们才能知道我们要找的文件到底是什么,可见它是多么的重要.接着看<code>dn=</code>后表示这个文件的实际名称是什么(你可以把它理解为人看的,而<strong>哈希值</strong>是程序看的…当然,你要是通过看<strong>哈希值</strong>识别文件那我也没话说…).<code>xl=</code>表示文件的总字节数,也就是这个文件多大.<code>fc=</code>我也不知道是什么=-=…<br>顺带着说一下,事实上,你仅仅只需要知道文件的<strong>哈希值</strong>就可以找到这个文件了</p><p>至此,我们已经知道了<strong>磁力链接</strong>的基本格式,我们只要获得了这串文本,就能够知道所需要的<strong>文件信息</strong>了,这比获得一个<strong>种子文件</strong>方便多了<br>那么<strong>磁力链接</strong>是如何解决<strong>Tracker服务器</strong>的问题呢?<br>这里出现了个厉害的东西:<strong>DHT</strong>(<strong>分布式哈希表</strong>)<br>可以理解为它将每个<strong>用户</strong>都变成了小型<strong>Tracker服务器</strong>,我们只要连接到了一个<strong>用户</strong>,就可以借此找到其他的<strong>用户</strong>,然后接着找下去…最终找到拥有我想要的文件的<strong>用户</strong>,就仿佛磁铁<br>另外,<strong>磁力链接</strong>通过<strong>PEX</strong>(<strong>节点交换</strong>)来更加高效的交换相互所拥有的<strong>文件块</strong>,以及其他拥有我需要的<strong>文件块</strong>的<strong>用户</strong>,极大摆脱了对于<strong>Tracker服务器</strong>的依赖</p><p>现在,我们明白了<strong>磁力链接</strong>是怎样摆脱对于<strong>种子文件</strong>的依赖:换用文本类型的<strong>磁力链接</strong>,怎样替代<strong>Tracker服务器</strong>:使用<strong>DHT</strong>以及<strong>PEX</strong>技术</p><p>至此,我们可以愉快的开始下载之旅了</p>]]></content>
+    
+    
+    <summary type="html">BitTorrent / Magnet URI scheme 基本原理</summary>
+    
+    
+    
+    <category term="theme" scheme="https://lalalll-lalalll.github.io/categories/theme/"/>
+    
+    
+  </entry>
   
   <entry>
     <title>二十四节气:惊蛰|二月十五</title>
