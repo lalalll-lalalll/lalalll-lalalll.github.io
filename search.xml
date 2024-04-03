@@ -57,6 +57,174 @@
       </categories>
   </entry>
   <entry>
+    <title>BitTorrent / Magnet URI scheme 入门</title>
+    <url>/theme/bt/</url>
+    <content><![CDATA[<link rel="stylesheet" type="text&#x2F;css" href="https://cdn.jsdelivr.net/npm/hexo-tag-hint@0.3.1/dist/hexo-tag-hint.min.css"><p>阅读本文章前,请确保您具备:<br>
+1.基本的阅读及理解能力<br>
+2.基本的搜索引擎使用意识<br>
+3.基本的有关互联网连接原理的知识<br>
+4.基本的计算机相关的知识<br>
+5.一套完备的联网PC设备</p>
+<h2 id="基本原理">基本原理</h2>
+<h3 id="直链">直链</h3>
+<p>所谓<strong>直链</strong>,就是我们可以通过链接直接从<strong>服务器</strong>拿到文件,是用户最基本最常见的下载方式之一<br>
+<code>https://releases.ubuntu.com/22.04/ubuntu-22.04.2-desktop-amd64.iso</code><br>
+这就是一串常见的下载直链,访问后可以直接得到一个 <em>ubuntu映像</em> 文件<br>
+通过观察,我们可以看到这串链接的开头为<code>https</code>,它使用<strong>HTTPS协议</strong>传输文件数据,<strong>HTTPS协议</strong>是一种<strong>point-to-point协议</strong><br>
+此时,我们获取数据的来源是<strong>中心服务器</strong>,我们通过链接向服务器发送请求,服务器收到请求后向我们发送数据<br>
+但是,这种下载方式存在一定风险,一旦服务器被查封,文件就会消失<br>
+关于这种下载方式有很多知识点,但本文中心不在此,故略过</p>
+<h3 id="BitTorrent">BitTorrent</h3>
+<p><strong>BitTorrent协议</strong>(简称<strong>BT</strong>,<strong>比特协议</strong>),是<strong>peer-to-peer协议</strong>(即<strong>P2P协议</strong>)中的一种<br>
+这时,文件不再存放在单一的服务器,而是&quot;活&quot;在每一位<strong>用户</strong>的硬盘中<br>
+在<strong>HTTPS协议</strong>中,当我们下载完文件后就可以拍屁股走人了,身后的人需要这份文件只需要再次向<strong>中心服务器</strong>发送请求…但在<strong>BitTorrent协议</strong>中,每位<strong>用户</strong>(曾经下载过这份文件的人)都可以成为<strong>中心服务器</strong>(这真的还是&quot;中心&quot;服务器么=-=),并向以后需要资源的人发送文件<br>
+所以,我们不需要担心<strong>中心服务器</strong>是否会和我们说拜拜,只要还有人的电脑中有这份文件并处于上传状态,我们就可以通过种子文件来得到它</p>
+<p>到这里,我们已经知道,只要得到文件的<strong>直链</strong>,并且我们能平安访问到<strong>中心服务器</strong>,就可以从<strong>中心服务器</strong>那里要到文件,但在<strong>BT</strong>中…<br>
+<strong>我们怎么知道谁的电脑中有我们想要的文件呢?</strong><br>
+这时,你的手边出现了一个神奇的文件,它的后缀名是<code>.torrent</code>,啊!这就是我们需要的东西<br>
+这个神奇的文件有个学名,叫<strong>种子文件</strong>,当你在网上冲浪时看到有人求种子,那么指的就是这个<code>.torrent</code>结尾的文件<br>
+这个文件本质是一个文本文件,它包含<strong>Tracker信息</strong>以及<strong>文件信息</strong>两部分<br>
+<strong>Tracker信息</strong>为你指明了你应该连接到哪个<strong>Tracker服务器</strong>,而<strong>Tracker服务器</strong>则为你指明了应该找谁获得这个文件<strong>文件块</strong><br>
+欸,你可能会问&quot;什么是<strong>文件块</strong>呢?&quot;<br>
+哈哈,在<strong>BitTorrent协议</strong>中我们可以连接多个<strong>用户</strong>(即<strong>中心服务器</strong>)来获取文件,例如此时我需要下载一个数据大小&quot;10&quot;的文件,如果我们用<strong>直链</strong>直接从<strong>中心服务器</strong>获取,可能会受限于<strong>中心服务器</strong>的数据上传速度,假设<strong>中心服务器</strong>每秒可以传输1大小的数据(即1大小/s),我们需要10s才能完整的得到这份文件(前提是我们的数据下载速度大一点,你1s只能下载0.0001大小的数据那你操心个屁人家上传多块),但用<strong>BitTorrent协议</strong>的话,我们可以把文件分成好多份,连接多位用户(即<strong>中心服务器</strong>),把每份文件分散到每个人身上,此时,就算就算一名<strong>用户</strong>1s只能上传0.1大小的数据,你连接100位<strong>用户</strong>,同时下载就可以拥有10大小/s的数据下载速度,1s就可以下载完毕,每份文件则称为<strong>文件块</strong><br>
+但是!出现了一个问题,我把文件分成好多份分散下去下载,万一同时下载到两份<strong>重复</strong>的<strong>文件块</strong>怎么办?<br>
+这时<strong>Tracker服务器</strong>与<strong>文件信息</strong>就起到作用了<br>
+在下载/上传过程中,你需要时刻连接这个<strong>Tracker服务器</strong>,来明白自己需要<ins>从谁/给谁</ins>那里<ins>下载/上传</ins>什么<strong>文件块</strong>,你也需要读取<strong>种子文件</strong>中的<strong>文件信息</strong>来知道一共有多少<strong>文件块</strong>,每个文件的<strong>哈希值</strong>是多少,由此确认我到底下载到了<strong>正确</strong>的<strong>文件块</strong>没有<br>
+停停停停,你说的我都明白,但是<strong>哈希值</strong>是什么啊?<br>
+此处的<strong>哈希值</strong>通过一系列神奇的算法计算<strong>文件块</strong>得来,可以看作是这个<strong>文件块</strong>的<strong>身份证/指纹信息</strong>(关于说法你开心就好啦=-=),一般情况下,每个<strong>文件块</strong>都有它唯一的<strong>哈希值</strong>,注意,是&quot;<strong>一般情况下</strong>&quot;…此处知识点非常非常多且晦涩,因为与中心无关,所以我们略过</p>
+<p>到这里为止,我们就基本上明白了<strong>BitTorrent协议</strong>是什么以及它的工作原理,<strong>但是</strong>,<strong>你发现什么问题了么</strong>…<br>
+我们进行<strong>BT下载</strong>时,首先需要得到<code>.torrent</code>后缀的<strong>种子文件</strong>,但这个文件我们应该怎么获取呢…再用一个<strong>种子文件</strong>来下载?这个解决方法可不太好…<br>
+我们需要使用<strong>直链</strong>来下载<strong>种子文件</strong>,另外,我们与<strong>Tracker服务器</strong>的连接也是通过<strong>point-to-point协议</strong>(例如<strong>HTTPS协议</strong>)来传递的,所以,我们的文件依旧存在风险,只要<strong>Tracker服务器</strong>或提供<strong>种子文件</strong>下载的<strong>中心服务器</strong>没了,我们也就找不到谁有这个文件了,就算它还在其他用户的硬盘里躺着,我们也没办法碰到他们<br>
+因此, <strong>Magnet URI scheme</strong> <strong>横空出世</strong>!</p>
+<h3 id="Magnet-URI-scheme">Magnet URI scheme</h3>
+<p><strong>Magnet URI scheme</strong>(即<strong>磁力链接</strong>),名字很形象,它是&quot;有磁力的&quot;<br>
+我们已经意识到,<strong>BitTorrent协议</strong>尽管比<strong>直链</strong>安全太多了,但它还有一定风险<br>
+风险主要集中在<strong>种子文件</strong>的获取以及与<strong>Tracker服务器</strong>的连接上<br>
+<strong>磁力链接</strong>改进了<strong>BitTorrent协议</strong><br>
+(注意,由于<strong>Magnet URI scheme</strong>基本原理与<strong>BitTorrent协议</strong>相差无几,所以后文所述的<strong>BitTorrent协议</strong>大多一起指代这二者)<br>
+<code>magnet:?xt=urn:btih:oiwxm5uql3kyidxd5oljtkbrgcbmbefd&amp;dn=tixati_%E4%B8%AD%E6%96%87_%E6%B1%89%E5%8C%96_language_chinese.txt&amp;xl=156055&amp;fc=1</code><br>
+这是一串完整的<strong>磁力链接</strong>,不要好奇它是什么,后文我们会再见到它…<br>
+观察这串链接,它可以被拆分为<code>magnet:?</code> <code>xt=</code> <code>dn=</code> <code>xl=</code> <code>fc=</code><br>
+其中,<code>magnet:?</code>表明了这是个<strong>磁力链接</strong>而不是个<strong>直链</strong>.<code>xt=</code>这部分则是最重要的,仔细观察,你会发现它后面还跟着两个部分,<code>urn:</code>学名:<strong>统一资源名称</strong>,咳…这里不需要刨根问底,它类似于一个资源的身份证,欸,是不是想到了<strong>哈希值</strong>,哈哈,我们接着来看,<code>btih:</code>它是<strong>BitTorrent</strong>使用的<strong>散列函数算法</strong>,它是干什么的?咳咳,它是计算<strong>哈希值</strong>的一种算法.终于,我们见到了我们的老朋友:<strong>哈希值</strong>!它是你要下载的文件的<strong>哈希值</strong>,没错…又是它,正是靠它,我们才能知道我们要找的文件到底是什么,可见它是多么的重要.接着看<code>dn=</code>后表示这个文件的实际名称是什么(你可以把它理解为人看的,而<strong>哈希值</strong>是程序看的…当然,你要是通过看<strong>哈希值</strong>识别文件那我也没话说…).<code>xl=</code>表示文件的总字节数,也就是这个文件多大.<code>fc=</code>我也不知道是什么=-=…<br>
+顺带着说一下,事实上,你仅仅只需要知道文件的<strong>哈希值</strong>就可以找到这个文件了</p>
+<p>至此,我们已经知道了<strong>磁力链接</strong>的基本格式,我们只要获得了这串文本,就能够知道所需要的<strong>文件信息</strong>了,这比获得一个<strong>种子文件</strong>方便多了<br>
+那么<strong>磁力链接</strong>是如何解决<strong>Tracker服务器</strong>的问题呢?<br>
+这里出现了个厉害的东西:<strong>DHT</strong>(<strong>分布式哈希表</strong>)<br>
+可以理解为它将每个<strong>用户</strong>都变成了小型<strong>Tracker服务器</strong>,我们只要连接到了一个<strong>用户</strong>,就可以借此找到其他的<strong>用户</strong>,然后接着找下去…最终找到拥有我想要的文件的<strong>用户</strong>,就仿佛磁铁<br>
+另外,<strong>磁力链接</strong>通过<strong>PEX</strong>(<strong>节点交换</strong>)来更加高效的交换相互所拥有的<strong>文件块</strong>,以及其他拥有我需要的<strong>文件块</strong>的<strong>用户</strong>,极大摆脱了对于<strong>Tracker服务器</strong>的依赖</p>
+<p>现在,我们明白了<strong>磁力链接</strong>是怎样摆脱对于<strong>种子文件</strong>的依赖:换用文本类型的<strong>磁力链接</strong>,怎样替代<strong>Tracker服务器</strong>:使用<strong>DHT</strong>以及<strong>PEX</strong>技术</p>
+<p>至此,我们可以愉快的开始下载之旅了</p>
+<h2 id="下载优化">下载优化</h2>
+<blockquote>
+<p>工欲善其事，必先利其器</p>
+</blockquote>
+<p>看到这里,你是不是已经感到头疼了,恭喜你坚持到这里,以下的内容可以稍微轻松一下了<br>
+现在,我们已经知道了<strong>BitTorrent协议</strong>的基本原理,并且得到了下载工具,但是并没有速度,怎么办?</p>
+<h3 id="Tracker服务器">Tracker服务器</h3>
+<p>没错,虽然<strong>磁力链接</strong>减少了甚至取消了对于<strong>Tracker服务器</strong>的依赖,但是…有的话总比没有好吧XD<br>
+下面推荐几个我常用的<strong>Tracker服务器</strong>列表<br>
+至于如何给软件添加<strong>Tracker服务器</strong>列表,网上教程泛滥,此处不多赘述</p>
+<h4 id="TrackersListCollection">TrackersListCollection</h4>
+<p><a class="link"   href="https://trackerslist.com/#/zh" >https://trackerslist.com/#/zh <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a><br>
+本列表由<strong>西柚秀XIU2</strong>大佬整合<br>
+建议下载时优先使用本列表</p>
+<h4 id="Stable-Trackers">Stable Trackers</h4>
+<p><a class="link"   href="https://newtrackon.com/list" >https://newtrackon.com/list <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a><br>
+国外知名的稳定<strong>Tracker服务器</strong>列表,由于某些众所周知的问题,可能国内访问效果不佳,但列表中的<strong>Tracker服务器</strong>大多数是可用的</p>
+<h4 id="Ngosang-Tracker">Ngosang Tracker</h4>
+<p><a class="link"   href="https://github.com/ngosang/trackerslist" >https://github.com/ngosang/trackerslist <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a><br>
+机器人维护的<strong>Tracker服务器</strong>列表<br>
+也是我用过的最爽的列表,下载冷门资源也总会找到几个有速度的用户</p>
+<h4 id="animeTrackerList">animeTrackerList</h4>
+<p><a class="link"   href="https://github.com/DeSireFire/animeTrackerList" >https://github.com/DeSireFire/animeTrackerList <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a><br>
+动漫资源有效Tracker列表，动漫资源磁链死链解决和加速方案<br>
+二次元狂喜<br>
+由于我使用时会出现奇怪的问题:只能连接到列表的第一条<strong>Tracker服务器</strong>,故不予置评</p>
+<h3 id="路由器配置">路由器配置</h3>
+<p>获取<strong>公网ipv4</strong>或<strong>ipv6</strong>地址以及开启路由器<strong>端口映射</strong>和 <strong>UPnP / NAT-PMP</strong> 功能<br>
+因本人懒,所以没折腾这方面的内容,感兴趣的请自行搜索</p>
+<h2 id="基本素质-和谐社区">基本素质/和谐社区</h2>
+<h3 id="保持做种">保持做种</h3>
+<p>前文我们说过,<strong>BT下载</strong>的本质是把每个有文件的人都当成<strong>中心服务器</strong>来提供上传<br>
+<strong>我们也不例外</strong><br>
+当我们通过<strong>BT下载</strong>工具下载完文件后,一般正常的工具都会自动开启<strong>做种</strong>,开始为后来的人服务<br>
+正是一位又一位无私的上传者,我们才能组成开放的资源分享网络<br>
+所以,在你使用下载完文件,尽量不要移动/删除下载的<strong>原文件</strong>,保持下载工具开启的状态,工具会自动把你的文件传递给以后需要的人</p>
+<h3 id="抵制迅雷">抵制迅雷</h3>
+<p>此处我不想写了,容易犯恶心…直接引用<strong>西柚秀</strong>大佬的话吧…<br>
+原文链接: <a class="link"   href="https://zhuanlan.zhihu.com/p/87193566" >https://zhuanlan.zhihu.com/p/87193566 <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></p>
+<blockquote>
+<p>可能一些人发现了同一个资源，其他 BT 软件都没下载速度，反而迅雷有速度，这是为什么呢？难道迅雷有什么“<strong>黑科技</strong>”？让我给大家介绍一下迅雷“黑科技”吧：</p>
+<p>迅雷，别名<strong>吸血雷</strong>，因为迅雷在享受其他 BT 软件用户上传提供的速度时，自身却只把上传的速度提供给其他迅雷用户，而不会提供给其他 BT 软件用户。</p>
+<p>通俗的说就是：迅雷用户之间是一个圈子，会把圈子之外其他 BT 软件用户上传提供的速度的吸进自己的圈子，导致迅雷客户端的圈子越来越壮大，而其他 BT 软件共同组成的圈子却越来越弱小，对于其他客户端来说，迅雷只进不出，故称吸血雷。</p>
+<p>为此，目前主流的 BT 软件都多少支持了<strong>反吸血</strong>功能（断开只下载不上传的用户），一定程度上抑制了迅雷吸血行为（当然也可以直接一刀切屏蔽迅雷）。不是不报，时候未到，现在迅雷用户大量流失，纵使有多方面原因，但和它流氓的行径也脱不了干系~</p>
+</blockquote>
+<p>简单来讲就是迅雷就是个貔貅,<strong>只进不出</strong>,它吃了其他<strong>用户</strong>的文件却不把自己的文件贡献给它人<br>
+另外,迅雷限制<strong>用户</strong>本来就应该拥有的速度,逼迫你开会员<br>
+我只能说,<strong>赶紧倒闭</strong></p>
+<p>在我们加入<strong>BT下载</strong>的同时,请严格践行以上有素质的行为,不做没素质的孤儿</p>
+<h2 id="结语">结语</h2>
+<p>到这里,我们就基本上成为能够熟练使用<strong>BT</strong>的老司机了,如果你坚持看到了这里,<strong>感谢</strong>你的耐心<br>
+本来还想写软件的具体使用方法,但实在懒得截图片了…所以这里揭晓谜底:那串<strong>磁力链接</strong>是<strong>Tixati</strong>(一个免费<strong>BT</strong>下载软件)的<strong>中文汉化文本</strong>,哈哈,是不是都忘了还有这么一个<strong>悬念</strong>了<br>
+好了,就到这里,再次<strong>感谢</strong>你能看完,如果有问题,请给我发邮件(<strong><a class="link"   href="mailto:lalalll@zohomail.cn" >lalalll@zohomail.cn <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></strong>)<br>
+注意:发邮件问问题前请看完 提问的智慧<a class="link"   href="https://github.com/tvvocold/How-To-Ask-Questions-The-Smart-Way" >https://github.com/tvvocold/How-To-Ask-Questions-The-Smart-Way <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></p>
+]]></content>
+      <categories>
+        <category>theme</category>
+      </categories>
+  </entry>
+  <entry>
+    <title>二十四节气:惊蛰|二月十五</title>
+    <url>/The-24-solar-terms/the-Waking-of-Insects/</url>
+    <content><![CDATA[<link rel="stylesheet" type="text&#x2F;css" href="https://cdn.jsdelivr.net/npm/hexo-tag-hint@0.3.1/dist/hexo-tag-hint.min.css"><p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://s1.imagehub.cc/images/2023/03/06/a2999593281cd7048bfa30d5974d685b.png"
+                      alt=""
+                ></p>
+<h3 id="惊蛰三候">惊蛰三候</h3>
+<blockquote>
+<p>惊蛰之日,桃始华.又五日,仓庚鸣.又五日,鹰化为鸠.–逸周书</p>
+</blockquote>
+<h6 id="桃始华">桃始华</h6>
+<p>惊蛰之日,桃树预备盛开,枝桠上花儿含苞欲放.</p>
+<h6 id="仓庚鸣">仓庚鸣</h6>
+<p>仓<ruby>庚<rt>gēng</rt></ruby>,即黄鹂.阳春和暖,仓庚感春阳之气,嘤其鸣,求其友.<br>
+<font color=Grey>注:黄鹂为雀形目鸣禽,叫声复杂,一般互相沟通会正常鸣唱.黄鹂求偶时也会发出鸣声,但黄鹂求偶多发生于四月以后,以三候中的描述,黄鹂鸣叫稍早.</font></p>
+<h6 id="鹰化为鸠">鹰化为鸠</h6>
+<p>鸠,鸠鸽科,形容人瘦弱时则会说「鸠形鹄面」.鹰,即为猛禽.仲春之月,天气变暖,鹰该换羽了,换羽时鹰变得虚弱,所以说「鹰化为鸠」,猛禽变得弱小.<br>
+另有一说为:惊蛰时节,鹰开始繁育后代,原本蛰伏的鸠鸟渐渐多了起来,鸣叫求偶(例如斑鸠),被古人误以为是鹰变成了鸠.</p>
+<h3 id="气象变化">气象变化</h3>
+<p>一般每年在3月5日或6日,气温回升较快,渐有春雷萌动,按照一般气候规律,惊蛰前后各地天气已开始转暖,雨水渐多,从惊蛰节气开始,中国大部分地区都已进入春耕时节.<br>
+按照一般气候规律,惊蛰前后各地天气已开始转暖,雨水渐多,大部分地区都已进入了春耕.惊醒了蛰伏在泥土中冬眠的各种昆虫的时候,此时过冬的虫卵也要开始卵化.由此可见惊蛰是反映自然物候现象的一个节气.</p>
+<h3 id="养性修身">养性修身</h3>
+<p>惊蛰时节昼夜温差拉大,应随着气温变化及时增减衣物.<br>
+惊蛰节气,乍暖还寒,气候比较干燥,很容易就让人感到口干舌燥,身体不舒服.因此在民间素有惊蛰吃梨的风俗习惯.</p>
+<hr>
+<p>参考资料:<br>
+1.<a class="link"   href="http://www.gov.cn/govweb/fwxx/wy/2010-03/05/content_1548494.htm" >惊蛰的由来 <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a><br>
+2.<a class="link"   href="https://new.qq.com/rain/a/20220219A02VCG00" >惊蛰三候：桃始华；仓庚鸣；鹰化为鸠 <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a><br>
+3.<a class="link"   href="https://www.cma.gov.cn/ztbd/2023zt/24jq/jz/index.html" >二十四节气·惊蛰 <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></p>
+]]></content>
+      <categories>
+        <category>The-24-solar-terms</category>
+      </categories>
+  </entry>
+  <entry>
+    <title>文学创作|柿续</title>
+    <url>/literature-art/shi-xu/</url>
+    <content><![CDATA[<link rel="stylesheet" type="text&#x2F;css" href="https://cdn.jsdelivr.net/npm/hexo-tag-hint@0.3.1/dist/hexo-tag-hint.min.css"><blockquote>
+<p>《柿续》</p>
+<p>清秋载载,柿树红如往昔残阳,睹物伤情,犹记儿时门前赤树,红如血,烈如曦.年少性劣,攀树而采叶折枝,母亲尝备.每至霜降,柿熟丹彤,艳而喜人.常言一叶落而知秋,却不知秋已藏于柿中.初青碧而色显,与叶相称,投于地而樾幢;再而栌黄,如辉光谧于林,曙色隐于梢;终而恍觉暮秋已晚,落叶飘潲,虽寒而叶暖心中,予以寥慰.叶已逝,别非久矣,来日以还;果留实,独非茕矣,于今安在.秋霜打,北风寒,凛凛而不畏之一毫,灿于仲冬,熠于岁寒.踽者见而熙存,或恓易而暄;孑客受而陶怡,惘失而畅怀.树植苍黄,柿伴旻天,存于太极,才知意廓而身销,道留人间.</p>
+<p>往事匆匆,前尘陌陌,犹如白马过隙而不可止也.急景流年,韶光荏苒,唯有柿者念于心中,故作此篇,感忆童年,续以永恒.</p>
+</blockquote>
+<p>特别声明:本作为<strong>结月lalalll</strong>原创作品,禁止剽窃,违者必究</p>
+]]></content>
+      <categories>
+        <category>literature&amp;art</category>
+      </categories>
+  </entry>
+  <entry>
     <title>Demo</title>
     <url>/categoriesDemo/Demo/</url>
     <content><![CDATA[<link rel="stylesheet" type="text&#x2F;css" href="https://cdn.jsdelivr.net/npm/hexo-tag-hint@0.3.1/dist/hexo-tag-hint.min.css"><h1>标题一</h1>
@@ -161,44 +329,7 @@ belong to the previous footnote. <a href="#fnref2" class="footnote-backref">↩�
       </tags>
   </entry>
   <entry>
-    <title>二十四节气:惊蛰|二月十五</title>
-    <url>/The-24-solar-terms/the-Waking-of-Insects/</url>
-    <content><![CDATA[<link rel="stylesheet" type="text&#x2F;css" href="https://cdn.jsdelivr.net/npm/hexo-tag-hint@0.3.1/dist/hexo-tag-hint.min.css"><p><img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://s1.imagehub.cc/images/2023/03/06/a2999593281cd7048bfa30d5974d685b.png"
-                      alt=""
-                ></p>
-<h3 id="惊蛰三候">惊蛰三候</h3>
-<blockquote>
-<p>惊蛰之日,桃始华.又五日,仓庚鸣.又五日,鹰化为鸠.–逸周书</p>
-</blockquote>
-<h6 id="桃始华">桃始华</h6>
-<p>惊蛰之日,桃树预备盛开,枝桠上花儿含苞欲放.</p>
-<h6 id="仓庚鸣">仓庚鸣</h6>
-<p>仓<ruby>庚<rt>gēng</rt></ruby>,即黄鹂.阳春和暖,仓庚感春阳之气,嘤其鸣,求其友.<br>
-<font color=Grey>注:黄鹂为雀形目鸣禽,叫声复杂,一般互相沟通会正常鸣唱.黄鹂求偶时也会发出鸣声,但黄鹂求偶多发生于四月以后,以三候中的描述,黄鹂鸣叫稍早.</font></p>
-<h6 id="鹰化为鸠">鹰化为鸠</h6>
-<p>鸠,鸠鸽科,形容人瘦弱时则会说「鸠形鹄面」.鹰,即为猛禽.仲春之月,天气变暖,鹰该换羽了,换羽时鹰变得虚弱,所以说「鹰化为鸠」,猛禽变得弱小.<br>
-另有一说为:惊蛰时节,鹰开始繁育后代,原本蛰伏的鸠鸟渐渐多了起来,鸣叫求偶(例如斑鸠),被古人误以为是鹰变成了鸠.</p>
-<h3 id="气象变化">气象变化</h3>
-<p>一般每年在3月5日或6日,气温回升较快,渐有春雷萌动,按照一般气候规律,惊蛰前后各地天气已开始转暖,雨水渐多,从惊蛰节气开始,中国大部分地区都已进入春耕时节.<br>
-按照一般气候规律,惊蛰前后各地天气已开始转暖,雨水渐多,大部分地区都已进入了春耕.惊醒了蛰伏在泥土中冬眠的各种昆虫的时候,此时过冬的虫卵也要开始卵化.由此可见惊蛰是反映自然物候现象的一个节气.</p>
-<h3 id="养性修身">养性修身</h3>
-<p>惊蛰时节昼夜温差拉大,应随着气温变化及时增减衣物.<br>
-惊蛰节气,乍暖还寒,气候比较干燥,很容易就让人感到口干舌燥,身体不舒服.因此在民间素有惊蛰吃梨的风俗习惯.</p>
-<hr>
-<p>参考资料:<br>
-1.<a class="link"   href="http://www.gov.cn/govweb/fwxx/wy/2010-03/05/content_1548494.htm" >惊蛰的由来 <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a><br>
-2.<a class="link"   href="https://new.qq.com/rain/a/20220219A02VCG00" >惊蛰三候：桃始华；仓庚鸣；鹰化为鸠 <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a><br>
-3.<a class="link"   href="https://www.cma.gov.cn/ztbd/2023zt/24jq/jz/index.html" >二十四节气·惊蛰 <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></p>
-]]></content>
-      <categories>
-        <category>The-24-solar-terms</category>
-      </categories>
-  </entry>
-  <entry>
-    <title>让Eclipse也能编译ConmmonLisp!</title>
+    <title>让Eclipse也能编译CommonLisp!</title>
     <url>/code/Lisp-on-Eclipse/</url>
     <content><![CDATA[<link rel="stylesheet" type="text&#x2F;css" href="https://cdn.jsdelivr.net/npm/hexo-tag-hint@0.3.1/dist/hexo-tag-hint.min.css"><p>阅读本文章前,请确保您具备:<br>
 1.基本的阅读及理解能力<br>
@@ -348,137 +479,6 @@ belong to the previous footnote. <a href="#fnref2" class="footnote-backref">↩�
 <p>本曲主要演奏乐器为柳琴,琵琶,扬琴,古筝,二胡,竹笛,除此之外还拥有笙，中阮，大阮，竖琴.<br>
 乐曲为典型三段曲式(引子-A(呈示段)-间奏-B(中段)-连接-A’(再现段)-尾声).</p>
 <p>曲作开篇便融合了一种类似于探戈的节奏型贯穿全曲,给人一种轻灵活泼之感,富有韵动.简单的旋律勾勒出了民间惬意的烟火气息.伴随着二胡与竹笛的演奏加入,人的眼前不自觉地便浮现出浩瀚夜空之下,明月高挂彩云飘依的优美景象,似是游子漂泊在外对于故乡的思念,也如亲人欢聚一堂,笑语盈盈其乐融融的团圆时刻.整个中段作为呈示段抒情的延续,情绪陷入低谷,着重凸显了秋风吹散彩云,明月独挂夜空,孑然无依之情.但悲中含情,离兆重逢,那一丝的情伴随着再现段所有乐器齐奏,将情绪推向了高潮,正似「<strong><font face="楷体">愿我如星君如月,夜夜流光相皎洁.</font></strong>」人虽两地,但若将情思寄托于月,伴着彩云送往君彼,那时空的限制怎么会阻挡我们的相聚呢?「<strong><font face="楷体">此时相望不相闻,愿逐月华流照君.</font></strong>」希望伴随着月光永恒地照耀在你的身边,让我们如彩云追月般彼此相映,形影不离.</p>
-]]></content>
-      <categories>
-        <category>literature&amp;art</category>
-      </categories>
-  </entry>
-  <entry>
-    <title>BitTorrent / Magnet URI scheme 入门</title>
-    <url>/theme/bt/</url>
-    <content><![CDATA[<link rel="stylesheet" type="text&#x2F;css" href="https://cdn.jsdelivr.net/npm/hexo-tag-hint@0.3.1/dist/hexo-tag-hint.min.css"><p>阅读本文章前,请确保您具备:<br>
-1.基本的阅读及理解能力<br>
-2.基本的搜索引擎使用意识<br>
-3.基本的有关互联网连接原理的知识<br>
-4.基本的计算机相关的知识<br>
-5.一套完备的联网PC设备</p>
-<h2 id="基本原理">基本原理</h2>
-<h3 id="直链">直链</h3>
-<p>所谓<strong>直链</strong>,就是我们可以通过链接直接从<strong>服务器</strong>拿到文件,是用户最基本最常见的下载方式之一<br>
-<code>https://releases.ubuntu.com/22.04/ubuntu-22.04.2-desktop-amd64.iso</code><br>
-这就是一串常见的下载直链,访问后可以直接得到一个 <em>ubuntu映像</em> 文件<br>
-通过观察,我们可以看到这串链接的开头为<code>https</code>,它使用<strong>HTTPS协议</strong>传输文件数据,<strong>HTTPS协议</strong>是一种<strong>point-to-point协议</strong><br>
-此时,我们获取数据的来源是<strong>中心服务器</strong>,我们通过链接向服务器发送请求,服务器收到请求后向我们发送数据<br>
-但是,这种下载方式存在一定风险,一旦服务器被查封,文件就会消失<br>
-关于这种下载方式有很多知识点,但本文中心不在此,故略过</p>
-<h3 id="BitTorrent">BitTorrent</h3>
-<p><strong>BitTorrent协议</strong>(简称<strong>BT</strong>,<strong>比特协议</strong>),是<strong>peer-to-peer协议</strong>(即<strong>P2P协议</strong>)中的一种<br>
-这时,文件不再存放在单一的服务器,而是&quot;活&quot;在每一位<strong>用户</strong>的硬盘中<br>
-在<strong>HTTPS协议</strong>中,当我们下载完文件后就可以拍屁股走人了,身后的人需要这份文件只需要再次向<strong>中心服务器</strong>发送请求…但在<strong>BitTorrent协议</strong>中,每位<strong>用户</strong>(曾经下载过这份文件的人)都可以成为<strong>中心服务器</strong>(这真的还是&quot;中心&quot;服务器么=-=),并向以后需要资源的人发送文件<br>
-所以,我们不需要担心<strong>中心服务器</strong>是否会和我们说拜拜,只要还有人的电脑中有这份文件并处于上传状态,我们就可以通过种子文件来得到它</p>
-<p>到这里,我们已经知道,只要得到文件的<strong>直链</strong>,并且我们能平安访问到<strong>中心服务器</strong>,就可以从<strong>中心服务器</strong>那里要到文件,但在<strong>BT</strong>中…<br>
-<strong>我们怎么知道谁的电脑中有我们想要的文件呢?</strong><br>
-这时,你的手边出现了一个神奇的文件,它的后缀名是<code>.torrent</code>,啊!这就是我们需要的东西<br>
-这个神奇的文件有个学名,叫<strong>种子文件</strong>,当你在网上冲浪时看到有人求种子,那么指的就是这个<code>.torrent</code>结尾的文件<br>
-这个文件本质是一个文本文件,它包含<strong>Tracker信息</strong>以及<strong>文件信息</strong>两部分<br>
-<strong>Tracker信息</strong>为你指明了你应该连接到哪个<strong>Tracker服务器</strong>,而<strong>Tracker服务器</strong>则为你指明了应该找谁获得这个文件<strong>文件块</strong><br>
-欸,你可能会问&quot;什么是<strong>文件块</strong>呢?&quot;<br>
-哈哈,在<strong>BitTorrent协议</strong>中我们可以连接多个<strong>用户</strong>(即<strong>中心服务器</strong>)来获取文件,例如此时我需要下载一个数据大小&quot;10&quot;的文件,如果我们用<strong>直链</strong>直接从<strong>中心服务器</strong>获取,可能会受限于<strong>中心服务器</strong>的数据上传速度,假设<strong>中心服务器</strong>每秒可以传输1大小的数据(即1大小/s),我们需要10s才能完整的得到这份文件(前提是我们的数据下载速度大一点,你1s只能下载0.0001大小的数据那你操心个屁人家上传多块),但用<strong>BitTorrent协议</strong>的话,我们可以把文件分成好多份,连接多位用户(即<strong>中心服务器</strong>),把每份文件分散到每个人身上,此时,就算就算一名<strong>用户</strong>1s只能上传0.1大小的数据,你连接100位<strong>用户</strong>,同时下载就可以拥有10大小/s的数据下载速度,1s就可以下载完毕,每份文件则称为<strong>文件块</strong><br>
-但是!出现了一个问题,我把文件分成好多份分散下去下载,万一同时下载到两份<strong>重复</strong>的<strong>文件块</strong>怎么办?<br>
-这时<strong>Tracker服务器</strong>与<strong>文件信息</strong>就起到作用了<br>
-在下载/上传过程中,你需要时刻连接这个<strong>Tracker服务器</strong>,来明白自己需要<ins>从谁/给谁</ins>那里<ins>下载/上传</ins>什么<strong>文件块</strong>,你也需要读取<strong>种子文件</strong>中的<strong>文件信息</strong>来知道一共有多少<strong>文件块</strong>,每个文件的<strong>哈希值</strong>是多少,由此确认我到底下载到了<strong>正确</strong>的<strong>文件块</strong>没有<br>
-停停停停,你说的我都明白,但是<strong>哈希值</strong>是什么啊?<br>
-此处的<strong>哈希值</strong>通过一系列神奇的算法计算<strong>文件块</strong>得来,可以看作是这个<strong>文件块</strong>的<strong>身份证/指纹信息</strong>(关于说法你开心就好啦=-=),一般情况下,每个<strong>文件块</strong>都有它唯一的<strong>哈希值</strong>,注意,是&quot;<strong>一般情况下</strong>&quot;…此处知识点非常非常多且晦涩,因为与中心无关,所以我们略过</p>
-<p>到这里为止,我们就基本上明白了<strong>BitTorrent协议</strong>是什么以及它的工作原理,<strong>但是</strong>,<strong>你发现什么问题了么</strong>…<br>
-我们进行<strong>BT下载</strong>时,首先需要得到<code>.torrent</code>后缀的<strong>种子文件</strong>,但这个文件我们应该怎么获取呢…再用一个<strong>种子文件</strong>来下载?这个解决方法可不太好…<br>
-我们需要使用<strong>直链</strong>来下载<strong>种子文件</strong>,另外,我们与<strong>Tracker服务器</strong>的连接也是通过<strong>point-to-point协议</strong>(例如<strong>HTTPS协议</strong>)来传递的,所以,我们的文件依旧存在风险,只要<strong>Tracker服务器</strong>或提供<strong>种子文件</strong>下载的<strong>中心服务器</strong>没了,我们也就找不到谁有这个文件了,就算它还在其他用户的硬盘里躺着,我们也没办法碰到他们<br>
-因此, <strong>Magnet URI scheme</strong> <strong>横空出世</strong>!</p>
-<h3 id="Magnet-URI-scheme">Magnet URI scheme</h3>
-<p><strong>Magnet URI scheme</strong>(即<strong>磁力链接</strong>),名字很形象,它是&quot;有磁力的&quot;<br>
-我们已经意识到,<strong>BitTorrent协议</strong>尽管比<strong>直链</strong>安全太多了,但它还有一定风险<br>
-风险主要集中在<strong>种子文件</strong>的获取以及与<strong>Tracker服务器</strong>的连接上<br>
-<strong>磁力链接</strong>改进了<strong>BitTorrent协议</strong><br>
-(注意,由于<strong>Magnet URI scheme</strong>基本原理与<strong>BitTorrent协议</strong>相差无几,所以后文所述的<strong>BitTorrent协议</strong>大多一起指代这二者)<br>
-<code>magnet:?xt=urn:btih:oiwxm5uql3kyidxd5oljtkbrgcbmbefd&amp;dn=tixati_%E4%B8%AD%E6%96%87_%E6%B1%89%E5%8C%96_language_chinese.txt&amp;xl=156055&amp;fc=1</code><br>
-这是一串完整的<strong>磁力链接</strong>,不要好奇它是什么,后文我们会再见到它…<br>
-观察这串链接,它可以被拆分为<code>magnet:?</code> <code>xt=</code> <code>dn=</code> <code>xl=</code> <code>fc=</code><br>
-其中,<code>magnet:?</code>表明了这是个<strong>磁力链接</strong>而不是个<strong>直链</strong>.<code>xt=</code>这部分则是最重要的,仔细观察,你会发现它后面还跟着两个部分,<code>urn:</code>学名:<strong>统一资源名称</strong>,咳…这里不需要刨根问底,它类似于一个资源的身份证,欸,是不是想到了<strong>哈希值</strong>,哈哈,我们接着来看,<code>btih:</code>它是<strong>BitTorrent</strong>使用的<strong>散列函数算法</strong>,它是干什么的?咳咳,它是计算<strong>哈希值</strong>的一种算法.终于,我们见到了我们的老朋友:<strong>哈希值</strong>!它是你要下载的文件的<strong>哈希值</strong>,没错…又是它,正是靠它,我们才能知道我们要找的文件到底是什么,可见它是多么的重要.接着看<code>dn=</code>后表示这个文件的实际名称是什么(你可以把它理解为人看的,而<strong>哈希值</strong>是程序看的…当然,你要是通过看<strong>哈希值</strong>识别文件那我也没话说…).<code>xl=</code>表示文件的总字节数,也就是这个文件多大.<code>fc=</code>我也不知道是什么=-=…<br>
-顺带着说一下,事实上,你仅仅只需要知道文件的<strong>哈希值</strong>就可以找到这个文件了</p>
-<p>至此,我们已经知道了<strong>磁力链接</strong>的基本格式,我们只要获得了这串文本,就能够知道所需要的<strong>文件信息</strong>了,这比获得一个<strong>种子文件</strong>方便多了<br>
-那么<strong>磁力链接</strong>是如何解决<strong>Tracker服务器</strong>的问题呢?<br>
-这里出现了个厉害的东西:<strong>DHT</strong>(<strong>分布式哈希表</strong>)<br>
-可以理解为它将每个<strong>用户</strong>都变成了小型<strong>Tracker服务器</strong>,我们只要连接到了一个<strong>用户</strong>,就可以借此找到其他的<strong>用户</strong>,然后接着找下去…最终找到拥有我想要的文件的<strong>用户</strong>,就仿佛磁铁<br>
-另外,<strong>磁力链接</strong>通过<strong>PEX</strong>(<strong>节点交换</strong>)来更加高效的交换相互所拥有的<strong>文件块</strong>,以及其他拥有我需要的<strong>文件块</strong>的<strong>用户</strong>,极大摆脱了对于<strong>Tracker服务器</strong>的依赖</p>
-<p>现在,我们明白了<strong>磁力链接</strong>是怎样摆脱对于<strong>种子文件</strong>的依赖:换用文本类型的<strong>磁力链接</strong>,怎样替代<strong>Tracker服务器</strong>:使用<strong>DHT</strong>以及<strong>PEX</strong>技术</p>
-<p>至此,我们可以愉快的开始下载之旅了</p>
-<h2 id="下载优化">下载优化</h2>
-<blockquote>
-<p>工欲善其事，必先利其器</p>
-</blockquote>
-<p>看到这里,你是不是已经感到头疼了,恭喜你坚持到这里,以下的内容可以稍微轻松一下了<br>
-现在,我们已经知道了<strong>BitTorrent协议</strong>的基本原理,并且得到了下载工具,但是并没有速度,怎么办?</p>
-<h3 id="Tracker服务器">Tracker服务器</h3>
-<p>没错,虽然<strong>磁力链接</strong>减少了甚至取消了对于<strong>Tracker服务器</strong>的依赖,但是…有的话总比没有好吧XD<br>
-下面推荐几个我常用的<strong>Tracker服务器</strong>列表<br>
-至于如何给软件添加<strong>Tracker服务器</strong>列表,网上教程泛滥,此处不多赘述</p>
-<h4 id="TrackersListCollection">TrackersListCollection</h4>
-<p><a class="link"   href="https://trackerslist.com/#/zh" >https://trackerslist.com/#/zh <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a><br>
-本列表由<strong>西柚秀XIU2</strong>大佬整合<br>
-建议下载时优先使用本列表</p>
-<h4 id="Stable-Trackers">Stable Trackers</h4>
-<p><a class="link"   href="https://newtrackon.com/list" >https://newtrackon.com/list <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a><br>
-国外知名的稳定<strong>Tracker服务器</strong>列表,由于某些众所周知的问题,可能国内访问效果不佳,但列表中的<strong>Tracker服务器</strong>大多数是可用的</p>
-<h4 id="Ngosang-Tracker">Ngosang Tracker</h4>
-<p><a class="link"   href="https://github.com/ngosang/trackerslist" >https://github.com/ngosang/trackerslist <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a><br>
-机器人维护的<strong>Tracker服务器</strong>列表<br>
-也是我用过的最爽的列表,下载冷门资源也总会找到几个有速度的用户</p>
-<h4 id="animeTrackerList">animeTrackerList</h4>
-<p><a class="link"   href="https://github.com/DeSireFire/animeTrackerList" >https://github.com/DeSireFire/animeTrackerList <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a><br>
-动漫资源有效Tracker列表，动漫资源磁链死链解决和加速方案<br>
-二次元狂喜<br>
-由于我使用时会出现奇怪的问题:只能连接到列表的第一条<strong>Tracker服务器</strong>,故不予置评</p>
-<h3 id="路由器配置">路由器配置</h3>
-<p>获取<strong>公网ipv4</strong>或<strong>ipv6</strong>地址以及开启路由器<strong>端口映射</strong>和 <strong>UPnP / NAT-PMP</strong> 功能<br>
-因本人懒,所以没折腾这方面的内容,感兴趣的请自行搜索</p>
-<h2 id="基本素质-和谐社区">基本素质/和谐社区</h2>
-<h3 id="保持做种">保持做种</h3>
-<p>前文我们说过,<strong>BT下载</strong>的本质是把每个有文件的人都当成<strong>中心服务器</strong>来提供上传<br>
-<strong>我们也不例外</strong><br>
-当我们通过<strong>BT下载</strong>工具下载完文件后,一般正常的工具都会自动开启<strong>做种</strong>,开始为后来的人服务<br>
-正是一位又一位无私的上传者,我们才能组成开放的资源分享网络<br>
-所以,在你使用下载完文件,尽量不要移动/删除下载的<strong>原文件</strong>,保持下载工具开启的状态,工具会自动把你的文件传递给以后需要的人</p>
-<h3 id="抵制迅雷">抵制迅雷</h3>
-<p>此处我不想写了,容易犯恶心…直接引用<strong>西柚秀</strong>大佬的话吧…<br>
-原文链接: <a class="link"   href="https://zhuanlan.zhihu.com/p/87193566" >https://zhuanlan.zhihu.com/p/87193566 <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></p>
-<blockquote>
-<p>可能一些人发现了同一个资源，其他 BT 软件都没下载速度，反而迅雷有速度，这是为什么呢？难道迅雷有什么“<strong>黑科技</strong>”？让我给大家介绍一下迅雷“黑科技”吧：</p>
-<p>迅雷，别名<strong>吸血雷</strong>，因为迅雷在享受其他 BT 软件用户上传提供的速度时，自身却只把上传的速度提供给其他迅雷用户，而不会提供给其他 BT 软件用户。</p>
-<p>通俗的说就是：迅雷用户之间是一个圈子，会把圈子之外其他 BT 软件用户上传提供的速度的吸进自己的圈子，导致迅雷客户端的圈子越来越壮大，而其他 BT 软件共同组成的圈子却越来越弱小，对于其他客户端来说，迅雷只进不出，故称吸血雷。</p>
-<p>为此，目前主流的 BT 软件都多少支持了<strong>反吸血</strong>功能（断开只下载不上传的用户），一定程度上抑制了迅雷吸血行为（当然也可以直接一刀切屏蔽迅雷）。不是不报，时候未到，现在迅雷用户大量流失，纵使有多方面原因，但和它流氓的行径也脱不了干系~</p>
-</blockquote>
-<p>简单来讲就是迅雷就是个貔貅,<strong>只进不出</strong>,它吃了其他<strong>用户</strong>的文件却不把自己的文件贡献给它人<br>
-另外,迅雷限制<strong>用户</strong>本来就应该拥有的速度,逼迫你开会员<br>
-我只能说,<strong>赶紧倒闭</strong></p>
-<p>在我们加入<strong>BT下载</strong>的同时,请严格践行以上有素质的行为,不做没素质的孤儿</p>
-<h2 id="结语">结语</h2>
-<p>到这里,我们就基本上成为能够熟练使用<strong>BT</strong>的老司机了,如果你坚持看到了这里,<strong>感谢</strong>你的耐心<br>
-本来还想写软件的具体使用方法,但实在懒得截图片了…所以这里揭晓谜底:那串<strong>磁力链接</strong>是<strong>Tixati</strong>(一个免费<strong>BT</strong>下载软件)的<strong>中文汉化文本</strong>,哈哈,是不是都忘了还有这么一个<strong>悬念</strong>了<br>
-好了,就到这里,再次<strong>感谢</strong>你能看完,如果有问题,请给我发邮件(<strong><a class="link"   href="mailto:lalalll@zohomail.cn" >lalalll@zohomail.cn <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></strong>)<br>
-注意:发邮件问问题前请看完 提问的智慧<a class="link"   href="https://github.com/tvvocold/How-To-Ask-Questions-The-Smart-Way" >https://github.com/tvvocold/How-To-Ask-Questions-The-Smart-Way <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></p>
-]]></content>
-      <categories>
-        <category>theme</category>
-      </categories>
-  </entry>
-  <entry>
-    <title>文学创作|柿续</title>
-    <url>/literature-art/shi-xu/</url>
-    <content><![CDATA[<link rel="stylesheet" type="text&#x2F;css" href="https://cdn.jsdelivr.net/npm/hexo-tag-hint@0.3.1/dist/hexo-tag-hint.min.css"><blockquote>
-<p>《柿续》</p>
-<p>清秋载载,柿树红如往昔残阳,睹物伤情,犹记儿时门前赤树,红如血,烈如曦.年少性劣,攀树而采叶折枝,母亲尝备.每至霜降,柿熟丹彤,艳而喜人.常言一叶落而知秋,却不知秋已藏于柿中.初青碧而色显,与叶相称,投于地而樾幢;再而栌黄,如辉光谧于林,曙色隐于梢;终而恍觉暮秋已晚,落叶飘潲,虽寒而叶暖心中,予以寥慰.叶已逝,别非久矣,来日以还;果留实,独非茕矣,于今安在.秋霜打,北风寒,凛凛而不畏之一毫,灿于仲冬,熠于岁寒.踽者见而熙存,或恓易而暄;孑客受而陶怡,惘失而畅怀.树植苍黄,柿伴旻天,存于太极,才知意廓而身销,道留人间.</p>
-<p>往事匆匆,前尘陌陌,犹如白马过隙而不可止也.急景流年,韶光荏苒,唯有柿者念于心中,故作此篇,感忆童年,续以永恒.</p>
-</blockquote>
-<p>特别声明:本作为<strong>结月lalalll</strong>原创作品,禁止剽窃,违者必究</p>
 ]]></content>
       <categories>
         <category>literature&amp;art</category>
