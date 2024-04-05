@@ -13,6 +13,110 @@
 ]]></content>
   </entry>
   <entry>
+    <title>Demo</title>
+    <url>/categoriesDemo/Demo/</url>
+    <content><![CDATA[<link rel="stylesheet" type="text&#x2F;css" href="https://cdn.jsdelivr.net/npm/hexo-tag-hint@0.3.1/dist/hexo-tag-hint.min.css"><h1>标题一</h1>
+<h2 id="标题二">标题二</h2>
+<h3 id="标题三">标题三</h3>
+<h4 id="标题四">标题四</h4>
+<h5 id="标题五">标题五</h5>
+<h6 id="标题六">标题六</h6>
+<p>这是一段话.</p>
+<p>这是另一端话.</p>
+<p>换行<br>换行</p>
+<p><strong>粗体</strong><br>
+<em>斜体</em><br>
+<em><strong>粗斜体</strong></em><br>
+<ins>下划线</ins><br>
+<s>删除线</s><br>
+<mark>高亮</mark></p>
+<blockquote>
+<p>伟大的计算机肯定会说:鼻子吃面条,耳朵塞土豆.</p>
+<blockquote>
+<p>伟大的计算机同样说过:上面说的话是我瞎说的.</p>
+</blockquote>
+</blockquote>
+<hr>
+<p><strong>什么??你要做<em>博客Demo</em>??</strong></p>
+<p>来,让我教你:</p>
+<p>
+<ol>
+<li>打开Git</li>
+<li>输入<code>npm uninstall -g hexo-cli</code></li>
+<li>等待成功后关掉窗口</li>
+<li>不要相信上述内容</li>
+</ol>
+</p>
+同样,你也可以:
+<p>
+<ul>
+<li>把硬盘塞进洗衣机</li>
+<li>将插座连接到天线上</li>
+<li>把台灯塞进浴缸</li>
+<li>然后躺在一张吊在天花板的柔软大床上</li>
+</ul>
+</p>
+如此这般,这般如此,你就可练成葵花宝典.
+<div class="highlight-container" data-rel="Java"><figure class="iseeu highlight java"><table><tr><td class="code"><pre><span class="line">System.out.print(<span class="string">"I'm trapped in the computer.Help!"</span>);</span><br></pre></td></tr></table></figure></div>
+<p><a class="link" href="https://www.bilibili.com/video/BV1GJ411x7h7" title="你被骗了">欲知后事如何,且听下回分解. <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></p>
+<table>
+<thead>
+<tr>
+<th style="text-align:center">A</th>
+<th style="text-align:center">B</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">A1</td>
+<td style="text-align:center">B1</td>
+</tr>
+<tr>
+<td style="text-align:center">A2</td>
+<td style="text-align:center">B2</td>
+</tr>
+</tbody>
+</table>
+<ul class="contains-task-list">
+<li class="task-list-item"><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox"> 拯救地球</li>
+<li class="task-list-item"><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox"> 拯救宇宙</li>
+<li class="task-list-item"><input class="task-list-item-checkbox" disabled="" type="checkbox"> 去看医生<br>
+<br></li>
+</ul>
+<p>实在是<ruby>丧心病狂<rt>干得漂亮</rt></ruby><br>
+实在是<span class="hint--info hint--rounded hint--top" data-hint="干得漂亮" ontouchstart="">丧心病狂</span><br>
+实在是丧心病狂
+  <span class="spoiler" onclick="this.classList.toggle('spoiler')">
+    <span class="spoiler-blur ">干得漂亮</span>
+  </span></p>
+<div class="note-large notel-red"><div class="notel-title"><p>提示</p>
+</div><div class="notel-content"><p>这里是初中化学实验室</p>
+ </div></div>
+<p>H<sub>2</sub>O MnO<sub>2</sub> CO<sub>2</sub> Fe<sub>3</sub>O<sub>4</sub></p>
+<p><mjx-container class="MathJax" jax="SVG" display="true"><svg style="vertical-align: -0.464ex;" xmlns="http://www.w3.org/2000/svg" width="16.38ex" height="2.464ex" role="img" focusable="false" viewBox="0 -883.9 7240 1088.9"><g stroke="currentColor" fill="currentColor" stroke-width="0" transform="scale(1,-1)"><g data-mml-node="math"><g data-mml-node="mi"><path data-c="1D466" d="M21 287Q21 301 36 335T84 406T158 442Q199 442 224 419T250 355Q248 336 247 334Q247 331 231 288T198 191T182 105Q182 62 196 45T238 27Q261 27 281 38T312 61T339 94Q339 95 344 114T358 173T377 247Q415 397 419 404Q432 431 462 431Q475 431 483 424T494 412T496 403Q496 390 447 193T391 -23Q363 -106 294 -155T156 -205Q111 -205 77 -183T43 -117Q43 -95 50 -80T69 -58T89 -48T106 -45Q150 -45 150 -87Q150 -107 138 -122T115 -142T102 -147L99 -148Q101 -153 118 -160T152 -167H160Q177 -167 186 -165Q219 -156 247 -127T290 -65T313 -9T321 21L315 17Q309 13 296 6T270 -6Q250 -11 231 -11Q185 -11 150 11T104 82Q103 89 103 113Q103 170 138 262T173 379Q173 380 173 381Q173 390 173 393T169 400T158 404H154Q131 404 112 385T82 344T65 302T57 280Q55 278 41 278H27Q21 284 21 287Z"></path></g><g data-mml-node="mo" transform="translate(767.8,0)"><path data-c="3D" d="M56 347Q56 360 70 367H707Q722 359 722 347Q722 336 708 328L390 327H72Q56 332 56 347ZM56 153Q56 168 72 173H708Q722 163 722 153Q722 140 707 133H70Q56 140 56 153Z"></path></g><g data-mml-node="mi" transform="translate(1823.6,0)"><path data-c="1D44E" d="M33 157Q33 258 109 349T280 441Q331 441 370 392Q386 422 416 422Q429 422 439 414T449 394Q449 381 412 234T374 68Q374 43 381 35T402 26Q411 27 422 35Q443 55 463 131Q469 151 473 152Q475 153 483 153H487Q506 153 506 144Q506 138 501 117T481 63T449 13Q436 0 417 -8Q409 -10 393 -10Q359 -10 336 5T306 36L300 51Q299 52 296 50Q294 48 292 46Q233 -10 172 -10Q117 -10 75 30T33 157ZM351 328Q351 334 346 350T323 385T277 405Q242 405 210 374T160 293Q131 214 119 129Q119 126 119 118T118 106Q118 61 136 44T179 26Q217 26 254 59T298 110Q300 114 325 217T351 328Z"></path></g><g data-mml-node="msup" transform="translate(2352.6,0)"><g data-mml-node="mi"><path data-c="1D465" d="M52 289Q59 331 106 386T222 442Q257 442 286 424T329 379Q371 442 430 442Q467 442 494 420T522 361Q522 332 508 314T481 292T458 288Q439 288 427 299T415 328Q415 374 465 391Q454 404 425 404Q412 404 406 402Q368 386 350 336Q290 115 290 78Q290 50 306 38T341 26Q378 26 414 59T463 140Q466 150 469 151T485 153H489Q504 153 504 145Q504 144 502 134Q486 77 440 33T333 -11Q263 -11 227 52Q186 -10 133 -10H127Q78 -10 57 16T35 71Q35 103 54 123T99 143Q142 143 142 101Q142 81 130 66T107 46T94 41L91 40Q91 39 97 36T113 29T132 26Q168 26 194 71Q203 87 217 139T245 247T261 313Q266 340 266 352Q266 380 251 392T217 404Q177 404 142 372T93 290Q91 281 88 280T72 278H58Q52 284 52 289Z"></path></g><g data-mml-node="TeXAtom" transform="translate(605,413) scale(0.707)" data-mjx-texclass="ORD"><g data-mml-node="mn"><path data-c="32" d="M109 429Q82 429 66 447T50 491Q50 562 103 614T235 666Q326 666 387 610T449 465Q449 422 429 383T381 315T301 241Q265 210 201 149L142 93L218 92Q375 92 385 97Q392 99 409 186V189H449V186Q448 183 436 95T421 3V0H50V19V31Q50 38 56 46T86 81Q115 113 136 137Q145 147 170 174T204 211T233 244T261 278T284 308T305 340T320 369T333 401T340 431T343 464Q343 527 309 573T212 619Q179 619 154 602T119 569T109 550Q109 549 114 549Q132 549 151 535T170 489Q170 464 154 447T109 429Z"></path></g></g></g><g data-mml-node="mo" transform="translate(3583.3,0)"><path data-c="2B" d="M56 237T56 250T70 270H369V420L370 570Q380 583 389 583Q402 583 409 568V270H707Q722 262 722 250T707 230H409V-68Q401 -82 391 -82H389H387Q375 -82 369 -68V230H70Q56 237 56 250Z"></path></g><g data-mml-node="mi" transform="translate(4583.6,0)"><path data-c="1D44F" d="M73 647Q73 657 77 670T89 683Q90 683 161 688T234 694Q246 694 246 685T212 542Q204 508 195 472T180 418L176 399Q176 396 182 402Q231 442 283 442Q345 442 383 396T422 280Q422 169 343 79T173 -11Q123 -11 82 27T40 150V159Q40 180 48 217T97 414Q147 611 147 623T109 637Q104 637 101 637H96Q86 637 83 637T76 640T73 647ZM336 325V331Q336 405 275 405Q258 405 240 397T207 376T181 352T163 330L157 322L136 236Q114 150 114 114Q114 66 138 42Q154 26 178 26Q211 26 245 58Q270 81 285 114T318 219Q336 291 336 325Z"></path></g><g data-mml-node="mi" transform="translate(5012.6,0)"><path data-c="1D465" d="M52 289Q59 331 106 386T222 442Q257 442 286 424T329 379Q371 442 430 442Q467 442 494 420T522 361Q522 332 508 314T481 292T458 288Q439 288 427 299T415 328Q415 374 465 391Q454 404 425 404Q412 404 406 402Q368 386 350 336Q290 115 290 78Q290 50 306 38T341 26Q378 26 414 59T463 140Q466 150 469 151T485 153H489Q504 153 504 145Q504 144 502 134Q486 77 440 33T333 -11Q263 -11 227 52Q186 -10 133 -10H127Q78 -10 57 16T35 71Q35 103 54 123T99 143Q142 143 142 101Q142 81 130 66T107 46T94 41L91 40Q91 39 97 36T113 29T132 26Q168 26 194 71Q203 87 217 139T245 247T261 313Q266 340 266 352Q266 380 251 392T217 404Q177 404 142 372T93 290Q91 281 88 280T72 278H58Q52 284 52 289Z"></path></g><g data-mml-node="mo" transform="translate(5806.8,0)"><path data-c="2B" d="M56 237T56 250T70 270H369V420L370 570Q380 583 389 583Q402 583 409 568V270H707Q722 262 722 250T707 230H409V-68Q401 -82 391 -82H389H387Q375 -82 369 -68V230H70Q56 237 56 250Z"></path></g><g data-mml-node="mi" transform="translate(6807,0)"><path data-c="1D450" d="M34 159Q34 268 120 355T306 442Q362 442 394 418T427 355Q427 326 408 306T360 285Q341 285 330 295T319 325T330 359T352 380T366 386H367Q367 388 361 392T340 400T306 404Q276 404 249 390Q228 381 206 359Q162 315 142 235T121 119Q121 73 147 50Q169 26 205 26H209Q321 26 394 111Q403 121 406 121Q410 121 419 112T429 98T420 83T391 55T346 25T282 0T202 -11Q127 -11 81 37T34 159Z"></path></g></g></g></svg></mjx-container></p>
+<p>29<sup>th</sup></p>
+<p>听我说👂👂👂谢谢你🙏🙏🙏因为有你👉👉👉温暖了四季🌈🌈🌈谢谢你🙏🙏🙏感谢有你👉👉👉世界更美丽🌏🌏🌏我要谢谢你🙏🙏🙏因为有你👉👉👉爱常在心底💃💃💃谢谢你 🙏🙏🙏感谢有你🙇</p>
+<p>Here is a footnote reference,<sup class="footnote-ref"><a href="#fn1" id="fnref1">[1]</a></sup> and another.<sup class="footnote-ref"><a href="#fn2" id="fnref2">[2]</a></sup></p>
+<hr class="footnotes-sep">
+<section class="footnotes">
+<ol class="footnotes-list">
+<li id="fn1" class="footnote-item"><p>Here is the footnote. <a href="#fnref1" class="footnote-backref">↩︎</a></p>
+</li>
+<li id="fn2" class="footnote-item"><p>Here’s one with multiple blocks.</p>
+<p>Subsequent paragraphs are indented to show that they<br>
+belong to the previous footnote. <a href="#fnref2" class="footnote-backref">↩︎</a></p>
+</li>
+</ol>
+</section>
+]]></content>
+      <categories>
+        <category>categoriesDemo</category>
+      </categories>
+      <tags>
+        <tag>tagsDemo</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>二十四节气:雨水|正月廿九</title>
     <url>/The-24-solar-terms/Rain-Water/</url>
     <content><![CDATA[<link rel="stylesheet" type="text&#x2F;css" href="https://cdn.jsdelivr.net/npm/hexo-tag-hint@0.3.1/dist/hexo-tag-hint.min.css"><p><img  
@@ -91,6 +195,162 @@
 ]]></content>
       <categories>
         <category>The-24-solar-terms</category>
+      </categories>
+  </entry>
+  <entry>
+    <title>让Eclipse也能编译CommonLisp!</title>
+    <url>/code/Lisp-on-Eclipse/</url>
+    <content><![CDATA[<link rel="stylesheet" type="text&#x2F;css" href="https://cdn.jsdelivr.net/npm/hexo-tag-hint@0.3.1/dist/hexo-tag-hint.min.css"><p>阅读本文章前,请确保您具备:<br>
+1.基本的阅读及理解能力<br>
+2.基本的搜索引擎使用意识<br>
+<strong>3.已经配置好的Eclipse环境</strong><br>
+<strong>4.已经搭建在本地的SBCL环境</strong></p>
+<p><strong>注意!</strong> 本人环境为<code>Windows 10</code> <code>Eclipse 2021-09 (4.21.0)</code> <code>SBCL 2.3.2</code> 不保证其他版本操作无异</p>
+<hr>
+<p>最开始的时候在选择<code>CommonLisp</code>还是<code>Scheme</code>上犹豫了挺长时间,最终还是选择了<code>CommonLisp</code>.<br>
+奈何<code>Vim</code>和<code>Emacs</code>的确劝退啊!<br>
+硬着头皮学习了一段时间后,终于发现了这款可以在<code>Eclipse</code>上编译<code>CommonLisp</code>的插件.</p>
+
+  <span class="spoiler" onclick="this.classList.toggle('spoiler')">
+    <span class="spoiler-blur ">实际上这篇文章本该在去年就写出来的XD</span>
+  </span>
+<h3 id="为Eclipse安装Dandelion插件">为Eclipse安装Dandelion插件</h3>
+<p><a class="link"   href="https://github.com/Ragnaroek/dandelion" >https://github.com/Ragnaroek/dandelion <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></p>
+<h6 id="方式一-Marketplace-install">方式一:Marketplace install</h6>
+<p>打开Marketplace,搜索Dandelion,无脑安装.<br>
+<img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://s1.imagehub.cc/images/2024/04/04/3b6ba3e49ff112453f85aaed2efb9515.png"
+                      alt=""
+                ></p>
+<h6 id="方式二-Update-Site-installation">方式二:Update-Site installation</h6>
+<p>添加更新站点: <a class="link"   href="https://ragnaroek.github.io/dandelion/" >https://ragnaroek.github.io/dandelion/ <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a> ,选择你要拉取的版本(一定要把系统和Lisp实现选择准!),无脑安装.<br>
+<img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://s1.imagehub.cc/images/2024/04/04/33606f65bf122213dde92dd2e52d6202.png"
+                      alt=""
+                ></p>
+<h3 id="搭建自己的SBCL环境">搭建自己的SBCL环境</h3>
+<p>参考自:<a class="link"   href="https://github.com/Ragnaroek/dandelion/wiki" >https://github.com/Ragnaroek/dandelion/wiki <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></p>
+<p>激动的进入<code>eclipse</code>,发现插件所使用的<code>SBCL(2.0.1)</code>是内置且过时的,你很不爽,想要使用自己的<code>SBCL(2.3.2)</code>,于是你…</p>
+<h6 id="拉取Dandelion">拉取Dandelion</h6>
+<p>在一个安全的文件夹使用 <code>git clone https://github.com/Ragnaroek/dandelion.git</code> 来拉取一份代码</p>
+
+  <span class="spoiler" onclick="this.classList.toggle('spoiler')">
+    <span class="spoiler-blur ">我因为官方源超时了,换用了镜像源╮(╯▽╰)╭</span>
+  </span>
+<p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://s1.imagehub.cc/images/2024/04/04/badc2078af76274f4b2e6de4cc9bda9e.png"
+                      alt=""
+                ></p>
+<h6 id="安装Quicklisp">安装Quicklisp</h6>
+<p>为本地的<code>SBCL</code>安装<code>Quicklisp</code>,访问 <a class="link"   href="https://www.quicklisp.org/beta/" >https://www.quicklisp.org/beta/ <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a> 获得<code>quicklisp.lisp</code><br>
+<img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://s1.imagehub.cc/images/2024/04/04/c2a2647d629a78ed4a896cb6f5085af0.png"
+                      alt=""
+                ><br>
+在文件目录下打开CMD</p>
+<p>1.启动SBCL并加载quicklisp.lisp:<br>
+<code>sbcl --load quicklisp.lisp</code></p>
+<p>2.安装Quicklisp:<br>
+<code>(quicklisp-quickstart:install)</code></p>
+<p>3.让SBCL启动时自动加载QuickLisp:<br>
+<code>(ql:add-to-init-file)</code></p>
+<h6 id="构建核心文件">构建核心文件</h6>
+<p>进入<code>dandelion\Environment</code>,找到一份<code>build.lisp</code>文件,打开它<br>
+编辑<code>(defparameter *binary-path* &quot;/Users/mb/tmp/env&quot;)</code>字段<br>
+将<code>/Users/mb/tmp/env</code>改为你想要存放核心文件的地址,例如<code>D:/a/a.core</code></p>
+<div class="note note-warning icon-padding"><i class="note-icon fa-solid fa-exclamation-circle"></i><p>一定要把路径的结尾落到.core文件自身,如果结尾是文件夹会报错!!!</p>
+</div>
+<div class="note note-warning icon-padding"><i class="note-icon fa-solid fa-exclamation-circle"></i><p>路径是&quot;斜线&quot;而不是&quot;反斜线&quot;.</p>
+</div>
+<p>接下来在文件目录下打开CMD</p>
+<p>1.启动SBCL并加载build.lisp<br>
+<code>sbcl --load ./build.lisp</code></p>
+<p>2.在指定位置构建核心文件<br>
+<code>(build)</code></p>
+<p>如果一切正常,本操作会输出以下内容</p>
+<div class="highlight-container" data-rel="Lisp"><figure class="iseeu highlight lisp"><table><tr><td class="code"><pre><span class="line">&gt;sbcl --load ./build.lisp</span><br><span class="line"></span><br><span class="line">This is SBCL <span class="number">2.3</span>.<span class="number">2</span>, an implementation of ANSI Common Lisp.</span><br><span class="line">More information about SBCL is available at &lt;http://www.sbcl.org/&gt;.</span><br><span class="line"></span><br><span class="line">SBCL is free software, provided as is, with absolutely no warranty.</span><br><span class="line">It is mostly in the public domain<span class="comment">; some portions are provided under</span></span><br><span class="line">BSD-style licenses.  See the CREDITS and COPYING files in the</span><br><span class="line">distribution for more information.</span><br><span class="line">To load <span class="string">&quot;dandelion-server&quot;</span>:</span><br><span class="line">  Load <span class="number">1</span> ASDF system:</span><br><span class="line">    dandelion-server</span><br><span class="line"><span class="comment">; Loading &quot;dandelion-server&quot;</span></span><br><span class="line">.....</span><br><span class="line"></span><br><span class="line">* (<span class="name">build</span>)</span><br><span class="line"></span><br><span class="line">[undoing binding stack and other enclosing state... done]</span><br><span class="line">[performing final GC... done]</span><br><span class="line">[saving current Lisp image into D:\b\a.core:</span><br><span class="line">writing <span class="number">5888</span> bytes from the static space at <span class="number">22110000</span></span><br><span class="line">writing <span class="number">25427968</span> bytes from the dynamic space at <span class="number">22210000</span></span><br><span class="line">writing <span class="number">6803784</span> bytes from the read-only space at <span class="number">043</span>a0000</span><br><span class="line">done]</span><br><span class="line"></span><br><span class="line">F:\GitBuild\dandelion\Environment&gt;</span><br></pre></td></tr></table></figure></div>
+<p>你可以在你指定的文件夹找到.core文件</p>
+<h6 id="启动eval-server">启动eval-server</h6>
+<p>在.core文件同目录下打开CMD<br>
+输入<code>sbcl --core a.core 40123 NIL DEBUG</code><br>
+其中<code>a.core</code>为.core文件的名称,<code>40123</code>为eval-server的指定端口号</p>
+<p>如果一切正常,本操作会输出以下内容</p>
+<div class="highlight-container" data-rel="Lisp"><figure class="iseeu highlight lisp"><table><tr><td class="code"><pre><span class="line">&gt;sbcl --core a.core <span class="number">40123</span> NIL DEBUG</span><br><span class="line"></span><br><span class="line">This is SBCL <span class="number">2.3</span>.<span class="number">2</span>, an implementation of ANSI Common Lisp.</span><br><span class="line">More information about SBCL is available at &lt;http://www.sbcl.org/&gt;.</span><br><span class="line"></span><br><span class="line">SBCL is free software, provided as is, with absolutely no warranty.</span><br><span class="line">It is mostly in the public domain<span class="comment">; some portions are provided under</span></span><br><span class="line">BSD-style licenses.  See the CREDITS and COPYING files in the</span><br><span class="line">distribution for more information.</span><br><span class="line">&lt;DEBUG&gt; [<span class="number">00</span>:<span class="number">08</span>:<span class="number">39</span>] dandelion-server server.lisp (<span class="name">start-eval-server</span>) -</span><br><span class="line">  Eval-Server started at <span class="number">04.04</span>.<span class="number">2024</span> <span class="number">00</span>:<span class="number">08</span>:<span class="number">39</span></span><br><span class="line">SERVER_UP</span><br><span class="line">&lt;DEBUG&gt; [<span class="number">00</span>:<span class="number">08</span>:<span class="number">39</span>] dandelion-server server.lisp (<span class="name">start-eval-server</span>) -</span><br><span class="line">  Waiting for client connect...</span><br></pre></td></tr></table></figure></div>
+<p>有时候由于端口占用可能会导致服务器启动失败,换个端口号就好了</p>
+<h6 id="连接eval-server">连接eval-server</h6>
+<p>在eclipse的设置中配置Lisp环境<br>
+<img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://s1.imagehub.cc/images/2024/04/04/d71ec8e70e5d8ed73bbecf567d3007f4.png"
+                      alt=""
+                ><br>
+在REPL中输入简单命令来连接我们的服务器,成功,同时终端日志开始刷新<br>
+<img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://s1.imagehub.cc/images/2024/04/04/2b995f03b7fc2fdb7580893b3324df7a.png"
+                      alt=""
+                ></p>
+<p>至此,我们就构建好了自己的<code>SBCL eval-server</code></p>
+<p>开始快乐的学习之旅吧!</p>
+]]></content>
+      <categories>
+        <category>code</category>
+      </categories>
+      <tags>
+        <tag>Lisp</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>音乐鉴赏|彩云追月</title>
+    <url>/literature-art/cai-yun-zhui-yue/</url>
+    <content><![CDATA[<link rel="stylesheet" type="text&#x2F;css" href="https://cdn.jsdelivr.net/npm/hexo-tag-hint@0.3.1/dist/hexo-tag-hint.min.css"><p> </p>
+<div class="bvideo"><a href="//www.bilibili.com/video/BV1gt411U7w1" target="_blank">
+        <div class="bvideo-box">
+            <div class="bvideo-cover">
+                <div class="cover-default"></div>
+                <div class="bvideo-cover-layer" style="background-image:url(https://images.weserv.nl/?url=http://i0.hdslb.com/bfs/archive/f6a24c965fea67304aa883dd59e6219c6e2a63f7.jpg)">
+                    <i class="icon-video"></i>
+                </div>
+                <span class="duration">00:06:32</span>
+            </div>
+            <div class="bvideo-info">
+                <p class="title">中央民族乐团《彩云追月》</p>
+                <p class="card-status">
+                    <span class="play-num">
+                        <i class="fa fa-youtube-play"></i>
+                        <span>45.8万</span></span>
+                    <span>
+                        <i class="fa fa-list-alt"></i>
+                        <span>852</span></span></p>
+                <div class="partition">
+                    <label class="card-label">视频</label>
+                    <label class="up-label"></label>
+                    <label class="up-name">亚洲之巅贾队长</label>
+                </div>
+                <div class="actions hide"></div>
+            </div>
+        </div>
+    </a></div>
+<p> <br>
+<strong>彩云追月</strong>为广式音乐经典曲目,其曲风优美活泼,初创作于清朝民间,作者未知,由任光、聂耳于1932年改编为民族管弦乐.</p>
+<p>正如许多中国古典音乐如「高山流水」、「汉宫秋月」、「翠湖春晓」一样,其曲名都是对于歌曲所描述对象的刻写,其所包含的内容不仅仅在于景物的美丽,也蕴含着古人对于自然天地与人和谐共生的哲学思考,其反映了古人对「<strong>天人合一</strong>」这一概念的价值追求,也体现了中国古曲的精神内涵与其文学性的高度统一.所以中国古曲所表现的不仅仅只是山水云月飞鸟走兽,更是人们对于物我之间内在联系的感悟和人心之中「<strong>道法自然</strong>」的根源所在.</p>
+<p>「<strong><font face="楷体">花开有色色入眼,雪落无声声有形.</font></strong>」古人善于从景物的意象中抽象出独一无二的情感,例如「<strong><font face="楷体">临江仙·梦后楼台高锁</font></strong>」中所写:「<strong><font face="楷体">当时明月在，曾照彩云归.</font></strong>」其中借彩云之笔暗指所思之人,醉时相聚,梦醒终成一场空,当年的皎皎明月此时仍在,而伴着月光的&quot;彩云&quot;却又飘往了何处?怕是早已风流云散,无影无踪了吧.情中蕴景,景中藏情,情景交融,意境悠远绵长.而此时我们再来回看本曲曲名:「<strong>彩云追月</strong>」.其中所蕴含的意象就极为丰富了,风起之时云儿乘月,而月字更包藏着秋凉以及忆念的感情色彩,这都是欣赏乐曲时所应体会到的.</p>
+<p>本曲主要演奏乐器为柳琴,琵琶,扬琴,古筝,二胡,竹笛,除此之外还拥有笙，中阮，大阮，竖琴.<br>
+乐曲为典型三段曲式(引子-A(呈示段)-间奏-B(中段)-连接-A’(再现段)-尾声).</p>
+<p>曲作开篇便融合了一种类似于探戈的节奏型贯穿全曲,给人一种轻灵活泼之感,富有韵动.简单的旋律勾勒出了民间惬意的烟火气息.伴随着二胡与竹笛的演奏加入,人的眼前不自觉地便浮现出浩瀚夜空之下,明月高挂彩云飘依的优美景象,似是游子漂泊在外对于故乡的思念,也如亲人欢聚一堂,笑语盈盈其乐融融的团圆时刻.整个中段作为呈示段抒情的延续,情绪陷入低谷,着重凸显了秋风吹散彩云,明月独挂夜空,孑然无依之情.但悲中含情,离兆重逢,那一丝的情伴随着再现段所有乐器齐奏,将情绪推向了高潮,正似「<strong><font face="楷体">愿我如星君如月,夜夜流光相皎洁.</font></strong>」人虽两地,但若将情思寄托于月,伴着彩云送往君彼,那时空的限制怎么会阻挡我们的相聚呢?「<strong><font face="楷体">此时相望不相闻,愿逐月华流照君.</font></strong>」希望伴随着月光永恒地照耀在你的身边,让我们如彩云追月般彼此相映,形影不离.</p>
+]]></content>
+      <categories>
+        <category>literature&amp;art</category>
       </categories>
   </entry>
   <entry>
@@ -219,266 +479,6 @@
 <p>往事匆匆,前尘陌陌,犹如白马过隙而不可止也.急景流年,韶光荏苒,唯有柿者念于心中,故作此篇,感忆童年,续以永恒.</p>
 </blockquote>
 <p>特别声明:本作为<strong>结月lalalll</strong>原创作品,禁止剽窃,违者必究</p>
-]]></content>
-      <categories>
-        <category>literature&amp;art</category>
-      </categories>
-  </entry>
-  <entry>
-    <title>让Eclipse也能编译CommonLisp!</title>
-    <url>/code/Lisp-on-Eclipse/</url>
-    <content><![CDATA[<link rel="stylesheet" type="text&#x2F;css" href="https://cdn.jsdelivr.net/npm/hexo-tag-hint@0.3.1/dist/hexo-tag-hint.min.css"><p>阅读本文章前,请确保您具备:<br>
-1.基本的阅读及理解能力<br>
-2.基本的搜索引擎使用意识<br>
-<strong>3.已经配置好的Eclipse环境</strong><br>
-<strong>4.已经搭建在本地的SBCL环境</strong></p>
-<p><strong>注意!</strong> 本人环境为<code>Windows 10</code> <code>Eclipse 2021-09 (4.21.0)</code> <code>SBCL 2.3.2</code> 不保证其他版本操作无异</p>
-<hr>
-<p>最开始的时候在选择<code>CommonLisp</code>还是<code>Scheme</code>上犹豫了挺长时间,最终还是选择了<code>CommonLisp</code>.<br>
-奈何<code>Vim</code>和<code>Emacs</code>的确劝退啊!<br>
-硬着头皮学习了一段时间后,终于发现了这款可以在<code>Eclipse</code>上编译<code>CommonLisp</code>的插件.</p>
-
-  <span class="spoiler" onclick="this.classList.toggle('spoiler')">
-    <span class="spoiler-blur ">实际上这篇文章本该在去年就写出来的XD</span>
-  </span>
-<h3 id="为Eclipse安装Dandelion插件">为Eclipse安装Dandelion插件</h3>
-<p><a class="link"   href="https://github.com/Ragnaroek/dandelion" >https://github.com/Ragnaroek/dandelion <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></p>
-<h6 id="方式一-Marketplace-install">方式一:Marketplace install</h6>
-<p>打开Marketplace,搜索Dandelion,无脑安装.<br>
-<img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://s1.imagehub.cc/images/2024/04/04/3b6ba3e49ff112453f85aaed2efb9515.png"
-                      alt=""
-                ></p>
-<h6 id="方式二-Update-Site-installation">方式二:Update-Site installation</h6>
-<p>添加更新站点: <a class="link"   href="https://ragnaroek.github.io/dandelion/" >https://ragnaroek.github.io/dandelion/ <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a> ,选择你要拉取的版本(一定要把系统和Lisp实现选择准!),无脑安装.<br>
-<img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://s1.imagehub.cc/images/2024/04/04/33606f65bf122213dde92dd2e52d6202.png"
-                      alt=""
-                ></p>
-<h3 id="搭建自己的SBCL环境">搭建自己的SBCL环境</h3>
-<p>参考自:<a class="link"   href="https://github.com/Ragnaroek/dandelion/wiki" >https://github.com/Ragnaroek/dandelion/wiki <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></p>
-<p>激动的进入<code>eclipse</code>,发现插件所使用的<code>SBCL(2.0.1)</code>是内置且过时的,你很不爽,想要使用自己的<code>SBCL(2.3.2)</code>,于是你…</p>
-<h6 id="拉取Dandelion">拉取Dandelion</h6>
-<p>在一个安全的文件夹使用 <code>git clone https://github.com/Ragnaroek/dandelion.git</code> 来拉取一份代码</p>
-
-  <span class="spoiler" onclick="this.classList.toggle('spoiler')">
-    <span class="spoiler-blur ">我因为官方源超时了,换用了镜像源╮(╯▽╰)╭</span>
-  </span>
-<p><img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://s1.imagehub.cc/images/2024/04/04/badc2078af76274f4b2e6de4cc9bda9e.png"
-                      alt=""
-                ></p>
-<h6 id="安装Quicklisp">安装Quicklisp</h6>
-<p>为本地的<code>SBCL</code>安装<code>Quicklisp</code>,访问 <a class="link"   href="https://www.quicklisp.org/beta/" >https://www.quicklisp.org/beta/ <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a> 获得<code>quicklisp.lisp</code><br>
-<img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://s1.imagehub.cc/images/2024/04/04/c2a2647d629a78ed4a896cb6f5085af0.png"
-                      alt=""
-                ><br>
-在文件目录下打开CMD</p>
-<p>1.启动SBCL并加载quicklisp.lisp:<br>
-<code>sbcl --load quicklisp.lisp</code></p>
-<p>2.安装Quicklisp:<br>
-<code>(quicklisp-quickstart:install)</code></p>
-<p>3.让SBCL启动时自动加载QuickLisp:<br>
-<code>(ql:add-to-init-file)</code></p>
-<h6 id="构建核心文件">构建核心文件</h6>
-<p>进入<code>dandelion\Environment</code>,找到一份<code>build.lisp</code>文件,打开它<br>
-编辑<code>(defparameter *binary-path* &quot;/Users/mb/tmp/env&quot;)</code>字段<br>
-将<code>/Users/mb/tmp/env</code>改为你想要存放核心文件的地址,例如<code>D:/a/a.core</code></p>
-<div class="note note-warning icon-padding"><i class="note-icon fa-solid fa-exclamation-circle"></i><p>一定要把路径的结尾落到.core文件自身,如果结尾是文件夹会报错!!!</p>
-</div>
-<div class="note note-warning icon-padding"><i class="note-icon fa-solid fa-exclamation-circle"></i><p>路径是&quot;斜线&quot;而不是&quot;反斜线&quot;.</p>
-</div>
-<p>接下来在文件目录下打开CMD</p>
-<p>1.启动SBCL并加载build.lisp<br>
-<code>sbcl --load ./build.lisp</code></p>
-<p>2.在指定位置构建核心文件<br>
-<code>(build)</code></p>
-<p>如果一切正常,本操作会输出以下内容</p>
-<div class="highlight-container" data-rel="Lisp"><figure class="iseeu highlight lisp"><table><tr><td class="code"><pre><span class="line">&gt;sbcl --load ./build.lisp</span><br><span class="line"></span><br><span class="line">This is SBCL <span class="number">2.3</span>.<span class="number">2</span>, an implementation of ANSI Common Lisp.</span><br><span class="line">More information about SBCL is available at &lt;http://www.sbcl.org/&gt;.</span><br><span class="line"></span><br><span class="line">SBCL is free software, provided as is, with absolutely no warranty.</span><br><span class="line">It is mostly in the public domain<span class="comment">; some portions are provided under</span></span><br><span class="line">BSD-style licenses.  See the CREDITS and COPYING files in the</span><br><span class="line">distribution for more information.</span><br><span class="line">To load <span class="string">&quot;dandelion-server&quot;</span>:</span><br><span class="line">  Load <span class="number">1</span> ASDF system:</span><br><span class="line">    dandelion-server</span><br><span class="line"><span class="comment">; Loading &quot;dandelion-server&quot;</span></span><br><span class="line">.....</span><br><span class="line"></span><br><span class="line">* (<span class="name">build</span>)</span><br><span class="line"></span><br><span class="line">[undoing binding stack and other enclosing state... done]</span><br><span class="line">[performing final GC... done]</span><br><span class="line">[saving current Lisp image into D:\b\a.core:</span><br><span class="line">writing <span class="number">5888</span> bytes from the static space at <span class="number">22110000</span></span><br><span class="line">writing <span class="number">25427968</span> bytes from the dynamic space at <span class="number">22210000</span></span><br><span class="line">writing <span class="number">6803784</span> bytes from the read-only space at <span class="number">043</span>a0000</span><br><span class="line">done]</span><br><span class="line"></span><br><span class="line">F:\GitBuild\dandelion\Environment&gt;</span><br></pre></td></tr></table></figure></div>
-<p>你可以在你指定的文件夹找到.core文件</p>
-<h6 id="启动eval-server">启动eval-server</h6>
-<p>在.core文件同目录下打开CMD<br>
-输入<code>sbcl --core a.core 40123 NIL DEBUG</code><br>
-其中<code>a.core</code>为.core文件的名称,<code>40123</code>为eval-server的指定端口号</p>
-<p>如果一切正常,本操作会输出以下内容</p>
-<div class="highlight-container" data-rel="Lisp"><figure class="iseeu highlight lisp"><table><tr><td class="code"><pre><span class="line">&gt;sbcl --core a.core <span class="number">40123</span> NIL DEBUG</span><br><span class="line"></span><br><span class="line">This is SBCL <span class="number">2.3</span>.<span class="number">2</span>, an implementation of ANSI Common Lisp.</span><br><span class="line">More information about SBCL is available at &lt;http://www.sbcl.org/&gt;.</span><br><span class="line"></span><br><span class="line">SBCL is free software, provided as is, with absolutely no warranty.</span><br><span class="line">It is mostly in the public domain<span class="comment">; some portions are provided under</span></span><br><span class="line">BSD-style licenses.  See the CREDITS and COPYING files in the</span><br><span class="line">distribution for more information.</span><br><span class="line">&lt;DEBUG&gt; [<span class="number">00</span>:<span class="number">08</span>:<span class="number">39</span>] dandelion-server server.lisp (<span class="name">start-eval-server</span>) -</span><br><span class="line">  Eval-Server started at <span class="number">04.04</span>.<span class="number">2024</span> <span class="number">00</span>:<span class="number">08</span>:<span class="number">39</span></span><br><span class="line">SERVER_UP</span><br><span class="line">&lt;DEBUG&gt; [<span class="number">00</span>:<span class="number">08</span>:<span class="number">39</span>] dandelion-server server.lisp (<span class="name">start-eval-server</span>) -</span><br><span class="line">  Waiting for client connect...</span><br></pre></td></tr></table></figure></div>
-<p>有时候由于端口占用可能会导致服务器启动失败,换个端口号就好了</p>
-<h6 id="连接eval-server">连接eval-server</h6>
-<p>在eclipse的设置中配置Lisp环境<br>
-<img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://s1.imagehub.cc/images/2024/04/04/d71ec8e70e5d8ed73bbecf567d3007f4.png"
-                      alt=""
-                ><br>
-在REPL中输入简单命令来连接我们的服务器,成功,同时终端日志开始刷新<br>
-<img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://s1.imagehub.cc/images/2024/04/04/2b995f03b7fc2fdb7580893b3324df7a.png"
-                      alt=""
-                ></p>
-<p>至此,我们就构建好了自己的<code>SBCL eval-server</code></p>
-<p>开始快乐的学习之旅吧!</p>
-]]></content>
-      <categories>
-        <category>code</category>
-      </categories>
-      <tags>
-        <tag>Lisp</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Demo</title>
-    <url>/categoriesDemo/Demo/</url>
-    <content><![CDATA[<link rel="stylesheet" type="text&#x2F;css" href="https://cdn.jsdelivr.net/npm/hexo-tag-hint@0.3.1/dist/hexo-tag-hint.min.css"><h1>标题一</h1>
-<h2 id="标题二">标题二</h2>
-<h3 id="标题三">标题三</h3>
-<h4 id="标题四">标题四</h4>
-<h5 id="标题五">标题五</h5>
-<h6 id="标题六">标题六</h6>
-<p>这是一段话.</p>
-<p>这是另一端话.</p>
-<p>换行<br>换行</p>
-<p><strong>粗体</strong><br>
-<em>斜体</em><br>
-<em><strong>粗斜体</strong></em><br>
-<ins>下划线</ins><br>
-<s>删除线</s><br>
-<mark>高亮</mark></p>
-<blockquote>
-<p>伟大的计算机肯定会说:鼻子吃面条,耳朵塞土豆.</p>
-<blockquote>
-<p>伟大的计算机同样说过:上面说的话是我瞎说的.</p>
-</blockquote>
-</blockquote>
-<hr>
-<p><strong>什么??你要做<em>博客Demo</em>??</strong></p>
-<p>来,让我教你:</p>
-<p>
-<ol>
-<li>打开Git</li>
-<li>输入<code>npm uninstall -g hexo-cli</code></li>
-<li>等待成功后关掉窗口</li>
-<li>不要相信上述内容</li>
-</ol>
-</p>
-同样,你也可以:
-<p>
-<ul>
-<li>把硬盘塞进洗衣机</li>
-<li>将插座连接到天线上</li>
-<li>把台灯塞进浴缸</li>
-<li>然后躺在一张吊在天花板的柔软大床上</li>
-</ul>
-</p>
-如此这般,这般如此,你就可练成葵花宝典.
-<div class="highlight-container" data-rel="Java"><figure class="iseeu highlight java"><table><tr><td class="code"><pre><span class="line">System.out.print(<span class="string">"I'm trapped in the computer.Help!"</span>);</span><br></pre></td></tr></table></figure></div>
-<p><a class="link" href="https://www.bilibili.com/video/BV1GJ411x7h7" title="你被骗了">欲知后事如何,且听下回分解. <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></p>
-<table>
-<thead>
-<tr>
-<th style="text-align:center">A</th>
-<th style="text-align:center">B</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td style="text-align:center">A1</td>
-<td style="text-align:center">B1</td>
-</tr>
-<tr>
-<td style="text-align:center">A2</td>
-<td style="text-align:center">B2</td>
-</tr>
-</tbody>
-</table>
-<ul class="contains-task-list">
-<li class="task-list-item"><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox"> 拯救地球</li>
-<li class="task-list-item"><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox"> 拯救宇宙</li>
-<li class="task-list-item"><input class="task-list-item-checkbox" disabled="" type="checkbox"> 去看医生<br>
-<br></li>
-</ul>
-<p>实在是<ruby>丧心病狂<rt>干得漂亮</rt></ruby><br>
-实在是<span class="hint--info hint--rounded hint--top" data-hint="干得漂亮" ontouchstart="">丧心病狂</span><br>
-实在是丧心病狂
-  <span class="spoiler" onclick="this.classList.toggle('spoiler')">
-    <span class="spoiler-blur ">干得漂亮</span>
-  </span></p>
-<div class="note-large notel-red"><div class="notel-title"><p>提示</p>
-</div><div class="notel-content"><p>这里是初中化学实验室</p>
- </div></div>
-<p>H<sub>2</sub>O MnO<sub>2</sub> CO<sub>2</sub> Fe<sub>3</sub>O<sub>4</sub></p>
-<p><mjx-container class="MathJax" jax="SVG" display="true"><svg style="vertical-align: -0.464ex;" xmlns="http://www.w3.org/2000/svg" width="16.38ex" height="2.464ex" role="img" focusable="false" viewBox="0 -883.9 7240 1088.9"><g stroke="currentColor" fill="currentColor" stroke-width="0" transform="scale(1,-1)"><g data-mml-node="math"><g data-mml-node="mi"><path data-c="1D466" d="M21 287Q21 301 36 335T84 406T158 442Q199 442 224 419T250 355Q248 336 247 334Q247 331 231 288T198 191T182 105Q182 62 196 45T238 27Q261 27 281 38T312 61T339 94Q339 95 344 114T358 173T377 247Q415 397 419 404Q432 431 462 431Q475 431 483 424T494 412T496 403Q496 390 447 193T391 -23Q363 -106 294 -155T156 -205Q111 -205 77 -183T43 -117Q43 -95 50 -80T69 -58T89 -48T106 -45Q150 -45 150 -87Q150 -107 138 -122T115 -142T102 -147L99 -148Q101 -153 118 -160T152 -167H160Q177 -167 186 -165Q219 -156 247 -127T290 -65T313 -9T321 21L315 17Q309 13 296 6T270 -6Q250 -11 231 -11Q185 -11 150 11T104 82Q103 89 103 113Q103 170 138 262T173 379Q173 380 173 381Q173 390 173 393T169 400T158 404H154Q131 404 112 385T82 344T65 302T57 280Q55 278 41 278H27Q21 284 21 287Z"></path></g><g data-mml-node="mo" transform="translate(767.8,0)"><path data-c="3D" d="M56 347Q56 360 70 367H707Q722 359 722 347Q722 336 708 328L390 327H72Q56 332 56 347ZM56 153Q56 168 72 173H708Q722 163 722 153Q722 140 707 133H70Q56 140 56 153Z"></path></g><g data-mml-node="mi" transform="translate(1823.6,0)"><path data-c="1D44E" d="M33 157Q33 258 109 349T280 441Q331 441 370 392Q386 422 416 422Q429 422 439 414T449 394Q449 381 412 234T374 68Q374 43 381 35T402 26Q411 27 422 35Q443 55 463 131Q469 151 473 152Q475 153 483 153H487Q506 153 506 144Q506 138 501 117T481 63T449 13Q436 0 417 -8Q409 -10 393 -10Q359 -10 336 5T306 36L300 51Q299 52 296 50Q294 48 292 46Q233 -10 172 -10Q117 -10 75 30T33 157ZM351 328Q351 334 346 350T323 385T277 405Q242 405 210 374T160 293Q131 214 119 129Q119 126 119 118T118 106Q118 61 136 44T179 26Q217 26 254 59T298 110Q300 114 325 217T351 328Z"></path></g><g data-mml-node="msup" transform="translate(2352.6,0)"><g data-mml-node="mi"><path data-c="1D465" d="M52 289Q59 331 106 386T222 442Q257 442 286 424T329 379Q371 442 430 442Q467 442 494 420T522 361Q522 332 508 314T481 292T458 288Q439 288 427 299T415 328Q415 374 465 391Q454 404 425 404Q412 404 406 402Q368 386 350 336Q290 115 290 78Q290 50 306 38T341 26Q378 26 414 59T463 140Q466 150 469 151T485 153H489Q504 153 504 145Q504 144 502 134Q486 77 440 33T333 -11Q263 -11 227 52Q186 -10 133 -10H127Q78 -10 57 16T35 71Q35 103 54 123T99 143Q142 143 142 101Q142 81 130 66T107 46T94 41L91 40Q91 39 97 36T113 29T132 26Q168 26 194 71Q203 87 217 139T245 247T261 313Q266 340 266 352Q266 380 251 392T217 404Q177 404 142 372T93 290Q91 281 88 280T72 278H58Q52 284 52 289Z"></path></g><g data-mml-node="TeXAtom" transform="translate(605,413) scale(0.707)" data-mjx-texclass="ORD"><g data-mml-node="mn"><path data-c="32" d="M109 429Q82 429 66 447T50 491Q50 562 103 614T235 666Q326 666 387 610T449 465Q449 422 429 383T381 315T301 241Q265 210 201 149L142 93L218 92Q375 92 385 97Q392 99 409 186V189H449V186Q448 183 436 95T421 3V0H50V19V31Q50 38 56 46T86 81Q115 113 136 137Q145 147 170 174T204 211T233 244T261 278T284 308T305 340T320 369T333 401T340 431T343 464Q343 527 309 573T212 619Q179 619 154 602T119 569T109 550Q109 549 114 549Q132 549 151 535T170 489Q170 464 154 447T109 429Z"></path></g></g></g><g data-mml-node="mo" transform="translate(3583.3,0)"><path data-c="2B" d="M56 237T56 250T70 270H369V420L370 570Q380 583 389 583Q402 583 409 568V270H707Q722 262 722 250T707 230H409V-68Q401 -82 391 -82H389H387Q375 -82 369 -68V230H70Q56 237 56 250Z"></path></g><g data-mml-node="mi" transform="translate(4583.6,0)"><path data-c="1D44F" d="M73 647Q73 657 77 670T89 683Q90 683 161 688T234 694Q246 694 246 685T212 542Q204 508 195 472T180 418L176 399Q176 396 182 402Q231 442 283 442Q345 442 383 396T422 280Q422 169 343 79T173 -11Q123 -11 82 27T40 150V159Q40 180 48 217T97 414Q147 611 147 623T109 637Q104 637 101 637H96Q86 637 83 637T76 640T73 647ZM336 325V331Q336 405 275 405Q258 405 240 397T207 376T181 352T163 330L157 322L136 236Q114 150 114 114Q114 66 138 42Q154 26 178 26Q211 26 245 58Q270 81 285 114T318 219Q336 291 336 325Z"></path></g><g data-mml-node="mi" transform="translate(5012.6,0)"><path data-c="1D465" d="M52 289Q59 331 106 386T222 442Q257 442 286 424T329 379Q371 442 430 442Q467 442 494 420T522 361Q522 332 508 314T481 292T458 288Q439 288 427 299T415 328Q415 374 465 391Q454 404 425 404Q412 404 406 402Q368 386 350 336Q290 115 290 78Q290 50 306 38T341 26Q378 26 414 59T463 140Q466 150 469 151T485 153H489Q504 153 504 145Q504 144 502 134Q486 77 440 33T333 -11Q263 -11 227 52Q186 -10 133 -10H127Q78 -10 57 16T35 71Q35 103 54 123T99 143Q142 143 142 101Q142 81 130 66T107 46T94 41L91 40Q91 39 97 36T113 29T132 26Q168 26 194 71Q203 87 217 139T245 247T261 313Q266 340 266 352Q266 380 251 392T217 404Q177 404 142 372T93 290Q91 281 88 280T72 278H58Q52 284 52 289Z"></path></g><g data-mml-node="mo" transform="translate(5806.8,0)"><path data-c="2B" d="M56 237T56 250T70 270H369V420L370 570Q380 583 389 583Q402 583 409 568V270H707Q722 262 722 250T707 230H409V-68Q401 -82 391 -82H389H387Q375 -82 369 -68V230H70Q56 237 56 250Z"></path></g><g data-mml-node="mi" transform="translate(6807,0)"><path data-c="1D450" d="M34 159Q34 268 120 355T306 442Q362 442 394 418T427 355Q427 326 408 306T360 285Q341 285 330 295T319 325T330 359T352 380T366 386H367Q367 388 361 392T340 400T306 404Q276 404 249 390Q228 381 206 359Q162 315 142 235T121 119Q121 73 147 50Q169 26 205 26H209Q321 26 394 111Q403 121 406 121Q410 121 419 112T429 98T420 83T391 55T346 25T282 0T202 -11Q127 -11 81 37T34 159Z"></path></g></g></g></svg></mjx-container></p>
-<p>29<sup>th</sup></p>
-<p>听我说👂👂👂谢谢你🙏🙏🙏因为有你👉👉👉温暖了四季🌈🌈🌈谢谢你🙏🙏🙏感谢有你👉👉👉世界更美丽🌏🌏🌏我要谢谢你🙏🙏🙏因为有你👉👉👉爱常在心底💃💃💃谢谢你 🙏🙏🙏感谢有你🙇</p>
-<p>Here is a footnote reference,<sup class="footnote-ref"><a href="#fn1" id="fnref1">[1]</a></sup> and another.<sup class="footnote-ref"><a href="#fn2" id="fnref2">[2]</a></sup></p>
-<hr class="footnotes-sep">
-<section class="footnotes">
-<ol class="footnotes-list">
-<li id="fn1" class="footnote-item"><p>Here is the footnote. <a href="#fnref1" class="footnote-backref">↩︎</a></p>
-</li>
-<li id="fn2" class="footnote-item"><p>Here’s one with multiple blocks.</p>
-<p>Subsequent paragraphs are indented to show that they<br>
-belong to the previous footnote. <a href="#fnref2" class="footnote-backref">↩︎</a></p>
-</li>
-</ol>
-</section>
-]]></content>
-      <categories>
-        <category>categoriesDemo</category>
-      </categories>
-      <tags>
-        <tag>tagsDemo</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>音乐鉴赏|彩云追月</title>
-    <url>/literature-art/cai-yun-zhui-yue/</url>
-    <content><![CDATA[<link rel="stylesheet" type="text&#x2F;css" href="https://cdn.jsdelivr.net/npm/hexo-tag-hint@0.3.1/dist/hexo-tag-hint.min.css"><p> </p>
-<div class="bvideo"><a href="//www.bilibili.com/video/BV1gt411U7w1" target="_blank">
-        <div class="bvideo-box">
-            <div class="bvideo-cover">
-                <div class="cover-default"></div>
-                <div class="bvideo-cover-layer" style="background-image:url(https://images.weserv.nl/?url=http://i0.hdslb.com/bfs/archive/f6a24c965fea67304aa883dd59e6219c6e2a63f7.jpg)">
-                    <i class="icon-video"></i>
-                </div>
-                <span class="duration">00:06:32</span>
-            </div>
-            <div class="bvideo-info">
-                <p class="title">中央民族乐团《彩云追月》</p>
-                <p class="card-status">
-                    <span class="play-num">
-                        <i class="fa fa-youtube-play"></i>
-                        <span>45.8万</span></span>
-                    <span>
-                        <i class="fa fa-list-alt"></i>
-                        <span>852</span></span></p>
-                <div class="partition">
-                    <label class="card-label">视频</label>
-                    <label class="up-label"></label>
-                    <label class="up-name">亚洲之巅贾队长</label>
-                </div>
-                <div class="actions hide"></div>
-            </div>
-        </div>
-    </a></div>
-<p> <br>
-<strong>彩云追月</strong>为广式音乐经典曲目,其曲风优美活泼,初创作于清朝民间,作者未知,由任光、聂耳于1932年改编为民族管弦乐.</p>
-<p>正如许多中国古典音乐如「高山流水」、「汉宫秋月」、「翠湖春晓」一样,其曲名都是对于歌曲所描述对象的刻写,其所包含的内容不仅仅在于景物的美丽,也蕴含着古人对于自然天地与人和谐共生的哲学思考,其反映了古人对「<strong>天人合一</strong>」这一概念的价值追求,也体现了中国古曲的精神内涵与其文学性的高度统一.所以中国古曲所表现的不仅仅只是山水云月飞鸟走兽,更是人们对于物我之间内在联系的感悟和人心之中「<strong>道法自然</strong>」的根源所在.</p>
-<p>「<strong><font face="楷体">花开有色色入眼,雪落无声声有形.</font></strong>」古人善于从景物的意象中抽象出独一无二的情感,例如「<strong><font face="楷体">临江仙·梦后楼台高锁</font></strong>」中所写:「<strong><font face="楷体">当时明月在，曾照彩云归.</font></strong>」其中借彩云之笔暗指所思之人,醉时相聚,梦醒终成一场空,当年的皎皎明月此时仍在,而伴着月光的&quot;彩云&quot;却又飘往了何处?怕是早已风流云散,无影无踪了吧.情中蕴景,景中藏情,情景交融,意境悠远绵长.而此时我们再来回看本曲曲名:「<strong>彩云追月</strong>」.其中所蕴含的意象就极为丰富了,风起之时云儿乘月,而月字更包藏着秋凉以及忆念的感情色彩,这都是欣赏乐曲时所应体会到的.</p>
-<p>本曲主要演奏乐器为柳琴,琵琶,扬琴,古筝,二胡,竹笛,除此之外还拥有笙，中阮，大阮，竖琴.<br>
-乐曲为典型三段曲式(引子-A(呈示段)-间奏-B(中段)-连接-A’(再现段)-尾声).</p>
-<p>曲作开篇便融合了一种类似于探戈的节奏型贯穿全曲,给人一种轻灵活泼之感,富有韵动.简单的旋律勾勒出了民间惬意的烟火气息.伴随着二胡与竹笛的演奏加入,人的眼前不自觉地便浮现出浩瀚夜空之下,明月高挂彩云飘依的优美景象,似是游子漂泊在外对于故乡的思念,也如亲人欢聚一堂,笑语盈盈其乐融融的团圆时刻.整个中段作为呈示段抒情的延续,情绪陷入低谷,着重凸显了秋风吹散彩云,明月独挂夜空,孑然无依之情.但悲中含情,离兆重逢,那一丝的情伴随着再现段所有乐器齐奏,将情绪推向了高潮,正似「<strong><font face="楷体">愿我如星君如月,夜夜流光相皎洁.</font></strong>」人虽两地,但若将情思寄托于月,伴着彩云送往君彼,那时空的限制怎么会阻挡我们的相聚呢?「<strong><font face="楷体">此时相望不相闻,愿逐月华流照君.</font></strong>」希望伴随着月光永恒地照耀在你的身边,让我们如彩云追月般彼此相映,形影不离.</p>
 ]]></content>
       <categories>
         <category>literature&amp;art</category>
