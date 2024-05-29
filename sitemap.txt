@@ -1,3 +1,5 @@
+https://lalalll-lalalll.github.io/literature-art/gui-xiang-ci/
+https://lalalll-lalalll.github.io/essay/materials-and-spirits/
 https://lalalll-lalalll.github.io/about/index.html
 https://lalalll-lalalll.github.io/code/Lisp-on-Eclipse/
 https://lalalll-lalalll.github.io/friends/index.html
@@ -12,7 +14,8 @@ https://lalalll-lalalll.github.io/
 https://lalalll-lalalll.github.io/tags/tagsDemo/
 https://lalalll-lalalll.github.io/tags/Lisp/
 https://lalalll-lalalll.github.io/categories/categoriesDemo/
-https://lalalll-lalalll.github.io/categories/The-24-solar-terms/
 https://lalalll-lalalll.github.io/categories/code/
+https://lalalll-lalalll.github.io/categories/essay/
 https://lalalll-lalalll.github.io/categories/literature-art/
 https://lalalll-lalalll.github.io/categories/theme/
+https://lalalll-lalalll.github.io/categories/The-24-solar-terms/
