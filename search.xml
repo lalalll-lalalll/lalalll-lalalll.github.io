@@ -13,108 +13,104 @@
 ]]></content>
   </entry>
   <entry>
-    <title>Demo</title>
-    <url>/categoriesDemo/Demo/</url>
-    <content><![CDATA[<link rel="stylesheet" type="text&#x2F;css" href="https://cdn.jsdelivr.net/npm/hexo-tag-hint@0.3.1/dist/hexo-tag-hint.min.css"><h1>标题一</h1>
-<h2 id="标题二">标题二</h2>
-<h3 id="标题三">标题三</h3>
-<h4 id="标题四">标题四</h4>
-<h5 id="标题五">标题五</h5>
-<h6 id="标题六">标题六</h6>
-<p>这是一段话.</p>
-<p>这是另一端话.</p>
-<p>换行<br>换行</p>
-<p><strong>粗体</strong><br>
-<em>斜体</em><br>
-<em><strong>粗斜体</strong></em><br>
-<ins>下划线</ins><br>
-<s>删除线</s><br>
-<mark>高亮</mark></p>
+    <title>二十四节气:惊蛰|二月十五</title>
+    <url>/The-24-solar-terms/the-Waking-of-Insects/</url>
+    <content><![CDATA[<link rel="stylesheet" type="text&#x2F;css" href="https://cdn.jsdelivr.net/npm/hexo-tag-hint@0.3.1/dist/hexo-tag-hint.min.css"><p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://s1.imagehub.cc/images/2023/03/06/a2999593281cd7048bfa30d5974d685b.png"
+                      alt=""
+                ></p>
+<h3 id="惊蛰三候">惊蛰三候</h3>
 <blockquote>
-<p>伟大的计算机肯定会说:鼻子吃面条,耳朵塞土豆.</p>
-<blockquote>
-<p>伟大的计算机同样说过:上面说的话是我瞎说的.</p>
+<p>惊蛰之日,桃始华.又五日,仓庚鸣.又五日,鹰化为鸠.–逸周书</p>
 </blockquote>
-</blockquote>
+<h6 id="桃始华">桃始华</h6>
+<p>惊蛰之日,桃树预备盛开,枝桠上花儿含苞欲放.</p>
+<h6 id="仓庚鸣">仓庚鸣</h6>
+<p>仓<ruby>庚<rt>gēng</rt></ruby>,即黄鹂.阳春和暖,仓庚感春阳之气,嘤其鸣,求其友.<br>
+<font color=Grey>注:黄鹂为雀形目鸣禽,叫声复杂,一般互相沟通会正常鸣唱.黄鹂求偶时也会发出鸣声,但黄鹂求偶多发生于四月以后,以三候中的描述,黄鹂鸣叫稍早.</font></p>
+<h6 id="鹰化为鸠">鹰化为鸠</h6>
+<p>鸠,鸠鸽科,形容人瘦弱时则会说「鸠形鹄面」.鹰,即为猛禽.仲春之月,天气变暖,鹰该换羽了,换羽时鹰变得虚弱,所以说「鹰化为鸠」,猛禽变得弱小.<br>
+另有一说为:惊蛰时节,鹰开始繁育后代,原本蛰伏的鸠鸟渐渐多了起来,鸣叫求偶(例如斑鸠),被古人误以为是鹰变成了鸠.</p>
+<h3 id="气象变化">气象变化</h3>
+<p>一般每年在3月5日或6日,气温回升较快,渐有春雷萌动,按照一般气候规律,惊蛰前后各地天气已开始转暖,雨水渐多,从惊蛰节气开始,中国大部分地区都已进入春耕时节.<br>
+按照一般气候规律,惊蛰前后各地天气已开始转暖,雨水渐多,大部分地区都已进入了春耕.惊醒了蛰伏在泥土中冬眠的各种昆虫的时候,此时过冬的虫卵也要开始卵化.由此可见惊蛰是反映自然物候现象的一个节气.</p>
+<h3 id="养性修身">养性修身</h3>
+<p>惊蛰时节昼夜温差拉大,应随着气温变化及时增减衣物.<br>
+惊蛰节气,乍暖还寒,气候比较干燥,很容易就让人感到口干舌燥,身体不舒服.因此在民间素有惊蛰吃梨的风俗习惯.</p>
 <hr>
-<p><strong>什么??你要做<em>博客Demo</em>??</strong></p>
-<p>来,让我教你:</p>
-<p>
-<ol>
-<li>打开Git</li>
-<li>输入<code>npm uninstall -g hexo-cli</code></li>
-<li>等待成功后关掉窗口</li>
-<li>不要相信上述内容</li>
-</ol>
-</p>
-同样,你也可以:
-<p>
-<ul>
-<li>把硬盘塞进洗衣机</li>
-<li>将插座连接到天线上</li>
-<li>把台灯塞进浴缸</li>
-<li>然后躺在一张吊在天花板的柔软大床上</li>
-</ul>
-</p>
-如此这般,这般如此,你就可练成葵花宝典.
-<div class="highlight-container" data-rel="Java"><figure class="iseeu highlight java"><table><tr><td class="code"><pre><span class="line">System.out.print(<span class="string">"I'm trapped in the computer.Help!"</span>);</span><br></pre></td></tr></table></figure></div>
-<p><a class="link" href="https://www.bilibili.com/video/BV1GJ411x7h7" title="你被骗了">欲知后事如何,且听下回分解. <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></p>
-<table>
-<thead>
-<tr>
-<th style="text-align:center">A</th>
-<th style="text-align:center">B</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td style="text-align:center">A1</td>
-<td style="text-align:center">B1</td>
-</tr>
-<tr>
-<td style="text-align:center">A2</td>
-<td style="text-align:center">B2</td>
-</tr>
-</tbody>
-</table>
-<ul class="contains-task-list">
-<li class="task-list-item"><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox"> 拯救地球</li>
-<li class="task-list-item"><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox"> 拯救宇宙</li>
-<li class="task-list-item"><input class="task-list-item-checkbox" disabled="" type="checkbox"> 去看医生<br>
-<br></li>
-</ul>
-<p>实在是<ruby>丧心病狂<rt>干得漂亮</rt></ruby><br>
-实在是<span class="hint--info hint--rounded hint--top" data-hint="干得漂亮" ontouchstart="">丧心病狂</span><br>
-实在是丧心病狂
-  <span class="spoiler" onclick="this.classList.toggle('spoiler')">
-    <span class="spoiler-blur ">干得漂亮</span>
-  </span></p>
-<div class="note-large notel-red"><div class="notel-title"><p>提示</p>
-</div><div class="notel-content"><p>这里是初中化学实验室</p>
- </div></div>
-<p>H<sub>2</sub>O MnO<sub>2</sub> CO<sub>2</sub> Fe<sub>3</sub>O<sub>4</sub></p>
-<p><mjx-container class="MathJax" jax="SVG" display="true"><svg style="vertical-align: -0.464ex;" xmlns="http://www.w3.org/2000/svg" width="16.38ex" height="2.464ex" role="img" focusable="false" viewBox="0 -883.9 7240 1088.9"><g stroke="currentColor" fill="currentColor" stroke-width="0" transform="scale(1,-1)"><g data-mml-node="math"><g data-mml-node="mi"><path data-c="1D466" d="M21 287Q21 301 36 335T84 406T158 442Q199 442 224 419T250 355Q248 336 247 334Q247 331 231 288T198 191T182 105Q182 62 196 45T238 27Q261 27 281 38T312 61T339 94Q339 95 344 114T358 173T377 247Q415 397 419 404Q432 431 462 431Q475 431 483 424T494 412T496 403Q496 390 447 193T391 -23Q363 -106 294 -155T156 -205Q111 -205 77 -183T43 -117Q43 -95 50 -80T69 -58T89 -48T106 -45Q150 -45 150 -87Q150 -107 138 -122T115 -142T102 -147L99 -148Q101 -153 118 -160T152 -167H160Q177 -167 186 -165Q219 -156 247 -127T290 -65T313 -9T321 21L315 17Q309 13 296 6T270 -6Q250 -11 231 -11Q185 -11 150 11T104 82Q103 89 103 113Q103 170 138 262T173 379Q173 380 173 381Q173 390 173 393T169 400T158 404H154Q131 404 112 385T82 344T65 302T57 280Q55 278 41 278H27Q21 284 21 287Z"></path></g><g data-mml-node="mo" transform="translate(767.8,0)"><path data-c="3D" d="M56 347Q56 360 70 367H707Q722 359 722 347Q722 336 708 328L390 327H72Q56 332 56 347ZM56 153Q56 168 72 173H708Q722 163 722 153Q722 140 707 133H70Q56 140 56 153Z"></path></g><g data-mml-node="mi" transform="translate(1823.6,0)"><path data-c="1D44E" d="M33 157Q33 258 109 349T280 441Q331 441 370 392Q386 422 416 422Q429 422 439 414T449 394Q449 381 412 234T374 68Q374 43 381 35T402 26Q411 27 422 35Q443 55 463 131Q469 151 473 152Q475 153 483 153H487Q506 153 506 144Q506 138 501 117T481 63T449 13Q436 0 417 -8Q409 -10 393 -10Q359 -10 336 5T306 36L300 51Q299 52 296 50Q294 48 292 46Q233 -10 172 -10Q117 -10 75 30T33 157ZM351 328Q351 334 346 350T323 385T277 405Q242 405 210 374T160 293Q131 214 119 129Q119 126 119 118T118 106Q118 61 136 44T179 26Q217 26 254 59T298 110Q300 114 325 217T351 328Z"></path></g><g data-mml-node="msup" transform="translate(2352.6,0)"><g data-mml-node="mi"><path data-c="1D465" d="M52 289Q59 331 106 386T222 442Q257 442 286 424T329 379Q371 442 430 442Q467 442 494 420T522 361Q522 332 508 314T481 292T458 288Q439 288 427 299T415 328Q415 374 465 391Q454 404 425 404Q412 404 406 402Q368 386 350 336Q290 115 290 78Q290 50 306 38T341 26Q378 26 414 59T463 140Q466 150 469 151T485 153H489Q504 153 504 145Q504 144 502 134Q486 77 440 33T333 -11Q263 -11 227 52Q186 -10 133 -10H127Q78 -10 57 16T35 71Q35 103 54 123T99 143Q142 143 142 101Q142 81 130 66T107 46T94 41L91 40Q91 39 97 36T113 29T132 26Q168 26 194 71Q203 87 217 139T245 247T261 313Q266 340 266 352Q266 380 251 392T217 404Q177 404 142 372T93 290Q91 281 88 280T72 278H58Q52 284 52 289Z"></path></g><g data-mml-node="TeXAtom" transform="translate(605,413) scale(0.707)" data-mjx-texclass="ORD"><g data-mml-node="mn"><path data-c="32" d="M109 429Q82 429 66 447T50 491Q50 562 103 614T235 666Q326 666 387 610T449 465Q449 422 429 383T381 315T301 241Q265 210 201 149L142 93L218 92Q375 92 385 97Q392 99 409 186V189H449V186Q448 183 436 95T421 3V0H50V19V31Q50 38 56 46T86 81Q115 113 136 137Q145 147 170 174T204 211T233 244T261 278T284 308T305 340T320 369T333 401T340 431T343 464Q343 527 309 573T212 619Q179 619 154 602T119 569T109 550Q109 549 114 549Q132 549 151 535T170 489Q170 464 154 447T109 429Z"></path></g></g></g><g data-mml-node="mo" transform="translate(3583.3,0)"><path data-c="2B" d="M56 237T56 250T70 270H369V420L370 570Q380 583 389 583Q402 583 409 568V270H707Q722 262 722 250T707 230H409V-68Q401 -82 391 -82H389H387Q375 -82 369 -68V230H70Q56 237 56 250Z"></path></g><g data-mml-node="mi" transform="translate(4583.6,0)"><path data-c="1D44F" d="M73 647Q73 657 77 670T89 683Q90 683 161 688T234 694Q246 694 246 685T212 542Q204 508 195 472T180 418L176 399Q176 396 182 402Q231 442 283 442Q345 442 383 396T422 280Q422 169 343 79T173 -11Q123 -11 82 27T40 150V159Q40 180 48 217T97 414Q147 611 147 623T109 637Q104 637 101 637H96Q86 637 83 637T76 640T73 647ZM336 325V331Q336 405 275 405Q258 405 240 397T207 376T181 352T163 330L157 322L136 236Q114 150 114 114Q114 66 138 42Q154 26 178 26Q211 26 245 58Q270 81 285 114T318 219Q336 291 336 325Z"></path></g><g data-mml-node="mi" transform="translate(5012.6,0)"><path data-c="1D465" d="M52 289Q59 331 106 386T222 442Q257 442 286 424T329 379Q371 442 430 442Q467 442 494 420T522 361Q522 332 508 314T481 292T458 288Q439 288 427 299T415 328Q415 374 465 391Q454 404 425 404Q412 404 406 402Q368 386 350 336Q290 115 290 78Q290 50 306 38T341 26Q378 26 414 59T463 140Q466 150 469 151T485 153H489Q504 153 504 145Q504 144 502 134Q486 77 440 33T333 -11Q263 -11 227 52Q186 -10 133 -10H127Q78 -10 57 16T35 71Q35 103 54 123T99 143Q142 143 142 101Q142 81 130 66T107 46T94 41L91 40Q91 39 97 36T113 29T132 26Q168 26 194 71Q203 87 217 139T245 247T261 313Q266 340 266 352Q266 380 251 392T217 404Q177 404 142 372T93 290Q91 281 88 280T72 278H58Q52 284 52 289Z"></path></g><g data-mml-node="mo" transform="translate(5806.8,0)"><path data-c="2B" d="M56 237T56 250T70 270H369V420L370 570Q380 583 389 583Q402 583 409 568V270H707Q722 262 722 250T707 230H409V-68Q401 -82 391 -82H389H387Q375 -82 369 -68V230H70Q56 237 56 250Z"></path></g><g data-mml-node="mi" transform="translate(6807,0)"><path data-c="1D450" d="M34 159Q34 268 120 355T306 442Q362 442 394 418T427 355Q427 326 408 306T360 285Q341 285 330 295T319 325T330 359T352 380T366 386H367Q367 388 361 392T340 400T306 404Q276 404 249 390Q228 381 206 359Q162 315 142 235T121 119Q121 73 147 50Q169 26 205 26H209Q321 26 394 111Q403 121 406 121Q410 121 419 112T429 98T420 83T391 55T346 25T282 0T202 -11Q127 -11 81 37T34 159Z"></path></g></g></g></svg></mjx-container></p>
-<p>29<sup>th</sup></p>
-<p>听我说👂👂👂谢谢你🙏🙏🙏因为有你👉👉👉温暖了四季🌈🌈🌈谢谢你🙏🙏🙏感谢有你👉👉👉世界更美丽🌏🌏🌏我要谢谢你🙏🙏🙏因为有你👉👉👉爱常在心底💃💃💃谢谢你 🙏🙏🙏感谢有你🙇</p>
-<p>Here is a footnote reference,<sup class="footnote-ref"><a href="#fn1" id="fnref1">[1]</a></sup> and another.<sup class="footnote-ref"><a href="#fn2" id="fnref2">[2]</a></sup></p>
-<hr class="footnotes-sep">
-<section class="footnotes">
-<ol class="footnotes-list">
-<li id="fn1" class="footnote-item"><p>Here is the footnote. <a href="#fnref1" class="footnote-backref">↩︎</a></p>
-</li>
-<li id="fn2" class="footnote-item"><p>Here’s one with multiple blocks.</p>
-<p>Subsequent paragraphs are indented to show that they<br>
-belong to the previous footnote. <a href="#fnref2" class="footnote-backref">↩︎</a></p>
-</li>
-</ol>
-</section>
+<p>参考资料:<br>
+1.<a class="link"   href="http://www.gov.cn/govweb/fwxx/wy/2010-03/05/content_1548494.htm" >惊蛰的由来 <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a><br>
+2.<a class="link"   href="https://new.qq.com/rain/a/20220219A02VCG00" >惊蛰三候：桃始华；仓庚鸣；鹰化为鸠 <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a><br>
+3.<a class="link"   href="https://www.cma.gov.cn/ztbd/2023zt/24jq/jz/index.html" >二十四节气·惊蛰 <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></p>
 ]]></content>
       <categories>
-        <category>categoriesDemo</category>
+        <category>The-24-solar-terms</category>
       </categories>
-      <tags>
-        <tag>tagsDemo</tag>
-      </tags>
+  </entry>
+  <entry>
+    <title>二十四节气:雨水|正月廿九</title>
+    <url>/The-24-solar-terms/Rain-Water/</url>
+    <content><![CDATA[<link rel="stylesheet" type="text&#x2F;css" href="https://cdn.jsdelivr.net/npm/hexo-tag-hint@0.3.1/dist/hexo-tag-hint.min.css"><p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://s1.imagehub.cc/images/2023/02/19/588c548ff20e612a6edea5db6d4227f7.png"
+                      alt=""
+                ></p>
+<h3 id="雨水三候">雨水三候</h3>
+<blockquote>
+<p>雨水之日，獭祭鱼。又五日，鸿雁来。又五日，草木萌动。–逸周书</p>
+</blockquote>
+<h6 id="獭祭鱼">獭祭鱼</h6>
+<p>因水獭的习性，它常把身子直立起来，将两只前爪合拢，像是在祭拜.特别在雨水时节，水獭喜欢把鱼咬死后放到岸边依次排列，更像是祭祀一般.「獭祭鱼」描述的是獭捕鱼后将鱼摆在地上,如在祭拜鱼类.</p>
+<blockquote>
+<p>獭祭鱼，然后虞人入泽梁。–礼记·王制</p>
+</blockquote>
+<p><strong>虞人</strong>,古掌山泽苑囿之官.<strong>泽梁</strong>,在水流中用石筑成的拦水捕鱼的堰.<br>
+「獭祭鱼」是渔季开始的信号,从这时开始,人们便开始打鱼.<br>
+另外,从文化的角度来看,「祭祀」往往具有更深一层的含义,旨在祈求新的一年风调雨顺,民间安乐.<br>
+不难看出,「獭祭鱼」的背后,展现的是渔人们寄托的美好愿景.</p>
+<h6 id="鸿雁来">鸿雁来</h6>
+<p>候鸟畏寒,随天气而来往于南北之间,以此古人认为「禽鸟得气之先」,有着预知阴阳的能力.<br>
+春回大地,北方气候渐渐和暖,南方慢慢寒冷,候鸟就又从南方飞回北方了.<br>
+鸿雁飞回北方,就代表春天来临,又是新的一年.</p>
+<h6 id="草木萌动">草木萌动</h6>
+<p>阴阳交泰,出现生机,植物乘着生机抽出绿芽,日后将是一片欣欣向荣之景.</p>
+<h3 id="气象变化">气象变化</h3>
+<p>雨水时节，天气变化不定，是全年寒潮过程出现最多的时节之一，忽冷忽热，乍暖还寒.<br>
+时至雨水节气，太阳的直射点也由南半球逐渐向赤道靠近了，这时的北半球，日照时数和强度都在增加，气温回升较快，来自海洋的暖湿空气开始活跃，并渐渐向北挺进与冷空气相遇，形成降雨，但降雨量级多以小雨或毛毛细雨为主.</p>
+<h3 id="养性修身">养性修身</h3>
+<p>雨水后，春风送暖，致病的细菌、病毒易随风传播，春季传染病易爆发.应注意锻炼身体，增强抵抗力，预防疾病的发生.<br>
+雨水节气中，地湿之气渐升，且早晨时有露、霜出现.所以针对这样的气候特点，饮食调养应侧重于调养脾胃和祛风除湿。脾胃能消化五谷，是气血生养之源.五行中肝属木，在味为酸；脾属土，在味为甘.</p>
+<hr>
+<p>参考资料:<br>
+1.<a class="link"   href="https://new.qq.com/rain/a/20220218A0CGVV00" >二十四节气｜雨水：獭为什么要祭鱼？反映了什么理念？ <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a><br>
+2.<a class="link"   href="https://new.qq.com/rain/a/20220219A02VCG00" >雨水三候：獭祭鱼；鸿雁来；草木萌动 <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a><br>
+3.<a class="link"   href="http://m.xinhuanet.com/sd/2019-02/19/c_1124131378.htm" >元宵邂逅雨水 小楼一夜听春雨 <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></p>
+]]></content>
+      <categories>
+        <category>The-24-solar-terms</category>
+      </categories>
+  </entry>
+  <entry>
+    <title>物质与精神</title>
+    <url>/essay/materials-and-spirits/</url>
+    <content><![CDATA[<link rel="stylesheet" type="text&#x2F;css" href="https://cdn.jsdelivr.net/npm/hexo-tag-hint@0.3.1/dist/hexo-tag-hint.min.css"><blockquote>
+<p>仓廪实而知礼节,衣食足而知荣辱.</p>
+</blockquote>
+<p>本句语出春秋著名政治家管仲,其后被许多文章引用,其揭示了生产力和意识形态的关系.但有趣的是,它与我们如今的很多观点有着相同之处.</p>
+<p>这句话的核心在于物质充足可以促使礼仪的产生,我们姑且使用物质的狭隘定义,即在于可以满足人类物欲的实体.</p>
+<p>唯物史观中有言,物质基础决定上层建筑.而放在这里便是物质的充足决定了精神的富裕.在叔本华的苦难钟摆中,伴随着人生的就是痛苦,人的一生不过是追寻着欲望罢了.因此,在此前提之下,物质的满足即人类物欲的满足,满足后的便是痛苦的空虚,人类的欲望自然而然地迁移到了更高的层次,便是由物质生活转移前往精神的世界,即是灵魂和文化的具象体现,这一行为的过程便是物质满足伴随的欲望所驱动的.</p>
+<p>乌托邦或说共产主义社会的按需分配也是如此,它所必要的条件便是人类的物质可以满足人类的较高需求,人类具有较高的文明水平.在此设想下,人类的发展力便从物质转移到了精神之上,而人类的区域文化属性决定了所形成文明的表征形态.</p>
+<p>管仲认为,百姓之所以无礼无德,是由于生存的需求得不到满足,物质的基础不能成立,那么精神文明的建立更加无何说起.只有通过物质的满足来支持百姓的生存,从而使百姓由生存转向生活,才能塑造起区域的文明体系.这便是在自我已经满足的前提下,追求更高层次的满足时,自然而然地将行为趋向于群体的满足,进而探寻更高层次的自我满足及实现.</p>
+<p>所以人欲望的升级往往经历三个阶段,由个人到群体再回到个人,如果单看这一过程,往往会觉得这不可思议,为什么个人欲望会趋向群体,群体的满足怎么又会产生个人的欲望呢?我们重回其本.</p>
+<p>在人类文明发展之初,人的欲望就是生存和繁衍,这种欲望的本质则是自私的,随着人类文明的发展和进步,人类展现了其群体的属性,开始从个人的满足渐进到群体性的成就,开始发展社会文化,例如艺术、文学以及道德文明.这种物质到精神的转变体现了人类社会进步的内在动力.在群体的社会属性中,人们则由群体性转到了个人,开始寻求群体中个人的最大利益,获得欲望的满足,由此产生分配,阶级以及统治.</p>
+<p>因此,人类文明的进步和生产力的发展是一个相互促进的循环体.</p>
+]]></content>
+      <categories>
+        <category>essay</category>
+      </categories>
   </entry>
   <entry>
     <title>让Eclipse也能编译CommonLisp!</title>
@@ -230,106 +226,6 @@ belong to the previous footnote. <a href="#fnref2" class="footnote-backref">↩�
       </tags>
   </entry>
   <entry>
-    <title>二十四节气:雨水|正月廿九</title>
-    <url>/The-24-solar-terms/Rain-Water/</url>
-    <content><![CDATA[<link rel="stylesheet" type="text&#x2F;css" href="https://cdn.jsdelivr.net/npm/hexo-tag-hint@0.3.1/dist/hexo-tag-hint.min.css"><p><img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://s1.imagehub.cc/images/2023/02/19/588c548ff20e612a6edea5db6d4227f7.png"
-                      alt=""
-                ></p>
-<h3 id="雨水三候">雨水三候</h3>
-<blockquote>
-<p>雨水之日，獭祭鱼。又五日，鸿雁来。又五日，草木萌动。–逸周书</p>
-</blockquote>
-<h6 id="獭祭鱼">獭祭鱼</h6>
-<p>因水獭的习性，它常把身子直立起来，将两只前爪合拢，像是在祭拜.特别在雨水时节，水獭喜欢把鱼咬死后放到岸边依次排列，更像是祭祀一般.「獭祭鱼」描述的是獭捕鱼后将鱼摆在地上,如在祭拜鱼类.</p>
-<blockquote>
-<p>獭祭鱼，然后虞人入泽梁。–礼记·王制</p>
-</blockquote>
-<p><strong>虞人</strong>,古掌山泽苑囿之官.<strong>泽梁</strong>,在水流中用石筑成的拦水捕鱼的堰.<br>
-「獭祭鱼」是渔季开始的信号,从这时开始,人们便开始打鱼.<br>
-另外,从文化的角度来看,「祭祀」往往具有更深一层的含义,旨在祈求新的一年风调雨顺,民间安乐.<br>
-不难看出,「獭祭鱼」的背后,展现的是渔人们寄托的美好愿景.</p>
-<h6 id="鸿雁来">鸿雁来</h6>
-<p>候鸟畏寒,随天气而来往于南北之间,以此古人认为「禽鸟得气之先」,有着预知阴阳的能力.<br>
-春回大地,北方气候渐渐和暖,南方慢慢寒冷,候鸟就又从南方飞回北方了.<br>
-鸿雁飞回北方,就代表春天来临,又是新的一年.</p>
-<h6 id="草木萌动">草木萌动</h6>
-<p>阴阳交泰,出现生机,植物乘着生机抽出绿芽,日后将是一片欣欣向荣之景.</p>
-<h3 id="气象变化">气象变化</h3>
-<p>雨水时节，天气变化不定，是全年寒潮过程出现最多的时节之一，忽冷忽热，乍暖还寒.<br>
-时至雨水节气，太阳的直射点也由南半球逐渐向赤道靠近了，这时的北半球，日照时数和强度都在增加，气温回升较快，来自海洋的暖湿空气开始活跃，并渐渐向北挺进与冷空气相遇，形成降雨，但降雨量级多以小雨或毛毛细雨为主.</p>
-<h3 id="养性修身">养性修身</h3>
-<p>雨水后，春风送暖，致病的细菌、病毒易随风传播，春季传染病易爆发.应注意锻炼身体，增强抵抗力，预防疾病的发生.<br>
-雨水节气中，地湿之气渐升，且早晨时有露、霜出现.所以针对这样的气候特点，饮食调养应侧重于调养脾胃和祛风除湿。脾胃能消化五谷，是气血生养之源.五行中肝属木，在味为酸；脾属土，在味为甘.</p>
-<hr>
-<p>参考资料:<br>
-1.<a class="link"   href="https://new.qq.com/rain/a/20220218A0CGVV00" >二十四节气｜雨水：獭为什么要祭鱼？反映了什么理念？ <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a><br>
-2.<a class="link"   href="https://new.qq.com/rain/a/20220219A02VCG00" >雨水三候：獭祭鱼；鸿雁来；草木萌动 <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a><br>
-3.<a class="link"   href="http://m.xinhuanet.com/sd/2019-02/19/c_1124131378.htm" >元宵邂逅雨水 小楼一夜听春雨 <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></p>
-]]></content>
-      <categories>
-        <category>The-24-solar-terms</category>
-      </categories>
-  </entry>
-  <entry>
-    <title>二十四节气:惊蛰|二月十五</title>
-    <url>/The-24-solar-terms/the-Waking-of-Insects/</url>
-    <content><![CDATA[<link rel="stylesheet" type="text&#x2F;css" href="https://cdn.jsdelivr.net/npm/hexo-tag-hint@0.3.1/dist/hexo-tag-hint.min.css"><p><img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://s1.imagehub.cc/images/2023/03/06/a2999593281cd7048bfa30d5974d685b.png"
-                      alt=""
-                ></p>
-<h3 id="惊蛰三候">惊蛰三候</h3>
-<blockquote>
-<p>惊蛰之日,桃始华.又五日,仓庚鸣.又五日,鹰化为鸠.–逸周书</p>
-</blockquote>
-<h6 id="桃始华">桃始华</h6>
-<p>惊蛰之日,桃树预备盛开,枝桠上花儿含苞欲放.</p>
-<h6 id="仓庚鸣">仓庚鸣</h6>
-<p>仓<ruby>庚<rt>gēng</rt></ruby>,即黄鹂.阳春和暖,仓庚感春阳之气,嘤其鸣,求其友.<br>
-<font color=Grey>注:黄鹂为雀形目鸣禽,叫声复杂,一般互相沟通会正常鸣唱.黄鹂求偶时也会发出鸣声,但黄鹂求偶多发生于四月以后,以三候中的描述,黄鹂鸣叫稍早.</font></p>
-<h6 id="鹰化为鸠">鹰化为鸠</h6>
-<p>鸠,鸠鸽科,形容人瘦弱时则会说「鸠形鹄面」.鹰,即为猛禽.仲春之月,天气变暖,鹰该换羽了,换羽时鹰变得虚弱,所以说「鹰化为鸠」,猛禽变得弱小.<br>
-另有一说为:惊蛰时节,鹰开始繁育后代,原本蛰伏的鸠鸟渐渐多了起来,鸣叫求偶(例如斑鸠),被古人误以为是鹰变成了鸠.</p>
-<h3 id="气象变化">气象变化</h3>
-<p>一般每年在3月5日或6日,气温回升较快,渐有春雷萌动,按照一般气候规律,惊蛰前后各地天气已开始转暖,雨水渐多,从惊蛰节气开始,中国大部分地区都已进入春耕时节.<br>
-按照一般气候规律,惊蛰前后各地天气已开始转暖,雨水渐多,大部分地区都已进入了春耕.惊醒了蛰伏在泥土中冬眠的各种昆虫的时候,此时过冬的虫卵也要开始卵化.由此可见惊蛰是反映自然物候现象的一个节气.</p>
-<h3 id="养性修身">养性修身</h3>
-<p>惊蛰时节昼夜温差拉大,应随着气温变化及时增减衣物.<br>
-惊蛰节气,乍暖还寒,气候比较干燥,很容易就让人感到口干舌燥,身体不舒服.因此在民间素有惊蛰吃梨的风俗习惯.</p>
-<hr>
-<p>参考资料:<br>
-1.<a class="link"   href="http://www.gov.cn/govweb/fwxx/wy/2010-03/05/content_1548494.htm" >惊蛰的由来 <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a><br>
-2.<a class="link"   href="https://new.qq.com/rain/a/20220219A02VCG00" >惊蛰三候：桃始华；仓庚鸣；鹰化为鸠 <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a><br>
-3.<a class="link"   href="https://www.cma.gov.cn/ztbd/2023zt/24jq/jz/index.html" >二十四节气·惊蛰 <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></p>
-]]></content>
-      <categories>
-        <category>The-24-solar-terms</category>
-      </categories>
-  </entry>
-  <entry>
-    <title>物质与精神</title>
-    <url>/essay/materials-and-spirits/</url>
-    <content><![CDATA[<link rel="stylesheet" type="text&#x2F;css" href="https://cdn.jsdelivr.net/npm/hexo-tag-hint@0.3.1/dist/hexo-tag-hint.min.css"><blockquote>
-<p>仓廪实而知礼节,衣食足而知荣辱.</p>
-</blockquote>
-<p>本句语出春秋著名政治家管仲,其后被许多文章引用,其揭示了生产力和意识形态的关系.但有趣的是,它与我们如今的很多观点有着相同之处.</p>
-<p>这句话的核心在于物质充足可以促使礼仪的产生,我们姑且使用物质的狭隘定义,即在于可以满足人类物欲的实体.</p>
-<p>唯物史观中有言,物质基础决定上层建筑.而放在这里便是物质的充足决定了精神的富裕.在叔本华的苦难钟摆中,伴随着人生的就是痛苦,人的一生不过是追寻着欲望罢了.因此,在此前提之下,物质的满足即人类物欲的满足,满足后的便是痛苦的空虚,人类的欲望自然而然地迁移到了更高的层次,便是由物质生活转移前往精神的世界,即是灵魂和文化的具象体现,这一行为的过程便是物质满足伴随的欲望所驱动的.</p>
-<p>乌托邦或说共产主义社会的按需分配也是如此,它所必要的条件便是人类的物质可以满足人类的较高需求,人类具有较高的文明水平.在此设想下,人类的发展力便从物质转移到了精神之上,而人类的区域文化属性决定了所形成文明的表征形态.</p>
-<p>管仲认为,百姓之所以无礼无德,是由于生存的需求得不到满足,物质的基础不能成立,那么精神文明的建立更加无何说起.只有通过物质的满足来支持百姓的生存,从而使百姓由生存转向生活,才能塑造起区域的文明体系.这便是在自我已经满足的前提下,追求更高层次的满足时,自然而然地将行为趋向于群体的满足,进而探寻更高层次的自我满足及实现.</p>
-<p>所以人欲望的升级往往经历三个阶段,由个人到群体再回到个人,如果单看这一过程,往往会觉得这不可思议,为什么个人欲望会趋向群体,群体的满足怎么又会产生个人的欲望呢?我们重回其本.</p>
-<p>在人类文明发展之初,人的欲望就是生存和繁衍,这种欲望的本质则是自私的,随着人类文明的发展和进步,人类展现了其群体的属性,开始从个人的满足渐进到群体性的成就,开始发展社会文化,例如艺术、文学以及道德文明.这种物质到精神的转变体现了人类社会进步的内在动力.在群体的社会属性中,人们则由群体性转到了个人,开始寻求群体中个人的最大利益,获得欲望的满足,由此产生分配,阶级以及统治.</p>
-<p>因此,人类文明的进步和生产力的发展是一个相互促进的循环体.</p>
-]]></content>
-      <categories>
-        <category>essay</category>
-      </categories>
-  </entry>
-  <entry>
     <title>音乐鉴赏|彩云追月</title>
     <url>/literature-art/cai-yun-zhui-yue/</url>
     <content><![CDATA[<link rel="stylesheet" type="text&#x2F;css" href="https://cdn.jsdelivr.net/npm/hexo-tag-hint@0.3.1/dist/hexo-tag-hint.min.css"><p> </p>
@@ -347,10 +243,10 @@ belong to the previous footnote. <a href="#fnref2" class="footnote-backref">↩�
                 <p class="card-status">
                     <span class="play-num">
                         <i class="fa fa-youtube-play"></i>
-                        <span>48.4万</span></span>
+                        <span>48.7万</span></span>
                     <span>
                         <i class="fa fa-list-alt"></i>
-                        <span>868</span></span></p>
+                        <span>869</span></span></p>
                 <div class="partition">
                     <label class="card-label">视频</label>
                     <label class="up-label"></label>
@@ -373,32 +269,108 @@ belong to the previous footnote. <a href="#fnref2" class="footnote-backref">↩�
       </categories>
   </entry>
   <entry>
-    <title>文学创作|归乡辞</title>
-    <url>/literature-art/gui-xiang-ci/</url>
-    <content><![CDATA[<link rel="stylesheet" type="text&#x2F;css" href="https://cdn.jsdelivr.net/npm/hexo-tag-hint@0.3.1/dist/hexo-tag-hint.min.css"><center>《归乡辞》</center>
-&emsp;
-<center>归乡!归乡!凡俗承侵扰,何时归故乡?</center>
-<center>忧愁之此难断如水随风乘空去,归乡之心更为屹切卓然碎昆山.</center>
-<center>他乡羁旅思怀舟已晚,旧友难逢天堑亘古今.</center>
-<center>邪虚屈枉违身残意拟,交淡鸣贤觖望私随恣.</center>
-<center>归乡乎?归乡矣.归乡意已决,怎难路曲奸谲奇险破穹天!</center>
-<center>扉门长掩,轩栊久闭.桂檀已散,鼓瑟声消.榅蕈中曲,庭息般凝.</center>
-<center>路愈长而险,步愈急而切.泊度浮萍漂难定,归根追本存执真.</center>
-<center>他若知矣心至切,嶂避江离路迢迢!扶摇直上九宫音,凭地回响泉地泠.</center>
-<center>霜缟净除冰灵镜,岩熯隐烬炽兹昀.虫鸣夏尔朝知促,草莽生蕃暮芳明.</center>
-<center>余霞成绮,桂馥兰香,霞姿月韵,云卷舒昌.</center>
-<center>踏之以土,归之以乡.目为身调,主实魂酣.</center>
-<center>漂泊在外终是客,尘心难为故梓移.</center>
-<center>芝兰满地,香草芬芳,蕙心纨质,瑰意琦行.</center>
-<center>畅怀游目,深心荡阔.终以凡人躯,破险归故乡!</center>
-<center>常言吾心屈意嫉世苦痛恶难处,谁晓吾情终在梦萦魂牵刻骨池.</center>
-<center>大梦惊觉人初醒,佳期难还空自意.昔穷鸣敛今何在,吊梦难归至此时.</center>
-<center>噫!喜极春秋人生朝暮瞬,风举云遥莫老齐天高!</center>
-&emsp;
-<center>特别声明:本作为<strong>结月lalalll</strong>原创作品,禁止剽窃,违者必究!</center>]]></content>
+    <title>Demo</title>
+    <url>/categoriesDemo/Demo/</url>
+    <content><![CDATA[<link rel="stylesheet" type="text&#x2F;css" href="https://cdn.jsdelivr.net/npm/hexo-tag-hint@0.3.1/dist/hexo-tag-hint.min.css"><h1>标题一</h1>
+<h2 id="标题二">标题二</h2>
+<h3 id="标题三">标题三</h3>
+<h4 id="标题四">标题四</h4>
+<h5 id="标题五">标题五</h5>
+<h6 id="标题六">标题六</h6>
+<p>这是一段话.</p>
+<p>这是另一端话.</p>
+<p>换行<br>换行</p>
+<p><strong>粗体</strong><br>
+<em>斜体</em><br>
+<em><strong>粗斜体</strong></em><br>
+<ins>下划线</ins><br>
+<s>删除线</s><br>
+<mark>高亮</mark></p>
+<blockquote>
+<p>伟大的计算机肯定会说:鼻子吃面条,耳朵塞土豆.</p>
+<blockquote>
+<p>伟大的计算机同样说过:上面说的话是我瞎说的.</p>
+</blockquote>
+</blockquote>
+<hr>
+<p><strong>什么??你要做<em>博客Demo</em>??</strong></p>
+<p>来,让我教你:</p>
+<p>
+<ol>
+<li>打开Git</li>
+<li>输入<code>npm uninstall -g hexo-cli</code></li>
+<li>等待成功后关掉窗口</li>
+<li>不要相信上述内容</li>
+</ol>
+</p>
+同样,你也可以:
+<p>
+<ul>
+<li>把硬盘塞进洗衣机</li>
+<li>将插座连接到天线上</li>
+<li>把台灯塞进浴缸</li>
+<li>然后躺在一张吊在天花板的柔软大床上</li>
+</ul>
+</p>
+如此这般,这般如此,你就可练成葵花宝典.
+<div class="highlight-container" data-rel="Java"><figure class="iseeu highlight java"><table><tr><td class="code"><pre><span class="line">System.out.print(<span class="string">"I'm trapped in the computer.Help!"</span>);</span><br></pre></td></tr></table></figure></div>
+<p><a class="link" href="https://www.bilibili.com/video/BV1GJ411x7h7" title="你被骗了">欲知后事如何,且听下回分解. <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></p>
+<table>
+<thead>
+<tr>
+<th style="text-align:center">A</th>
+<th style="text-align:center">B</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">A1</td>
+<td style="text-align:center">B1</td>
+</tr>
+<tr>
+<td style="text-align:center">A2</td>
+<td style="text-align:center">B2</td>
+</tr>
+</tbody>
+</table>
+<ul class="contains-task-list">
+<li class="task-list-item"><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox"> 拯救地球</li>
+<li class="task-list-item"><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox"> 拯救宇宙</li>
+<li class="task-list-item"><input class="task-list-item-checkbox" disabled="" type="checkbox"> 去看医生<br>
+<br></li>
+</ul>
+<p>实在是<ruby>丧心病狂<rt>干得漂亮</rt></ruby><br>
+实在是<span class="hint--info hint--rounded hint--top" data-hint="干得漂亮" ontouchstart="">丧心病狂</span><br>
+实在是丧心病狂
+  <span class="spoiler" onclick="this.classList.toggle('spoiler')">
+    <span class="spoiler-blur ">干得漂亮</span>
+  </span></p>
+<div class="note-large notel-red"><div class="notel-title"><p>提示</p>
+</div><div class="notel-content"><p>这里是初中化学实验室</p>
+ </div></div>
+<p>H<sub>2</sub>O MnO<sub>2</sub> CO<sub>2</sub> Fe<sub>3</sub>O<sub>4</sub></p>
+<p><mjx-container class="MathJax" jax="SVG" display="true"><svg style="vertical-align: -0.464ex;" xmlns="http://www.w3.org/2000/svg" width="16.38ex" height="2.464ex" role="img" focusable="false" viewBox="0 -883.9 7240 1088.9"><g stroke="currentColor" fill="currentColor" stroke-width="0" transform="scale(1,-1)"><g data-mml-node="math"><g data-mml-node="mi"><path data-c="1D466" d="M21 287Q21 301 36 335T84 406T158 442Q199 442 224 419T250 355Q248 336 247 334Q247 331 231 288T198 191T182 105Q182 62 196 45T238 27Q261 27 281 38T312 61T339 94Q339 95 344 114T358 173T377 247Q415 397 419 404Q432 431 462 431Q475 431 483 424T494 412T496 403Q496 390 447 193T391 -23Q363 -106 294 -155T156 -205Q111 -205 77 -183T43 -117Q43 -95 50 -80T69 -58T89 -48T106 -45Q150 -45 150 -87Q150 -107 138 -122T115 -142T102 -147L99 -148Q101 -153 118 -160T152 -167H160Q177 -167 186 -165Q219 -156 247 -127T290 -65T313 -9T321 21L315 17Q309 13 296 6T270 -6Q250 -11 231 -11Q185 -11 150 11T104 82Q103 89 103 113Q103 170 138 262T173 379Q173 380 173 381Q173 390 173 393T169 400T158 404H154Q131 404 112 385T82 344T65 302T57 280Q55 278 41 278H27Q21 284 21 287Z"></path></g><g data-mml-node="mo" transform="translate(767.8,0)"><path data-c="3D" d="M56 347Q56 360 70 367H707Q722 359 722 347Q722 336 708 328L390 327H72Q56 332 56 347ZM56 153Q56 168 72 173H708Q722 163 722 153Q722 140 707 133H70Q56 140 56 153Z"></path></g><g data-mml-node="mi" transform="translate(1823.6,0)"><path data-c="1D44E" d="M33 157Q33 258 109 349T280 441Q331 441 370 392Q386 422 416 422Q429 422 439 414T449 394Q449 381 412 234T374 68Q374 43 381 35T402 26Q411 27 422 35Q443 55 463 131Q469 151 473 152Q475 153 483 153H487Q506 153 506 144Q506 138 501 117T481 63T449 13Q436 0 417 -8Q409 -10 393 -10Q359 -10 336 5T306 36L300 51Q299 52 296 50Q294 48 292 46Q233 -10 172 -10Q117 -10 75 30T33 157ZM351 328Q351 334 346 350T323 385T277 405Q242 405 210 374T160 293Q131 214 119 129Q119 126 119 118T118 106Q118 61 136 44T179 26Q217 26 254 59T298 110Q300 114 325 217T351 328Z"></path></g><g data-mml-node="msup" transform="translate(2352.6,0)"><g data-mml-node="mi"><path data-c="1D465" d="M52 289Q59 331 106 386T222 442Q257 442 286 424T329 379Q371 442 430 442Q467 442 494 420T522 361Q522 332 508 314T481 292T458 288Q439 288 427 299T415 328Q415 374 465 391Q454 404 425 404Q412 404 406 402Q368 386 350 336Q290 115 290 78Q290 50 306 38T341 26Q378 26 414 59T463 140Q466 150 469 151T485 153H489Q504 153 504 145Q504 144 502 134Q486 77 440 33T333 -11Q263 -11 227 52Q186 -10 133 -10H127Q78 -10 57 16T35 71Q35 103 54 123T99 143Q142 143 142 101Q142 81 130 66T107 46T94 41L91 40Q91 39 97 36T113 29T132 26Q168 26 194 71Q203 87 217 139T245 247T261 313Q266 340 266 352Q266 380 251 392T217 404Q177 404 142 372T93 290Q91 281 88 280T72 278H58Q52 284 52 289Z"></path></g><g data-mml-node="TeXAtom" transform="translate(605,413) scale(0.707)" data-mjx-texclass="ORD"><g data-mml-node="mn"><path data-c="32" d="M109 429Q82 429 66 447T50 491Q50 562 103 614T235 666Q326 666 387 610T449 465Q449 422 429 383T381 315T301 241Q265 210 201 149L142 93L218 92Q375 92 385 97Q392 99 409 186V189H449V186Q448 183 436 95T421 3V0H50V19V31Q50 38 56 46T86 81Q115 113 136 137Q145 147 170 174T204 211T233 244T261 278T284 308T305 340T320 369T333 401T340 431T343 464Q343 527 309 573T212 619Q179 619 154 602T119 569T109 550Q109 549 114 549Q132 549 151 535T170 489Q170 464 154 447T109 429Z"></path></g></g></g><g data-mml-node="mo" transform="translate(3583.3,0)"><path data-c="2B" d="M56 237T56 250T70 270H369V420L370 570Q380 583 389 583Q402 583 409 568V270H707Q722 262 722 250T707 230H409V-68Q401 -82 391 -82H389H387Q375 -82 369 -68V230H70Q56 237 56 250Z"></path></g><g data-mml-node="mi" transform="translate(4583.6,0)"><path data-c="1D44F" d="M73 647Q73 657 77 670T89 683Q90 683 161 688T234 694Q246 694 246 685T212 542Q204 508 195 472T180 418L176 399Q176 396 182 402Q231 442 283 442Q345 442 383 396T422 280Q422 169 343 79T173 -11Q123 -11 82 27T40 150V159Q40 180 48 217T97 414Q147 611 147 623T109 637Q104 637 101 637H96Q86 637 83 637T76 640T73 647ZM336 325V331Q336 405 275 405Q258 405 240 397T207 376T181 352T163 330L157 322L136 236Q114 150 114 114Q114 66 138 42Q154 26 178 26Q211 26 245 58Q270 81 285 114T318 219Q336 291 336 325Z"></path></g><g data-mml-node="mi" transform="translate(5012.6,0)"><path data-c="1D465" d="M52 289Q59 331 106 386T222 442Q257 442 286 424T329 379Q371 442 430 442Q467 442 494 420T522 361Q522 332 508 314T481 292T458 288Q439 288 427 299T415 328Q415 374 465 391Q454 404 425 404Q412 404 406 402Q368 386 350 336Q290 115 290 78Q290 50 306 38T341 26Q378 26 414 59T463 140Q466 150 469 151T485 153H489Q504 153 504 145Q504 144 502 134Q486 77 440 33T333 -11Q263 -11 227 52Q186 -10 133 -10H127Q78 -10 57 16T35 71Q35 103 54 123T99 143Q142 143 142 101Q142 81 130 66T107 46T94 41L91 40Q91 39 97 36T113 29T132 26Q168 26 194 71Q203 87 217 139T245 247T261 313Q266 340 266 352Q266 380 251 392T217 404Q177 404 142 372T93 290Q91 281 88 280T72 278H58Q52 284 52 289Z"></path></g><g data-mml-node="mo" transform="translate(5806.8,0)"><path data-c="2B" d="M56 237T56 250T70 270H369V420L370 570Q380 583 389 583Q402 583 409 568V270H707Q722 262 722 250T707 230H409V-68Q401 -82 391 -82H389H387Q375 -82 369 -68V230H70Q56 237 56 250Z"></path></g><g data-mml-node="mi" transform="translate(6807,0)"><path data-c="1D450" d="M34 159Q34 268 120 355T306 442Q362 442 394 418T427 355Q427 326 408 306T360 285Q341 285 330 295T319 325T330 359T352 380T366 386H367Q367 388 361 392T340 400T306 404Q276 404 249 390Q228 381 206 359Q162 315 142 235T121 119Q121 73 147 50Q169 26 205 26H209Q321 26 394 111Q403 121 406 121Q410 121 419 112T429 98T420 83T391 55T346 25T282 0T202 -11Q127 -11 81 37T34 159Z"></path></g></g></g></svg></mjx-container></p>
+<p>29<sup>th</sup></p>
+<p>听我说👂👂👂谢谢你🙏🙏🙏因为有你👉👉👉温暖了四季🌈🌈🌈谢谢你🙏🙏🙏感谢有你👉👉👉世界更美丽🌏🌏🌏我要谢谢你🙏🙏🙏因为有你👉👉👉爱常在心底💃💃💃谢谢你 🙏🙏🙏感谢有你🙇</p>
+<p>Here is a footnote reference,<sup class="footnote-ref"><a href="#fn1" id="fnref1">[1]</a></sup> and another.<sup class="footnote-ref"><a href="#fn2" id="fnref2">[2]</a></sup></p>
+<hr class="footnotes-sep">
+<section class="footnotes">
+<ol class="footnotes-list">
+<li id="fn1" class="footnote-item"><p>Here is the footnote. <a href="#fnref1" class="footnote-backref">↩︎</a></p>
+</li>
+<li id="fn2" class="footnote-item"><p>Here’s one with multiple blocks.</p>
+<p>Subsequent paragraphs are indented to show that they<br>
+belong to the previous footnote. <a href="#fnref2" class="footnote-backref">↩︎</a></p>
+</li>
+</ol>
+</section>
+]]></content>
       <categories>
-        <category>literature&amp;art</category>
+        <category>categoriesDemo</category>
       </categories>
+      <tags>
+        <tag>tagsDemo</tag>
+      </tags>
   </entry>
   <entry>
     <title>文学创作|柿续</title>
@@ -529,6 +501,34 @@ belong to the previous footnote. <a href="#fnref2" class="footnote-backref">↩�
 ]]></content>
       <categories>
         <category>theme</category>
+      </categories>
+  </entry>
+  <entry>
+    <title>文学创作|归乡辞</title>
+    <url>/literature-art/gui-xiang-ci/</url>
+    <content><![CDATA[<link rel="stylesheet" type="text&#x2F;css" href="https://cdn.jsdelivr.net/npm/hexo-tag-hint@0.3.1/dist/hexo-tag-hint.min.css"><center>《归乡辞》</center>
+&emsp;
+<center>归乡!归乡!凡俗承侵扰,何时归故乡?</center>
+<center>忧愁之此难断如水随风乘空去,归乡之心更为屹切卓然碎昆山.</center>
+<center>他乡羁旅思怀舟已晚,旧友难逢天堑亘古今.</center>
+<center>邪虚屈枉违身残意拟,交淡鸣贤觖望私随恣.</center>
+<center>归乡乎?归乡矣.归乡意已决,怎难路曲奸谲奇险破穹天!</center>
+<center>扉门长掩,轩栊久闭.桂檀已散,鼓瑟声消.榅蕈中曲,庭息般凝.</center>
+<center>路愈长而险,步愈急而切.泊度浮萍漂难定,归根追本存执真.</center>
+<center>他若知矣心至切,嶂避江离路迢迢!扶摇直上九宫音,凭地回响泉地泠.</center>
+<center>霜缟净除冰灵镜,岩熯隐烬炽兹昀.虫鸣夏尔朝知促,草莽生蕃暮芳明.</center>
+<center>余霞成绮,桂馥兰香,霞姿月韵,云卷舒昌.</center>
+<center>踏之以土,归之以乡.目为身调,主实魂酣.</center>
+<center>漂泊在外终是客,尘心难为故梓移.</center>
+<center>芝兰满地,香草芬芳,蕙心纨质,瑰意琦行.</center>
+<center>畅怀游目,深心荡阔.终以凡人躯,破险归故乡!</center>
+<center>常言吾心屈意嫉世苦痛恶难处,谁晓吾情终在梦萦魂牵刻骨池.</center>
+<center>大梦惊觉人初醒,佳期难还空自意.昔穷鸣敛今何在,吊梦难归至此时.</center>
+<center>噫!喜极春秋人生朝暮瞬,风举云遥莫老齐天高!</center>
+&emsp;
+<center>特别声明:本作为<strong>结月lalalll</strong>原创作品,禁止剽窃,违者必究!</center>]]></content>
+      <categories>
+        <category>literature&amp;art</category>
       </categories>
   </entry>
 </search>

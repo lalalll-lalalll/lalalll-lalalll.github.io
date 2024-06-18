@@ -11,11 +11,11 @@ https://lalalll-lalalll.github.io/theme/bt/
 https://lalalll-lalalll.github.io/The-24-solar-terms/the-Waking-of-Insects/
 https://lalalll-lalalll.github.io/The-24-solar-terms/Rain-Water/
 https://lalalll-lalalll.github.io/
-https://lalalll-lalalll.github.io/tags/tagsDemo/
 https://lalalll-lalalll.github.io/tags/Lisp/
-https://lalalll-lalalll.github.io/categories/categoriesDemo/
-https://lalalll-lalalll.github.io/categories/code/
+https://lalalll-lalalll.github.io/tags/tagsDemo/
 https://lalalll-lalalll.github.io/categories/The-24-solar-terms/
 https://lalalll-lalalll.github.io/categories/essay/
+https://lalalll-lalalll.github.io/categories/code/
 https://lalalll-lalalll.github.io/categories/literature-art/
+https://lalalll-lalalll.github.io/categories/categoriesDemo/
 https://lalalll-lalalll.github.io/categories/theme/
