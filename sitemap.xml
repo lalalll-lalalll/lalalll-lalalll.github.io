@@ -171,13 +171,6 @@
 
   
   <url>
-    <loc>https://lalalll-lalalll.github.io/categories/ACGN/</loc>
-    <lastmod>2024-08-13</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>https://lalalll-lalalll.github.io/categories/The-24-solar-terms/</loc>
     <lastmod>2024-08-13</lastmod>
     <changefreq>weekly</changefreq>
@@ -185,7 +178,7 @@
   </url>
   
   <url>
-    <loc>https://lalalll-lalalll.github.io/categories/categoriesDemo/</loc>
+    <loc>https://lalalll-lalalll.github.io/categories/ACGN/</loc>
     <lastmod>2024-08-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -199,7 +192,7 @@
   </url>
   
   <url>
-    <loc>https://lalalll-lalalll.github.io/categories/essay/</loc>
+    <loc>https://lalalll-lalalll.github.io/categories/categoriesDemo/</loc>
     <lastmod>2024-08-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -214,6 +207,13 @@
   
   <url>
     <loc>https://lalalll-lalalll.github.io/categories/theme/</loc>
+    <lastmod>2024-08-13</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://lalalll-lalalll.github.io/categories/essay/</loc>
     <lastmod>2024-08-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
