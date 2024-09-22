@@ -6,7 +6,7 @@
   <link href="https://lalalll-lalalll.github.io/atom.xml" rel="self"/>
   
   <link href="https://lalalll-lalalll.github.io/"/>
-  <updated>2024-09-05T15:17:25.411Z</updated>
+  <updated>2024-09-22T13:11:57.972Z</updated>
   <id>https://lalalll-lalalll.github.io/</id>
   
   <author>
@@ -15,6 +15,46 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Code|ImageList:图片自定义横纵拼接解决方案</title>
+    <link href="https://lalalll-lalalll.github.io/code/ImageList/"/>
+    <id>https://lalalll-lalalll.github.io/code/ImageList/</id>
+    <published>2024-09-22T12:36:02.000Z</published>
+    <updated>2024-09-22T13:11:57.972Z</updated>
+    
+    <content type="html"><![CDATA[<link rel="stylesheet" type="text&#x2F;css" href="https://cdn.jsdelivr.net/npm/hexo-tag-hint@0.3.1/dist/hexo-tag-hint.min.css"><p>有天突然需要把好多超级长的连续图片打印出来,最开始的思路是把所有的图片垂直拼接成一张更加长长的图片,然后寻找工具自动排列到A4大小的纸张上,也就是说自动截取,所以我的解决思路是这样的:</p><ol><li>寻找在线工具长图拼接</li><li>某工具自动将长图截取并从上到下从左往右顺序粘贴到A4大小的纸张上,若没粘贴完则输出到下一张纸</li></ol><p>完美的思路!..<br>先帝创业未半而中道崩殂,在线长图拼接网站根本输出不来,要么是损坏图像,要么0kb…嘶…网络问题?集体失灵?就是骗子网站?..<br>后来才发现原来最终的图像文件太长了!我算了一下将近29,760px左右…<br>思路一卒于第一步…(其实第二步也会失败,没找到这样的软件)</p><hr><p>其实到这里就已经折腾了很长时间了,本来想着要不就两张两张的拼接吧就是累点…突然!翻到了一个其他的在线网站:在线分割长图片.<br>灵光乍现那么就有了第二个思路:</p><ol><li>将所有的长图分割成长度相等的短图</li><li>使用工具将一定数量的短图放置在一张A4大小的纸上</li></ol><p>第一步我使用了在线分割长图网站将图片分割为了固定的1240px,最后一张若不足1240px就靠程序补充为空白<br>第二步起初想用的是Windows打印服务的3*3联系人表,但过于僵硬了我希望弄成3*4或其他的排列形式</p><p>这时候就想起了写个程序,开始!<br>基本的程序运行思路:</p><ol><li>按文件名读取[长*宽]张图片</li><li>创建一张A4画布并等分成[长*宽]份</li><li>对输入的图片进行处理(缺失部分白色像素填充,保持比例缩放以适应画布等等…)</li><li>按照顺序粘贴到画布上(从左到右开始或从上到下开始)</li><li>保存图片并输出</li></ol><p>最终程序: <a class="link"   href="https://github.com/lalalll-lalalll/ImageList" >https://github.com/lalalll-lalalll/ImageList <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a><br>完美解决~~</p><p>唯一的缺点是长图的剪切依赖于在线网站,其实这方面写个程序不算难,但一年用不到几次就那样吧…(摸</p>]]></content>
+    
+    
+    <summary type="html">与长图打印之间的斗智斗勇</summary>
+    
+    
+    
+    <category term="code" scheme="https://lalalll-lalalll.github.io/categories/code/"/>
+    
+    
+    <category term="Python" scheme="https://lalalll-lalalll.github.io/tags/Python/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>文学创作|长云赋</title>
+    <link href="https://lalalll-lalalll.github.io/literature-art/chang-yun-fu/"/>
+    <id>https://lalalll-lalalll.github.io/literature-art/chang-yun-fu/</id>
+    <published>2024-09-22T12:27:58.000Z</published>
+    <updated>2024-09-22T12:34:05.601Z</updated>
+    
+    <content type="html"><![CDATA[<link rel="stylesheet" type="text&#x2F;css" href="https://cdn.jsdelivr.net/npm/hexo-tag-hint@0.3.1/dist/hexo-tag-hint.min.css"><p> 空空飘然无依,仙人踏长逝.云锦中天日去,气霏归无.是道此意人散,难忆旧之长昔.长云离无邻恋,尾铭日之寂寂.长仰日月,把酒更酌.白云一去,时境悠悠.矗历岁影,面映时拂.故此长吟,以忆长云.</p><p> 曙辉离现,日光初起.静影浮郁,辰泽连羿.旦徐行风,寅其则替.长云慕其,倏来若此.纤纤影弱,飘飘难依.相伴相随,是以晨曦.寒露泊空,夜涟长流.断以怜去,恨长幽幽.青起鸢飞,帆迁瑞碧.朝海连映,飞燕群晴.长云已至,牵望长系.<br> 晌日璃歼,归看似无.云冥坠停,曲然盈动.既感已逝,何此难颂.明心忘掠,剑影停停.半离半若半去半持,长天长云长空长实.据此长随长难尽,望海相见溦帘翩.竟见虚词常须断,却料如光日微明.日影随风,云海飘无.长空一景,离云长望.靖辉故蒲,已去来风.<br> 暮霞明阴,彩云伴月.连零碎玉,破执夕光.伴岭相依,傍水相靠.春江潮水连萤月,旧云随风难相厮.薄情自古,枯日片红.烟幽春陌,缺心言月.云断沉湎,初起萧萧.再转池沉,涌日继随.昏曛沐雨,恣甸熙空.云落飘然陌陌,流年习习随空.<br> 悠吟怀古,余兴悲来,默默无语对月,影落思去,举杯敬今朝.<br> 但晓风起,云海翻腾.平云鸣惊,乌池涌塞.落水片片,长云停现.顶见抑落,殷怵乍风.催花残情匆匆,陌路冷凌灿烂.情烬消弭无限,又见一日际沉.归云故此暗香逝,迁风一境破长空.承弦荡此漠漠,洗碧痕流落落.孤意缠缠,不见缘起缘落,窗外直首无情,云影消凝无踪.<br> 日起执酒乞云归,或问路渺茫茫莫见.侧望天边虹现,忽见碧彩连映霞,此目相顾久,长云复年复月.云翩翩无暇絮,空悠悠牧人愁.<br> 云梦一境,流连难去.星光灿灿难忘,故影浮浮.梦醒成空而云落,不枉相伴相知.<br> 酲心陶陶,断水长流,醉问自古多少断肠离事,多少恨别难全.长云默默不附,逸逸飘然.莫测万千,高低各异.欲景不同,天地齐宣.夫以瞰地之晓博,云断其间.<br> 痴立久望,蔚影无踪.长云易逝,愿君长惜.</p><hr><p>特别声明:本作为<strong>结月lalalll</strong>原创作品,禁止剽窃,违者必究</p>]]></content>
+    
+    
+    <summary type="html">痴立久望,蔚影无踪.长云易逝,愿君长惜.</summary>
+    
+    
+    
+    <category term="literature&amp;art" scheme="https://lalalll-lalalll.github.io/categories/literature-art/"/>
+    
+    
+  </entry>
   
   <entry>
     <title>Galgame漫谈|《WHITE ALBUM2(白色相簿2)》:无法忘却的思念</title>
