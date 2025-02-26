@@ -1,3 +1,5 @@
+https://lalalll-lalalll.github.io/code/SMTC.fm/
+https://lalalll-lalalll.github.io/theme/SunVox%20User%20Manual/
 https://lalalll-lalalll.github.io/ramble/index.html
 https://lalalll-lalalll.github.io/friends/index.html
 https://lalalll-lalalll.github.io/theme/bt/
@@ -23,13 +25,13 @@ https://lalalll-lalalll.github.io/categoriesDemo/Demo/
 https://lalalll-lalalll.github.io/The-24-solar-terms/the-Waking-of-Insects/
 https://lalalll-lalalll.github.io/The-24-solar-terms/Rain-Water/
 https://lalalll-lalalll.github.io/
-https://lalalll-lalalll.github.io/tags/tagsDemo/
 https://lalalll-lalalll.github.io/tags/Python/
 https://lalalll-lalalll.github.io/tags/Lisp/
+https://lalalll-lalalll.github.io/tags/tagsDemo/
 https://lalalll-lalalll.github.io/categories/ACGN/
-https://lalalll-lalalll.github.io/categories/theme/
 https://lalalll-lalalll.github.io/categories/The-24-solar-terms/
 https://lalalll-lalalll.github.io/categories/literature-art/
-https://lalalll-lalalll.github.io/categories/categoriesDemo/
-https://lalalll-lalalll.github.io/categories/essay/
 https://lalalll-lalalll.github.io/categories/code/
+https://lalalll-lalalll.github.io/categories/categoriesDemo/
+https://lalalll-lalalll.github.io/categories/theme/
+https://lalalll-lalalll.github.io/categories/essay/
