@@ -1,0 +1,36 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<HTML>
+<HEAD>
+<TITLE> </TITLE>
+</HEAD>
+<BODY BACKGROUND="img/bg.jpg">
+<DIV ALIGN="center">
+<FONT SIZE="6" COLOR="#ffff00"><B>NScripter 的语法</B></FONT></DIV>
+<br><br>
+以 ; 开头的行是注释。<br>
+以 * 开头的行是标签名。<br>
+其他的内容是命令语句或显示语句。<br>
+空行、半角空格和制表符会被忽略。<br>
+如果要将字符串指定为常量，请用 " 括起来。<br>
+　示例）"bgfile.bmp"<br>
+　＜注意＞<br>
+NScripter 的语法规则与 Scripter3 不同。（更加严格）<br>
+最大的区别在于，普通的换行不会表示屏幕上的换行。<br>
+如果需要在屏幕上换行，请使用 br 命令。<br>
+<br>
+此外，通过使用 :（冒号）连接，可以在一行中写入多条命令语句。
+这在 if 语句中特别有用。<br>
+<br>
+原则上，NScripter 的命令语句不能分成两行书写。<br>
+但是，select 系列命令是例外，可以换行。<br>
+<br>
+　示例）<br>
+　　　　select	"选项1",*sel1,<br>
+　　　　　　　　"选项2",*sel2,<br>
+　　　　　　　　"选项3",*sel3<br>
+<br>
+基本上，NScripter 不区分英文字母的大小写。<br>
+但需要注意的是，某些 SPI 可能要求文件名的大小写完全匹配，否则无法加载。<br>
+<br>
+</BODY>
+</HTML>

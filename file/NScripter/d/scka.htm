@@ -1,0 +1,21 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<HTML>
+<HEAD>
+<TITLE> </TITLE>
+</HEAD>
+<BODY BACKGROUND="img/bg.jpg">
+<DIV ALIGN="center">
+<FONT SIZE="6" COLOR="#ffff00"><B>脚本的解析</B></FONT></DIV>
+<br><br>
+脚本加载完成后，接下来会执行定义块。<br>
+定义块以 *define 开头。<br>
+在定义块中，可以设置贯穿游戏始终不变的内容。<br>
+当找到 game 命令时，会从那里跳转到执行块。<br>
+执行块以 *start 开头。<br>
+因此，NScripter 脚本至少需要包含 *define、game 和 *start。<br>
+<br>
+如果有插件设置，相关的 SPI 或 DLL 文件会从 NScripter 所在的文件夹中查找，
+因此请务必将其放在该文件夹中。<br>
+<br>
+</BODY>
+</HTML>

@@ -1,0 +1,17 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<HTML>
+<HEAD>
+<TITLE> </TITLE>
+</HEAD>
+<BODY BACKGROUND="img/bg.jpg">
+<DIV ALIGN="center">
+<FONT SIZE="6" COLOR="#ffff00"><B>脚本的加载</B></FONT></DIV>
+<br><br>
+运行 NScripter 时，首先会寻找 0.txt 文件。<br>
+如果找不到，则会寻找由 nscmake.exe 创建的加密脚本文件 nscript.dat。<br>
+在加载 0.txt 的情况下，如果存在 1.txt、2.txt 等文件，它们会被依次连接并读取。<br>
+目前的规格支持使用 00.txt～09.txt。推荐使用这种方式，因为排序时更容易查看。
+但请注意，不要混用 00.txt～09.txt 和 0.txt～9.txt。<br>
+<br>
+</BODY>
+</HTML>

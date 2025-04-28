@@ -1,0 +1,35 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<HTML>
+<HEAD>
+<TITLE> </TITLE>
+</HEAD>
+<BODY BACKGROUND="img/bg.jpg">
+<DIV ALIGN="center">
+<FONT SIZE="6" COLOR="#ffff00"><B>numalias</B></FONT></DIV>
+<br><br>
+<B><FONT SIZE="3" COLOR="#ff0000">numalias 字符串,数字</FONT><br></B>
+<br>
+创建数字别名。之后，可以使用该别名代替指定的数字。<br>
+<br>
+　　示例）<br>
+	numalias ef_lshutter,2<br>
+　　　　此后，ef_lshutter 将被替换为 2。例如：<br>
+	bg "test.bmp",ef_lshutter 等同于 bg "test.bmp",2。<br>
+<br>
+需要注意的是，即使将变量赋值给别名，它只会保留当时的值，<br>
+之后更改变量的值并不会同步更新别名的值。<br>
+<br>
+　　（高级用法）<br>
+　　通过数字别名，可以为变量创建别名。<br>
+<br>
+　　示例）<br>
+	numalias akari_love,0<br>
+	之后，%akari_love 将与 %0 具有相同的意义。例如：<br>
+	add %akari_love,10<br>
+<br>
+别名的命名规则与 C 语言中的变量名格式相同。即：<br>
+首字符必须是英文字母或 _（半角下划线），后续字符可以是数字、<br>
+英文字母或 _。但请注意，大小写不区分。<br>
+<br>
+</BODY>
+</HTML>

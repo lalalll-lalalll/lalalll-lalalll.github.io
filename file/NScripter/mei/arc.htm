@@ -1,0 +1,26 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<HTML>
+<HEAD>
+<TITLE> </TITLE>
+</HEAD>
+<BODY BACKGROUND="img/bg.jpg">
+<DIV ALIGN="center">
+<FONT SIZE="6" COLOR="#ffff00"><B>arc</B></FONT></DIV>
+<br><br>
+<B><FONT SIZE="3" COLOR="#ff0000">arc 字符串</FONT><br></B>
+<br>
+指定存档解压插件。<br>
+格式为："存档文件名|关联DLL名"。<br>
+图像和声音支持存档，但脚本不支持。<br>
+<br>
+通过与读取注册表的命令结合，可以实现多种指定方式。
+下面以读取 To Heart 安装机器的注册表信息并指定存档为例进行说明。<br>
+<br>
+　　　（示例代码）<br>
+	getreg $0,"software\leaf\toheart","datadir"<br>
+	add $0,"\lvns3dat.pak|axlfpak.spi"<br>
+	arc $0<br>
+<br>
+注意：对于 nsa 存档，不需要使用此命令。
+</BODY>
+</HTML>

@@ -1,0 +1,79 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<HTML>
+<HEAD>
+<TITLE> </TITLE>
+</HEAD>
+<BODY TEXT="#000000" BGCOLOR="#c8c8c8" LINK="#000000" VLINK="#c800c8" BACKGROUND="img/bg.jpg">
+<DIV ALIGN="center">
+<FONT SIZE="6" COLOR="#ffff00"><B>技术信息</B></FONT></DIV>
+<br><br>
+【关于图像插件（SPI等）】<br>
+<br>
+在 NScripter 中，仅限于使用 SPI 规范的以下部分：<br>
+<br>
+1. SPI（实际上是 DLL）是通过附加 def 文件编译的。<br>
+<br>
+2. 实现并导出了以下函数的功能：<br>
+<br>
+・如果是图像展开 SPI 的情况：<br>
+<br>
+int PASCAL GetPicture (<br>
+　　　　LPSTR buf, long len, unsigned int flag,<br>
+　　　　HANDLE *pHBInfo, HANDLE *pHBm,<br>
+　　　　FARPROC lpProgressCallback, long lData<br>
+);<br>
+<br>
+调用时会这样调用：<br>
+<br>
+LPBITMAPINFO lpi;<br>
+LPSTR lpb;<br>
+char *filename;<br>
+GetPicture (filename, 0, 0, &bi, &bm, NULL, 0);<br>
+<br>
+・如果是存档展开 SPI 的情况：<br>
+<br>
+typedef struct {<br>
+　　　　unsigned char method[8];<br>
+　　　　unsigned long position;<br>
+　　　　unsigned long compsize;<br>
+　　　　unsigned long filesize;<br>
+　　　　time_t timestamp;<br>
+　　　　char path[200];<br>
+　　　　char filename[200];<br>
+　　　　unsigned long crc;<br>
+} fileInfo;<br>
+<br>
+int PASCAL GetFile (<br>
+　　　　LPSTR src, long len, LPSTR dest, unsigned int flag,<br>
+　　　　FARPROC progressCallback, long lData<br>
+);<br>
+<br>
+int PASCAL GetFileInfo (<br>
+　　　　LPSTR buf, long len, LPSTR filename,<br>
+　　　　unsigned int flag, fileInfo *lpInfo<br>
+);<br>
+<br>
+调用时会这样调用：<br>
+<br>
+char *arcfilename;<br>
+char *filename;<br>
+char *write_dir;<br>
+fileinfo fi;<br>
+<br>
+GetFileInfo (arcfilename, 0, filename, 0x80, &fi);<br>
+GetFile (arcfilename, fi.position, write_dir, 0, NULL, 0);<br>
+<br>
+请注意，这里 GetFile 函数读取和写入的都是文件。<br>
+虽然这应该是 SPI 的标准功能，但可能有些 SPI 不支持直接写入文件。
+如果发现很多 SPI 存在这种问题，我们会考虑对策。<br>
+似乎有些 SPI 的存档功能无法正常工作。如果有这种情况，
+希望能提供详细信息以便我们进行调查和改进。<br>
+<br>
+<br>
+【关于 WAV、MID 文件插件】<br>
+只是简单地将文件导出为临时文件。<br>
+int PASCAL expand (char *infilename, char *outfilename);<br>
+将由 infilename 指定的文件展开，并写入到 outfilename 中。<br>
+<br>
+</BODY>
+</HTML>
