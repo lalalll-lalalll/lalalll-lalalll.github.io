@@ -315,14 +315,14 @@
   </url>
   
   <url>
-    <loc>https://lalalll-lalalll.github.io/tags/tagsDemo/</loc>
+    <loc>https://lalalll-lalalll.github.io/tags/Lisp/</loc>
     <lastmod>2025-05-30</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://lalalll-lalalll.github.io/tags/Lisp/</loc>
+    <loc>https://lalalll-lalalll.github.io/tags/tagsDemo/</loc>
     <lastmod>2025-05-30</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -338,13 +338,6 @@
   </url>
   
   <url>
-    <loc>https://lalalll-lalalll.github.io/categories/The-24-solar-terms/</loc>
-    <lastmod>2025-05-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>https://lalalll-lalalll.github.io/categories/code/</loc>
     <lastmod>2025-05-30</lastmod>
     <changefreq>weekly</changefreq>
@@ -352,7 +345,7 @@
   </url>
   
   <url>
-    <loc>https://lalalll-lalalll.github.io/categories/categoriesDemo/</loc>
+    <loc>https://lalalll-lalalll.github.io/categories/The-24-solar-terms/</loc>
     <lastmod>2025-05-30</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -366,7 +359,7 @@
   </url>
   
   <url>
-    <loc>https://lalalll-lalalll.github.io/categories/theme/</loc>
+    <loc>https://lalalll-lalalll.github.io/categories/categoriesDemo/</loc>
     <lastmod>2025-05-30</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -374,6 +367,13 @@
   
   <url>
     <loc>https://lalalll-lalalll.github.io/categories/essay/</loc>
+    <lastmod>2025-05-30</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://lalalll-lalalll.github.io/categories/theme/</loc>
     <lastmod>2025-05-30</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
