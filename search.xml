@@ -2289,4 +2289,15 @@ CG方面中规中矩,质量最高的我感觉反而是银子的</p>
         <category>ACGN</category>
       </categories>
   </entry>
+  <entry>
+    <title>汉化|NScripter 汉化</title>
+    <url>/theme/NScripter/</url>
+    <content><![CDATA[<link rel="stylesheet" type="text&#x2F;css" href="https://cdn.jsdelivr.net/npm/hexo-tag-hint@0.3.1/dist/hexo-tag-hint.min.css"><p>把NScripter的旧版手册汉化了一下,希望能帮助到其他人<br>
+NScripter是一个用于编写Galgame的脚本语言,目前常见的是Onscripter,一个用来解析NScripter脚本的第三方开源Galgame游戏引擎</p>
+<p><a href="/file/NScripter/index.htm">文档</a></p>
+]]></content>
+      <categories>
+        <category>theme</category>
+      </categories>
+  </entry>
 </search>
