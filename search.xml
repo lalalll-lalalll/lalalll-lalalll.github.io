@@ -125,6 +125,11 @@ END</p>
       <categories>
         <category>ACGN</category>
       </categories>
+      <tags>
+        <tag>Galgame</tag>
+        <tag>漫谈</tag>
+        <tag>久远之绊</tag>
+      </tags>
   </entry>
   <entry>
     <title>Galgame漫谈|《痕～きずあと～(痕)》:血脉的羁绊和跨越时空的爱...</title>
@@ -180,6 +185,10 @@ END</p>
       <categories>
         <category>ACGN</category>
       </categories>
+      <tags>
+        <tag>Galgame</tag>
+        <tag>漫谈</tag>
+      </tags>
   </entry>
   <entry>
     <title>Galgame漫谈|《Carnival(狂欢节)》:是苦难,抑或是幸福</title>
@@ -285,6 +294,10 @@ END</p>
       <categories>
         <category>ACGN</category>
       </categories>
+      <tags>
+        <tag>Galgame</tag>
+        <tag>漫谈</tag>
+      </tags>
   </entry>
   <entry>
     <title>Galgame杂谈|久遠の絆 再臨詔(久远之绊 再临诏) 神话历史考</title>
@@ -520,6 +533,11 @@ END</p>
       <categories>
         <category>ACGN</category>
       </categories>
+      <tags>
+        <tag>Galgame</tag>
+        <tag>久远之绊</tag>
+        <tag>杂谈</tag>
+      </tags>
   </entry>
   <entry>
     <title>Galgame漫谈|《夏ノ雨(夏之雨)》:平凡的盛夏,和雨中的你</title>
@@ -685,6 +703,10 @@ END</p>
       <categories>
         <category>ACGN</category>
       </categories>
+      <tags>
+        <tag>Galgame</tag>
+        <tag>漫谈</tag>
+      </tags>
   </entry>
   <entry>
     <title>Galgame漫谈|《久遠の絆 再臨詔(久远之绊 再临诏)》:轮回之羁,久远之绊,再临之诏,千年之思,万世之恋</title>
@@ -835,6 +857,11 @@ END</p>
       <categories>
         <category>ACGN</category>
       </categories>
+      <tags>
+        <tag>Galgame</tag>
+        <tag>漫谈</tag>
+        <tag>久远之绊</tag>
+      </tags>
   </entry>
   <entry>
     <title>Galgame漫谈|《黄昏のシンセミア(黄昏的禁忌之药)》:情感的联结,禁忌的解药</title>
@@ -1045,6 +1072,10 @@ CG方面中规中矩,质量最高的我感觉反而是银子的</p>
       <categories>
         <category>ACGN</category>
       </categories>
+      <tags>
+        <tag>Galgame</tag>
+        <tag>漫谈</tag>
+      </tags>
   </entry>
   <entry>
     <title>Code|ImageList:图片自定义横纵拼接解决方案</title>
@@ -1455,6 +1486,10 @@ CC到此结束(说实话看到冬马的瞬间就决定赶紧走冬马TE了)</p>
       <categories>
         <category>ACGN</category>
       </categories>
+      <tags>
+        <tag>Galgame</tag>
+        <tag>漫谈</tag>
+      </tags>
   </entry>
   <entry>
     <title>Code|SMTC.fm:获取SMTC音频数据并上传到Last.fm</title>
@@ -2422,5 +2457,147 @@ NScripter是一个用于编写Galgame的脚本语言,目前常见的是Onscripte
       <categories>
         <category>ACGN</category>
       </categories>
+      <tags>
+        <tag>Galgame</tag>
+        <tag>漫谈</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Code|XeLaTeX:完美的注音宏包-pxrubrica</title>
+    <url>/code/tex-4/</url>
+    <content><![CDATA[<link rel="stylesheet" type="text&#x2F;css" href="https://cdn.jsdelivr.net/npm/hexo-tag-hint@0.3.1/dist/hexo-tag-hint.min.css"><p>注音的两个主流使用场景:日文汉字注音,汉语拼音<br>
+但搜索互联网,发现大多数都推荐使用xpinyin,甚至还有手搓的狠人!<br>
+emmmm不优雅</p>
+<p>这里推荐<code>pxrubrica</code>,理由三点:</p>
+<ul>
+<li>强大的样式适应性</li>
+<li>良好的页面兼容性</li>
+<li>易读的文档</li>
+</ul>
+<p>它的文档真的是我读过最详尽最易懂最简洁的了!<br>
+而且设计逻辑非常非常的符合常识<br>
+命令只需要记住两条即可:<code>\ruby</code>和<code>\aruby</code></p>
+<p>给单字设置注音:<code>\ruby&#123;鵲&#125;&#123;かささぎ&#125;</code><br>
+批量给不同单字注音:<code>\ruby&#123;明朝体&#125;&#123;みん|ちょう|たい&#125;</code><br>
+给一个整体注音:<code>\aruby&#123;苦行&#125;&#123;くぎょう&#125;</code>(你也可以使用:<code>\ruby[g]&#123;苦行&#125;&#123;くぎょう&#125;</code>)</p>
+<p>如果注音太长了怎么办?</p>
+<p><code>\ruby[|-|]&#123;鵲&#125;&#123;かささぎ&#125;</code>完全让出注音的空间<br>
+<code>\ruby[(-)]&#123;鵲&#125;&#123;かささぎ&#125;</code>让一点<br>
+<code>\ruby[&lt;-&gt;]&#123;鵲&#125;&#123;かささぎ&#125;</code>不让</p>
+<p>至于其他的不多赘述</p>
+<p>真心觉得设计的特别优雅!</p>
+]]></content>
+      <categories>
+        <category>code</category>
+      </categories>
+      <tags>
+        <tag>LaTeX</tag>
+        <tag>CTeX</tag>
+        <tag>排版</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Code|XeLaTeX:两边对齐的居中三列表格</title>
+    <url>/code/tex-3/</url>
+    <content><![CDATA[<link rel="stylesheet" type="text&#x2F;css" href="https://cdn.jsdelivr.net/npm/hexo-tag-hint@0.3.1/dist/hexo-tag-hint.min.css"><p>很简单的需求:左边内容左对齐,右边内容右对齐,中间内容居中对齐<br>
+代码如下:</p>
+<div class="highlight-container" data-rel="Latex"><figure class="iseeu highlight latex"><table><tr><td class="code"><pre><span class="line"><span class="keyword">\noindent</span></span><br><span class="line"><span class="keyword">\begin</span>&#123;tabular*&#125;&#123;<span class="keyword">\textwidth</span>&#125;&#123;@&#123;<span class="keyword">\extracolsep</span>&#123;<span class="keyword">\fill</span>&#125;<span class="keyword">\hspace</span>*&#123;-<span class="keyword">\tabcolsep</span>&#125;&#125;lcr@&#123;&#125;&#125;</span><br><span class="line">序号 <span class="built_in">&amp;</span>正文 <span class="built_in">&amp;</span> 附录<span class="keyword">\\</span></span><br><span class="line"><span class="keyword">\hline</span></span><br><span class="line">我是序号一 <span class="built_in">&amp;</span> 我是正文一 <span class="built_in">&amp;</span> 我是附录一<span class="keyword">\\</span></span><br><span class="line">我是长长长序号二 <span class="built_in">&amp;</span> 我是长长长长长长正文二 <span class="built_in">&amp;</span> 我是长长长附录二<span class="keyword">\\</span></span><br><span class="line"><span class="keyword">\end</span>&#123;tabular*&#125;</span><br></pre></td></tr></table></figure></div>
+<p>尽管扩展到四列也是可行的,但那么做没有意义<br>
+毕竟&quot;左中右&quot;,没有&quot;左中中右&quot;这种,何况由于第二列第三列都是并列居中,观感也不好 ╮(╯▽╰)╭</p>
+<p>原谅我是真的懒得插图片,效果自试吧awa</p>
+]]></content>
+      <categories>
+        <category>code</category>
+      </categories>
+      <tags>
+        <tag>LaTeX</tag>
+        <tag>CTeX</tag>
+        <tag>排版</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Code|XeLaTeX:高度个性化章节&amp;目录</title>
+    <url>/code/tex-2/</url>
+    <content><![CDATA[<link rel="stylesheet" type="text&#x2F;css" href="https://cdn.jsdelivr.net/npm/hexo-tag-hint@0.3.1/dist/hexo-tag-hint.min.css"><p><code>ctex</code> 对于章节和目录做了本地化的设置,但若不希望其操控章节&amp;目录的生成方式,则需要我们进行自定义</p>
+<p>基本思路:<br>
+1.消除ctex的影响+个性化章节<br>
+2.个性化目录<br>
+3.自定义章节序号&amp;目录生成深度<br>
+4.关于无编号章节的特殊处理</p>
+<p>具体内容参见下方</p>
+<h6 id="消除ctex的影响-个性化章节">消除ctex的影响+个性化章节</h6>
+<div class="highlight-container" data-rel="Latex"><figure class="iseeu highlight latex"><table><tr><td class="code"><pre><span class="line"><span class="keyword">\ctexset</span>&#123;</span><br><span class="line">  chapter = &#123;</span><br><span class="line">    name = &#123;&#125;, </span><br><span class="line">    number = <span class="keyword">\arabic</span>&#123;chapter&#125;,</span><br><span class="line">    beforeskip = 5pt, </span><br><span class="line">    afterskip  = 5pt, </span><br><span class="line">  &#125;,</span><br><span class="line">  section = &#123;</span><br><span class="line">    number = <span class="keyword">\thechapter</span>.<span class="keyword">\arabic</span>&#123;section&#125;,</span><br><span class="line">  &#125;,</span><br><span class="line">  subsection = &#123;</span><br><span class="line">    number = <span class="keyword">\thechapter</span>.<span class="keyword">\arabic</span>&#123;section&#125;.<span class="keyword">\arabic</span>&#123;subsection&#125;,</span><br><span class="line">  &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></div>
+<p><code>name = &#123;&#125;</code> 这一设置关闭了标题的前/后字,如 <code> &#123;第,章&#125;</code><br>
+<code>number = \arabic&#123;chapter&#125;</code>定义章节的编号格式.<code>\arabic&#123;chapter&#125;</code>表示使用阿拉伯数字<br>
+<code>beforeskip/afterskip</code>定义章节标题前/后的垂直间距<br>
+其余章节同理</p>
+<h6 id="个性化目录">个性化目录</h6>
+<p>注意:所有涉及目录的改动都应当在第二次甚至第多次构建下方生效(需要生成.toc文件)</p>
+<div class="highlight-container" data-rel="Latex"><figure class="iseeu highlight latex"><table><tr><td class="code"><pre><span class="line"><span class="keyword">\usepackage</span>&#123;titletoc&#125;</span><br><span class="line"></span><br><span class="line"><span class="keyword">\titlecontents</span>&#123;chapter&#125;</span><br><span class="line">    [0pt]<span class="comment">%整体缩进</span></span><br><span class="line">    &#123;<span class="keyword">\vspace</span>&#123;1pc&#125;<span class="keyword">\bfseries</span>&#125;<span class="comment">%前置指令</span></span><br><span class="line">    &#123;<span class="keyword">\makebox</span>[2em][l]&#123;<span class="keyword">\thecontentslabel</span>&#125;&#125;<span class="comment">%编号和标题的格式</span></span><br><span class="line">    &#123;<span class="keyword">\hspace</span>*&#123;0em&#125;&#125; <span class="comment">%无编号章节的格式</span></span><br><span class="line">    &#123;<span class="keyword">\titlerule</span>*[0.5pc]&#123;.&#125;<span class="keyword">\texttt</span>&#123;<span class="keyword">\contentspage</span>&#125;&#125;<span class="comment">%点线和页码</span></span><br><span class="line">    []<span class="comment">%后置指令</span></span><br><span class="line"></span><br><span class="line"><span class="keyword">\titlecontents</span>&#123;section&#125;</span><br><span class="line">    [4.5em]</span><br><span class="line">    &#123;&#125;</span><br><span class="line">    &#123;<span class="keyword">\contentslabel</span>&#123;2.5em&#125;&#125;</span><br><span class="line">    &#123;<span class="keyword">\hspace</span>*&#123;-3em&#125;&#125;</span><br><span class="line">    &#123;<span class="keyword">\titlerule</span>*[0.5pc]&#123;.&#125;<span class="keyword">\texttt</span>&#123;<span class="keyword">\contentspage</span>&#125;&#125;</span><br><span class="line">    []</span><br><span class="line"></span><br><span class="line"><span class="keyword">\titlecontents</span>&#123;subsection&#125;</span><br><span class="line">    [6em]</span><br><span class="line">    &#123;&#125;</span><br><span class="line">    &#123;<span class="keyword">\contentslabel</span>&#123;3em&#125;&#125;</span><br><span class="line">    &#123;<span class="keyword">\hspace</span>*&#123;-2.5em&#125;&#125;</span><br><span class="line">    &#123;<span class="keyword">\titlerule</span>*[0.5pc]&#123;.&#125;<span class="keyword">\texttt</span>&#123;<span class="keyword">\contentspage</span>&#125;&#125;</span><br><span class="line">    []</span><br></pre></td></tr></table></figure></div>
+<p><code>titlecontents</code>为<code>titletoc</code>的核心控制命令.其接受以下参数,含义如下:</p>
+<ul>
+<li>&lt;section-type&gt;:你希望设置的章节类型(chapter,section…)</li>
+<li>&lt;left&gt;:该行目录的整体左位移大小</li>
+<li>&lt;above-code&gt;:前置代码,你可以在这里设置这行章节的基本样式(例:<code>&#123;\vspace&#123;1pc&#125;\bfseries&#125;</code> 设置1pc的垂直间距,且后续文字为黑体)</li>
+<li>&lt;numbered-entry-format&gt;:定义编号格式,你可以使用<code>\thecontentslabel</code>动态设置编号,创建一个box来确保编号在一定的限制内</li>
+<li>&lt;numberless-entry-format&gt;:定义无编号的章节格式</li>
+<li>&lt;filler-page-format&gt;:定义章节和页码间的连接线与页码(建议使用等宽字体处理数字,更美观)</li>
+<li>&lt;after-code&gt;:后置代码</li>
+</ul>
+<p>需要注意的是,<code>titlecontents</code>并没有捕获章节名的能力,latex在传递标题文本时,会将系统生成的编号和标题文本共同传递到目录处理,标题文本默认会插入在编号和连接线之间</p>
+<div class="highlight-container" data-rel="Latex"><figure class="iseeu highlight latex"><table><tr><td class="code"><pre><span class="line"><span class="keyword">\makeatletter</span></span><br><span class="line"><span class="keyword">\renewcommand</span>&#123;<span class="keyword">\@pnumwidth</span>&#125;&#123;2em&#125;</span><br><span class="line"><span class="keyword">\makeatother</span></span><br></pre></td></tr></table></figure></div>
+<p>这段内部代码定义目录中页码区域的最小宽度,提高健壮性和灵活性</p>
+<h6 id="自定义章节序号-目录生成深度">自定义章节序号&amp;目录生成深度</h6>
+<p>特别简单</p>
+<div class="highlight-container" data-rel="Latex"><figure class="iseeu highlight latex"><table><tr><td class="code"><pre><span class="line"><span class="keyword">\setcounter</span>&#123;secnumdepth&#125;&#123;2&#125;</span><br><span class="line"><span class="keyword">\setcounter</span>&#123;tocdepth&#125;&#123;2&#125;</span><br></pre></td></tr></table></figure></div>
+<p>其中-1对应<code>part</code>,0对应<code>chapter</code>,以此类推…<br>
+设置到哪个编号,显示到哪个编号<br>
+本示例中章节编号和目录生成深度都到<code>subsection</code>为止</p>
+<h6 id="关于无编号章节的特殊处理">关于无编号章节的特殊处理</h6>
+<p>我们不使用<code>titlecontents</code>给予的控制命令,而是重新定义一个宏<br>
+我们要明白自己需要干什么:<br>
+1.取消章节编号而正常的章节格式显示章节<br>
+2.允许被目录捕获<br>
+3.允许被页眉页脚捕获</p>
+<p>第一条好办,只需要给章节命令加个<code>*</code>则会去除格式以外的所有功能</p>
+<div class="highlight-container" data-rel="Latex"><figure class="iseeu highlight latex"><table><tr><td class="code"><pre><span class="line"><span class="keyword">\chapter</span>*&#123;第一章&#125;</span><br></pre></td></tr></table></figure></div>
+<p>第三条也好办,我们使用现有的命令</p>
+<div class="highlight-container" data-rel="Latex"><figure class="iseeu highlight latex"><table><tr><td class="code"><pre><span class="line"><span class="keyword">\markboth</span>&#123;第一章&#125;&#123;第一章&#125;</span><br></pre></td></tr></table></figure></div>
+<p>它接受两个需要显示的章节名,第一个是显示在奇数页的,第二个是显示在偶数页的<br>
+至于这里,我们如果不是排版书籍的话大可以填写一样的</p>
+<p>至于第二条我们则定义一个新宏</p>
+<div class="highlight-container" data-rel="Latex"><figure class="iseeu highlight latex"><table><tr><td class="code"><pre><span class="line"><span class="keyword">\newcommand</span>&#123;<span class="keyword">\zerochapter</span>&#125;[1]&#123;<span class="comment">%</span></span><br><span class="line">  <span class="keyword">\addcontentsline</span>&#123;toc&#125;&#123;chapter&#125;&#123;<span class="params">#1</span>&#125;<span class="comment">%</span></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></div>
+<p>很简单的一个命令,向<code>toc</code>中手动添加一个条目,类型为<code>chapter</code>,显示文本为新命令第一个参数</p>
+<p>完整的就是:</p>
+<div class="highlight-container" data-rel="Latex"><figure class="iseeu highlight latex"><table><tr><td class="code"><pre><span class="line"><span class="keyword">\chapter</span>*&#123;第一章&#125;</span><br><span class="line"><span class="keyword">\zerochapter</span>&#123;第一章&#125;</span><br><span class="line"><span class="keyword">\markboth</span>&#123;第一章&#125;&#123;第一章&#125;</span><br></pre></td></tr></table></figure></div>
+<p>你甚至可以给他再封装一次awa</p>
+]]></content>
+      <categories>
+        <category>code</category>
+      </categories>
+      <tags>
+        <tag>LaTeX</tag>
+        <tag>CTeX</tag>
+        <tag>排版</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Code|XeLaTeX:个性化页眉页脚</title>
+    <url>/code/tex-1/</url>
+    <content><![CDATA[<link rel="stylesheet" type="text&#x2F;css" href="https://cdn.jsdelivr.net/npm/hexo-tag-hint@0.3.1/dist/hexo-tag-hint.min.css"><p>在 <code>fancyhdr</code> 宏包中,letex的页面样式可分为两种: <code>fancy</code> 和 <code>plain</code><br>
+<code>fancy</code> 即我们主动应用在常规页面的页面样式,而 <code>plain</code> 应用在一些特殊的页面,如目录,或存在系统生成章节的页面等<br>
+所以在自定义时,我们也应当分别考虑两种页眉页脚的样式<br>
+在这里我们仅将他们设为同一类<br>
+若希望没有页眉页脚,仅需 <code>\thispagestyle&#123;empty&#125;</code> 即可<br>
+具体设定参见代码注释</p>
+<div class="highlight-container" data-rel="Latex"><figure class="iseeu highlight latex"><table><tr><td class="code"><pre><span class="line"><span class="keyword">\documentclass</span>[UTF8, 12pt, a4paper, oneside, fontset=none]&#123;ctexbook&#125;</span><br><span class="line"><span class="keyword">\usepackage</span>&#123;fontspec&#125;</span><br><span class="line"><span class="keyword">\usepackage</span>&#123;anyfontsize&#125;</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="keyword">\usepackage</span>&#123;fancyhdr&#125;</span><br><span class="line"><span class="keyword">\setlength</span>&#123;<span class="keyword">\headheight</span>&#125;&#123;15pt&#125;</span><br><span class="line"></span><br><span class="line"><span class="comment">% 设置页面风格</span></span><br><span class="line"><span class="keyword">\fancypagestyle</span>&#123;fancy&#125;&#123;</span><br><span class="line">    <span class="keyword">\fancyhf</span>&#123;&#125; <span class="comment">% 清除所有头部和尾部字段</span></span><br><span class="line">    <span class="keyword">\fancyhead</span>[L]&#123;<span class="keyword">\quad</span><span class="keyword">\leftmark</span>&#125; <span class="comment">% 在左侧显示章节名</span></span><br><span class="line">    <span class="keyword">\fancyhead</span>[R]&#123;<span class="keyword">\thepage</span><span class="keyword">\quad</span>&#125; <span class="comment">% 在右侧显示页码</span></span><br><span class="line">    <span class="keyword">\renewcommand</span>&#123;<span class="keyword">\headrulewidth</span>&#125;&#123;1pt&#125; <span class="comment">% 头部横线</span></span><br><span class="line">    <span class="keyword">\renewcommand</span>&#123;<span class="keyword">\footrulewidth</span>&#125;&#123;0pt&#125; <span class="comment">% 移除页脚线</span></span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="comment">% 重新定义 plain 页面风格，使其与 fancy 风格一致</span></span><br><span class="line"><span class="keyword">\fancypagestyle</span>&#123;plain&#125;&#123;<span class="comment">%</span></span><br><span class="line">    <span class="keyword">\fancyhf</span>&#123;&#125; <span class="comment">% 清除所有头部和尾部字段</span></span><br><span class="line">    <span class="keyword">\fancyhead</span>[L]&#123;<span class="keyword">\quad</span><span class="keyword">\leftmark</span>&#125; <span class="comment">% 章节起始页也在左侧显示章节名</span></span><br><span class="line">    <span class="keyword">\fancyhead</span>[R]&#123;<span class="keyword">\thepage</span><span class="keyword">\quad</span>&#125; <span class="comment">% 章节起始页也在右侧显示页码</span></span><br><span class="line">    <span class="keyword">\renewcommand</span>&#123;<span class="keyword">\headrulewidth</span>&#125;&#123;1pt&#125; <span class="comment">% 头部横线</span></span><br><span class="line">    <span class="keyword">\renewcommand</span>&#123;<span class="keyword">\footrulewidth</span>&#125;&#123;0pt&#125; <span class="comment">% 移除页脚线</span></span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="comment">% 应用 fancy 页面风格</span></span><br><span class="line"><span class="keyword">\pagestyle</span>&#123;fancy&#125;</span><br><span class="line"></span><br></pre></td></tr></table></figure></div>]]></content>
+      <categories>
+        <category>code</category>
+      </categories>
+      <tags>
+        <tag>LaTeX</tag>
+        <tag>CTeX</tag>
+        <tag>排版</tag>
+      </tags>
   </entry>
 </search>
