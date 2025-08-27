@@ -1,3 +1,6 @@
+https://lalalll-lalalll.github.io/ACGN/Khime/
+https://lalalll-lalalll.github.io/about/index.html
+https://lalalll-lalalll.github.io/ACGN/Kuon%20no%20Kizuna%203/
 https://lalalll-lalalll.github.io/code/tex-4/
 https://lalalll-lalalll.github.io/code/tex-3/
 https://lalalll-lalalll.github.io/code/tex-2/
@@ -8,12 +11,10 @@ https://lalalll-lalalll.github.io/ACGN/Natsu%20no%20Ame/
 https://lalalll-lalalll.github.io/ACGN/Kizuato/
 https://lalalll-lalalll.github.io/ACGN/WHITE%20ALBUM2/
 https://lalalll-lalalll.github.io/ACGN/Kuon%20no%20Kizuna%201/
-https://lalalll-lalalll.github.io/ACGN/Khime/
 https://lalalll-lalalll.github.io/ACGN/Tasogare%20no%20Sinsemilla/
 https://lalalll-lalalll.github.io/ACGN/narcissu/
 https://lalalll-lalalll.github.io/theme/NScripter/
 https://lalalll-lalalll.github.io/ramble/index.html
-https://lalalll-lalalll.github.io/about/index.html
 https://lalalll-lalalll.github.io/code/SMTC.fm/
 https://lalalll-lalalll.github.io/categories/index.html
 https://lalalll-lalalll.github.io/tags/index.html
@@ -47,6 +48,7 @@ https://lalalll-lalalll.github.io/tags/%E6%9D%82%E8%B0%88/
 https://lalalll-lalalll.github.io/tags/LaTeX/
 https://lalalll-lalalll.github.io/tags/CTeX/
 https://lalalll-lalalll.github.io/tags/%E6%8E%92%E7%89%88/
+https://lalalll-lalalll.github.io/tags/%E5%90%8C%E4%BA%BA/
 https://lalalll-lalalll.github.io/categories/ACGN/
 https://lalalll-lalalll.github.io/categories/code/
 https://lalalll-lalalll.github.io/categories/The-24-solar-terms/

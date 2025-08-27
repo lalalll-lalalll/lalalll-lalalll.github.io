@@ -128,7 +128,6 @@ END</p>
       <tags>
         <tag>Galgame</tag>
         <tag>漫谈</tag>
-        <tag>久远之绊</tag>
       </tags>
   </entry>
   <entry>
@@ -2598,6 +2597,133 @@ emmmm不优雅</p>
         <tag>LaTeX</tag>
         <tag>CTeX</tag>
         <tag>排版</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>《久遠の絆 同人创作辑录 第壹巻》出版公开说明</title>
+    <url>/ACGN/Kuon%20no%20Kizuna%203/</url>
+    <content><![CDATA[<link rel="stylesheet" type="text&#x2F;css" href="https://cdn.jsdelivr.net/npm/hexo-tag-hint@0.3.1/dist/hexo-tag-hint.min.css"><h3 id="《久遠の絆-同人创作辑录-第壹巻》出版公开说明">《久遠の絆 同人创作辑录 第壹巻》出版公开说明</h3>
+<p>本书为《久遠の絆》相关同人作品的非商业性整理合集，现已完成第壹巻并公开发布。</p>
+<h4 id="基本信息">基本信息</h4>
+<ul>
+<li><strong>书名</strong>：久遠の絆 同人创作辑录 第壹巻</li>
+<li><strong>编者</strong>：天雲結月【结月lalalll】</li>
+<li><strong>格式</strong>：PDF（LaTeX 排版）</li>
+<li><strong>语言</strong>：日文原文 + 中文翻译</li>
+<li><strong>授权</strong>：非商业用途，仅用于个人阅读，禁止用于盈利或二次分发牟利</li>
+<li><strong>本人博客</strong>：<a href="https://lalalll-lalalll.github.io/">https://lalalll-lalalll.github.io/</a></li>
+<li><strong>获取方式</strong>：
+<ul>
+<li>蓝奏云：<a class="link"   href="https://lalalll.lanzouu.com/i6skQ33dr9ri/" >https://lalalll.lanzouu.com/i6skQ33dr9ri/ <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></li>
+<li>123云盘：<a class="link"   href="https://www.123865.com/s/OrRrVv-O2lIh/" >https://www.123865.com/s/OrRrVv-O2lIh/ <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></li>
+<li>结月盘：<a class="link"   href="http://lalalll.ysepan.com/" >http://lalalll.ysepan.com/ <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></li>
+</ul>
+</li>
+<li><strong>本人邮箱</strong>：lalalll-lalalll@qq.com</li>
+</ul>
+<h4 id="内容概要">内容概要</h4>
+<ul>
+<li>收录作品：共 <strong>39篇</strong> 同人创作</li>
+<li>体裁类型：短中长篇小说、散文、歌词等</li>
+<li>时间跨度：主要为2000年代左右网络论坛或个人博客发表作品</li>
+<li>来源渠道：旧论坛、个人网站、存档站点等（出处详见书中出典）</li>
+</ul>
+<h4 id="特点介绍">特点介绍</h4>
+<ul>
+<li>
+<p><strong>双语排版</strong>：每篇作品均提供日文原文与中文翻译，兼具阅读和收藏价值。</p>
+</li>
+<li>
+<p><strong>结构清晰</strong>：包含目录、章节编号、页码索引，便于查阅。</p>
+</li>
+<li>
+<p><strong>技术实现</strong>：</p>
+</li>
+<li>
+<p>使用 LaTeX 出版</p>
+</li>
+<li>
+<p>支持 PDF 书签导航</p>
+</li>
+<li>
+<p>高度自定义排版，简洁美观～</p>
+</li>
+<li>
+<p><strong>附加信息</strong>：在中文翻译中对部分名词进行注释，打破阅读障碍及文化代沟</p>
+</li>
+</ul>
+<h4 id="后续计划">后续计划</h4>
+<ul>
+<li>视情况决定是否整理并发布后续卷次。</li>
+</ul>
+<hr>
+<p>此版本为第壹巻第一版，欢迎校对指正。<br />向每一位《久遠の絆》的同人创作者致以崇高的敬意与深深的祝福，也祝愿所有玩家都能在《久遠の絆》中收获感动与精彩。</p>
+<p>—— 天雲結月【结月lalalll】 <br />2025年8月</p>
+<h3 id="『久遠の絆-二次創作輯録-第壹巻』刊行のお知らせ">『久遠の絆　二次創作輯録　第壹巻』刊行のお知らせ</h3>
+<p>本書は『久遠の絆』に関する二次創作作品の非営利的整理合集であり、第壹巻の完成に伴い公開いたします。</p>
+<h4 id="基本情報">基本情報</h4>
+<ul>
+<li><strong>書名</strong>：『久遠の絆』二次創作輯録　第壹巻</li>
+<li><strong>編者</strong>：天雲結月【結月lalalll】</li>
+<li><strong>形式</strong>：PDF（LaTeX 排版）</li>
+<li><strong>言語</strong>：日本語原文 ＋ 中国語翻訳</li>
+<li><strong>ライセンス</strong>：非営利目的に限り利用可。個人での閲覧に限ります。営利利用および二次配布・販売は禁止します。</li>
+<li><strong>本人博客</strong>：<a href="https://lalalll-lalalll.github.io/">https://lalalll-lalalll.github.io/</a></li>
+<li><strong>入手方法</strong>：
+<ul>
+<li>藍奏雲：<a class="link"   href="https://lalalll.lanzouu.com/i6skQ33dr9ri/" >https://lalalll.lanzouu.com/i6skQ33dr9ri/ <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></li>
+<li>123雲盤：<a class="link"   href="https://www.123865.com/s/OrRrVv-O2lIh/" >https://www.123865.com/s/OrRrVv-O2lIh/ <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></li>
+<li>結月盤：<a class="link"   href="http://lalalll.ysepan.com/" >http://lalalll.ysepan.com/ <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></li>
+</ul>
+</li>
+<li><strong>連絡先メールアドレス</strong>：lalalll-lalalll@qq.com</li>
+</ul>
+<h4 id="内容概要-2">内容概要</h4>
+<ul>
+<li><strong>収録作品数</strong>：合計 <strong>39編</strong> の二次創作作品</li>
+<li><strong>ジャンル</strong>：短編・中編・長編小説、エッセイ、歌詞など</li>
+<li><strong>時代背景</strong>：主に2000年代前後のネット掲示板や個人ブログに掲載された作品</li>
+<li><strong>出典</strong>：旧掲示板、個人サイト、アーカイブサイトなど（詳細は書内の「出典一覧」をご参照ください）</li>
+</ul>
+<h4 id="主な特徴">主な特徴</h4>
+<ul>
+<li>
+<p><strong>二カ国語対応</strong>：各作品に日本語原文と中国語翻訳を併記。読了と収蔵の両面で価値があります。</p>
+</li>
+<li>
+<p><strong>構成の明確さ</strong>：目次、章番号、ページインデックスを完備。閲覧・検索に便利です。</p>
+</li>
+<li>
+<p><strong>技術的実装</strong>：</p>
+<ul>
+<li>LaTeX を使用した出版品質の組版</li>
+<li>PDF ブックマークによるナビゲーション対応</li>
+<li>高度にカスタマイズされたレイアウトで、シンプルかつ美しく仕上げています</li>
+</ul>
+</li>
+<li>
+<p><strong>付加情報</strong>：中国語翻訳において、特定の用語に注釈を付記し、読解の障壁や文化的なギャップを軽減しています</p>
+</li>
+</ul>
+<h4 id="今後の予定">今後の予定</h4>
+<ul>
+<li>第二巻以降の編纂・公開については、反応を踏まえて判断します。</li>
+</ul>
+<hr>
+<p>本版は第壹巻の初版です。誤字・脱字・翻訳ミスなど、校正のご指摘を歓迎いたします。<br>
+また、すべての『久遠の絆』二次創作者に心より敬意と祝福を捧げます。<br>
+すべてのプレイヤーが、この作品を通じて感動と精彩を手にするよう、願っています。</p>
+<p>—— 天雲結月【结月lalalll】<br>
+2025年8月</p>
+]]></content>
+      <categories>
+        <category>ACGN</category>
+      </categories>
+      <tags>
+        <tag>Galgame</tag>
+        <tag>久远之绊</tag>
+        <tag>LaTeX</tag>
+        <tag>同人</tag>
       </tags>
   </entry>
 </search>
