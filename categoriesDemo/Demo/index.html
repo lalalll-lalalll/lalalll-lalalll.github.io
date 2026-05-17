@@ -80,11 +80,13 @@
     
     
 <style type="text/css">
+/* 默认情况（在段落 p 或 span 中）：使用 inline 保持内联 */
 .spoiler {
-  display: inline-flex;
+  display: inline;
 }
+/* 如果插件本身就被包裹在块级元素（如独立的 p 标签）中：使用 block 独占一行 */
 p.spoiler {
-  display: flex;
+  display: block;
 }
 .spoiler a {
   pointer-events: none;
@@ -97,6 +99,8 @@ p.spoiler {
   background-color: rgba(0, 0, 0, 0);
   text-shadow: 0 0 10px grey;
   cursor: pointer;
+  display: inline; /* 强制内联，解决模糊时换行问题 */
+  word-break: break-all; /* 防止长链接或数字撑破布局 */
 }
 .spoiler .spoiler-blur:hover, .spoiler .spoiler-blur:hover > * {
   text-shadow: 0 0 5px grey;
@@ -109,6 +113,8 @@ p.spoiler {
   color: black;
   background-color: black;
   text-shadow: none;
+  display: inline; /* 强制内联，解决点击后换行问题 */
+  word-break: break-all; /* 防止长链接或数字撑破布局 */
 }</style><meta name="generator" content="Hexo 6.3.0"><style>mjx-container[jax="SVG"] {
   direction: ltr;
 }
