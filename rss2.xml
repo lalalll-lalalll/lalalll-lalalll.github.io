@@ -15,7 +15,7 @@
     <atom:link href="https://lalalll-lalalll.github.io/rss2.xml" rel="self" type="application/rss+xml"/>
     
     <description>由Hexo搭建</description>
-    <pubDate>Sun, 12 Apr 2026 05:36:04 GMT</pubDate>
+    <pubDate>Sun, 12 Apr 2026 05:36:06 GMT</pubDate>
     <generator>http://hexo.io/</generator>
     
     <item>
@@ -426,9 +426,9 @@
       <category domain="https://lalalll-lalalll.github.io/categories/theme/">theme</category>
       
       
-      <category domain="https://lalalll-lalalll.github.io/tags/%E9%9F%B3%E4%B9%90/">音乐</category>
-      
       <category domain="https://lalalll-lalalll.github.io/tags/%E6%B1%89%E5%8C%96/">汉化</category>
+      
+      <category domain="https://lalalll-lalalll.github.io/tags/%E9%9F%B3%E4%B9%90/">音乐</category>
       
       
       <comments>https://lalalll-lalalll.github.io/theme/SunVox%20User%20Manual/#disqus_thread</comments>

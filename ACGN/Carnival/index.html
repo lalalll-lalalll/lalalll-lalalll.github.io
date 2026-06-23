@@ -58,7 +58,7 @@
     
     <script id="hexo-configurations">
     let REDEFINE = window.REDEFINE || {};
-    REDEFINE.hexo_config = {"hostname":"lalalll-lalalll.github.io","root":"/","language":"zh-CN","path":"search.xml"};
+    REDEFINE.hexo_config = {"hostname":"lalalll-lalalll.github.io","root":"/","language":"zh-CN","path":"search.json"};
     REDEFINE.theme_config = {"toc":{"enable":true,"number":true,"expand_all":true,"init_open":true},"style":{"primary_color":"#005080","avatar":"/images/MerpisMe.png","favicon":"/images/icon.png","og_image":{"enable":false,"image_url":null},"article_img_align":"center","right_side_width":"210px","content_max_width":"1000px","nav_color":{"left":"#FFFFFF","right":"#FFFFFF","transparency":10},"hover":{"shadow":true,"scale":false},"first_screen":{"enable":true,"background_image":{"light":"https://s1.imagehub.cc/images/2026/04/15/df0db185a8eafefdbefdeef426a766df.png","dark":"https://s1.imagehub.cc/images/2026/04/15/e37f695ce84088adcfa9d0cd09976380.webp"},"title_color":{"light":"#fff","dark":"#000"},"font_sizes":{"title":"2.8rem","subtitle":"1.5rem"},"line_height":1.2,"title":"lalalll's blog","subtitle":{"enable":false,"list":[]},"custom_font":{"enable":false,"font_family":null,"font_url":null}},"scroll":{"progress_bar":{"enable":true},"percent":{"enable":true}}},"local_search":{"enable":true,"preload":true},"code_block":{"copy":true,"style":"mac","custom_font":{"enable":false,"font_family":null,"font_url":null}},"pjax":{"enable":true},"lazyload":{"enable":true},"version":"1.2.1","friend_links":{"columns":2},"home_article":{"date_format":"YYYY/MM/DD","category":{"enable":true,"limit":3},"tag":{"enable":true,"limit":3}},"plugins":{"aplayer":{"enable":false,"audio":[{"name":null,"artist":null,"url":null,"cover":null},{"name":null,"artist":null,"url":null,"cover":null}]},"mermaid":{"enable":false,"version":"9.3.0"}}};
     REDEFINE.language_ago = {"second":"%s 秒前","minute":"%s 分钟前","hour":"%s 小时前","day":"%s 天前","week":"%s 周前","month":"%s 个月前","year":"%s 年前"};
   </script>
@@ -80,13 +80,11 @@
     
     
 <style type="text/css">
-/* 默认情况（在段落 p 或 span 中）：使用 inline 保持内联 */
 .spoiler {
   display: inline;
 }
-/* 如果插件本身就被包裹在块级元素（如独立的 p 标签）中：使用 block 独占一行 */
 p.spoiler {
-  display: block;
+  display: flex;
 }
 .spoiler a {
   pointer-events: none;
@@ -99,8 +97,6 @@ p.spoiler {
   background-color: rgba(0, 0, 0, 0);
   text-shadow: 0 0 10px grey;
   cursor: pointer;
-  display: inline; /* 强制内联，解决模糊时换行问题 */
-  word-break: break-all; /* 防止长链接或数字撑破布局 */
 }
 .spoiler .spoiler-blur:hover, .spoiler .spoiler-blur:hover > * {
   text-shadow: 0 0 5px grey;
@@ -113,8 +109,6 @@ p.spoiler {
   color: black;
   background-color: black;
   text-shadow: none;
-  display: inline; /* 强制内联，解决点击后换行问题 */
-  word-break: break-all; /* 防止长链接或数字撑破布局 */
 }</style><meta name="generator" content="Hexo 6.3.0"><link rel="alternate" href="/atom.xml" title="结月小站" type="application/atom+xml">
 <link rel="alternate" href="/rss2.xml" title="结月小站" type="application/rss+xml">
 </head>
@@ -567,7 +561,7 @@ p.spoiler {
     
         <span class="article-date article-meta-item">
             <i class="fa-regular fa-wrench"></i>&nbsp;
-            <span class="pc">2026-01-19 18:32:37</span>
+            <span class="pc">2026-01-19 18:32:38</span>
             <span class="mobile">2026-01-19 18:32</span>
             <span class="hover-info">更新</span>
         </span>
@@ -634,19 +628,13 @@ p.spoiler {
 <li>泉家庭刻板规矩,内心对于自由的渴望使她爱慕上了学,并在泉线中与学一起逍遥天涯;</li>
 <li>咏美在学校由于极端嫉妒理纱而教唆学长三泽发泄在了和理纱走得近的学的身上,但这样的一个人,也有着呵护、疼爱着自己妹妹的内心柔软.</li>
 <li>
-
-  <span class="spoiler" onclick="this.classList.toggle('spoiler')">
-    <span class="spoiler-blur ">恐怕这个故事里唯一的垃圾人物只有三泽学长了.</span>
-  </span>
+<span class="spoiler" onclick="this.classList.toggle('spoiler')"><span class="spoiler-blur ">恐怕这个故事里唯一的垃圾人物只有三泽学长了.</span></span>
 </li>
 </ul>
 <p> 两颗渴望救赎的心就这样在一日的放学后相识…午后一起制作的礼物,有着美丽图案的万花筒,依偎在一起的甜蜜,夏日的烟火,夜晚的繁星,共同在一起的记忆…共同筑起了二人的内心世界.结尾处理纱所说:<br>
 <code>这个瞬间要是能再长一点就好了</code><br>
  我反倒更希望让时光停留在那个永恒灿烂的夏日.</p>
-<p> 世界上没有假如,也不存在着永恒,时间就是这样带走人的一切.上了高中学愈发的沉郁 
-  <span class="spoiler" onclick="this.classList.toggle('spoiler')">
-    <span class="spoiler-blur ">其实内心世界有点搞笑,咳咳</span>
-  </span>,与人气满满的理纱之间渐渐筑起了一道厚厚的屏障,以为二人不会再有大的交集,但实际上二人的精神世界依旧联系在一起,转折是在那日的天台…<br>
+<p> 世界上没有假如,也不存在着永恒,时间就是这样带走人的一切.上了高中学愈发的沉郁 <span class="spoiler" onclick="this.classList.toggle('spoiler')"><span class="spoiler-blur ">其实内心世界有点搞笑,咳咳</span></span>,与人气满满的理纱之间渐渐筑起了一道厚厚的屏障,以为二人不会再有大的交集,但实际上二人的精神世界依旧联系在一起,转折是在那日的天台…<br>
  霸凌学的三泽躺倒在血泊中,理纱衣服凌乱倒在天台另侧,嫌疑人只有已经失去记忆的学,侥幸从警车逃脱后学便寄住在理纱的家中,理纱真的将学(武)看作了自己的精神依靠.<br>
  其实我认为,学和武只是一个人性格的体现,学处事懦弱,善良,武玩世不恭,暴力残忍,他们都不能算是完整的人格,那么,真正的木村学又在哪里呢?他把自己束缚在了自我圈定的囚笼里,在最后残酷的现实和理纱的呼唤中找回了自我.</p>
 <p> 信任也是本作所探讨的一个重要话题,人与人之间的关系往往由自我的主观意识所决定,学在逃亡中怀疑着任何人,主观的认为理纱的伤是咏美造成的,以及在最后被囚禁在楼上遭受百般折磨的咏美是理纱所为,但其实这一切都是武做的,生活何尝不是如此,怀疑着他人,推卸着责任,欺骗着自己,直到真相大白的时刻才发现自己所犯下的错误…某种意义上讲,武就是学逃避着责任、痛苦的产物和内心世界的映射.这也是木村学的痛苦所在,麻木着自我的感知.很幸运的是,学的身边有着理纱这样无条件支持着他,信任着他,爱着她的人，让学找回真正的自己.<br>
@@ -687,22 +675,16 @@ p.spoiler {
 没办法呀</p>
 </blockquote>
 <p> 我知道我们的远方还很漫长,我们还很迷茫,但我仍旧希望热烈的奔跑,不让自己遗憾,因为我爱着这个世界,我爱着你.<br>
-<img lazyload="" src="/images/loading.svg" data-src="https://s1.imagehub.cc/images/2024/07/28/b31fbbb0dca6f2c08f20c75c017aa23d.png" alt=""><br>
-<img lazyload="" src="/images/loading.svg" data-src="https://s1.imagehub.cc/images/2024/07/28/7852c2dd57cc20bc43840dae467f56d9.png" alt=""><br>
+<img lazyload="" src="/images/loading.svg" data-src="https://s1.imagehub.cc/images/2024/07/28/b31fbbb0dca6f2c08f20c75c017aa23d.png" alt="b31fbbb0dca6f2c08f20c75c017aa23d.png"><br>
+<img lazyload="" src="/images/loading.svg" data-src="https://s1.imagehub.cc/images/2024/07/28/7852c2dd57cc20bc43840dae467f56d9.png" alt="7852c2dd57cc20bc43840dae467f56d9.png"><br>
  最后,请依旧爱着这个残酷而美好的世界.</p>
 <p>END</p>
 <hr>
 <p>看到这里就说一些除了剧情以外的东西了<br>
-不得不说学的内心世界是真的丰富,下图我当时玩的时候真的很好笑
-  <span class="spoiler" onclick="this.classList.toggle('spoiler')">
-    <span class="spoiler-blur ">应该不需要笑点解析吧?</span>
-  </span><br>
+不得不说学的内心世界是真的丰富,下图我当时玩的时候真的很好笑<span class="spoiler" onclick="this.classList.toggle('spoiler')"><span class="spoiler-blur ">应该不需要笑点解析吧?</span></span><br>
 系统方面做的不太好,保存读取没有缩略图根本不知道是哪个进度,跳转比较快速这点好评<br>
-配乐和画面方面没有太大的缺点,总体来说非常不错
-  <span class="spoiler" onclick="this.classList.toggle('spoiler')">
-    <span class="spoiler-blur ">有大错我也不可能动笔写了…(划掉</span>
-  </span><br>
-<img lazyload="" src="/images/loading.svg" data-src="https://s1.imagehub.cc/images/2024/07/28/15896f157fd78b574dc7d07981e1aa4a.png" alt=""></p>
+配乐和画面方面没有太大的缺点,总体来说非常不错<span class="spoiler" onclick="this.classList.toggle('spoiler')"><span class="spoiler-blur ">有大错我也不可能动笔写了…(划掉</span></span><br>
+<img lazyload="" src="/images/loading.svg" data-src="https://s1.imagehub.cc/images/2024/07/28/15896f157fd78b574dc7d07981e1aa4a.png" alt="15896f157fd78b574dc7d07981e1aa4a.png"></p>
 <p>游玩于 24.7.13 - 24.7.14</p>
 
             </div>

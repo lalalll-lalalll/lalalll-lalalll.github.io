@@ -58,7 +58,7 @@
     
     <script id="hexo-configurations">
     let REDEFINE = window.REDEFINE || {};
-    REDEFINE.hexo_config = {"hostname":"lalalll-lalalll.github.io","root":"/","language":"zh-CN","path":"search.xml"};
+    REDEFINE.hexo_config = {"hostname":"lalalll-lalalll.github.io","root":"/","language":"zh-CN","path":"search.json"};
     REDEFINE.theme_config = {"toc":{"enable":true,"number":true,"expand_all":true,"init_open":true},"style":{"primary_color":"#005080","avatar":"/images/MerpisMe.png","favicon":"/images/icon.png","og_image":{"enable":false,"image_url":null},"article_img_align":"center","right_side_width":"210px","content_max_width":"1000px","nav_color":{"left":"#FFFFFF","right":"#FFFFFF","transparency":10},"hover":{"shadow":true,"scale":false},"first_screen":{"enable":true,"background_image":{"light":"https://s1.imagehub.cc/images/2026/04/15/df0db185a8eafefdbefdeef426a766df.png","dark":"https://s1.imagehub.cc/images/2026/04/15/e37f695ce84088adcfa9d0cd09976380.webp"},"title_color":{"light":"#fff","dark":"#000"},"font_sizes":{"title":"2.8rem","subtitle":"1.5rem"},"line_height":1.2,"title":"lalalll's blog","subtitle":{"enable":false,"list":[]},"custom_font":{"enable":false,"font_family":null,"font_url":null}},"scroll":{"progress_bar":{"enable":true},"percent":{"enable":true}}},"local_search":{"enable":true,"preload":true},"code_block":{"copy":true,"style":"mac","custom_font":{"enable":false,"font_family":null,"font_url":null}},"pjax":{"enable":true},"lazyload":{"enable":true},"version":"1.2.1","friend_links":{"columns":2},"home_article":{"date_format":"YYYY/MM/DD","category":{"enable":true,"limit":3},"tag":{"enable":true,"limit":3}},"plugins":{"aplayer":{"enable":false,"audio":[{"name":null,"artist":null,"url":null,"cover":null},{"name":null,"artist":null,"url":null,"cover":null}]},"mermaid":{"enable":false,"version":"9.3.0"}}};
     REDEFINE.language_ago = {"second":"%s 秒前","minute":"%s 分钟前","hour":"%s 小时前","day":"%s 天前","week":"%s 周前","month":"%s 个月前","year":"%s 年前"};
   </script>
@@ -80,13 +80,11 @@
     
     
 <style type="text/css">
-/* 默认情况（在段落 p 或 span 中）：使用 inline 保持内联 */
 .spoiler {
   display: inline;
 }
-/* 如果插件本身就被包裹在块级元素（如独立的 p 标签）中：使用 block 独占一行 */
 p.spoiler {
-  display: block;
+  display: flex;
 }
 .spoiler a {
   pointer-events: none;
@@ -99,8 +97,6 @@ p.spoiler {
   background-color: rgba(0, 0, 0, 0);
   text-shadow: 0 0 10px grey;
   cursor: pointer;
-  display: inline; /* 强制内联，解决模糊时换行问题 */
-  word-break: break-all; /* 防止长链接或数字撑破布局 */
 }
 .spoiler .spoiler-blur:hover, .spoiler .spoiler-blur:hover > * {
   text-shadow: 0 0 5px grey;
@@ -113,8 +109,6 @@ p.spoiler {
   color: black;
   background-color: black;
   text-shadow: none;
-  display: inline; /* 强制内联，解决点击后换行问题 */
-  word-break: break-all; /* 防止长链接或数字撑破布局 */
 }</style><meta name="generator" content="Hexo 6.3.0"><link rel="alternate" href="/atom.xml" title="结月小站" type="application/atom+xml">
 <link rel="alternate" href="/rss2.xml" title="结月小站" type="application/rss+xml">
 </head>
@@ -567,7 +561,7 @@ p.spoiler {
     
         <span class="article-date article-meta-item">
             <i class="fa-regular fa-wrench"></i>&nbsp;
-            <span class="pc">2026-01-19 19:02:30</span>
+            <span class="pc">2026-01-19 19:02:32</span>
             <span class="mobile">2026-01-19 19:02</span>
             <span class="hover-info">更新</span>
         </span>
@@ -628,31 +622,25 @@ p.spoiler {
 <p>最开始的时候在选择<code>CommonLisp</code>还是<code>Scheme</code>上犹豫了挺长时间,最终还是选择了<code>CommonLisp</code>.<br>
 奈何<code>Vim</code>和<code>Emacs</code>的确劝退啊!<br>
 硬着头皮学习了一段时间后,终于发现了这款可以在<code>Eclipse</code>上编译<code>CommonLisp</code>的插件.</p>
-
-  <span class="spoiler" onclick="this.classList.toggle('spoiler')">
-    <span class="spoiler-blur ">实际上这篇文章本该在去年就写出来的XD</span>
-  </span>
+<span class="spoiler" onclick="this.classList.toggle('spoiler')"><span class="spoiler-blur ">实际上这篇文章本该在去年就写出来的XD</span></span>
 <h3 id="为Eclipse安装Dandelion插件">为Eclipse安装Dandelion插件</h3>
 <p><a class="link" target="_blank" rel="noopener" href="https://github.com/Ragnaroek/dandelion">https://github.com/Ragnaroek/dandelion <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></p>
 <h6 id="方式一-Marketplace-install">方式一:Marketplace install</h6>
 <p>打开Marketplace,搜索Dandelion,无脑安装.<br>
-<img lazyload="" src="/images/loading.svg" data-src="https://s1.imagehub.cc/images/2024/04/04/3b6ba3e49ff112453f85aaed2efb9515.png" alt=""></p>
+<img lazyload="" src="/images/loading.svg" data-src="https://s1.imagehub.cc/images/2024/04/04/3b6ba3e49ff112453f85aaed2efb9515.png" alt="3b6ba3e49ff112453f85aaed2efb9515.png"></p>
 <h6 id="方式二-Update-Site-installation">方式二:Update-Site installation</h6>
 <p>添加更新站点: <a class="link" target="_blank" rel="noopener" href="https://ragnaroek.github.io/dandelion/">https://ragnaroek.github.io/dandelion/ <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a> ,选择你要拉取的版本(一定要把系统和Lisp实现选择准!),无脑安装.<br>
-<img lazyload="" src="/images/loading.svg" data-src="https://s1.imagehub.cc/images/2024/04/04/33606f65bf122213dde92dd2e52d6202.png" alt=""></p>
+<img lazyload="" src="/images/loading.svg" data-src="https://s1.imagehub.cc/images/2024/04/04/33606f65bf122213dde92dd2e52d6202.png" alt="33606f65bf122213dde92dd2e52d6202.png"></p>
 <h3 id="搭建自己的SBCL环境">搭建自己的SBCL环境</h3>
 <p>参考自:<a class="link" target="_blank" rel="noopener" href="https://github.com/Ragnaroek/dandelion/wiki">https://github.com/Ragnaroek/dandelion/wiki <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></p>
 <p>激动的进入<code>eclipse</code>,发现插件所使用的<code>SBCL(2.0.1)</code>是内置且过时的,你很不爽,想要使用自己的<code>SBCL(2.3.2)</code>,于是你…</p>
 <h6 id="拉取Dandelion">拉取Dandelion</h6>
 <p>在一个安全的文件夹使用 <code>git clone https://github.com/Ragnaroek/dandelion.git</code> 来拉取一份代码</p>
-
-  <span class="spoiler" onclick="this.classList.toggle('spoiler')">
-    <span class="spoiler-blur ">我因为官方源超时了,换用了镜像源╮(╯▽╰)╭</span>
-  </span>
-<p><img lazyload="" src="/images/loading.svg" data-src="https://s1.imagehub.cc/images/2024/04/04/badc2078af76274f4b2e6de4cc9bda9e.png" alt=""></p>
+<span class="spoiler" onclick="this.classList.toggle('spoiler')"><span class="spoiler-blur ">我因为官方源超时了,换用了镜像源╮(╯▽╰)╭</span></span>
+<p><img lazyload="" src="/images/loading.svg" data-src="https://s1.imagehub.cc/images/2024/04/04/badc2078af76274f4b2e6de4cc9bda9e.png" alt="badc2078af76274f4b2e6de4cc9bda9e.png"></p>
 <h6 id="安装Quicklisp">安装Quicklisp</h6>
 <p>为本地的<code>SBCL</code>安装<code>Quicklisp</code>,访问 <a class="link" target="_blank" rel="noopener" href="https://www.quicklisp.org/beta/">https://www.quicklisp.org/beta/ <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a> 获得<code>quicklisp.lisp</code><br>
-<img lazyload="" src="/images/loading.svg" data-src="https://s1.imagehub.cc/images/2024/04/04/c2a2647d629a78ed4a896cb6f5085af0.png" alt=""><br>
+<img lazyload="" src="/images/loading.svg" data-src="https://s1.imagehub.cc/images/2024/04/04/c2a2647d629a78ed4a896cb6f5085af0.png" alt="c2a2647d629a78ed4a896cb6f5085af0.png"><br>
 在文件目录下打开CMD</p>
 <p>1.启动SBCL并加载quicklisp.lisp:<br>
 <code>sbcl --load quicklisp.lisp</code></p>
@@ -685,9 +673,9 @@ p.spoiler {
 <p>有时候由于端口占用可能会导致服务器启动失败,换个端口号就好了</p>
 <h6 id="连接eval-server">连接eval-server</h6>
 <p>在eclipse的设置中配置Lisp环境<br>
-<img lazyload="" src="/images/loading.svg" data-src="https://s1.imagehub.cc/images/2024/04/04/d71ec8e70e5d8ed73bbecf567d3007f4.png" alt=""><br>
+<img lazyload="" src="/images/loading.svg" data-src="https://s1.imagehub.cc/images/2024/04/04/d71ec8e70e5d8ed73bbecf567d3007f4.png" alt="d71ec8e70e5d8ed73bbecf567d3007f4.png"><br>
 在REPL中输入简单命令来连接我们的服务器,成功,同时终端日志开始刷新<br>
-<img lazyload="" src="/images/loading.svg" data-src="https://s1.imagehub.cc/images/2024/04/04/2b995f03b7fc2fdb7580893b3324df7a.png" alt=""></p>
+<img lazyload="" src="/images/loading.svg" data-src="https://s1.imagehub.cc/images/2024/04/04/2b995f03b7fc2fdb7580893b3324df7a.png" alt="2b995f03b7fc2fdb7580893b3324df7a.png"></p>
 <p>至此,我们就构建好了自己的<code>SBCL eval-server</code></p>
 <p>开始快乐的学习之旅吧!</p>
 

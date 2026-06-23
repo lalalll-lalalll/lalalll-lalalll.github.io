@@ -58,7 +58,7 @@
     
     <script id="hexo-configurations">
     let REDEFINE = window.REDEFINE || {};
-    REDEFINE.hexo_config = {"hostname":"lalalll-lalalll.github.io","root":"/","language":"zh-CN","path":"search.xml"};
+    REDEFINE.hexo_config = {"hostname":"lalalll-lalalll.github.io","root":"/","language":"zh-CN","path":"search.json"};
     REDEFINE.theme_config = {"toc":{"enable":true,"number":true,"expand_all":true,"init_open":true},"style":{"primary_color":"#005080","avatar":"/images/MerpisMe.png","favicon":"/images/icon.png","og_image":{"enable":false,"image_url":null},"article_img_align":"center","right_side_width":"210px","content_max_width":"1000px","nav_color":{"left":"#FFFFFF","right":"#FFFFFF","transparency":10},"hover":{"shadow":true,"scale":false},"first_screen":{"enable":true,"background_image":{"light":"https://s1.imagehub.cc/images/2026/04/15/df0db185a8eafefdbefdeef426a766df.png","dark":"https://s1.imagehub.cc/images/2026/04/15/e37f695ce84088adcfa9d0cd09976380.webp"},"title_color":{"light":"#fff","dark":"#000"},"font_sizes":{"title":"2.8rem","subtitle":"1.5rem"},"line_height":1.2,"title":"lalalll's blog","subtitle":{"enable":false,"list":[]},"custom_font":{"enable":false,"font_family":null,"font_url":null}},"scroll":{"progress_bar":{"enable":true},"percent":{"enable":true}}},"local_search":{"enable":true,"preload":true},"code_block":{"copy":true,"style":"mac","custom_font":{"enable":false,"font_family":null,"font_url":null}},"pjax":{"enable":true},"lazyload":{"enable":true},"version":"1.2.1","friend_links":{"columns":2},"home_article":{"date_format":"YYYY/MM/DD","category":{"enable":true,"limit":3},"tag":{"enable":true,"limit":3}},"plugins":{"aplayer":{"enable":false,"audio":[{"name":null,"artist":null,"url":null,"cover":null},{"name":null,"artist":null,"url":null,"cover":null}]},"mermaid":{"enable":false,"version":"9.3.0"}}};
     REDEFINE.language_ago = {"second":"%s 秒前","minute":"%s 分钟前","hour":"%s 小时前","day":"%s 天前","week":"%s 周前","month":"%s 个月前","year":"%s 年前"};
   </script>
@@ -80,13 +80,11 @@
     
     
 <style type="text/css">
-/* 默认情况（在段落 p 或 span 中）：使用 inline 保持内联 */
 .spoiler {
   display: inline;
 }
-/* 如果插件本身就被包裹在块级元素（如独立的 p 标签）中：使用 block 独占一行 */
 p.spoiler {
-  display: block;
+  display: flex;
 }
 .spoiler a {
   pointer-events: none;
@@ -99,8 +97,6 @@ p.spoiler {
   background-color: rgba(0, 0, 0, 0);
   text-shadow: 0 0 10px grey;
   cursor: pointer;
-  display: inline; /* 强制内联，解决模糊时换行问题 */
-  word-break: break-all; /* 防止长链接或数字撑破布局 */
 }
 .spoiler .spoiler-blur:hover, .spoiler .spoiler-blur:hover > * {
   text-shadow: 0 0 5px grey;
@@ -113,8 +109,6 @@ p.spoiler {
   color: black;
   background-color: black;
   text-shadow: none;
-  display: inline; /* 强制内联，解决点击后换行问题 */
-  word-break: break-all; /* 防止长链接或数字撑破布局 */
 }</style><meta name="generator" content="Hexo 6.3.0"><link rel="alternate" href="/atom.xml" title="结月小站" type="application/atom+xml">
 <link rel="alternate" href="/rss2.xml" title="结月小站" type="application/rss+xml">
 </head>
@@ -567,7 +561,7 @@ p.spoiler {
     
         <span class="article-date article-meta-item">
             <i class="fa-regular fa-wrench"></i>&nbsp;
-            <span class="pc">2026-01-19 19:03:04</span>
+            <span class="pc">2026-01-19 19:03:06</span>
             <span class="mobile">2026-01-19 19:03</span>
             <span class="hover-info">更新</span>
         </span>
@@ -619,12 +613,9 @@ p.spoiler {
 
             <div class="article-content markdown-body">
                 <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/hexo-tag-hint@0.3.1/dist/hexo-tag-hint.min.css"><h4 id="前情提要">前情提要</h4>
-<p>寂静无人的夜里,我疲惫地关上了电脑,看着电脑熄屏后我便离开房间前去洗漱,回来却发现荧幕依旧散发着惨白的光,充斥了整个房间… 
-  <span class="spoiler" onclick="this.classList.toggle('spoiler')">
-    <span class="spoiler-blur ">不许吓人</span>
-  </span></p>
+<p>寂静无人的夜里,我疲惫地关上了电脑,看着电脑熄屏后我便离开房间前去洗漱,回来却发现荧幕依旧散发着惨白的光,充斥了整个房间… <span class="spoiler" onclick="this.classList.toggle('spoiler')"><span class="spoiler-blur ">不许吓人</span></span></p>
 <p>只在事件管理器里发现了这个:<br>
-<img lazyload="" src="/images/loading.svg" data-src="https://s1.imagehub.cc/images/2024/07/25/acfee4c66f64d974de4ce3edc29f91b3.png" alt=""></p>
+<img lazyload="" src="/images/loading.svg" data-src="https://s1.imagehub.cc/images/2024/07/25/acfee4c66f64d974de4ce3edc29f91b3.png" alt="sppsvc.png"></p>
 <h4 id="解决">解决</h4>
 <p>方法参考自:<a class="link" target="_blank" rel="noopener" href="https://answers.microsoft.com/zh-hans/msoffice/forum/all/%E5%85%B3%E4%BA%8Ewin10%E4%B8%8Bsoftware/6031737f-d219-4488-b355-db198a0af52f">https://answers.microsoft.com/zh-hans/msoffice/forum/all/关于win10下software/6031737f-d219-4488-b355-db198a0af52f <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></p>
 <p>1.找到C:\Windows\System32\spp\store<br>

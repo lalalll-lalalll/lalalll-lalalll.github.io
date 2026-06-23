@@ -58,7 +58,7 @@
     
     <script id="hexo-configurations">
     let REDEFINE = window.REDEFINE || {};
-    REDEFINE.hexo_config = {"hostname":"lalalll-lalalll.github.io","root":"/","language":"zh-CN","path":"search.xml"};
+    REDEFINE.hexo_config = {"hostname":"lalalll-lalalll.github.io","root":"/","language":"zh-CN","path":"search.json"};
     REDEFINE.theme_config = {"toc":{"enable":true,"number":true,"expand_all":true,"init_open":true},"style":{"primary_color":"#005080","avatar":"/images/MerpisMe.png","favicon":"/images/icon.png","og_image":{"enable":false,"image_url":null},"article_img_align":"center","right_side_width":"210px","content_max_width":"1000px","nav_color":{"left":"#FFFFFF","right":"#FFFFFF","transparency":10},"hover":{"shadow":true,"scale":false},"first_screen":{"enable":true,"background_image":{"light":"https://s1.imagehub.cc/images/2026/04/15/df0db185a8eafefdbefdeef426a766df.png","dark":"https://s1.imagehub.cc/images/2026/04/15/e37f695ce84088adcfa9d0cd09976380.webp"},"title_color":{"light":"#fff","dark":"#000"},"font_sizes":{"title":"2.8rem","subtitle":"1.5rem"},"line_height":1.2,"title":"lalalll's blog","subtitle":{"enable":false,"list":[]},"custom_font":{"enable":false,"font_family":null,"font_url":null}},"scroll":{"progress_bar":{"enable":true},"percent":{"enable":true}}},"local_search":{"enable":true,"preload":true},"code_block":{"copy":true,"style":"mac","custom_font":{"enable":false,"font_family":null,"font_url":null}},"pjax":{"enable":true},"lazyload":{"enable":true},"version":"1.2.1","friend_links":{"columns":2},"home_article":{"date_format":"YYYY/MM/DD","category":{"enable":true,"limit":3},"tag":{"enable":true,"limit":3}},"plugins":{"aplayer":{"enable":false,"audio":[{"name":null,"artist":null,"url":null,"cover":null},{"name":null,"artist":null,"url":null,"cover":null}]},"mermaid":{"enable":false,"version":"9.3.0"}}};
     REDEFINE.language_ago = {"second":"%s 秒前","minute":"%s 分钟前","hour":"%s 小时前","day":"%s 天前","week":"%s 周前","month":"%s 个月前","year":"%s 年前"};
   </script>
@@ -80,13 +80,11 @@
     
     
 <style type="text/css">
-/* 默认情况（在段落 p 或 span 中）：使用 inline 保持内联 */
 .spoiler {
   display: inline;
 }
-/* 如果插件本身就被包裹在块级元素（如独立的 p 标签）中：使用 block 独占一行 */
 p.spoiler {
-  display: block;
+  display: flex;
 }
 .spoiler a {
   pointer-events: none;
@@ -99,8 +97,6 @@ p.spoiler {
   background-color: rgba(0, 0, 0, 0);
   text-shadow: 0 0 10px grey;
   cursor: pointer;
-  display: inline; /* 强制内联，解决模糊时换行问题 */
-  word-break: break-all; /* 防止长链接或数字撑破布局 */
 }
 .spoiler .spoiler-blur:hover, .spoiler .spoiler-blur:hover > * {
   text-shadow: 0 0 5px grey;
@@ -113,8 +109,6 @@ p.spoiler {
   color: black;
   background-color: black;
   text-shadow: none;
-  display: inline; /* 强制内联，解决点击后换行问题 */
-  word-break: break-all; /* 防止长链接或数字撑破布局 */
 }</style><meta name="generator" content="Hexo 6.3.0"><link rel="alternate" href="/atom.xml" title="结月小站" type="application/atom+xml">
 <link rel="alternate" href="/rss2.xml" title="结月小站" type="application/rss+xml">
 </head>
@@ -567,7 +561,7 @@ p.spoiler {
     
         <span class="article-date article-meta-item">
             <i class="fa-regular fa-wrench"></i>&nbsp;
-            <span class="pc">2026-01-19 18:42:27</span>
+            <span class="pc">2026-01-19 18:42:28</span>
             <span class="mobile">2026-01-19 18:42</span>
             <span class="hover-info">更新</span>
         </span>
@@ -669,8 +663,8 @@ p.spoiler {
 「……我也是」<br>
 我看着她温和的表情，一直祈祷着。</p>
 </blockquote>
-<p><img lazyload="" src="/images/loading.svg" data-src="https://s1.imagehub.cc/images/2025/05/30/1922dda99cbf68c9915319792b156889.png" alt="" title="银子"><br>
-<img lazyload="" src="/images/loading.svg" data-src="https://s1.imagehub.cc/images/2025/05/30/04d21c19dd1d9c1bb90755a60524b590.png" alt="" title="未来"></p>
+<p><img lazyload="" src="/images/loading.svg" data-src="https://s1.imagehub.cc/images/2025/05/30/1922dda99cbf68c9915319792b156889.png" alt="银子" title="银子"><br>
+<img lazyload="" src="/images/loading.svg" data-src="https://s1.imagehub.cc/images/2025/05/30/04d21c19dd1d9c1bb90755a60524b590.png" alt="未来" title="未来"></p>
 <center>↑孝介真的老了(悲)↑</center>
 <p> <br>
  <br>
@@ -687,8 +681,8 @@ p.spoiler {
 无论有着怎样的苦难，我们的女儿都能跨越过去。<br>
 伊吕波。谢谢你。</p>
 </blockquote>
-<p><img lazyload="" src="/images/loading.svg" data-src="https://s1.imagehub.cc/images/2025/05/30/56c126073fc4be6e10ef8e6c94eca2d3.png" alt="" title="背影"></p>
-<p><img lazyload="" src="/images/loading.svg" data-src="https://s1.imagehub.cc/images/2025/05/30/68ed8556b28f9c1bd0c7b236dc8e8c24.png" alt="" title="伊吕波"></p>
+<p><img lazyload="" src="/images/loading.svg" data-src="https://s1.imagehub.cc/images/2025/05/30/56c126073fc4be6e10ef8e6c94eca2d3.png" alt="背影" title="背影"></p>
+<p><img lazyload="" src="/images/loading.svg" data-src="https://s1.imagehub.cc/images/2025/05/30/68ed8556b28f9c1bd0c7b236dc8e8c24.png" alt="伊吕波" title="伊吕波"></p>
 <p> <br>
  <br>
 <strong>翔子线</strong><br>
@@ -696,10 +690,10 @@ p.spoiler {
 剧情方面,算是给出了另一个重要信息,红色石头,至于结局…本人觉得就是烂尾<br>
 两个结局都不是很好,一个是妹妹隐入大山,孝介留有执念寻找翔子年复一年,虽然最后相见,但二人之间已然再无可能,正如禁忌一样<br>
 一个是孝介用自己的死来告诫妹妹生命的价值,最后虽然依靠蓝色石头复活,但再也无法重返社会,只能和翔子一起成为银子一样的存在</p>
-<p><img lazyload="" src="/images/loading.svg" data-src="https://s1.imagehub.cc/images/2025/05/30/375871c85f56deff9b4e30dbef9b9f41.png" alt="" title="翔子"></p>
+<p><img lazyload="" src="/images/loading.svg" data-src="https://s1.imagehub.cc/images/2025/05/30/375871c85f56deff9b4e30dbef9b9f41.png" alt="翔子" title="翔子"></p>
 <p>最让我在意的是这里的妹妹沙久耶<br>
 看着我和翔子二人相识相恋,但…</p>
-<p><img lazyload="" src="/images/loading.svg" data-src="https://s1.imagehub.cc/images/2025/05/30/bff600e23bf1f254f5b13c7e57a4da50.png" alt="" title="伤痛"></p>
+<p><img lazyload="" src="/images/loading.svg" data-src="https://s1.imagehub.cc/images/2025/05/30/bff600e23bf1f254f5b13c7e57a4da50.png" alt="伤痛" title="伤痛"></p>
 <p>难过<br>
 最后兄长失踪,一人承受着痛苦,不断看着信箱渴望收到他的信息,好可怜啊啊,个人魅力upupup</p>
 <blockquote>
@@ -718,7 +712,7 @@ p.spoiler {
 <p>「如果我不是你妹妹的话，那也就不会再喜欢你了<br>
 　可是……这份思念的终点站，到底会在哪里呢」</p>
 </blockquote>
-<p><img lazyload="" src="/images/loading.svg" data-src="https://s1.imagehub.cc/images/2025/05/30/291f0a2933b53e6c97c6df37e0dc53d6.png" alt="" title="恋心"></p>
+<p><img lazyload="" src="/images/loading.svg" data-src="https://s1.imagehub.cc/images/2025/05/30/291f0a2933b53e6c97c6df37e0dc53d6.png" alt="恋心" title="恋心"></p>
 <p>二人最终向皐月阿姨坦白关系,并用一年时间证明双方的感情,二人于车站分别,并将在一年后重归于此,相遇</p>
 <blockquote>
 <p>孩提时代于此度过，再次拜访的故乡。<br>
@@ -733,7 +727,7 @@ p.spoiler {
 在夏日太阳炙烤着的路面上，笔直地朝着车站行驶。<br>
 那绵延不断的道路，就像是我和沙久耶那漫长的旅途……</p>
 </blockquote>
-<p><img lazyload="" src="/images/loading.svg" data-src="https://s1.imagehub.cc/images/2025/05/30/8d8ab6f9f6b5d4cc415a88a1b7617309.png" alt="" title="重逢"></p>
+<p><img lazyload="" src="/images/loading.svg" data-src="https://s1.imagehub.cc/images/2025/05/30/8d8ab6f9f6b5d4cc415a88a1b7617309.png" alt="重逢" title="重逢"></p>
 <p>通往<strong>TrueEND</strong>,并在结局:</p>
 <blockquote>
 <p>「……沙久耶」<br>
@@ -745,18 +739,18 @@ p.spoiler {
 我们知道她在最后所留下的思念。<br>
 怀抱着这份思念，我们两个人将生活下去~~</p>
 </blockquote>
-<p><img lazyload="" src="/images/loading.svg" data-src="https://s1.imagehub.cc/images/2025/05/30/c154bb7e1d1b655c8ae918ccdc96acf8.png" alt="" title="TrueEND"></p>
+<p><img lazyload="" src="/images/loading.svg" data-src="https://s1.imagehub.cc/images/2025/05/30/c154bb7e1d1b655c8ae918ccdc96acf8.png" alt="TrueEND" title="TrueEND"></p>
 <p> <br>
  <br>
 最后,全通关纪念:</p>
-<p><img lazyload="" src="/images/loading.svg" data-src="https://s1.imagehub.cc/images/2025/05/30/594255e420e2315a9afa3c646b3174bf.png" alt="" title="流程图"></p>
-<p><img lazyload="" src="/images/loading.svg" data-src="https://s1.imagehub.cc/images/2025/05/30/e68d7373651572fda25c765858b45a65.png" alt="" title="可喜可贺"></p>
+<p><img lazyload="" src="/images/loading.svg" data-src="https://s1.imagehub.cc/images/2025/05/30/594255e420e2315a9afa3c646b3174bf.png" alt="流程图" title="流程图"></p>
+<p><img lazyload="" src="/images/loading.svg" data-src="https://s1.imagehub.cc/images/2025/05/30/e68d7373651572fda25c765858b45a65.png" alt="可喜可贺" title="可喜可贺"></p>
 <hr>
 <p>关于其他的线,或多或少的都补充了不死之药的信息,但玩的时候并没有太多感触(感觉纯纯工具线)<br>
 音乐方面烘托氛围很好,但单拉出来并没有哪首给人惊艳之感,没达到腐姬OST的那种效果<br>
 CG方面中规中矩,质量最高的我感觉反而是银子的</p>
-<p><img lazyload="" src="/images/loading.svg" data-src="https://s1.imagehub.cc/images/2025/05/30/711d7b61568e654d380261311c5148d0.png" alt="" title="聚会"></p>
-<p><img lazyload="" src="/images/loading.svg" data-src="https://s1.imagehub.cc/images/2025/05/30/5efd14660234fc8d80aa2bc723760fd9.png" alt="" title="神祭"></p>
+<p><img lazyload="" src="/images/loading.svg" data-src="https://s1.imagehub.cc/images/2025/05/30/711d7b61568e654d380261311c5148d0.png" alt="聚会" title="聚会"></p>
+<p><img lazyload="" src="/images/loading.svg" data-src="https://s1.imagehub.cc/images/2025/05/30/5efd14660234fc8d80aa2bc723760fd9.png" alt="神祭" title="神祭"></p>
 <hr>
 <p>游玩于 25.5.16 银子5.21 伊吕波5.22 翔子5.25 沙久耶5.25 TrueEND 5.26</p>
 

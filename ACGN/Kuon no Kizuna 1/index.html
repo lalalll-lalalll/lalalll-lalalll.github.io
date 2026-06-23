@@ -58,7 +58,7 @@
     
     <script id="hexo-configurations">
     let REDEFINE = window.REDEFINE || {};
-    REDEFINE.hexo_config = {"hostname":"lalalll-lalalll.github.io","root":"/","language":"zh-CN","path":"search.xml"};
+    REDEFINE.hexo_config = {"hostname":"lalalll-lalalll.github.io","root":"/","language":"zh-CN","path":"search.json"};
     REDEFINE.theme_config = {"toc":{"enable":true,"number":true,"expand_all":true,"init_open":true},"style":{"primary_color":"#005080","avatar":"/images/MerpisMe.png","favicon":"/images/icon.png","og_image":{"enable":false,"image_url":null},"article_img_align":"center","right_side_width":"210px","content_max_width":"1000px","nav_color":{"left":"#FFFFFF","right":"#FFFFFF","transparency":10},"hover":{"shadow":true,"scale":false},"first_screen":{"enable":true,"background_image":{"light":"https://s1.imagehub.cc/images/2026/04/15/df0db185a8eafefdbefdeef426a766df.png","dark":"https://s1.imagehub.cc/images/2026/04/15/e37f695ce84088adcfa9d0cd09976380.webp"},"title_color":{"light":"#fff","dark":"#000"},"font_sizes":{"title":"2.8rem","subtitle":"1.5rem"},"line_height":1.2,"title":"lalalll's blog","subtitle":{"enable":false,"list":[]},"custom_font":{"enable":false,"font_family":null,"font_url":null}},"scroll":{"progress_bar":{"enable":true},"percent":{"enable":true}}},"local_search":{"enable":true,"preload":true},"code_block":{"copy":true,"style":"mac","custom_font":{"enable":false,"font_family":null,"font_url":null}},"pjax":{"enable":true},"lazyload":{"enable":true},"version":"1.2.1","friend_links":{"columns":2},"home_article":{"date_format":"YYYY/MM/DD","category":{"enable":true,"limit":3},"tag":{"enable":true,"limit":3}},"plugins":{"aplayer":{"enable":false,"audio":[{"name":null,"artist":null,"url":null,"cover":null},{"name":null,"artist":null,"url":null,"cover":null}]},"mermaid":{"enable":false,"version":"9.3.0"}}};
     REDEFINE.language_ago = {"second":"%s 秒前","minute":"%s 分钟前","hour":"%s 小时前","day":"%s 天前","week":"%s 周前","month":"%s 个月前","year":"%s 年前"};
   </script>
@@ -80,13 +80,11 @@
     
     
 <style type="text/css">
-/* 默认情况（在段落 p 或 span 中）：使用 inline 保持内联 */
 .spoiler {
   display: inline;
 }
-/* 如果插件本身就被包裹在块级元素（如独立的 p 标签）中：使用 block 独占一行 */
 p.spoiler {
-  display: block;
+  display: flex;
 }
 .spoiler a {
   pointer-events: none;
@@ -99,8 +97,6 @@ p.spoiler {
   background-color: rgba(0, 0, 0, 0);
   text-shadow: 0 0 10px grey;
   cursor: pointer;
-  display: inline; /* 强制内联，解决模糊时换行问题 */
-  word-break: break-all; /* 防止长链接或数字撑破布局 */
 }
 .spoiler .spoiler-blur:hover, .spoiler .spoiler-blur:hover > * {
   text-shadow: 0 0 5px grey;
@@ -113,8 +109,6 @@ p.spoiler {
   color: black;
   background-color: black;
   text-shadow: none;
-  display: inline; /* 强制内联，解决点击后换行问题 */
-  word-break: break-all; /* 防止长链接或数字撑破布局 */
 }</style><meta name="generator" content="Hexo 6.3.0"><link rel="alternate" href="/atom.xml" title="结月小站" type="application/atom+xml">
 <link rel="alternate" href="/rss2.xml" title="结月小站" type="application/rss+xml">
 </head>
@@ -567,7 +561,7 @@ p.spoiler {
     
         <span class="article-date article-meta-item">
             <i class="fa-regular fa-wrench"></i>&nbsp;
-            <span class="pc">2026-04-12 14:04:24</span>
+            <span class="pc">2026-04-12 14:04:26</span>
             <span class="mobile">2026-04-12 14:04</span>
             <span class="hover-info">更新</span>
         </span>
@@ -676,9 +670,9 @@ p.spoiler {
 <p>如果你比妈妈更早遇见我，你会选择我吗？</p>
 </blockquote>
 <p>其无关于背德或违伦,而是在知道此世只可空恋后内心最终的释然</p>
-<p><img lazyload="" src="/images/loading.svg" data-src="https://s1.imagehub.cc/images/2025/04/22/62c510439a321688125ad44456b278bb.png" alt=""><br>
-<img lazyload="" src="/images/loading.svg" data-src="https://s1.imagehub.cc/images/2025/04/22/c9be9bcf116605177b785402a5bc2d33.png" alt=""><br>
-<img lazyload="" src="/images/loading.svg" data-src="https://s1.imagehub.cc/images/2025/04/22/5f9fd046af9efa73fea6b82716ce1732.png" alt=""></p>
+<p><img lazyload="" src="/images/loading.svg" data-src="https://s1.imagehub.cc/images/2025/04/22/62c510439a321688125ad44456b278bb.png" alt="3"><br>
+<img lazyload="" src="/images/loading.svg" data-src="https://s1.imagehub.cc/images/2025/04/22/c9be9bcf116605177b785402a5bc2d33.png" alt="4"><br>
+<img lazyload="" src="/images/loading.svg" data-src="https://s1.imagehub.cc/images/2025/04/22/5f9fd046af9efa73fea6b82716ce1732.png" alt="5"></p>
 <p>空恋,无果之恋,看着所爱的人与他人走在一起,这羁绊和爱恋也化为"永恒的泡影"<br>
 遗憾,人世间包含着遗憾,人与人之间弱小的存在就是这样最弱的联结在了一起,但也正是这样的世界,才有着悲,有着喜<br>
 有着执念,有着痛苦,有着幸福<br>
@@ -694,7 +688,7 @@ p.spoiler {
 <p> </p>
 <details class="white"><summary><i class="fa-solid fa-chevron-right"></i>其他的一些图片 </summary>
               <div class="content">
-              <p><img lazyload="" src="/images/loading.svg" data-src="https://s1.imagehub.cc/images/2025/04/22/945d7e77523392678ba145e5817347b6.png" alt=""><br><img lazyload="" src="/images/loading.svg" data-src="https://s1.imagehub.cc/images/2025/04/22/1135f7d86ac2dcc83f80626a014a913c.png" alt=""><br><img lazyload="" src="/images/loading.svg" data-src="https://s1.imagehub.cc/images/2025/04/22/4a523f984264cad4968664803a71f021.png" alt=""><br><img lazyload="" src="/images/loading.svg" data-src="https://s1.imagehub.cc/images/2025/04/22/1e198732d356b51069b52a565e9db680.png" alt=""><br><img lazyload="" src="/images/loading.svg" data-src="https://s1.imagehub.cc/images/2025/04/22/fc36dca6f302c8db4921c2abe68043a5.png" alt=""><br><img lazyload="" src="/images/loading.svg" data-src="https://s1.imagehub.cc/images/2025/04/22/c01ead8f3e80bbac0ffab710a2a0afef.png" alt=""><br><img lazyload="" src="/images/loading.svg" data-src="https://s1.imagehub.cc/images/2025/04/22/55a767097b6eaf7ae692be1e24709686.png" alt=""><br><img lazyload="" src="/images/loading.svg" data-src="https://s1.imagehub.cc/images/2025/04/22/0b1a4e34c972092a36271a55064c1235.png" alt=""><br><img lazyload="" src="/images/loading.svg" data-src="https://s1.imagehub.cc/images/2025/04/22/32cbb263add5a7031c838caf17efe792.png" alt=""><br><img lazyload="" src="/images/loading.svg" data-src="https://s1.imagehub.cc/images/2025/04/22/cc65e20ef3cad28679e30f032ab9caa6.png" alt=""></p>
+              <p><img lazyload="" src="/images/loading.svg" data-src="https://s1.imagehub.cc/images/2025/04/22/945d7e77523392678ba145e5817347b6.png" alt="1"><br><img lazyload="" src="/images/loading.svg" data-src="https://s1.imagehub.cc/images/2025/04/22/1135f7d86ac2dcc83f80626a014a913c.png" alt="2"><br><img lazyload="" src="/images/loading.svg" data-src="https://s1.imagehub.cc/images/2025/04/22/4a523f984264cad4968664803a71f021.png" alt="6"><br><img lazyload="" src="/images/loading.svg" data-src="https://s1.imagehub.cc/images/2025/04/22/1e198732d356b51069b52a565e9db680.png" alt="7"><br><img lazyload="" src="/images/loading.svg" data-src="https://s1.imagehub.cc/images/2025/04/22/fc36dca6f302c8db4921c2abe68043a5.png" alt="8"><br><img lazyload="" src="/images/loading.svg" data-src="https://s1.imagehub.cc/images/2025/04/22/c01ead8f3e80bbac0ffab710a2a0afef.png" alt="9"><br><img lazyload="" src="/images/loading.svg" data-src="https://s1.imagehub.cc/images/2025/04/22/55a767097b6eaf7ae692be1e24709686.png" alt="10"><br><img lazyload="" src="/images/loading.svg" data-src="https://s1.imagehub.cc/images/2025/04/22/0b1a4e34c972092a36271a55064c1235.png" alt="11"><br><img lazyload="" src="/images/loading.svg" data-src="https://s1.imagehub.cc/images/2025/04/22/32cbb263add5a7031c838caf17efe792.png" alt="12"><br><img lazyload="" src="/images/loading.svg" data-src="https://s1.imagehub.cc/images/2025/04/22/cc65e20ef3cad28679e30f032ab9caa6.png" alt="0"></p>
               </div>
             </details>
 <p> </p>

@@ -58,7 +58,7 @@
     
     <script id="hexo-configurations">
     let REDEFINE = window.REDEFINE || {};
-    REDEFINE.hexo_config = {"hostname":"lalalll-lalalll.github.io","root":"/","language":"zh-CN","path":"search.xml"};
+    REDEFINE.hexo_config = {"hostname":"lalalll-lalalll.github.io","root":"/","language":"zh-CN","path":"search.json"};
     REDEFINE.theme_config = {"toc":{"enable":true,"number":true,"expand_all":true,"init_open":true},"style":{"primary_color":"#005080","avatar":"/images/MerpisMe.png","favicon":"/images/icon.png","og_image":{"enable":false,"image_url":null},"article_img_align":"center","right_side_width":"210px","content_max_width":"1000px","nav_color":{"left":"#FFFFFF","right":"#FFFFFF","transparency":10},"hover":{"shadow":true,"scale":false},"first_screen":{"enable":true,"background_image":{"light":"https://s1.imagehub.cc/images/2026/04/15/df0db185a8eafefdbefdeef426a766df.png","dark":"https://s1.imagehub.cc/images/2026/04/15/e37f695ce84088adcfa9d0cd09976380.webp"},"title_color":{"light":"#fff","dark":"#000"},"font_sizes":{"title":"2.8rem","subtitle":"1.5rem"},"line_height":1.2,"title":"lalalll's blog","subtitle":{"enable":false,"list":[]},"custom_font":{"enable":false,"font_family":null,"font_url":null}},"scroll":{"progress_bar":{"enable":true},"percent":{"enable":true}}},"local_search":{"enable":true,"preload":true},"code_block":{"copy":true,"style":"mac","custom_font":{"enable":false,"font_family":null,"font_url":null}},"pjax":{"enable":true},"lazyload":{"enable":true},"version":"1.2.1","friend_links":{"columns":2},"home_article":{"date_format":"YYYY/MM/DD","category":{"enable":true,"limit":3},"tag":{"enable":true,"limit":3}},"plugins":{"aplayer":{"enable":false,"audio":[{"name":null,"artist":null,"url":null,"cover":null},{"name":null,"artist":null,"url":null,"cover":null}]},"mermaid":{"enable":false,"version":"9.3.0"}}};
     REDEFINE.language_ago = {"second":"%s 秒前","minute":"%s 分钟前","hour":"%s 小时前","day":"%s 天前","week":"%s 周前","month":"%s 个月前","year":"%s 年前"};
   </script>
@@ -80,13 +80,11 @@
     
     
 <style type="text/css">
-/* 默认情况（在段落 p 或 span 中）：使用 inline 保持内联 */
 .spoiler {
   display: inline;
 }
-/* 如果插件本身就被包裹在块级元素（如独立的 p 标签）中：使用 block 独占一行 */
 p.spoiler {
-  display: block;
+  display: flex;
 }
 .spoiler a {
   pointer-events: none;
@@ -99,8 +97,6 @@ p.spoiler {
   background-color: rgba(0, 0, 0, 0);
   text-shadow: 0 0 10px grey;
   cursor: pointer;
-  display: inline; /* 强制内联，解决模糊时换行问题 */
-  word-break: break-all; /* 防止长链接或数字撑破布局 */
 }
 .spoiler .spoiler-blur:hover, .spoiler .spoiler-blur:hover > * {
   text-shadow: 0 0 5px grey;
@@ -113,8 +109,6 @@ p.spoiler {
   color: black;
   background-color: black;
   text-shadow: none;
-  display: inline; /* 强制内联，解决点击后换行问题 */
-  word-break: break-all; /* 防止长链接或数字撑破布局 */
 }</style><meta name="generator" content="Hexo 6.3.0"><link rel="alternate" href="/atom.xml" title="结月小站" type="application/atom+xml">
 <link rel="alternate" href="/rss2.xml" title="结月小站" type="application/rss+xml">
 </head>
@@ -567,7 +561,7 @@ p.spoiler {
     
         <span class="article-date article-meta-item">
             <i class="fa-regular fa-wrench"></i>&nbsp;
-            <span class="pc">2025-08-26 19:46:54</span>
+            <span class="pc">2025-08-26 19:46:56</span>
             <span class="mobile">2025-08-26 19:46</span>
             <span class="hover-info">更新</span>
         </span>
@@ -626,10 +620,7 @@ p.spoiler {
 </div>
 <div class="note note-warning icon-padding"><i class="note-icon fa-solid fa-exclamation-circle"></i><p>剧透警告!!!</p>
 </div>
-<p> 
-  <span class="spoiler" onclick="this.classList.toggle('spoiler')">
-    <span class="spoiler-blur ">先吐槽一下这个名字,经常写着写着就变成夏之锁什么的…(没救了)</span>
-  </span></p>
+<p> <span class="spoiler" onclick="this.classList.toggle('spoiler')"><span class="spoiler-blur ">先吐槽一下这个名字,经常写着写着就变成夏之锁什么的…(没救了)</span></span></p>
 <p> 玩完的第一感受就是感动,真的很久都没有对于一个故事这么的不舍.值得称赞的是在ED播放完之后还有一段女性视角的后日谈,也算得上是对故事结束后空虚感的填充<br>
  本作并非单纯的废萌向作品,每个女主角、每条线的背后都透露出一种淡淡的忧伤和无力的挫败感,但好在结局都是HE<br>
  最开始玩的时候并没有觉得这是一部怎么了不起的作品,还会对主人公宗介身边的人感到恼火 <s>什么烂妈妈啊,什么不讲理的妹妹啊,还有这个姐姐怎么态度这么让人不爽</s>  等等…<br>
@@ -658,12 +649,9 @@ p.spoiler {
  天涯两隔心意相通,二人的情意并不会因此而褪色,依旧在记忆中熠熠闪耀…<br>
 本线完</p>
 <p> 相较于缘之空,本篇并没有重点讲述世俗的伦理,更多的是家庭分裂所带来青春的创痛和对于梦想与现实之间距离的恐惧,因此有一些人并不太认可这部作品,我认为这不是什么太大的过错</p>
-<p> 不得不说香奈这个朋友是真给力,在两人吵架的时候出来安慰,在理香子出走的时候充当桥梁联络着彼此   
-  <span class="spoiler" onclick="this.classList.toggle('spoiler')">
-    <span class="spoiler-blur ">遗憾没有香奈线啊!(划掉</span>
-  </span><br>
-<img lazyload="" src="/images/loading.svg" data-src="https://s1.imagehub.cc/images/2024/08/13/b613401ca90968c657ed0332beab503a.png" alt=""><br>
-<img lazyload="" src="/images/loading.svg" data-src="https://s1.imagehub.cc/images/2024/08/13/e3fa3ce3be8a5c6be70e50a7daefdce4.png" alt=""></p>
+<p> 不得不说香奈这个朋友是真给力,在两人吵架的时候出来安慰,在理香子出走的时候充当桥梁联络着彼此   <span class="spoiler" onclick="this.classList.toggle('spoiler')"><span class="spoiler-blur ">遗憾没有香奈线啊!(划掉</span></span><br>
+<img lazyload="" src="/images/loading.svg" data-src="https://s1.imagehub.cc/images/2024/08/13/b613401ca90968c657ed0332beab503a.png" alt="EA23 01"><br>
+<img lazyload="" src="/images/loading.svg" data-src="https://s1.imagehub.cc/images/2024/08/13/e3fa3ce3be8a5c6be70e50a7daefdce4.png" alt="EA24 01"></p>
 <p><strong>翠线</strong><br>
  本作中唯一一位非姐系对象,也是我个人最喜欢的一条线,剧情意外的并不是十分平淡,来小镇之前因为拒绝不良的表白而遭受着霸凌和朋友间的疏远,以至于来到新学校时表现得十分文静沉郁,但实际上是个热情活跃的可爱女孩<br>
  在看到宗介因为了给受足球部高年级霸凌的村井出头而退部,也因此与不相识的一志共同退部表达对宗介的支持,因为这段经历而建立起牢不可破的友谊,共同为了重回足球部而日日练习<br>
@@ -683,20 +671,14 @@ p.spoiler {
 我坚信</p>
 </blockquote>
 <p> 最终宗介在球场上击败了不良,强迫其向翠道歉,最终迎来了幸福的结局<br>
- 
-  <span class="spoiler" onclick="this.classList.toggle('spoiler')">
-    <span class="spoiler-blur ">好爽啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊</span>
-  </span><br>
-<img lazyload="" src="/images/loading.svg" data-src="https://s1.imagehub.cc/images/2024/08/13/9b9d8b4255ac29caf9ee2ed62262eee2.png" alt=""><br>
-<img lazyload="" src="/images/loading.svg" data-src="https://s1.imagehub.cc/images/2024/08/13/ef8d69bc4f03875bfee8cd8c2233e84c.png" alt=""></p>
+ <span class="spoiler" onclick="this.classList.toggle('spoiler')"><span class="spoiler-blur ">好爽啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊</span></span><br>
+<img lazyload="" src="/images/loading.svg" data-src="https://s1.imagehub.cc/images/2024/08/13/9b9d8b4255ac29caf9ee2ed62262eee2.png" alt="EB04 01"><br>
+<img lazyload="" src="/images/loading.svg" data-src="https://s1.imagehub.cc/images/2024/08/13/ef8d69bc4f03875bfee8cd8c2233e84c.png" alt="EB18 01"></p>
 <p><strong>日向线</strong><br>
  从小一起长大的青梅竹马,给予宗介无微不至的关怀和温暖,在乡下感到孤独时是日向姐陪伴着他,驱散内心的不安<br>
  因为日向对于宗介的喜爱,在河边吻了还是孩子的宗介让他受惊,之后二人有了一些的距离,来到镇上宗介也寻找理由不回乡下看望日向<br>
  因为家庭的矛盾考到镇上,追寻着宗介,呵护着他<br>
- 
-  <span class="spoiler" onclick="this.classList.toggle('spoiler')">
-    <span class="spoiler-blur ">被自己喜欢的人撮合着和他的朋友在一起…胃疼啊…</span>
-  </span><br>
+ <span class="spoiler" onclick="this.classList.toggle('spoiler')"><span class="spoiler-blur ">被自己喜欢的人撮合着和他的朋友在一起…胃疼啊…</span></span><br>
  因为过于喜爱,所以害怕宗介再次离开(<s>理香子行为…</s>),包容着对方的一切,也因此在宗介说希望不要为他而耽搁学业时一蹶不振(<s>神仙姐姐啊</s>)<br>
  实际上日向从童年那次事件后就隐藏着自己的想法,将爱意转换为温柔陪伴着宗介,因为告白前压抑了太久以至于在保持距离时爆发(<s>超甜啊</s>)</p>
 <blockquote>
@@ -707,28 +689,22 @@ p.spoiler {
 未来,日向毕业,我也会毕业,只要我们一直在一起,无时无刻都是特别的季节</p>
 </blockquote>
 <p> 本作最轻松最甜的一条线,在理香子线中宗介觉得日向姐会坐着新干线去给他做饭我觉得不无道理的x<br>
-<img lazyload="" src="/images/loading.svg" data-src="https://s1.imagehub.cc/images/2024/08/13/29216bb80421b45a5acf6b1850b51488.png" alt=""><br>
-<img lazyload="" src="/images/loading.svg" data-src="https://s1.imagehub.cc/images/2024/08/13/31beed844787fe48c1d037ced2f5a1f0.png" alt=""></p>
+<img lazyload="" src="/images/loading.svg" data-src="https://s1.imagehub.cc/images/2024/08/13/29216bb80421b45a5acf6b1850b51488.png" alt="EC07 02L"><br>
+<img lazyload="" src="/images/loading.svg" data-src="https://s1.imagehub.cc/images/2024/08/13/31beed844787fe48c1d037ced2f5a1f0.png" alt="EC17 01"></p>
 <p><strong>美纱线</strong><br>
  首先声明不支持师生恋!x <s>最姐姐的一集</s>(划掉<br>
  被迫的当上老师,除此之外就是平凡的可爱女孩,喜欢着恋爱小说(<s>是宗介他妈的狂热粉丝</s>),因为美纱哥哥的不负责而照顾着懂事的宁宁,也有着职场烦恼,酒量不好却希望借此忘记事业、家庭的烦恼,然后酒后做过什么都会清醒的记得,最想忘记的反而是喝酒的记忆x<br>
  因为二人的职业特殊性,美纱决定与宗介分手遵循父母意志去相亲,却被宗介阻挡,并坦白自己终有一天会有能力给予美纱和宁宁想要的幸福,而且提交了休学申请书(蜡笔写的…)<br>
  最终宗介并没退学,美纱也没有成功相亲,在解开了宁宁以为是因为自己所以妈妈和哥哥(<s>太奇怪了啊喂</s>)不结婚的矛盾后,宁宁决定跟随美纱一起生活,皆大欢喜<br>
- 值得一提的是本线的后日谈是宁宁视角的 
-  <span class="spoiler" onclick="this.classList.toggle('spoiler')">
-    <span class="spoiler-blur ">宁宁太懂事了啊啊啊啊啊啊啊啊啊啊而且跟翠和香奈打辅助一样的可靠啊啊啊啊啊</span>
-  </span><br>
-<img lazyload="" src="/images/loading.svg" data-src="https://s1.imagehub.cc/images/2024/08/13/ff4c505a91b18722f7bcdc5b06332f20.png" alt=""></p>
+ 值得一提的是本线的后日谈是宁宁视角的 <span class="spoiler" onclick="this.classList.toggle('spoiler')"><span class="spoiler-blur ">宁宁太懂事了啊啊啊啊啊啊啊啊啊啊而且跟翠和香奈打辅助一样的可靠啊啊啊啊啊</span></span><br>
+<img lazyload="" src="/images/loading.svg" data-src="https://s1.imagehub.cc/images/2024/08/13/ff4c505a91b18722f7bcdc5b06332f20.png" alt="ED03 01"></p>
 <center>↑我觉得最好看的一张CG↑</center>
-<p><img lazyload="" src="/images/loading.svg" data-src="https://s1.imagehub.cc/images/2024/08/13/4672c239f3896cce202a8c9d4ac9bacb.png" alt=""></p>
+<p><img lazyload="" src="/images/loading.svg" data-src="https://s1.imagehub.cc/images/2024/08/13/4672c239f3896cce202a8c9d4ac9bacb.png" alt="ED15 01"></p>
 <p> 再说一下自己的一些其他想法吧,剧情有的地方有点奇怪和尴尬,可以很好的描绘出宗介是个还没长大的热血少年,但就是这样的高中生才能在透露出的细心和照顾中打动他人,我觉得这也是合理之处.<br>
  男主的妈妈也是够惨的,大学时一昏头便与第一个对象结婚,结果老公和初恋又好上了,离婚后自己发奋图强成为知名言情小说作家(<s>还挺励志</s>),拥有小迷妹无数(<s>就是在说你呢,美纱老师</s>),这样一看她对理香子的态度算是太好了x,在理香子线最后也是意识到了自己对于孩子们所缺少的爱,改过自新成为好妈妈(<s>但就是愈发的<ruby>绅士<rt>HenTai</rt></ruby>了…</s>)<br>
  男主的妹妹朋实在前期被塑造得太可恨了点,后期和理香子和好后成为非常要好的朋友,同时鼓起自己的勇气去告诉可怕妈妈自己的想法,让妈妈意识到自己的责任,很了不起<br>
  翠真的算得上贤妻了(事实上其他三人都不差),在宗介低谷时期和一志一起陪伴着他,作为足球经理给宗介非常个性化的训练方案,让他在自己一人时也能针对性的进行提升,最后靠自己努力成为营养师<br>
- 日向因为和宗介的羁绊太深了,在其他三个人的线中出场率极低(<s>怕是在偷偷哭泣</s>),心疼
-  <span class="spoiler" onclick="this.classList.toggle('spoiler')">
-    <span class="spoiler-blur ">胃也疼</span>
-  </span> 她家更乱,父亲离开乡下工作,母亲一人留在乡下,父亲在家里养了其他的女人…(日向能和那个女人成为朋友也是不容易啊…) 做饭一等一的拿手(尤其是花椰菜(笑))<br>
+ 日向因为和宗介的羁绊太深了,在其他三个人的线中出场率极低(<s>怕是在偷偷哭泣</s>),心疼<span class="spoiler" onclick="this.classList.toggle('spoiler')"><span class="spoiler-blur ">胃也疼</span></span> 她家更乱,父亲离开乡下工作,母亲一人留在乡下,父亲在家里养了其他的女人…(日向能和那个女人成为朋友也是不容易啊…) 做饭一等一的拿手(尤其是花椰菜(笑))<br>
  美纱前期的感情线描写的稍显单薄,莫名其妙就在一起了,但在一起后对于社会伦理的叙述很到位.<s>宁宁这么听话懂事的女儿哪里领呢</s>(划掉<br>
  理香子与其说是姐姐,不如说是邻家的傲娇同学,姐味稍显不足,但在其他三人线中意外的可靠(特别是被美纱提出分手后宗介回家大哭时…)<br>
  香奈就不多说了,神一样的队友 <code>\^o^/</code><br>

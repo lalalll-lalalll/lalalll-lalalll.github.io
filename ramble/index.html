@@ -56,7 +56,7 @@
     
     <script id="hexo-configurations">
     let REDEFINE = window.REDEFINE || {};
-    REDEFINE.hexo_config = {"hostname":"lalalll-lalalll.github.io","root":"/","language":"zh-CN","path":"search.xml"};
+    REDEFINE.hexo_config = {"hostname":"lalalll-lalalll.github.io","root":"/","language":"zh-CN","path":"search.json"};
     REDEFINE.theme_config = {"toc":{"enable":true,"number":true,"expand_all":true,"init_open":true},"style":{"primary_color":"#005080","avatar":"/images/MerpisMe.png","favicon":"/images/icon.png","og_image":{"enable":false,"image_url":null},"article_img_align":"center","right_side_width":"210px","content_max_width":"1000px","nav_color":{"left":"#FFFFFF","right":"#FFFFFF","transparency":10},"hover":{"shadow":true,"scale":false},"first_screen":{"enable":true,"background_image":{"light":"https://s1.imagehub.cc/images/2026/04/15/df0db185a8eafefdbefdeef426a766df.png","dark":"https://s1.imagehub.cc/images/2026/04/15/e37f695ce84088adcfa9d0cd09976380.webp"},"title_color":{"light":"#fff","dark":"#000"},"font_sizes":{"title":"2.8rem","subtitle":"1.5rem"},"line_height":1.2,"title":"lalalll's blog","subtitle":{"enable":false,"list":[]},"custom_font":{"enable":false,"font_family":null,"font_url":null}},"scroll":{"progress_bar":{"enable":true},"percent":{"enable":true}}},"local_search":{"enable":true,"preload":true},"code_block":{"copy":true,"style":"mac","custom_font":{"enable":false,"font_family":null,"font_url":null}},"pjax":{"enable":true},"lazyload":{"enable":true},"version":"1.2.1","friend_links":{"columns":2},"home_article":{"date_format":"YYYY/MM/DD","category":{"enable":true,"limit":3},"tag":{"enable":true,"limit":3}},"plugins":{"aplayer":{"enable":false,"audio":[{"name":null,"artist":null,"url":null,"cover":null},{"name":null,"artist":null,"url":null,"cover":null}]},"mermaid":{"enable":false,"version":"9.3.0"}}};
     REDEFINE.language_ago = {"second":"%s 秒前","minute":"%s 分钟前","hour":"%s 小时前","day":"%s 天前","week":"%s 周前","month":"%s 个月前","year":"%s 年前"};
   </script>
@@ -78,13 +78,11 @@
     
     
 <style type="text/css">
-/* 默认情况（在段落 p 或 span 中）：使用 inline 保持内联 */
 .spoiler {
   display: inline;
 }
-/* 如果插件本身就被包裹在块级元素（如独立的 p 标签）中：使用 block 独占一行 */
 p.spoiler {
-  display: block;
+  display: flex;
 }
 .spoiler a {
   pointer-events: none;
@@ -97,8 +95,6 @@ p.spoiler {
   background-color: rgba(0, 0, 0, 0);
   text-shadow: 0 0 10px grey;
   cursor: pointer;
-  display: inline; /* 强制内联，解决模糊时换行问题 */
-  word-break: break-all; /* 防止长链接或数字撑破布局 */
 }
 .spoiler .spoiler-blur:hover, .spoiler .spoiler-blur:hover > * {
   text-shadow: 0 0 5px grey;
@@ -111,8 +107,6 @@ p.spoiler {
   color: black;
   background-color: black;
   text-shadow: none;
-  display: inline; /* 强制内联，解决点击后换行问题 */
-  word-break: break-all; /* 防止长链接或数字撑破布局 */
 }</style><meta name="generator" content="Hexo 6.3.0"><link rel="alternate" href="/atom.xml" title="结月小站" type="application/atom+xml">
 <link rel="alternate" href="/rss2.xml" title="结月小站" type="application/rss+xml">
 </head>
@@ -574,35 +568,17 @@ p.spoiler {
 <p><span id="Anime"></span></p>
 <h4 id="Anime">Anime</h4>
 <p><strong>最爱角色:冢本八云(校园迷糊大王)</strong><br>
-喜欢角色:柊镜(幸运星)≈藤林杏(CLANNAD) 桂雏菊(旋风管家!) 
-  <span class="spoiler" onclick="this.classList.toggle('spoiler')">
-    <span class="spoiler-blur ">喜欢的类型也太好懂了吧(屑</span>
-  </span> 
-  <span class="spoiler" onclick="this.classList.toggle('spoiler')">
-    <span class="spoiler-blur ">CLANNAD的人其实都很喜欢(屑 牡丹你好可爱口牙(屑</span>
-  </span></p>
-<p>喜欢声优:能登麻美子 
-  <span class="spoiler" onclick="this.classList.toggle('spoiler')">
-    <span class="spoiler-blur ">能登好可爱啊能登(●’◡’●)</span>
-  </span></p>
+喜欢角色:柊镜(幸运星)≈藤林杏(CLANNAD) 桂雏菊(旋风管家!) <span class="spoiler" onclick="this.classList.toggle('spoiler')"><span class="spoiler-blur ">喜欢的类型也太好懂了吧(屑</span></span> <span class="spoiler" onclick="this.classList.toggle('spoiler')"><span class="spoiler-blur ">CLANNAD的人其实都很喜欢(屑 牡丹你好可爱口牙(屑</span></span></p>
+<p>喜欢声优:能登麻美子 <span class="spoiler" onclick="this.classList.toggle('spoiler')"><span class="spoiler-blur ">能登好可爱啊能登(●’◡’●)</span></span></p>
 <p>党争的选择:<br>
 凉宫春日、<strong>长门有希</strong>、朝比奈实玖瑠————《凉宫春日系列》<br>
-泽近爱理（旗派）、<strong>冢本八云（团派或饭团派）</strong>、<s>花井春树（月下派）</s>————《校园迷糊大王》 
-  <span class="spoiler" onclick="this.classList.toggle('spoiler')">
-    <span class="spoiler-blur ">谁说我们输了,明明就是外传罢了╮(╯▽╰)╭</span>
-  </span><br>
+泽近爱理（旗派）、<strong>冢本八云（团派或饭团派）</strong>、<s>花井春树（月下派）</s>————《校园迷糊大王》 <span class="spoiler" onclick="this.classList.toggle('spoiler')"><span class="spoiler-blur ">谁说我们输了,明明就是外传罢了╮(╯▽╰)╭</span></span><br>
 <strong>牧濑红莉栖</strong>、椎名真由理————《命运石之门》<br>
 小木曾雪菜、<strong>冬马和纱</strong>————《白色相簿2》<br>
 <strong>椎名真白</strong>、青山七海————《樱花庄的宠物女孩》<br>
 <strong>稻叶姬子</strong>、永濑伊织————《心灵链环》<br>
-<strong>天草筱</strong>、<strong>鱼见千寻</strong>、萩村铃、七条天空、五十岚枫、<strong>三叶睦美</strong>、森————《妄想学生会》 
-  <span class="spoiler" onclick="this.classList.toggle('spoiler')">
-    <span class="spoiler-blur ">破音姬是我的=-=</span>
-  </span><br>
-三千院凪、玛利亚、<strong>桂雏菊</strong>、鹭之宫伊澄、濑川泉、西泽步、<strong>天王州雅典娜</strong>、水莲寺璐珈、牧瀨恋叶————《旋风管家!》 
-  <span class="spoiler" onclick="this.classList.toggle('spoiler')">
-    <span class="spoiler-blur ">我是真想把作者刀了=-=</span>
-  </span></p>
+<strong>天草筱</strong>、<strong>鱼见千寻</strong>、萩村铃、七条天空、五十岚枫、<strong>三叶睦美</strong>、森————《妄想学生会》 <span class="spoiler" onclick="this.classList.toggle('spoiler')"><span class="spoiler-blur ">破音姬是我的=-=</span></span><br>
+三千院凪、玛利亚、<strong>桂雏菊</strong>、鹭之宫伊澄、濑川泉、西泽步、<strong>天王州雅典娜</strong>、水莲寺璐珈、牧瀨恋叶————《旋风管家!》 <span class="spoiler" onclick="this.classList.toggle('spoiler')"><span class="spoiler-blur ">我是真想把作者刀了=-=</span></span></p>
 <p>梦的开始:为美好的世界献上祝福!</p>
 <p><strong>最喜欢: 水星领航员</strong><br>
 最想安利: 水星领航员,日常<br>
@@ -621,10 +597,7 @@ p.spoiler {
 <p>看最多次: 幸运星<br>
 精神支柱: 水星领航员<br>
 想看从未看: 乱马1/2, <s>新世纪福音战士</s> , <s>CLANNAD</s> ,攻壳机动队<br>
-<u>25年1月23日补充↑↑</u> 在说完这句话以后,不超过一个月内把eva和cl全部看完=-=  
-  <span class="spoiler" onclick="this.classList.toggle('spoiler')">
-    <span class="spoiler-blur ">果然自己立的flag就得由自己亲自打破!(屑</span>
-  </span></p>
+<u>25年1月23日补充↑↑</u> 在说完这句话以后,不超过一个月内把eva和cl全部看完=-=  <span class="spoiler" onclick="this.classList.toggle('spoiler')"><span class="spoiler-blur ">果然自己立的flag就得由自己亲自打破!(屑</span></span></p>
 <p>想刀作者:旋风管家!<br>
 最过誉: 碧蓝之海<br>
 试后弃: 空之境界<br>
@@ -653,27 +626,27 @@ p.spoiler {
             </details>
 <details class="white"><summary><i class="fa-solid fa-chevron-right"></i>脚本家九宫格 </summary>
               <div class="content">
-              <p><img lazyload="" src="/images/loading.svg" data-src="https://s1.imagehub.cc/images/2025/01/24/ea23c14a8751c2ff2911d6d05cfd4011.jpg" alt="" title="脚本家九宫格"></p>
+              <p><img lazyload="" src="/images/loading.svg" data-src="https://s1.imagehub.cc/images/2025/01/24/ea23c14a8751c2ff2911d6d05cfd4011.jpg" alt="脚本家九宫格" title="脚本家九宫格"></p>
               </div>
             </details>
 <details class="white"><summary><i class="fa-solid fa-chevron-right"></i>Galgame怎么你了 </summary>
               <div class="content">
-              <p><img lazyload="" src="/images/loading.svg" data-src="https://s1.imagehub.cc/images/2025/01/24/3648873e440b35e7ea8de9654158b586.jpg" alt="" title="Galgame怎么你了"></p>
+              <p><img lazyload="" src="/images/loading.svg" data-src="https://s1.imagehub.cc/images/2025/01/24/3648873e440b35e7ea8de9654158b586.jpg" alt="Galgame怎么你了" title="Galgame怎么你了"></p>
               </div>
             </details>
 <details class="white"><summary><i class="fa-solid fa-chevron-right"></i>世上还是好人多啊(入门动漫推荐) </summary>
               <div class="content">
-              <p><img lazyload="" src="/images/loading.svg" data-src="https://s1.imagehub.cc/images/2025/01/24/a5fd5e67f69bcc9e2ac5fe90eb523d76.png" alt="" title="世上还是好人多啊(入门动漫推荐)"></p>
+              <p><img lazyload="" src="/images/loading.svg" data-src="https://s1.imagehub.cc/images/2025/01/24/a5fd5e67f69bcc9e2ac5fe90eb523d76.png" alt="世上还是好人多啊(入门动漫推荐)" title="世上还是好人多啊(入门动漫推荐)"></p>
               </div>
             </details>
 <details class="white"><summary><i class="fa-solid fa-chevron-right"></i>动漫婆罗门速成(职场五杰,科幻五杰) </summary>
               <div class="content">
-              <p><img lazyload="" src="/images/loading.svg" data-src="https://s1.imagehub.cc/images/2025/01/24/568a3fd91f102078ce9ddddbeaf8d5ea.png" alt="" title="动漫婆罗门速成(职场五杰,科幻五杰)"></p>
+              <p><img lazyload="" src="/images/loading.svg" data-src="https://s1.imagehub.cc/images/2025/01/24/568a3fd91f102078ce9ddddbeaf8d5ea.png" alt="动漫婆罗门速成(职场五杰,科幻五杰)" title="动漫婆罗门速成(职场五杰,科幻五杰)"></p>
               </div>
             </details>
 <details class="white"><summary><i class="fa-solid fa-chevron-right"></i>???撩人心弦的国漫??? </summary>
               <div class="content">
-              <p><img lazyload="" src="/images/loading.svg" data-src="https://s1.imagehub.cc/images/2025/01/24/60fb07ac24188b546c3fe1ec13faa6d7.png" alt="" title="???撩人心弦的国漫???"></p>
+              <p><img lazyload="" src="/images/loading.svg" data-src="https://s1.imagehub.cc/images/2025/01/24/60fb07ac24188b546c3fe1ec13faa6d7.png" alt="???撩人心弦的国漫???" title="???撩人心弦的国漫???"></p>
               </div>
             </details>
 <h2 id="span-id-Game-span-Game"><span id="Game"></span><br>

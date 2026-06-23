@@ -58,7 +58,7 @@
     
     <script id="hexo-configurations">
     let REDEFINE = window.REDEFINE || {};
-    REDEFINE.hexo_config = {"hostname":"lalalll-lalalll.github.io","root":"/","language":"zh-CN","path":"search.xml"};
+    REDEFINE.hexo_config = {"hostname":"lalalll-lalalll.github.io","root":"/","language":"zh-CN","path":"search.json"};
     REDEFINE.theme_config = {"toc":{"enable":true,"number":true,"expand_all":true,"init_open":true},"style":{"primary_color":"#005080","avatar":"/images/MerpisMe.png","favicon":"/images/icon.png","og_image":{"enable":false,"image_url":null},"article_img_align":"center","right_side_width":"210px","content_max_width":"1000px","nav_color":{"left":"#FFFFFF","right":"#FFFFFF","transparency":10},"hover":{"shadow":true,"scale":false},"first_screen":{"enable":true,"background_image":{"light":"https://s1.imagehub.cc/images/2026/04/15/df0db185a8eafefdbefdeef426a766df.png","dark":"https://s1.imagehub.cc/images/2026/04/15/e37f695ce84088adcfa9d0cd09976380.webp"},"title_color":{"light":"#fff","dark":"#000"},"font_sizes":{"title":"2.8rem","subtitle":"1.5rem"},"line_height":1.2,"title":"lalalll's blog","subtitle":{"enable":false,"list":[]},"custom_font":{"enable":false,"font_family":null,"font_url":null}},"scroll":{"progress_bar":{"enable":true},"percent":{"enable":true}}},"local_search":{"enable":true,"preload":true},"code_block":{"copy":true,"style":"mac","custom_font":{"enable":false,"font_family":null,"font_url":null}},"pjax":{"enable":true},"lazyload":{"enable":true},"version":"1.2.1","friend_links":{"columns":2},"home_article":{"date_format":"YYYY/MM/DD","category":{"enable":true,"limit":3},"tag":{"enable":true,"limit":3}},"plugins":{"aplayer":{"enable":false,"audio":[{"name":null,"artist":null,"url":null,"cover":null},{"name":null,"artist":null,"url":null,"cover":null}]},"mermaid":{"enable":false,"version":"9.3.0"}}};
     REDEFINE.language_ago = {"second":"%s 秒前","minute":"%s 分钟前","hour":"%s 小时前","day":"%s 天前","week":"%s 周前","month":"%s 个月前","year":"%s 年前"};
   </script>
@@ -80,13 +80,11 @@
     
     
 <style type="text/css">
-/* 默认情况（在段落 p 或 span 中）：使用 inline 保持内联 */
 .spoiler {
   display: inline;
 }
-/* 如果插件本身就被包裹在块级元素（如独立的 p 标签）中：使用 block 独占一行 */
 p.spoiler {
-  display: block;
+  display: flex;
 }
 .spoiler a {
   pointer-events: none;
@@ -99,8 +97,6 @@ p.spoiler {
   background-color: rgba(0, 0, 0, 0);
   text-shadow: 0 0 10px grey;
   cursor: pointer;
-  display: inline; /* 强制内联，解决模糊时换行问题 */
-  word-break: break-all; /* 防止长链接或数字撑破布局 */
 }
 .spoiler .spoiler-blur:hover, .spoiler .spoiler-blur:hover > * {
   text-shadow: 0 0 5px grey;
@@ -113,8 +109,6 @@ p.spoiler {
   color: black;
   background-color: black;
   text-shadow: none;
-  display: inline; /* 强制内联，解决点击后换行问题 */
-  word-break: break-all; /* 防止长链接或数字撑破布局 */
 }</style><meta name="generator" content="Hexo 6.3.0"><link rel="alternate" href="/atom.xml" title="结月小站" type="application/atom+xml">
 <link rel="alternate" href="/rss2.xml" title="结月小站" type="application/rss+xml">
 </head>
@@ -567,7 +561,7 @@ p.spoiler {
     
         <span class="article-date article-meta-item">
             <i class="fa-regular fa-wrench"></i>&nbsp;
-            <span class="pc">2026-01-19 18:35:44</span>
+            <span class="pc">2026-01-19 18:35:46</span>
             <span class="mobile">2026-01-19 18:35</span>
             <span class="hover-info">更新</span>
         </span>
@@ -659,9 +653,9 @@ p.spoiler {
 </blockquote>
 <p>个人最喜欢,也是认为最美的一段<br>
 凄惨的家族,失去的爱和执念成为了镣铐,锁住的是令人怀念的往昔,最终化为泡影.</p>
-<p><img lazyload="" src="/images/loading.svg" data-src="https://s1.imagehub.cc/images/2024/11/30/2c2c7dca5f588873acdc69efd73f9b02.png" alt="" title="家人的肖像"></p>
+<p><img lazyload="" src="/images/loading.svg" data-src="https://s1.imagehub.cc/images/2024/11/30/2c2c7dca5f588873acdc69efd73f9b02.png" alt="家人的肖像" title="家人的肖像"></p>
 <center>家人的肖像</center>
-<p><img lazyload="" src="/images/loading.svg" data-src="https://s1.imagehub.cc/images/2024/11/30/2bcdcf6d150a9ad38418f58c65eba93d.png" alt="" title="送魂火"></p>
+<p><img lazyload="" src="/images/loading.svg" data-src="https://s1.imagehub.cc/images/2024/11/30/2bcdcf6d150a9ad38418f58c65eba93d.png" alt="送魂火" title="送魂火"></p>
 <center>送魂火</center>
 <p> <br>
 最后,腐姬以它那并不算庞大的体量,演绎了一个由爱,执着,亲情,轮回,往昔交织而成的令人沉湎于其中的动人故事.<br>
@@ -673,7 +667,7 @@ p.spoiler {
  </p>
 <details class="white"><summary><i class="fa-solid fa-chevron-right"></i>其他的一些图片 </summary>
               <div class="content">
-              <p><img lazyload="" src="/images/loading.svg" data-src="https://s1.imagehub.cc/images/2024/11/30/6028a82500120cc42de3f08a9959a991.png" alt="" title="清秋的面容~朱音"></p><center>清秋的面容~朱音</center><p><img lazyload="" src="/images/loading.svg" data-src="https://s1.imagehub.cc/images/2024/11/30/0ddc65c4dba8584eaa60a6a0eb2d1db1.png" alt="" title="相逢"></p><center>相逢</center><p><img lazyload="" src="/images/loading.svg" data-src="https://s1.imagehub.cc/images/2024/11/30/ea822696bb1583463e80c1d0606caa34.png" alt="" title="孤影 二人"></p><center>孤影 二人</center><p><img lazyload="" src="/images/loading.svg" data-src="https://s1.imagehub.cc/images/2024/11/30/910b0b0ada58b3b26e4dbe72e5adc106.png" alt="" title="在窗下"></p><center>在窗下</center><p><img lazyload="" src="/images/loading.svg" data-src="https://s1.imagehub.cc/images/2024/11/30/57373abfff8857050bd0347c0218a84c.png" alt="" title="赤之婚礼"></p><center>赤之婚礼</center><p><img lazyload="" src="/images/loading.svg" data-src="https://s1.imagehub.cc/images/2024/11/30/5c2b05667b9122c6fc96c620b58411da.png" alt="" title="残渣的守人"></p><center>残渣的守人</center><p><img lazyload="" src="/images/loading.svg" data-src="https://s1.imagehub.cc/images/2024/11/30/44346e8e6db9950d7a45038ae3724c6b.png" alt="" title="糜烂"></p><center>糜烂</center><p><img lazyload="" src="/images/loading.svg" data-src="https://s1.imagehub.cc/images/2024/11/30/088c11ac554a57d85afdfe67d9776153.png" alt=""><br><img lazyload="" src="/images/loading.svg" data-src="https://s1.imagehub.cc/images/2024/11/30/8dd5bd170858b885cc665949d0424c58.png" alt=""><br><img lazyload="" src="/images/loading.svg" data-src="https://s1.imagehub.cc/images/2024/11/30/8d334f0a6ea59bd96cb53b1d2bac4a83.png" alt=""></p>
+              <p><img lazyload="" src="/images/loading.svg" data-src="https://s1.imagehub.cc/images/2024/11/30/6028a82500120cc42de3f08a9959a991.png" alt="清秋的面容~朱音" title="清秋的面容~朱音"></p><center>清秋的面容~朱音</center><p><img lazyload="" src="/images/loading.svg" data-src="https://s1.imagehub.cc/images/2024/11/30/0ddc65c4dba8584eaa60a6a0eb2d1db1.png" alt="相逢" title="相逢"></p><center>相逢</center><p><img lazyload="" src="/images/loading.svg" data-src="https://s1.imagehub.cc/images/2024/11/30/ea822696bb1583463e80c1d0606caa34.png" alt="孤影 二人" title="孤影 二人"></p><center>孤影 二人</center><p><img lazyload="" src="/images/loading.svg" data-src="https://s1.imagehub.cc/images/2024/11/30/910b0b0ada58b3b26e4dbe72e5adc106.png" alt="在窗下" title="在窗下"></p><center>在窗下</center><p><img lazyload="" src="/images/loading.svg" data-src="https://s1.imagehub.cc/images/2024/11/30/57373abfff8857050bd0347c0218a84c.png" alt="赤之婚礼" title="赤之婚礼"></p><center>赤之婚礼</center><p><img lazyload="" src="/images/loading.svg" data-src="https://s1.imagehub.cc/images/2024/11/30/5c2b05667b9122c6fc96c620b58411da.png" alt="残渣的守人" title="残渣的守人"></p><center>残渣的守人</center><p><img lazyload="" src="/images/loading.svg" data-src="https://s1.imagehub.cc/images/2024/11/30/44346e8e6db9950d7a45038ae3724c6b.png" alt="糜烂" title="糜烂"></p><center>糜烂</center><p><img lazyload="" src="/images/loading.svg" data-src="https://s1.imagehub.cc/images/2024/11/30/088c11ac554a57d85afdfe67d9776153.png" alt="0510"><br><img lazyload="" src="/images/loading.svg" data-src="https://s1.imagehub.cc/images/2024/11/30/8dd5bd170858b885cc665949d0424c58.png" alt="0541"><br><img lazyload="" src="/images/loading.svg" data-src="https://s1.imagehub.cc/images/2024/11/30/8d334f0a6ea59bd96cb53b1d2bac4a83.png" alt="0621"></p>
               </div>
             </details>
 <p> <br>
